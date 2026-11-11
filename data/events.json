@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": "first_ghost",
+      "category": "narrative",
+      "min_shift": 2,
+      "priority": 100,
+      "conditions": [
+        "shop_open"
+      ],
+      "effects": [
+        "pip_introduced"
+      ]
+    },
+    {
+      "id": "stopped_clock",
+      "category": "anomaly",
+      "weight": 2,
+      "cooldown_shifts": 5,
+      "eligible_hours": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "rainy_delivery",
+      "category": "ordinary",
+      "weight": 6,
+      "cooldown_shifts": 2,
+      "weather": [
+        "rain"
+      ]
+    },
+    {
+      "id": "old_receipt",
+      "category": "mystery",
+      "min_shift": 3,
+      "priority": 90,
+      "effects": [
+        "receipt_1974_found"
+      ]
+    }
+  ]
+}
