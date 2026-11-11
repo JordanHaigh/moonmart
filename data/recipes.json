@@ -1,0 +1,36 @@
+{
+  "recipes": [
+    {
+      "id": "warm_milk",
+      "station": "drink_station",
+      "inputs": [
+        {
+          "product_id": "milk",
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "product_id": "warm_milk",
+        "quantity": 1
+      },
+      "unlock_flags": []
+    },
+    {
+      "id": "moonflower_tea",
+      "station": "magical_kettle",
+      "inputs": [
+        {
+          "product_id": "moonflower_leaves",
+          "quantity": 1
+        }
+      ],
+      "output": {
+        "product_id": "moonflower_tea",
+        "quantity": 1
+      },
+      "unlock_flags": [
+        "chapter_2_started"
+      ]
+    }
+  ]
+}
