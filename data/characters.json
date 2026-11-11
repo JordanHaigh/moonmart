@@ -1,0 +1,37 @@
+{
+  "characters": [
+    {
+      "id": "miso",
+      "name": "Miso",
+      "kind": "guardian_cat"
+    },
+    {
+      "id": "pip",
+      "name": "Pip",
+      "kind": "ghost",
+      "favourite_products": [
+        "strawberry_milk"
+      ]
+    },
+    {
+      "id": "agnes",
+      "name": "Agnes Thorne",
+      "kind": "human"
+    },
+    {
+      "id": "fern",
+      "name": "Fern",
+      "kind": "forest_spirit"
+    },
+    {
+      "id": "lucien",
+      "name": "Lucien Vale",
+      "kind": "vampire"
+    },
+    {
+      "id": "wren",
+      "name": "Wren Hollow",
+      "kind": "witch"
+    }
+  ]
+}
