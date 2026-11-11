@@ -12,7 +12,7 @@ Cozy supernatural mystery shopkeeping game, built in Godot 4.
 
 ## Development status
 
-Pre-production / starter prototype. The complete local prototype and visual assets are being prepared for import; this repository currently contains project documentation only.
+Pre-production / starter prototype. The repository contains a minimal procedural Godot prototype at the root and a preserved copy of the original starter's project, scene, script and starter data under `starter_original/`. The original starter's artwork archive has not been imported, so its sprite-based prototype is incomplete. Neither project has been verified in the Godot editor in this session.
 
 ## Core cast
 
@@ -21,3 +21,5 @@ Miso (orange shop cat), Pip (friendly ghost), Agnes Thorne, Fern, Lucien Vale, W
 ## Narrative
 
 Six chapters covering Moonmart, the Between, the Long Midnight and the Midnight Train. The player manages a shop that serves as a sanctuary between worlds.
+
+See `docs/PRODUCTION_STATUS.md` for current implementation and next steps.
