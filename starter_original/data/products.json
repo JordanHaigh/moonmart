@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": "strawberry_milk",
+      "name": "Strawberry Milk",
+      "buy_price": 4,
+      "sell_price": 8,
+      "category": "cold",
+      "tags": [
+        "pip_favourite"
+      ]
+    },
+    {
+      "id": "biscuits",
+      "name": "Dream Biscuits",
+      "buy_price": 5,
+      "sell_price": 12,
+      "category": "snacks",
+      "tags": [
+        "ordinary",
+        "midnight"
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "Moonflower Tea",
+      "buy_price": 6,
+      "sell_price": 14,
+      "category": "drinks",
+      "tags": [
+        "magical"
+      ]
+    }
+  ]
+}
