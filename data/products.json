@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "strawberry_milk",
+      "name": "Strawberry Milk",
+      "base_price": 8,
+      "category": "cold_drink"
+    },
+    {
+      "id": "moonflower_tea",
+      "name": "Moonflower Tea",
+      "base_price": 15,
+      "category": "magical_drink"
+    },
+    {
+      "id": "dream_biscuits",
+      "name": "Dream Biscuits",
+      "base_price": 12,
+      "category": "magical_snack"
+    }
+  ]
+}
