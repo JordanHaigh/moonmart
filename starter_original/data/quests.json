@@ -1,0 +1,28 @@
+{
+  "quests": [
+    {
+      "id": "missing_receipt",
+      "title": "The Missing Receipt",
+      "objectives": [
+        {
+          "id": "receipt_found",
+          "description": "Find the 1974 receipt"
+        },
+        {
+          "id": "agnes_asked",
+          "description": "Ask Agnes about it"
+        },
+        {
+          "id": "backroom_checked",
+          "description": "Check the backroom"
+        }
+      ],
+      "required_flags": [
+        "receipt_found",
+        "agnes_asked",
+        "backroom_checked"
+      ],
+      "next": "pip_memory_1"
+    }
+  ]
+}
