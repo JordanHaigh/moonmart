@@ -1,0 +1,57 @@
+{
+  "characters": [
+    {
+      "id": "pip",
+      "name": "Pip",
+      "role": "ghost",
+      "prefers": [
+        "strawberry_milk"
+      ],
+      "storyline": "pip_lost_memories"
+    },
+    {
+      "id": "miso",
+      "name": "Miso",
+      "role": "guardian_cat",
+      "prefers": [],
+      "storyline": "guardian_of_moonmart"
+    },
+    {
+      "id": "agnes",
+      "name": "Agnes Thorne",
+      "role": "baker",
+      "prefers": [
+        "tea"
+      ],
+      "storyline": "long_midnight"
+    },
+    {
+      "id": "fern",
+      "name": "Fern",
+      "role": "forest_spirit",
+      "prefers": [
+        "tea",
+        "seeds"
+      ],
+      "storyline": "silent_wood"
+    },
+    {
+      "id": "lucien",
+      "name": "Lucien Vale",
+      "role": "vampire",
+      "prefers": [
+        "decaf_coffee"
+      ],
+      "storyline": "old_friend"
+    },
+    {
+      "id": "wren",
+      "name": "Wren Hollow",
+      "role": "witch",
+      "prefers": [
+        "moonflower_tea"
+      ],
+      "storyline": "lost_passenger"
+    }
+  ]
+}
