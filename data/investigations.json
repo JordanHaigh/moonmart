@@ -1,0 +1,26 @@
+{
+  "investigations": [
+    {
+      "id": "pips_receipt",
+      "chapter": 1,
+      "clues": [
+        "receipt_1974",
+        "pip_strawberry_milk",
+        "old_photograph"
+      ],
+      "hypotheses": [
+        "pip_has_visited_for_decades"
+      ],
+      "valid_connections": [
+        [
+          "receipt_1974",
+          "old_photograph"
+        ]
+      ],
+      "reward_flags": [
+        "pip_first_memory_unlocked"
+      ],
+      "hints_enabled": true
+    }
+  ]
+}
