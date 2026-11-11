@@ -1,0 +1,48 @@
+{
+  "quests": [
+    {
+      "id": "first_shift",
+      "chapter": 1,
+      "objectives": [
+        "open_shop",
+        "stock_shelf",
+        "complete_sale",
+        "close_shop"
+      ]
+    },
+    {
+      "id": "pips_first_visit",
+      "chapter": 1,
+      "requires": [
+        "first_shift_complete"
+      ],
+      "objectives": [
+        "serve_strawberry_milk",
+        "notice_missing_reflection"
+      ]
+    },
+    {
+      "id": "receipt_1974",
+      "chapter": 1,
+      "requires": [
+        "pip_introduced"
+      ],
+      "objectives": [
+        "inspect_receipt",
+        "ask_agnes"
+      ]
+    },
+    {
+      "id": "first_memory",
+      "chapter": 1,
+      "requires": [
+        "receipt_1974_found"
+      ],
+      "objectives": [
+        "find_old_photograph",
+        "connect_clues",
+        "talk_to_pip"
+      ]
+    }
+  ]
+}
