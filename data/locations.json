@@ -1,0 +1,29 @@
+{
+  "locations": [
+    {
+      "id": "moonmart",
+      "name": "Moonmart",
+      "starting_unlocked": true
+    },
+    {
+      "id": "old_bellwether",
+      "name": "Old Bellwether"
+    },
+    {
+      "id": "whisperwood",
+      "name": "Whisperwood"
+    },
+    {
+      "id": "moonwater_harbour",
+      "name": "Moonwater Harbour"
+    },
+    {
+      "id": "old_lighthouse",
+      "name": "Old Lighthouse"
+    },
+    {
+      "id": "midnight_platform",
+      "name": "Midnight Platform"
+    }
+  ]
+}
