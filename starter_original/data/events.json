@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "id": "pip_arrives",
+      "type": "customer",
+      "min_shift": 2,
+      "required_flags": [],
+      "priority": 100
+    },
+    {
+      "id": "receipt_appears",
+      "type": "mystery",
+      "min_shift": 3,
+      "required_flags": [
+        "pip_served"
+      ],
+      "priority": 80
+    },
+    {
+      "id": "backroom_whispers",
+      "type": "mystery",
+      "min_shift": 4,
+      "required_flags": [
+        "receipt_found"
+      ],
+      "priority": 70
+    }
+  ]
+}
