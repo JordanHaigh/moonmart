@@ -1,0 +1,1001 @@
+{
+	"story_lines": {
+		"meet_agnes": "Agnes te deja un pastelito aún tibio y te da la bienvenida al barrio.",
+		"pip_reflection": "Pip pide leche de fresa. En el escaparate, el pequeño fantasma no se refleja.",
+		"receipt_1974": "Agnes encuentra un recibo antiguo en la caja. Es de 1974 y registra el pedido de Pip.",
+		"hidden_photograph": "Detrás del recibo antiguo hay una foto: Pip, en esta misma tienda.",
+		"pip_first_memory": "Pip recuerda que Moonmart era un lugar seguro, mucho antes de esta noche.",
+		"fern_arrives": "Fern viene de Whisperwood. El bosque está tan silencioso que hasta la lluvia parece lejana.",
+		"lucien_arrives": "Lucien pide café descafeinado y una novela de misterio. Ha leído todos los finales menos el de su propia vida.",
+		"wren_arrives": "Wren Hollow trae un mapa con una estación marcada con tinta que desaparece.",
+		"grove_silence": "Fern te muestra una arboleda donde los pájaros han dejado de cantar. Un silencio se enrosca entre las raíces.",
+		"grove_restored": "Un petirrojo canta en la vieja arboleda. Fern sonríe como si llevara semanas conteniendo el aliento.",
+		"lucien_old_friend": "En el margen de la novela de misterio de Lucien aparece un nombre, escrito con letra conocida: Ada.",
+		"lucien_reunion": "Lucien le escribe a Ada sin exigir nada; solo la invita a conversar.",
+		"wren_missing_person": "Wren te cuenta que su hermana subió a un tren entre estaciones y nunca volvió a casa.",
+		"wren_search_started": "Wren encuentra la marca de su familia en un billete. Decide seguir buscando contigo.",
+		"photo_changes": "El rostro de la vieja foto de Agnes ha vuelto a cambiar. Esta vez, todos lo vieron.",
+		"mara_unaddressed_letter": "Mara trae una carta sin destinatario. El matasellos dice Bellwether, en una fecha que nadie recuerda.",
+		"osric_arrives": "Un pasajero cansado entra bajo la lluvia y pregunta si ya llegó el tren de la mañana.",
+		"conductor_first_appears": "El Conductor aparece junto a la ventana y dice el nombre de Osric en voz baja. El pasajero también lo recuerda.",
+		"long_midnight_named": "Agnes te habla de la Larga Medianoche: la noche en que no salió el sol y el pueblo eligió olvidar.",
+		"map_gaps": "Mara coloca un mapa antiguo junto al actual. Una calle ha desaparecido de ambos, aunque los matasellos aún la recuerdan.",
+		"forgotten_resident_returned": "El nombre de Osric vuelve al registro. Recuerda a su hermana y la casita azul junto al muelle.",
+		"conductor_promise": "El Conductor promete mostrarte el andén cuando el tren esté listo para detenerse.",
+		"platform_ticket": "Wren encuentra la marca de su hermana en un billete hacia una estación que no aparece en ningún mapa del pueblo.",
+		"platform_opened": "Se abre una puerta al borde del andén. Al otro lado espera un tren lleno de luces tranquilas y pacientes.",
+		"passenger_manifest_read": "Lees en voz alta los nombres de todos los pasajeros. La estación parece aquietarse con cada uno.",
+		"miso_guardian_truth": "Agnes por fin te lo explica: Miso ha vigilado esta puerta desde antes de que la tienda tuviera letrero.",
+		"miso_promise": "Miso apoya una pata sobre tu mano. El Conductor dice que Miso puede elegir entre quedarse o descansar.",
+		"lighthouse_sight": "Elias ha vuelto a ver el haz del faro cruzar el agua, aunque hace años que retiraron la lámpara.",
+		"elias_confesses": "El cuaderno del faro registra la Larga Medianoche con la letra del propio Elias. Había olvidado haberlo escrito.",
+		"lighthouse_mechanism": "Wren repara la vieja lente con un fragmento de luz de luna recordada, entregado libremente y devuelto por la mañana.",
+		"agnes_old_oath": "Agnes admite que su familia conservó el primer acuerdo. Solo les pedía dejar una luz encendida; nunca renunciar a nada.",
+		"lighthouse_restored": "El faro restaurado barre el mar con su luz. Quienes se han perdido pueden encontrar el camino a casa sin que esa luz los atraiga.",
+		"agreement_read": "El pacto original es sencillo: ofrecer un lugar seguro a quien lo necesite. La puerta nunca debió ser dueña de nadie.",
+		"travellers_gather": "Pip ayuda a recibir a los viajeros. Algunos quieren quedarse a tomar el té; otros ya están listos para volver a casa.",
+		"miso_decides": "Miso decide qué viene ahora. Sea cual sea su decisión, Moonmart seguirá sintiéndose como un hogar.",
+		"boundary_stabilized": "Bellwether recuerda a sus vecinos desaparecidos. El límite se estabiliza en torno a las decisiones de cada viajero.",
+		"final_covenant_made": "Entre todos, el pueblo escribe una nueva promesa para la puerta. Al amanecer, la tienda sigue cálida y llena de gente."
+	},
+	"ordinary_lines": {
+		"agnes": "Agnes dice que los pastelitos son de ayer, pero aún huelen de maravilla.",
+		"pip": "Pip saluda, sujetando con cuidado la leche de fresa entre las dos manos.",
+		"fern": "Fern pregunta si la pequeña planta de té junto a la ventana está bien.",
+		"lucien": "Lucien te recomienda una novela de misterio. Promete que el final solo es un poco inverosímil.",
+		"wren": "Wren te cambia una flor prensada por una historia del pueblo.",
+		"conductor": "El Conductor se toca el sombrero. Aún no está previsto que llegue ningún tren.",
+		"elias": "Elias dice que el mar está más tranquilo desde que volvió a encenderse el faro.",
+		"mara": "Mara tiene otra carta que clasificar; esta sí lleva una dirección correcta.",
+		"osric": "Osric recuerda el camino de vuelta al puerto y se detiene a saludar.",
+		"miriam_underwood": "Miriam se calienta las manos con una taza de café y te cuenta que el viaje en autobús a casa fue tranquilo.",
+		"hollis_quince": "Hollis escucha el pequeño reloj sobre la puerta y sonríe cuando marca bien la hora.",
+		"sabine_kersey": "Sabine dice que ya remendaron las amarras del puerto y pregunta cómo marcha la tienda.",
+		"anouk_harrow": "Anouk se pregunta qué semillas estarían más a gusto en la ventana del invernadero la próxima primavera.",
+		"oda_lovell": "Oda marca un ritmo suave en su cuaderno y dice que la lluvia ha encontrado su propia melodía.",
+		"elowen_charter": "Elowen dice que hoy todas las sábanas quedaron limpias, incluso la que tenía mermelada de mora.",
+		"stellan_rusk": "Stellan mira su reloj de bolsillo y decide que tiene tiempo para terminar la leche caliente.",
+		"iona_pebble": "Iona guarda una postal en su bolso y pregunta si el mar ha devuelto alguna carta.",
+		"liora_fenwick": "Liora gira un farol de papel entre las manos y dice que quizá esté listo para el próximo encuentro.",
+		"rowan_pike": "Rowan dice que por fin cuadró el inventario del faro, salvo por un lápiz que no deja de cambiar de sitio.",
+		"maribel_frost": "Maribel pregunta si la habitación tranquila de la posada le vendría bien a un viajero que necesita una noche apacible.",
+		"tomas_wicks": "Tomas dice que el tomillo junto al muro de la plaza vuelve a oler a verano.",
+		"juniper_hale": "Juniper encontró una nota amable en el margen del archivo y promete copiarla en el libro público.",
+		"beckett_shore": "Beckett dice que la marea trajo una concha brillante y se llevó uno de sus guantes.",
+		"nella_finch": "Nella revisa la costura de su pañuelo y sonríe al ver la pequeña luna creciente en una esquina.",
+		"aster_rowe": "Aster dice que las nubes se abrieron el tiempo justo para que la espera de esta noche valiera la pena.",
+		"ordinary_tide_table_clerk": "El oficinista de las tablas de mareas compara una página recién impresa con la campana del puerto y suspira ante la diferencia.",
+		"ordinary_lamplighter_apprentice": "La aprendiz de farolero calienta las manos en el vaso de papel y dice que una farola de Clover Lane tararea cuando está contenta.",
+		"ordinary_sleepwalking_teacher": "El maestro nota tiza en la manga y no recuerda haber escrito nada.",
+		"ordinary_lost_property_clerk": "El encargado de objetos perdidos etiqueta todo dos veces, una para su dueño y otra para quien solía ser.",
+		"ordinary_umbrella_mender": "El reparador de paraguas cuelga un paraguas arreglado junto a la puerta y dice que prefiere la lluvia al sol.",
+		"ordinary_orchard_nightwatch": "El vigilante del huerto dice que los árboles susurraban otra vez y que probablemente lamentan lo de la puerta."
+	},
+	"default_ordinary_line": "%s te da las gracias y se queda un rato bajo la cálida luz de la tienda.",
+	"conversations": {
+		"agnes_first": {
+			"speaker": "Agnes",
+			"lines": [
+				"¿Primera noche a cargo de la tienda? Este lugar sabe cuidar de la gente.",
+				"Tu predecesor decía lo mismo. Supongo que las estanterías lo recuerdan."
+			]
+		},
+		"pip_tuesday": {
+			"speaker": "Pip",
+			"lines": [
+				"Vengo todos los martes. Creo.",
+				"La leche de fresa es rosa, como un atardecer que casi recuerdo."
+			]
+		},
+		"fern_grove": {
+			"speaker": "Fern",
+			"lines": [
+				"Antes había pájaros en todas las ramas.",
+				"Puedo esperar. Las raíces son antiguas, y el silencio no siempre significa que algo se haya ido."
+			]
+		},
+		"wren_sister": {
+			"speaker": "Wren",
+			"lines": [
+				"Subió a un tren en un andén que no pude volver a encontrar.",
+				"Conservé un billete. No supe proteger su nombre como debía."
+			]
+		},
+		"conductor_names": {
+			"speaker": "El Conductor",
+			"lines": [
+				"Un nombre dicho con cariño puede ser una lámpara.",
+				"He llevado muchos conmigo. Me alegra que me ayudes a dejarlos descansar."
+			]
+		},
+		"elias_light": {
+			"speaker": "Elias",
+			"lines": [
+				"Me dijeron que dejara de cuidar una luz que no podía existir.",
+				"Dejé de contárselo a los demás. Nunca dejé de mirar la costa."
+			]
+		},
+		"mara_letters": {
+			"speaker": "Mara",
+			"lines": [
+				"Algunas cartas llegan sin dirección, pero el papel aún recuerda dónde comenzó su viaje.",
+				"Guardo un cajón para las que necesitan un poco más de tiempo."
+			]
+		},
+		"osric_name": {
+			"speaker": "Osric",
+			"lines": [
+				"Recuerdo el pan caliente y la lluvia en el muelle.",
+				"El Conductor dijo mi nombre. Creo que ahora puedo llevarlo conmigo."
+			]
+		},
+		"agnes_photograph": {
+			"speaker": "Agnes",
+			"lines": [
+				"Cuando Pip apareció en aquella foto, quise encontrar una explicación antes de aprender a escuchar.",
+				"Dejaste que la foto fuera extraña sin pedirle a Pip que demostrara nada. Recuerdo ese gesto de bondad."
+			]
+		},
+		"agnes_covenant": {
+			"speaker": "Agnes",
+			"lines": [
+				"Mi familia guardó el antiguo acuerdo como si mantener una luz segura fuera una deuda que alguien debía pagar.",
+				"Las nuevas palabras se sienten justas: dejar la puerta abierta y que cada visitante decida cuándo marcharse."
+			]
+		},
+		"pip_memory": {
+			"speaker": "Pip",
+			"lines": [
+				"Ahora recuerdo la tienda. La campanilla, el pan calentito y alguien que me guardaba un sitio.",
+				"A veces aún pierdo algunos detalles, pero cuando lo necesito vuelve la sensación de estar a salvo."
+			]
+		},
+		"pip_travellers": {
+			"speaker": "Pip",
+			"lines": [
+				"Algunos viajeros pidieron té y otros preguntaron cómo volver a casa. Ayudamos a unos y a otros.",
+				"Miso también puede elegir. Me gusta una promesa que deja que cada quien diga lo que quiere."
+			]
+		},
+		"fern_silence": {
+			"speaker": "Fern",
+			"lines": [
+				"El silencio tiene forma, como la nieve sobre un sendero. Me alegra que lo escucharas conmigo.",
+				"No hace falta apresurar a la arboleda. Podemos volver una y otra vez, y dejar que responda a su tiempo."
+			]
+		},
+		"fern_birds": {
+			"speaker": "Fern",
+			"lines": [
+				"El primer petirrojo cantó desde las raíces antiguas. Casi le respondí antes de acordarme de respirar.",
+				"La arboleda nunca nos pidió que la despertáramos a la fuerza. Necesitaba paciencia, compañía y espacio."
+			]
+		},
+		"lucien_ada": {
+			"speaker": "Lucien",
+			"lines": [
+				"Encontrar el nombre de Ada me devolvió aquellos años en que ensayaba lo que debería haberle dicho.",
+				"Intento recordarla como una persona, no como un final que pueda reescribir."
+			]
+		},
+		"lucien_letter": {
+			"speaker": "Lucien",
+			"lines": [
+				"Ada respondió. No hemos resuelto el pasado; solo hemos quedado para tomar el té.",
+				"Por una vez, el próximo capítulo puede ser pequeño y aun así merecer ser escrito."
+			]
+		},
+		"lucien_midnight_storybook_stocked": {
+			"speaker": "Lucien",
+			"lines": [
+				"Has puesto el Libro de la Medianoche en el estante. Parece que alguien reescribió el capítulo final en los márgenes.",
+				"No te contaré el final. Algunos misterios se disfrutan más cuando el libro puede terminarlos a su tiempo."
+			]
+		},
+		"wren_search": {
+			"speaker": "Wren",
+			"lines": [
+				"La marca de ese billete es la de mi familia. La he mirado durante años sin permitirme tener esperanza.",
+				"Quiero seguir buscando, pero estoy aprendiendo que buscar en compañía no significa cargar con todo a solas."
+			]
+		},
+		"wren_platform": {
+			"speaker": "Wren",
+			"lines": [
+				"El tren existe, y también la opción de esperar hasta que esté lista para subir.",
+				"Mi hermana es mucho más que el instante en que desapareció. La encontraré tal como es, si ella también quiere."
+			]
+		},
+		"conductor_promise": {
+			"speaker": "El Conductor",
+			"lines": [
+				"Antes creía que conservar todos los nombres significaba mantener a cada pasajero a mi lado.",
+				"Un nombre está más seguro cuando puede viajar libremente, dicho por alguien que se preocupa."
+			]
+		},
+		"conductor_covenant": {
+			"speaker": "El Conductor",
+			"lines": [
+				"El pueblo ha escrito una promesa que da refugio sin atar a nadie. Por fin puedo dejar atrás las palabras antiguas.",
+				"Al amanecer, cada ruta sigue siendo una elección. Es mejor deber que decidir por los demás."
+			]
+		},
+		"elias_log": {
+			"speaker": "Elias",
+			"lines": [
+				"Ver mi propia letra en el cuaderno del faro fue como encontrarme con la parte de mí que seguía vigilando.",
+				"Había olvidado aquella noche, pero el registro ya no me pide que cargue con ella a solas."
+			]
+		},
+		"elias_beacon": {
+			"speaker": "Elias",
+			"lines": [
+				"El haz restaurado llega al puerto y a la costa lejana. Nadie tiene que seguirlo; solo muestra el camino.",
+				"Puedo dejar de confundir una luz con una orden. Basta con que ilumine un sendero seguro."
+			]
+		},
+		"mara_map": {
+			"speaker": "Mara",
+			"lines": [
+				"La calle desaparecida seguía en los matasellos. El papel puede guardar un lugar para alguien mientras el pueblo lo olvida.",
+				"Devolveremos los nombres con cuidado y preguntaremos a quienes vuelvan qué quieren que recordemos."
+			]
+		},
+		"mara_return": {
+			"speaker": "Mara",
+			"lines": [
+				"El nombre de Osric vuelve al registro, escrito con tinta de esta misma mañana.",
+				"Antes creía que un archivo debía estar completo para ser sincero. Ahora dejo que cada quien corrija su propia historia."
+			]
+		},
+		"osric_home": {
+			"speaker": "Osric",
+			"lines": [
+				"Encontré la casa azul junto al muelle. El jardín de mi hermana está asilvestrado, pero reconozco la verja.",
+				"No necesito recuperar cada día perdido antes de dar el próximo paso hacia casa."
+			]
+		},
+		"osric_covenant": {
+			"speaker": "Osric",
+			"lines": [
+				"Leí dos veces la nueva promesa del pueblo. Deja la puerta abierta y la decisión en manos de quien está allí.",
+				"Por ahora me quedo en Bellwether. Esa es mi respuesta de hoy, y mañana podré responder otra vez."
+			]
+		},
+		"side_agnes_oven_dawn": {
+			"speaker": "Agnes",
+			"lines": [
+				"Mi madre siempre ponía un poco de cáscara de naranja en el primer pan de la mañana. Toda la cocina olía a día nuevo.",
+				"Creí que había olvidado la receta. El aroma me la devolvió con toda suavidad."
+			]
+		},
+		"side_agnes_ledger_flour": {
+			"speaker": "Agnes",
+			"lines": [
+				"Encontré mis viejas notas sobre la harina junto al acuerdo familiar. Los márgenes están llenos de pequeñas correcciones de tres generaciones.",
+				"Se nos daba mejor dejarnos notas útiles que decir lo que de verdad queríamos decir."
+			]
+		},
+		"side_agnes_sunrise_loaf": {
+			"speaker": "Agnes",
+			"lines": [
+				"Ya está listo ese primer pan del amanecer. Te guardé el trozo del extremo, donde la corteza queda crujiente.",
+				"Una tienda puede cumplir una promesa con cosas de lo más corrientes: pan caliente, una luz en la ventana y una silla libre."
+			]
+		},
+		"side_pip_window_stars": {
+			"speaker": "Pip",
+			"lines": [
+				"Antes contaba las estrellas del escaparate. Siempre perdía la cuenta cuando entraba alguien.",
+				"Quizá ese era el sentido. Las estrellas seguían allí, y la gente también."
+			]
+		},
+		"side_pip_names_in_jars": {
+			"speaker": "Pip",
+			"lines": [
+				"Hice etiquetas con los nombres de todos los que pasaron por aquí. Algunos se borraron, pero conservé los frascos.",
+				"¿Me ayudas a escribir otra vez los nombres? Podemos dejar sitio para quienes aún no han llegado."
+			]
+		},
+		"side_pip_new_night": {
+			"speaker": "Pip",
+			"lines": [
+				"La tienda suena distinta ahora. Puedo oír la tetera sin temer que signifique que alguien se ha perdido.",
+				"Creo que me gustaría quedarme para otra taza. Después ya veremos."
+			]
+		},
+		"side_fern_seed_envelope": {
+			"speaker": "Fern",
+			"lines": [
+				"Prensé algunas semillas de la arboleda entre hojas de papel para que no se volaran durante el camino a casa.",
+				"Algunas semillas necesitan oscuridad antes de despertar. Procuro no confundir la espera con el fracaso."
+			]
+		},
+		"side_fern_bird_counts": {
+			"speaker": "Fern",
+			"lines": [
+				"He vuelto a contar los pájaros. No para demostrar que están a salvo, sino para fijarme en quién viene.",
+				"Contar también puede ser una forma de dar la bienvenida, si dejamos sitio para lo inesperado."
+			]
+		},
+		"side_fern_moss_path": {
+			"speaker": "Fern",
+			"lines": [
+				"Está creciendo un caminito de musgo sobre la vieja marca de la arboleda. No la oculta; deja espacio a su alrededor.",
+				"Me parece bien. Sanar puede dejar la historia a la vista y aun así crear un lugar amable donde apoyarse."
+			]
+		},
+		"side_lucien_margin_note": {
+			"speaker": "Lucien",
+			"lines": [
+				"Encontré una nota en el margen de un libro que solía prestar. Solo dice: «Puedes devolverlo cuando quieras».",
+				"Una frase tan pequeña. La he llevado conmigo más lejos que el libro."
+			]
+		},
+		"side_lucien_library_card": {
+			"speaker": "Lucien",
+			"lines": [
+				"La ficha de préstamo sigue dentro. Junto a la última devolución no hay fecha.",
+				"Antes creía que un registro sin terminar significaba que alguien había fallado. Ahora creo que quizá aún haya tiempo."
+			]
+		},
+		"side_lucien_open_shelf": {
+			"speaker": "Lucien",
+			"lines": [
+				"Dejé el libro en el estante abierto. Cualquiera puede leerlo y nadie tiene que explicar por qué lo eligió.",
+				"Así es como una historia puede seguir viva: se ofrece, nunca se debe."
+			]
+		},
+		"side_wren_route_sketch": {
+			"speaker": "Wren",
+			"lines": [
+				"Dibujé una ruta que termina en una página en blanco. Mi hermana decía que todo mapa necesita un lugar para lo que aún no has encontrado.",
+				"Antes odiaba esa respuesta. Por ahora, puedo quedármela."
+			]
+		},
+		"side_wren_platform_bench": {
+			"speaker": "Wren",
+			"lines": [
+				"En el andén hay un banco con sitio para dos. Dejé vacío el espacio a mi lado, pero no lo protegí.",
+				"Esperar se siente distinto cuando también puedes descansar mientras lo haces."
+			]
+		},
+		"side_wren_folded_map": {
+			"speaker": "Wren",
+			"lines": [
+				"Doblé el mapa para que la parte en blanco quedara por fuera. No es una promesa de que vaya a encontrarla.",
+				"Es una promesa de que seguiré buscando sin dejar que la búsqueda me cierre todos los demás caminos."
+			]
+		},
+		"side_mara_unsent_copy": {
+			"speaker": "Mara",
+			"lines": [
+				"Guardo una copia de cada carta que llega sin dirección. Creía que era por llevar un registro.",
+				"Quizá también sea una forma de decirle a quien la envió que sus palabras llegaron a alguien."
+			]
+		},
+		"side_mara_blue_postmark": {
+			"speaker": "Mara",
+			"lines": [
+				"Hoy apareció un matasellos azul en el mapa de la calle desaparecida. No nos dice adónde fue la calle.",
+				"Nos dice que alguien se tomó la molestia de enviar una carta desde allí."
+			]
+		},
+		"side_mara_open_mailbox": {
+			"speaker": "Mara",
+			"lines": [
+				"Hoy dejé abierto el buzón pequeño junto al puerto. La gente puede dejar una nota o llevarse una; no hay registro.",
+				"No todos los mensajes necesitan que sigamos su rastro. A algunos solo les hace falta un lugar seguro donde llegar."
+			]
+		},
+		"side_conductor_timetable_1": {
+			"speaker": "El Conductor",
+			"lines": [
+				"He empezado a anotar los horarios corrientes además de los imposibles. La tetera hierve a las dos; la primera gaviota llama a las cuatro.",
+				"Un horario puede dejar constancia de que estuvimos aquí, no ser una orden de seguir adelante."
+			]
+		},
+		"side_conductor_timetable_2": {
+			"speaker": "El Conductor",
+			"lines": [
+				"He añadido una parada llamada Descanso. No tiene número de andén ni conexión de continuación.",
+				"Los pasajeros pueden quedarse todo el tiempo que necesiten. Estoy aprendiendo que un buen horario deja un poco de espacio en blanco."
+			]
+		},
+		"side_conductor_timetable_3": {
+			"speaker": "El Conductor",
+			"lines": [
+				"La página ya está llena de pequeñas horas: un té compartido, nombres recuperados, alguien que elige dormir hasta la mañana.",
+				"Conservaré el horario, pero no le pediré a nadie que lo siga."
+			]
+		},
+		"side_conductor_platform_lamps_1": {
+			"speaker": "El Conductor",
+			"lines": [
+				"Antes, las lámparas del andén solo se encendían cuando se esperaba un tren. He dejado una encendida para quienes no están seguros.",
+				"Es una luz pequeña. No tiene que decidir el rumbo de nadie."
+			]
+		},
+		"side_conductor_platform_lamps_2": {
+			"speaker": "El Conductor",
+			"lines": [
+				"Un viajero dejó una estrella de papel bajo la lámpara. Otra persona dejó un paquete de semillas; ninguna pidió recibo.",
+				"El andén empieza a parecer un lugar donde descansar entre viajes."
+			]
+		},
+		"side_conductor_platform_lamps_3": {
+			"speaker": "El Conductor",
+			"lines": [
+				"He puesto un banco junto a la lámpara. Hay sitio para un amigo o para quien prefiera sentarse a solas.",
+				"Aquí no hace falta billete para descansar."
+			]
+		},
+		"side_elias_lens_cloth_1": {
+			"speaker": "Elias",
+			"lines": [
+				"El paño de la lente tiene un pequeño desgarro cerca de una esquina. Lo usé durante años porque era el que tenía aquella noche.",
+				"Wren me encontró uno nuevo. Creo que ya puedo dejar que el viejo sea solo un paño."
+			]
+		},
+		"side_elias_lens_cloth_2": {
+			"speaker": "Elias",
+			"lines": [
+				"El paño nuevo no deja marcas. Limpié la lente despacio y vi cómo el puerto se enfocaba.",
+				"Por una vez, miré los barcos sin contar quién podría faltar."
+			]
+		},
+		"side_elias_lens_cloth_3": {
+			"speaker": "Elias",
+			"lines": [
+				"He guardado el paño viejo en el cajón del cuaderno de bitácora. Puede quedarse allí sin ser una advertencia.",
+				"Mañana puliré el farol porque necesita pulirse. Con eso basta."
+			]
+		},
+		"side_elias_weather_log_1": {
+			"speaker": "Elias",
+			"lines": [
+				"Empecé un diario del tiempo sin columna para la Larga Medianoche. Solo nubes, viento y si el mar trató bien a los barcos.",
+				"Sienta bien anotar una noche sin pedirle que se explique."
+			]
+		},
+		"side_elias_weather_log_2": {
+			"speaker": "Elias",
+			"lines": [
+				"La lluvia llegó suavemente y el faro trazó un camino pálido a través de ella. Un pescador saludó desde el muelle lejano.",
+				"Escribí «lluvia constante, regreso seguro» y lo dejé así."
+			]
+		},
+		"side_elias_weather_log_3": {
+			"speaker": "Elias",
+			"lines": [
+				"El diario ya tiene una docena de anotaciones corrientes. Creía que echaría más de menos el antiguo misterio.",
+				"Hay noches que pueden ser simplemente noches."
+			]
+		},
+		"side_osric_quay_garden_1": {
+			"speaker": "Osric",
+			"lines": [
+				"El jardín de mi hermana sigue esperando tras la verja azul. El tomillo ha cubierto las piedras del sendero.",
+				"Creía que tenía que recordar cada tarde antes de volver. Puedo empezar por esta mañana."
+			]
+		},
+		"side_osric_quay_garden_2": {
+			"speaker": "Osric",
+			"lines": [
+				"Despejamos un rincón junto a la verja. Mi hermana plantó menta allí, aunque ninguno recuerda por qué.",
+				"Decidimos dejar que el motivo siga perdido. La menta huele de maravilla, de todos modos."
+			]
+		},
+		"side_osric_quay_garden_3": {
+			"speaker": "Osric",
+			"lines": [
+				"Ahora hay una silla en el jardín. Puedo sentarme sin intentar reconstruir cada día que falta.",
+				"Mi hermana trajo té. Hablamos del tiempo, y fue suficiente."
+			]
+		},
+		"side_osric_bread_route_1": {
+			"speaker": "Osric",
+			"lines": [
+				"Esta mañana fui del muelle a Moonmart pasando por la panadería. El olor del pan recién hecho convence mucho.",
+				"Antes seguía ese olor sin saber adónde iba. Me alegra que mis pies aún recuerden el camino."
+			]
+		},
+		"side_osric_bread_route_2": {
+			"speaker": "Osric",
+			"lines": [
+				"Agnes me dio una bolsa de papel para el camino a casa. La corteza me calentó las manos a través de ella.",
+				"Creía que volver a casa tenía que devolverme todo. Esta vez solo tuve que llevar el pan con cuidado."
+			]
+		},
+		"side_osric_bread_route_3": {
+			"speaker": "Osric",
+			"lines": [
+				"Mi hermana dice que puedo pasar cuando quiera. No tengo que esperar a que haya un motivo especial o el recuerdo adecuado.",
+				"Creo que mañana volveré por la ruta de la panadería."
+			]
+		},
+		"side_agnes_night_baker_1": {
+			"speaker": "Agnes",
+			"lines": [
+				"He empezado a hornear tandas más pequeñas por la noche. Quienes vienen antes del amanecer también merecen algo recién hecho.",
+				"Me cansa menos y sobra menos. Debería haberlo probado hace años."
+			]
+		},
+		"side_agnes_night_baker_2": {
+			"speaker": "Agnes",
+			"lines": [
+				"Pegué el nuevo horario junto al horno. Fern añadió una nota que me recuerda descansar entre tandas.",
+				"La nota tiene una sensatez irritante. He decidido hacerle caso."
+			]
+		},
+		"side_agnes_night_baker_3": {
+			"speaker": "Agnes",
+			"lines": [
+				"Mi sobrina vino al amanecer para aprender a hacer el pan de miel. Ya tenía harina en la nariz antes de terminar el primer cuenco.",
+				"La receta es más antigua que la tienda, pero puede ser de cualquiera que quiera prepararla."
+			]
+		},
+		"side_mara_harbour_post_1": {
+			"speaker": "Mara",
+			"lines": [
+				"Encontré un buzón pequeño cerca de los escalones del puerto. No tiene cerradura y el aire salado se ha llevado la pintura.",
+				"Alguien dejó dentro una nota doblada. Solo era el dibujo de un barco que regresaba a casa."
+			]
+		},
+		"side_mara_harbour_post_2": {
+			"speaker": "Mara",
+			"lines": [
+				"Llevé una lata con lápices al buzón. La gente ha dejado dibujos, recetas y una lista de nubes muy detallada.",
+				"No hacen falta nombres. Las notas se pueden leer, contestar o dejar tranquilas."
+			]
+		},
+		"side_mara_harbour_post_3": {
+			"speaker": "Mara",
+			"lines": [
+				"Ahora el buzón tiene una capa nueva de pintura azul. La persona que remienda las redes dice que recuerda al puerto en una noche despejada.",
+				"Es un lugar para mensajes sin dirección. Creo que eso también es una forma de pertenecer."
+			]
+		},
+		"side_miriam_night_route_1": {
+			"speaker": "Miriam",
+			"lines": [
+				"Llevo un termo para el último tramo, cuando casi no queda nadie en el autobús y la lluvia suena más fuerte que el motor.",
+				"Una taza caliente hace que el silencio se sienta acompañado. Ahora dejo otra por si alguien la necesita."
+			]
+		},
+		"side_miriam_night_route_2": {
+			"speaker": "Miriam",
+			"lines": [
+				"Hay una parada junto al viejo huerto donde ya no sube nadie. Aun así, me detengo; los árboles merecen un poco de paciencia.",
+				"Anoche, una persona cansada me saludó desde el refugio. La ruta sirvió para algo nuevo."
+			]
+		},
+		"side_miriam_night_route_3": {
+			"speaker": "Miriam",
+			"lines": [
+				"Antes llamaba a la terminal el final de la línea. Ahora la veo como el lugar donde el siguiente conductor recibe una taza de té recién hecha.",
+				"Una ruta puede terminar para alguien y empezar para otra persona. Conviene recordarlo."
+			]
+		},
+		"side_hollis_clockwork_1": {
+			"speaker": "Hollis",
+			"lines": [
+				"El reloj que hay sobre mi banco se atrasa dos minutos. Podría arreglarlo, pero primero he querido escuchar su tic más suave.",
+				"Algunas habitaciones necesitan un ritmo que deje un poco de espacio alrededor de cada hora."
+			]
+		},
+		"side_hollis_clockwork_2": {
+			"speaker": "Hollis",
+			"lines": [
+				"Reparé la campanilla sin subirle el volumen. Los vecinos pueden oírla, pero ya no despierta al bebé de arriba de un sobresalto.",
+				"Un buen trabajo debe encajar con la vida de quienes lo rodean, no pedir que todos se adapten a él."
+			]
+		},
+		"side_hollis_clockwork_3": {
+			"speaker": "Hollis",
+			"lines": [
+				"Un niño me trajo un reloj hecho con una tapa de lata y un sol de papel. No da la hora, pero hace muy buena compañía.",
+				"Lo colgué junto al reloj preciso. Los dos tienen algo que enseñarme."
+			]
+		},
+		"side_sabine_mended_net_1": {
+			"speaker": "Sabine",
+			"lines": [
+				"Encontré un agujero en la red más pequeña y lo remendé con el cordel azul de siempre. Mis manos recordaron los nudos antes que yo.",
+				"Remendar es, sobre todo, una forma de decir que vale la pena conservar algo cerca."
+			]
+		},
+		"side_sabine_mended_net_2": {
+			"speaker": "Sabine",
+			"lines": [
+				"Hicimos una red de repuesto para los escalones del puerto. Es ligera para que ayuden los niños y fuerte para una cesta de manzanas.",
+				"Cada persona añadió un nudo. Nadie tuvo que firmar."
+			]
+		},
+		"side_sabine_mended_net_3": {
+			"speaker": "Sabine",
+			"lines": [
+				"La red de repuesto atrapó un paquete a la deriva antes de que se lo llevara la marea. Solo era un pan y una nota, pero alguien se alegró de recuperarlos.",
+				"Me gusta que las cosas útiles vuelvan a ser corrientes."
+			]
+		},
+		"side_anouk_seed_exchange_1": {
+			"speaker": "Anouk",
+			"lines": [
+				"Esta mañana, los plantones del invernadero se inclinaban hacia la puerta. Moví las macetas para que recibieran la luz pálida de la ventana.",
+				"A veces cuidar significa cambiar la habitación antes de pedirle nada a quien está creciendo."
+			]
+		},
+		"side_anouk_seed_exchange_2": {
+			"speaker": "Anouk",
+			"lines": [
+				"Dejé una lata de semillas con etiquetas en blanco. La gente puede llevarse un sobre, dejar otro o simplemente leer los nombres.",
+				"Es más fácil sumarse a un jardín cuando nadie tiene que saberlo todo de antemano."
+			]
+		},
+		"side_anouk_seed_exchange_3": {
+			"speaker": "Anouk",
+			"lines": [
+				"Las latas vacías se van llenando de notas sobre dónde crece mejor cada planta. Alguien escribió «junto a un amigo» al lado de las capuchinas.",
+				"Me parece un buen consejo tanto para los plantones como para las personas."
+			]
+		},
+		"side_oda_rain_song_1": {
+			"speaker": "Oda",
+			"lines": [
+				"Anoté el ritmo de la lluvia y luego vi que no había dejado silencios entre las notas.",
+				"El silencio entre los sonidos también forma parte de la canción. Intento dejar que permanezca."
+			]
+		},
+		"side_oda_rain_song_2": {
+			"speaker": "Oda",
+			"lines": [
+				"Probamos la nueva melodía en la capilla con solo tres voces. Nadie tuvo que cantar las notas agudas; aun así, la melodía se sostuvo.",
+				"Sonó más a nosotros que cualquier interpretación perfecta."
+			]
+		},
+		"side_oda_rain_song_3": {
+			"speaker": "Oda",
+			"lines": [
+				"El coro quiere conservar la melodía para las noches corrientes, no solo para el festival. La cantaremos bajito, para que quien quiera pueda unirse o escuchar.",
+				"Una canción puede ofrecer un asiento sin llamar a nadie al escenario."
+			]
+		},
+		"side_elowen_mending_circle_1": {
+			"speaker": "Elowen",
+			"lines": [
+				"Dejé una cesta de calcetines desparejados junto a la estufa cálida de la posada. Siempre hay un par más de los que recordamos.",
+				"Los remiendos pequeños son más fáciles cuando los hacemos juntos y hablamos de cualquier otra cosa."
+			]
+		},
+		"side_elowen_mending_circle_2": {
+			"speaker": "Elowen",
+			"lines": [
+				"Hemos empezado un círculo de costura después de doblar la ropa. Juniper lee en voz alta mientras cada quien trabaja a su ritmo.",
+				"Nadie mira cuánto termina cada cual. Lo importante es estar en compañía."
+			]
+		},
+		"side_elowen_mending_circle_3": {
+			"speaker": "Elowen",
+			"lines": [
+				"Un viajero dejó un parche con forma de barquito en la manta compartida. Lo dejamos allí, junto al cuadrado y la luna torcida.",
+				"Ahora la manta está calentita y guarda el recuerdo de muchas manos."
+			]
+		},
+		"side_stellan_lost_property_1": {
+			"speaker": "Stellan",
+			"lines": [
+				"El armario de objetos perdidos de la estación tiene un cajón que nunca se llena, por muchos paraguas que entregue. Ya dejé de preguntarme por qué.",
+				"Hoy guardaba un resto de billete sin destino, solo con un nombre a lápiz. Lo tengo en el estante donde la luz es más amable."
+			]
+		},
+		"side_stellan_lost_property_2": {
+			"speaker": "Stellan",
+			"lines": [
+				"El nombre del billete era el de Osric, y la mañana que él preguntó, yo tenía un cajón lleno de mañanas que nadie recogió. El Conductor solo se tocó la gorra y me hizo un gesto, de portero a portero.",
+				"Creo que el cajón es una puerta de un solo sentido: lo que el mundo olvida pasa por ahí. Por eso etiqueto cada cosa con cuidado. Una etiqueta es una pequeña promesa de volver."
+			]
+		},
+		"side_stellan_lost_property_3": {
+			"speaker": "Stellan",
+			"lines": [
+				"Clavé una línea nueva en el horario de la estación con mi mejor letra: «Entre medias: todos bienvenidos, sin billete». Nadie se ha quejado. Una niña pidió tocar la campana de salida por ello.",
+				"El cajón está casi vacío. Las cosas se recogen, un nombre tras otro, y echaré de menos su peso, pero solo un poco."
+			]
+		},
+		"side_iona_undeliverable_post_1": {
+			"speaker": "Iona",
+			"lines": [
+				"En mi ruta hay algunas direcciones que me hacen revisar el bolso: el mar, la tercera estrella desde el farol, un tal Señor Nadie de la Calle Quieta. Las entrego todas igual.",
+				"Una carta que se esfuerza tanto por llegar hace que parar parezca de mala educación. Además, el mar siempre acepta su correo con cortesía."
+			]
+		},
+		"side_iona_undeliverable_post_2": {
+			"speaker": "Iona",
+			"lines": [
+				"Mara me enseñó el mapa antiguo y la calle que desapareció de él. Entendí que mis postales de la Calle Quieta eran para una casa que vive en el hueco. Llevé una allí al anochecer y la puerta esperaba, pintada de azul, como la recordaba el matasellos.",
+				"Un nombre en un sobre es una forma de llamar. Si llaman suficientes personas, quizá una puerta recuerde que tiene permiso para abrirse."
+			]
+		},
+		"side_iona_undeliverable_post_3": {
+			"speaker": "Iona",
+			"lines": [
+				"La postal volvió sellada con tinta del color del puerto de noche: «Recibida, con gratitud. Por favor, sigan enviando». Mara la ha clavado en el escaparate de correos.",
+				"Así que ahora llevo dos bolsas: una para los lugares del mapa y otra, más pequeña, para los que no lo están. Nunca he querido tanto una ruta."
+			]
+		},
+		"side_liora_lantern_folds_1": {
+			"speaker": "Liora",
+			"lines": [
+				"Después de cada fiesta desdoblo los viejos faroles de papel y los aplano bajo libros. Cada pliegue es donde alguien apretó con el pulgar mientras pedía un deseo.",
+				"Pip se quedó muy quieto junto a la ventana mientras trabajaba, como si conociera los pliegues. No pregunté. Hay recuerdos que prefieren que los traten con suavidad y sin preguntas."
+			]
+		},
+		"side_liora_lantern_folds_2": {
+			"speaker": "Liora",
+			"lines": [
+				"Cuando Elias dijo que el haz del faro había vuelto, encontré un farol que se había calentado solo en el cajón. Sus pliegues forman un puerto, un bote, la mano de un farero sosteniendo una lámpara.",
+				"Aquí los recuerdos se vuelven objetos cuando ya no queda nadie que los lleve. Yo solo soy restauradora. Mi trabajo es que no los lleven solos."
+			]
+		},
+		"side_liora_lantern_folds_3": {
+			"speaker": "Liora",
+			"lines": [
+				"Para el regreso del faro hicimos cien faroles nuevos, cada uno con un nombre olvidado doblado en la base. La gente escribió nombres que creía perdidos, y el papel los guardó.",
+				"Los pusimos a flotar en el puerto. No se fueron mar adentro. Volvieron a casa, y la lámpara estaba encendida por la mañana."
+			]
+		},
+		"side_rowan_storeroom_ledger_1": {
+			"speaker": "Rowan",
+			"lines": [
+				"El almacén del faro está ordenado, pero las cosas se van sin hacer ruido. Lápices, sobre todo. La semana pasada fue una caja entera, y conté dos veces.",
+				"Me digo que los fareros los pierden. El recuento de mi libro dice otra cosa: se van a algún sitio a propósito."
+			]
+		},
+		"side_rowan_storeroom_ledger_2": {
+			"speaker": "Rowan",
+			"lines": [
+				"Encontré un diario en el fondo de una caja, con la letra de Elias, que describe la Larga Medianoche. Él había olvidado escribirlo, y casi me callé. Luego me pregunté para quién esperaba el diario.",
+				"Se lo llevé con una cafetera y me senté mientras lo leía. Nadie debería leer solo sus propias palabras olvidadas."
+			]
+		},
+		"side_rowan_storeroom_ledger_3": {
+			"speaker": "Rowan",
+			"lines": [
+				"Añadí una línea nueva a la lista de pedidos: «Aceite de lámpara, una lata. Lápices, muchos. Bienvenida, sin límite». El Conductor mandó aviso de que los lápices que faltan se usan para escribir nombres en el libro del andén.",
+				"Así que las existencias no se pierden, solo se prestan para una buena labor. He decidido guardar unos cuantos de más, por si al Entre le faltan."
+			]
+		},
+		"side_maribel_room_seven_1": {
+			"speaker": "Maribel",
+			"lines": [
+				"La posada tiene una Habitación Siete que ningún viajero ha reservado jamás. Hago la cama todas las mañanas igualmente, y todas las mañanas la almohada está un poco tibia.",
+				"Mi abuela decía que una llave dejada en su gancho es una promesa a alguien. Nunca dijo a quién."
+			]
+		},
+		"side_maribel_room_seven_2": {
+			"speaker": "Maribel",
+			"lines": [
+				"Anoche un huésped firmó el registro con una tinta que se borró antes de que se secara la página. Copié el nombre debajo, a lápiz, para que el libro no lo olvidara.",
+				"Los nombres se quedan cuando alguien los escribe dos veces. He empezado a hacerlo con todos los forasteros soñolientos, incluso con los que llegan por caminos que no encuentro en ningún mapa."
+			]
+		},
+		"side_maribel_room_seven_3": {
+			"speaker": "Maribel",
+			"lines": [
+				"Mara cree que la almohada tibia nunca fue un fantasma. Es la posada recordando a un huésped que todavía no ha encontrado la puerta. La Habitación Siete solo está esperando.",
+				"Así que dejé una lámpara en el alféizar y una nota en el gancho: seas quien seas, el hervidor está al fuego. Dile a Moonmart que si alguien llega buscando cama, tendré pastel de miel preparado."
+			]
+		},
+		"side_tomas_threshold_stone_1": {
+			"speaker": "Tomas",
+			"lines": [
+				"A cada piedra que coloco le hago una marca diminuta en la cara oculta y le digo una palabra en voz baja antes de poner el mortero. Aguanta bien. No es magia. Son buenos modales.",
+				"Aun así, el muro de la plaza vieja nunca se ha agrietado donde dije la palabra."
+			]
+		},
+		"side_tomas_threshold_stone_2": {
+			"speaker": "Tomas",
+			"lines": [
+				"Cavando el lecho de tomillo, di con un umbral. Gastado en el centro por años de pasos, sin casa, sin muro, sin puerta a la que pertenecer. Nadie a quien pregunto lo recuerda.",
+				"Por las mañanas está tibio, como una piedra en la que alguien acaba de pisar. No fui capaz de romperlo para hacer grava."
+			]
+		},
+		"side_tomas_threshold_stone_3": {
+			"speaker": "Tomas",
+			"lines": [
+				"Coloqué el umbral al final del muro de la plaza, dejando un hueco abierto a su lado. Un muro que recuerda una calle debería dejarle sitio.",
+				"Lucien dice que las puertas recuerdan para quién fueron hechas. Juniper anotó la piedra en su catálogo. Planté tomillo al lado, y la primera persona que se detuvo allí se quedó un buen rato."
+			]
+		},
+		"side_juniper_margin_index_1": {
+			"speaker": "Juniper",
+			"lines": [
+				"Llevo un índice de los márgenes. No de las historias impresas, sino de las notas a lápiz: pequeñas amabilidades, bromas, la lista de la compra de alguien usada como marcapáginas.",
+				"El hábito de Pip con la leche fría también está ahí, ahora. Los recuerdos se acumulan y se vuelven objetos si los dejas. Yo solo les doy un cajón."
+			]
+		},
+		"side_juniper_margin_index_2": {
+			"speaker": "Juniper",
+			"lines": [
+				"Desde la visita del Conductor, encuentro fichas que no recuerdo haber escrito. Un nombre arriba, nada debajo. Todas con mi letra.",
+				"Las guardo en un cajón rotulado Sin reclamar. Si un nombre pesa, debería tener dónde descansar mientras el mundo se pone al día."
+			]
+		},
+		"side_juniper_margin_index_3": {
+			"speaker": "Juniper",
+			"lines": [
+				"La ficha de Osric ya no está en blanco. Dice: Criaba abejas. Tararea mientras trabaja. De vuelta donde pertenece. La escribí y lloré un poquito sobre la tinta.",
+				"Los olvidados no se desvanecen, ¿sabes? Van a la deriva, como farolillos en agua lenta. El cajón Sin reclamar está abierto para quien quiera encontrar un nombre, o prestar uno."
+			]
+		},
+		"side_beckett_morning_thanks_1": {
+			"speaker": "Beckett",
+			"lines": [
+				"Mi padre me enseñó a dar las gracias al agua antes de echar la primera red. Siempre me dio vergüenza decirlo en voz alta, así que lo susurraba.",
+				"Sabine me oyó desde los escalones del puerto y dijo que el agradecimiento llega más lejos de lo que uno cree. Desde entonces las redes salen más pesadas, y procuro no preguntar por qué."
+			]
+		},
+		"side_beckett_morning_thanks_2": {
+			"speaker": "Beckett",
+			"lines": [
+				"En mi red apareció un flotador de cristal, tibio como un panecillo recién hecho. Al sostenerlo olí la pipa de mi padre y lo oí contar gaviotas.",
+				"Fern dice que las semillas también pueden guardar una mañana. Puse el flotador junto a la balanza, donde el hielo no lo alcanza."
+			]
+		},
+		"side_beckett_morning_thanks_3": {
+			"speaker": "Beckett",
+			"lines": [
+				"El faro de Elias trajo anoche un pequeño bote gris al muelle lejano. Sin nadie a bordo, y nadie en el puerto recordaba su nombre.",
+				"Yo sí. Es la Marigold de mi padre, el bote que todos dejaron de mencionar cuando él se retiró. El flotador de cristal encaja justo en el gancho de su farol.",
+				"Esta mañana repinté su nombre, despacio. Algunas cosas vuelven a casa en cuanto alguien las nombra otra vez."
+			]
+		},
+		"side_nella_seam_names_1": {
+			"speaker": "Nella",
+			"lines": [
+				"Wren me pidió remendar su capa de viaje, y mi hilo de siempre no quería agarrar. Quería que le dijeran de quién era la capa.",
+				"Dije su nombre en voz alta mientras cosía. La puntada quedó firme, como si hubiera estado esperando."
+			]
+		},
+		"side_nella_seam_names_2": {
+			"speaker": "Nella",
+			"lines": [
+				"El abrigo del Conductor tiene un bolsillo que se abre en otro lugar. Le cosí un botón para que solo se abra si se pide con educación.",
+				"Anoche encontré una puntada mía en una costura que nunca trabajé. Era más antigua que mis manos, y estaba remendando mis remiendos."
+			]
+		},
+		"side_nella_seam_names_3": {
+			"speaker": "Nella",
+			"lines": [
+				"Era la puntada de mi abuela. Cruzó una puerta del viejo taller hace mucho, y yo creía que la familia sencillamente la había olvidado.",
+				"Pasé un pañuelo con luna por el bolsillo. Una hora después volvió un hilo anudado a un botón de campanilla.",
+				"Ahora lo llevo en el puño. Significa que alguien está contento con mi trabajo, desde muy lejos."
+			]
+		},
+		"side_aster_starlight_notes_1": {
+			"speaker": "Aster",
+			"lines": [
+				"Mi cuaderno anota una estrella que aún no he visto. La fecha es el próximo viernes, y la letra es la mía.",
+				"Elias dice que es una coincidencia. Lo dice con mucha cortesía, y mira el haz de luz mientras lo dice."
+			]
+		},
+		"side_aster_starlight_notes_2": {
+			"speaker": "Aster",
+			"lines": [
+				"Miré desde la galería de la linterna mientras el haz pasaba. Por un instante vi el amanecer de mañana, fino y dorado sobre el puerto.",
+				"En el Entre el tiempo no siempre avanza, así que parte de la luz llega antes de salir. Elias y yo acordamos no contarle a nadie el tiempo que hará."
+			]
+		},
+		"side_aster_starlight_notes_3": {
+			"speaker": "Aster",
+			"lines": [
+				"Los nombres tienen poder, así que elegí uno con cuidado. La nueva estrella se llama Mermelada, porque es naranja y se niega a ser catalogada.",
+				"Miso la aprobó sentándose sobre el mapa. Lo tomé como una firma.",
+				"Seguiré observando para que nada de allá arriba se olvide jamás. Una estrella solo se pierde cuando todos dejan de mirarla."
+			]
+		}
+	},
+	"paired_conversations": {
+		"agnes_lucien": {
+			"participants": [
+				"agnes",
+				"lucien"
+			],
+			"cooldown_hint_shifts": 3,
+			"lines": [
+				{
+					"speaker": "Agnes",
+					"text": "Lucien, te guardé el trocito del extremo. Tiene la cantidad justa de glaseado."
+				},
+				{
+					"speaker": "Lucien",
+					"text": "Recordaste mi proporción preferida de glaseado. Esto es casi una carta de amor."
+				},
+				{
+					"speaker": "Agnes",
+					"text": "Es un pastelito, querido. Aunque puedes buscar pistas entre las migas."
+				},
+				{
+					"speaker": "Lucien",
+					"text": "Un misterio con migas. Por fin, un género que entiendo."
+				}
+			]
+		},
+		"agnes_fern": {
+			"participants": [
+				"agnes",
+				"fern"
+			],
+			"cooldown_hint_shifts": 3,
+			"lines": [
+				{
+					"speaker": "Agnes",
+					"text": "Siempre traes un poco de verde en las mangas."
+				},
+				{
+					"speaker": "Fern",
+					"text": "La arboleda presta sus hojitas para que viajen al pueblo."
+				},
+				{
+					"speaker": "Agnes",
+					"text": "Espero que les guste el calorcito de aquí."
+				},
+				{
+					"speaker": "Fern",
+					"text": "Sí. La tetera hace una lluvia muy paciente."
+				}
+			]
+		},
+		"fern_wren": {
+			"participants": [
+				"fern",
+				"wren"
+			],
+			"cooldown_hint_shifts": 3,
+			"lines": [
+				{
+					"speaker": "Wren",
+					"text": "Tus flores lunares se inclinan hacia la ventana."
+				},
+				{
+					"speaker": "Fern",
+					"text": "Les gusta ver adónde va su té."
+				},
+				{
+					"speaker": "Wren",
+					"text": "Creía que bebían luz de luna."
+				},
+				{
+					"speaker": "Fern",
+					"text": "También. A las plantas les pueden gustar varias cosas."
+				}
+			]
+		},
+		"lucien_mara": {
+			"participants": [
+				"lucien",
+				"mara"
+			],
+			"cooldown_hint_shifts": 3,
+			"lines": [
+				{
+					"speaker": "Lucien",
+					"text": "¿La gente suele devolver libros con una nota dentro?"
+				},
+				{
+					"speaker": "Mara",
+					"text": "A menudo. La nota suele ser la parte que leo dos veces."
+				},
+				{
+					"speaker": "Lucien",
+					"text": "Entonces miraré con más atención el buzón de devoluciones."
+				},
+				{
+					"speaker": "Mara",
+					"text": "Tú déjame los sellos a mí."
+				}
+			]
+		}
+	}
+}

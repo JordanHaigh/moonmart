@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="between" x2="0" y2="1"><stop stop-color="#24233f"/><stop offset=".55" stop-color="#494469"/><stop offset="1" stop-color="#8f697e"/></linearGradient>
+ <radialGradient id="doorGlow"><stop stop-color="#fff0d8" stop-opacity=".78"/><stop offset=".42" stop-color="#c7abd2" stop-opacity=".33"/><stop offset="1" stop-color="#806587" stop-opacity="0"/></radialGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#82637a"/><stop offset="1" stop-color="#403849"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#between)"/>
+<!-- the room is held together by remembered things -->
+<g fill="#fff0d8" opacity=".7"><circle cx="124" cy="128" r="3"/><circle cx="323" cy="253" r="2"/><circle cx="511" cy="95" r="3"/><circle cx="1096" cy="164" r="2"/><circle cx="1433" cy="103" r="3"/><circle cx="1354" cy="331" r="2"/><circle cx="226" cy="461" r="2"/></g>
+<path d="M0 0h1600v648q-208-82-404 0t-390-11-394 9Q183 603 0 676z" fill="#38334e" opacity=".54"/>
+<path d="M0 673q218-50 425-6t399 0q212-34 395 1t381-4v236H0z" fill="url(#floor)"/>
+<path d="M0 673q208 61 405 16t398 0q211 64 414 0t383 10" fill="none" stroke="#dcb18d" stroke-opacity=".48" stroke-width="9"/>
+<path d="M75 900l312-227m306 227 99-218m197 218-36-222m316 222-248-224m436 224-453-226" stroke="#e7c3a4" stroke-opacity=".13" stroke-width="4"/>
+<!-- archway with a remembered town at its center -->
+<ellipse cx="805" cy="400" rx="420" ry="370" fill="url(#doorGlow)"/>
+<path d="M590 656V347q0-221 217-221t217 221v309" fill="none" stroke="#d5b39e" stroke-width="27"/>
+<path d="M630 653V349q0-177 177-177t177 177v304" fill="none" stroke="#f0d4b5" stroke-width="7" opacity=".82"/>
+<path d="M666 650V350q0-141 141-141t141 141v300" fill="#37384f" opacity=".48"/>
+<circle cx="805" cy="475" r="77" fill="#f1c99d" opacity=".17"/><path d="M773 510l32-77 32 77z" fill="#c6989e" opacity=".74"/><circle cx="805" cy="414" r="16" fill="#fff0d8" opacity=".83"/>
+<!-- memory shelves curve toward the unseen ceiling -->
+<path d="M0 254h409v355H0zM1191 224h409v385h-409z" fill="#4e4058" stroke="#b68180" stroke-width="9"/>
+<g stroke="#d19a87" stroke-width="10"><path d="M0 367h409m-409 118h409m782-118h409m-409 118h409"/></g>
+<g fill="#c28f86" stroke="#f3d0a8" stroke-width="4"><rect x="42" y="285" width="75" height="62" rx="7"/><rect x="146" y="277" width="94" height="70" rx="8"/><rect x="275" y="292" width="91" height="55" rx="7"/><rect x="32" y="391" width="92" height="72" rx="7"/><rect x="156" y="404" width="75" height="59" rx="7"/><rect x="264" y="389" width="112" height="74" rx="7"/><rect x="40" y="510" width="79" height="73" rx="7"/><rect x="147" y="500" width="99" height="83" rx="7"/><rect x="277" y="511" width="89" height="72" rx="7"/><rect x="1237" y="275" width="79" height="72" rx="7"/><rect x="1344" y="285" width="102" height="62" rx="7"/><rect x="1470" y="278" width="85" height="69" rx="7"/><rect x="1233" y="395" width="100" height="68" rx="7"/><rect x="1361" y="388" width="78" height="75" rx="7"/><rect x="1462" y="401" width="99" height="62" rx="7"/><rect x="1235" y="507" width="82" height="76" rx="7"/><rect x="1340" y="496" width="91" height="87" rx="7"/><rect x="1455" y="509" width="105" height="74" rx="7"/></g>
+<!-- familiar objects float slowly, preserving a home-like stillness -->
+<g fill="#ecd3b2" stroke="#fff0d8" stroke-width="5"><path d="M481 288h82v81h-82z" transform="rotate(-9 522 328)"/><path d="M1076 327h68v68h-68z" transform="rotate(12 1110 361)"/><circle cx="1037" cy="253" r="31"/><path d="M473 492q39-51 80 0-40 51-80 0z"/></g>
+<path d="M517 307v45m591-27v44m-1072 116v58m1017-239v44" stroke="#d7b195" stroke-width="4" opacity=".66"/>
+<g fill="#f1b47d"><circle cx="535" cy="219" r="7"/><circle cx="1070" cy="503" r="6"/><circle cx="441" cy="602" r="5"/><circle cx="1177" cy="592" r="6"/></g>
+<!-- a low reading seat and the cat's worn blanket -->
+<path d="M650 700h302v29H650z" fill="#bb827d" stroke="#f0c19d" stroke-width="6"/><path d="M675 729v90m253-90v90" stroke="#654b60" stroke-width="20"/><path d="M698 685q24-57 92-50l41 46m-135 2h257" fill="#8e6d81" stroke="#e4bd9e" stroke-width="7"/>
+<path d="M704 703h195" stroke="#f0d4b5" stroke-opacity=".53" stroke-width="5"/>
+</svg>

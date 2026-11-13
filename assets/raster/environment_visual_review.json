@@ -1,0 +1,51 @@
+{
+  "source_integrity_pins": {
+    "purpose": "File identity only; these hashes do not record visual review or approval.",
+    "art_import_sha256": {
+      "art_import/285b0c33-375d-41e5-a980-de20fb9ee74b.png": "0CFCA3FAD66C50A9A7D861A7CABDBE94FD36CFCC206864486EECEEC7B968D955",
+      "art_import/6b9b3ef4-bd5e-4f71-a013-9c98dbc802e1.png": "EB1FCA8EE476FF4C8020BFA8DF95D60942F7117E08A4210887763C1E7A1CA052",
+      "art_import/BEST ART CANDIDATE.png": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45",
+      "art_import/ce8cb178-6350-4f53-b2ec-dd7eeddb571d.png": "460AA190F31C487A6F70C1CBE7BDD2F968120B6004EACEA1E1DF11E780D23C19",
+      "art_import/download.png": "7D4C10B22869A8EC08CE3D793FC15E5D0F662B9DDFC8BA3B231E314AA8883007",
+      "art_import/ed5eb946-8e76-4c5a-9130-c4ef9fdbfd8e.png": "113677CB048D7CFEA6522AA84CE14F33FC80B79037C652BD7B4D0A9887789522",
+      "art_import/I LOVE THIS.png": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+    }
+  },
+  "review_contract": {
+    "style_reference": "art_import/",
+    "reviewed_by": "Codex visual audit",
+    "reviewed_on": "2026-11-13",
+    "source_sha256": {
+      "art_import/I LOVE THIS.png": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581",
+      "art_import/BEST ART CANDIDATE.png": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45",
+      "art_import/download.png": "7D4C10B22869A8EC08CE3D793FC15E5D0F662B9DDFC8BA3B231E314AA8883007"
+    },
+    "checklist": [
+      "Compare the whole image at native size and normal game scale against the closest art_import references; retain the painted palette, texture, rounded forms, and composition quality.",
+      "Confirm the intact environment plate contains no light rays or light particles, no animated or switchable glow, no changeable weather effects, and no story VFX.",
+      "Allow fixed scenic moons, stars, clouds, and distant haze only when they remain unchanging authored scenery; allow static painted illumination that belongs to a fixed fixture or material, and keep reflections static.",
+      "Keep dynamic lights, particles, weather, and story effects on independently switchable layers or dedicated lights so accessibility settings can control them.",
+      "For derived transparent layers, composite them over the source and verify the intended separation without changing unrelated painted pixels.",
+      "Record this approval against the exact SHA-256 so any image revision requires a new visual review."
+    ],
+    "approved_environment_images": [
+      { "path": "environment/moonmart_architecture_modules.png", "sha256": "A4B623463DA8BB72C1C7CF3227BF3943CBB8D818A762EB00AEB2CB256F1AEB08" },
+      { "path": "environment/moonmart_room_architecture.png", "sha256": "254811E8D13FC78287CD5F0CD03714F80FD50ABE3AA5C411B81718027991AC42" },
+      { "path": "environment/moonmart_tea_corner.png", "sha256": "564B4CF5456BC60F4F28BA7579A3BD22ABDD524B59255589BBEBB9FC6C146E50" },
+      { "path": "environment/moonmart_tea_corner_architecture.png", "sha256": "D65E164C318AEA8A38F60B159ED5BC2145C56FAFE910BA660A1E289DE7F4862C" },
+      { "path": "environment/moonmart_tea_corner_night_sky.png", "sha256": "640DC00EA2FA925DBC58291558247EEAE2657FA797DC7B7190430A20691ED462" },
+      { "path": "environment/moonmart_tea_corner_exterior_parallax.png", "sha256": "F014FA5DB3FAF0A0B694C38F9B038FEFCBAC2F913E12859DD23140864C5D5262" },
+      { "path": "environment/moonmart_window_sky.png", "sha256": "F964E9375A3CD52E28C1C77031DF8635B6DAD51A86D1410C6E156D1A89C9A0AA" },
+      { "path": "environment/bellwether_parallax.png", "sha256": "6CE4D1314CC1FB54D3741E6EC6A0E2ACA830D77A3042C5688E244AB21BF4DF61" },
+      { "path": "environment/old_bellwether.png", "sha256": "41B8D4B24F5C007F8759C3BED72A61360B9DB679088D80FB3438EA9ED601FCEC" },
+      { "path": "environment/whisperwood.png", "sha256": "650289329EF0C022485D249FD82BA9E865A1EE3F2ECE0DEECF8ADF3AED0FA0FC" },
+      { "path": "environment/moonwater_harbour.png", "sha256": "7E698AFCAC863447B6C76FFD869C2288701C4CBE06BD1DC205B6171942F441C3" },
+      { "path": "environment/old_lighthouse.png", "sha256": "1B8815A6A3A65A93AD755B2D81CC8EA446A2560DBAD92B4C9CAB525E4D33592D" },
+      { "path": "environment/midnight_platform.png", "sha256": "BD4447BBEDDD0DB1A4116441AE576B9CA25B42493B338AB2B3C4BE4504C1EA79" },
+      { "path": "environment/shop_backroom.png", "sha256": "7B7255D062BB7A50ACB51A612E30AC4AE2DD10F05850E664CF15AEE5712DD7C1" },
+      { "path": "environment/hidden_midnight_room.png", "sha256": "537C6F6E78D6DE302C9E372FBF05D553D55B5CA4534EEBC161DC5E81CA4AD7C9" },
+      { "path": "environment/moonmart_reading_nook_architecture.png", "sha256": "0FBFA277F4A57C6CE2C794DD6F0B5C72097FC0BD9207ECF0231570276B58B97B" },
+      { "path": "environment/moonmart_enchanted_greenhouse_architecture.png", "sha256": "6DBC3B5A66DDC1C7CF90034BFD2E64F137FC58DB809D0E806A46974677AFA19A" }
+    ]
+  }
+}

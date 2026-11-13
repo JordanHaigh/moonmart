@@ -1,0 +1,26 @@
+{
+  "atlas": {
+    "path": "res://assets/raster/environment/moonmart_architecture_modules.png",
+    "columns": 4,
+    "rows": 3,
+    "cell_size": [384, 384],
+    "layout": "row-major",
+    "background_policy": "transparent_independent_module",
+    "contains_vfx": false
+  },
+  "modules": [
+    {"id":"arched_doorway_surround","atlas_cell":[0,0],"scene_layer":"ArchitectureLayer","anchor":[0.5,1.0]},
+    {"id":"four_pane_window_frame","atlas_cell":[1,0],"scene_layer":"ArchitectureLayer","anchor":[0.5,0.5],"transparent_opening":true},
+    {"id":"scalloped_awning","atlas_cell":[2,0],"scene_layer":"ArchitectureLayer","anchor":[0.5,0.0]},
+    {"id":"carved_wall_beam","atlas_cell":[3,0],"scene_layer":"ArchitectureLayer","anchor":[0.5,0.0]},
+    {"id":"wooden_baseboard","atlas_cell":[0,1],"scene_layer":"ArchitectureLayer","anchor":[0.5,1.0]},
+    {"id":"moon_wainscot_panel","atlas_cell":[1,1],"scene_layer":"ArchitectureLayer","anchor":[0.5,1.0]},
+    {"id":"moon_pennant","atlas_cell":[2,1],"scene_layer":"ArchitectureLayer","anchor":[0.5,0.0]},
+    {"id":"brass_floor_threshold","atlas_cell":[3,1],"scene_layer":"ArchitectureLayer","anchor":[0.5,1.0]},
+    {"id":"open_velvet_curtains","atlas_cell":[0,2],"scene_layer":"ArchitectureLayer","anchor":[0.5,0.0],"transparent_opening":true},
+    {"id":"carved_cornice","atlas_cell":[1,2],"scene_layer":"ArchitectureLayer","anchor":[0.5,0.0]},
+    {"id":"stone_arch_trim","atlas_cell":[2,2],"scene_layer":"ArchitectureLayer","anchor":[0.5,1.0],"transparent_opening":true},
+    {"id":"sign_hanger_bracket","atlas_cell":[3,2],"scene_layer":"ArchitectureLayer","anchor":[0.0,0.5]}
+  ],
+  "placements": {}
+}

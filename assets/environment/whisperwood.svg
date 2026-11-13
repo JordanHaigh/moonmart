@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="forestSky" x2="0" y2="1"><stop stop-color="#202638"/><stop offset=".55" stop-color="#364253"/><stop offset="1" stop-color="#766178"/></linearGradient>
+ <linearGradient id="path" x2="0" y2="1"><stop stop-color="#88727e"/><stop offset="1" stop-color="#4d435c"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d9e6ae" stop-opacity=".72"/><stop offset="1" stop-color="#9bca9d" stop-opacity="0"/></radialGradient>
+ <linearGradient id="trunk" x2="1" y2="0"><stop stop-color="#443947"/><stop offset=".5" stop-color="#6d5260"/><stop offset="1" stop-color="#3c3548"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#forestSky)"/>
+<circle cx="800" cy="179" r="73" fill="#f0d5b7" opacity=".72"/><circle cx="829" cy="153" r="66" fill="#394051"/>
+<path d="M0 426q220-142 409-44t378-42 411 56q207-113 402 16v230H0z" fill="#29353f"/>
+<!-- distant blue trees -->
+<g fill="#2e3d48"><path d="M20 500l88-276 98 276zm177 22 83-236 96 236zm1117-28 103-303 105 303zm148 14 56-217 78 217zM441 496l61-194 64 194zm686 2 74-237 89 237z"/></g>
+<!-- heavy old trunks frame the winding trail -->
+<path d="M-18 0h167q-19 139 13 268t-28 285q-28 95 32 347H13q16-198-28-359T13 235Q28 107-18 0z" fill="url(#trunk)"/>
+<path d="M185 0h67q-13 124 34 226t-3 217q-31 126 28 279t-8 178h-87q35-148-8-253t7-231q22-133-19-228T185 0z" fill="#534253" opacity=".92"/>
+<path d="M1333 0h101q-31 170 2 277t-24 214q-20 93 27 203t23 206h-137q44-161 1-281t4-231q22-144-18-236T1333 0z" fill="url(#trunk)"/>
+<path d="M1510 0h130q-59 173-10 322t-21 249q-32 105 18 254v75h-123q32-160-19-284t18-272q35-162 7-344z" fill="#4a3b50"/>
+<!-- canopy -->
+<g fill="#394847"><path d="M0 123Q61-27 217 3q78-99 182 17 95-86 198 31Q728-68 829 39q116-96 215 13 104-101 212 27 167-76 344 17v98H0z"/><path d="M0 256q84-119 195-22 80-111 197-30 74-99 185-9 95-98 196 8 114-127 222-13 123-93 218 9 102-89 220 2 90-87 167-4v133H0z" fill="#485144"/></g>
+<g fill="#79836a" opacity=".68"><ellipse cx="91" cy="180" rx="18" ry="46" transform="rotate(-33 91 180)"/><ellipse cx="382" cy="135" rx="20" ry="46" transform="rotate(35 382 135)"/><ellipse cx="1207" cy="171" rx="18" ry="43" transform="rotate(-24 1207 171)"/><ellipse cx="1458" cy="205" rx="17" ry="39" transform="rotate(28 1458 205)"/></g>
+<!-- winding path and an old mossy shrine -->
+<path d="M493 900q45-149 204-235t66-194q-67-72-22-155h123q-44 99 25 169 104 110 10 246t-10 169H493z" fill="url(#path)"/>
+<path d="M606 900q67-144 175-210t71-166q-19-44-1-96" fill="none" stroke="#e1b995" stroke-opacity=".16" stroke-width="18"/>
+<ellipse cx="786" cy="524" rx="248" ry="160" fill="url(#glow)"/>
+<path d="M648 503h306v161H648z" fill="#514452" stroke="#9f9b7a" stroke-width="12"/>
+<path d="M622 504l176-153 182 153z" fill="#70626a" stroke="#b1a384" stroke-width="10"/>
+<path d="M696 548h208v116H696z" fill="#263142" stroke="#a4a184" stroke-width="8"/>
+<path d="M730 581q66-64 139 0-69 65-139 0z" fill="#b3d49c" opacity=".83"/><circle cx="798" cy="581" r="13" fill="#fff0d8"/>
+<g fill="#bdd995"><circle cx="550" cy="730" r="11"/><circle cx="583" cy="780" r="8"/><circle cx="1055" cy="745" r="12"/><circle cx="1021" cy="805" r="8"/><circle cx="355" cy="642" r="7"/><circle cx="1250" cy="681" r="9"/></g>
+<g fill="#9dc0a0" opacity=".9"><path d="M334 842q8-74 32-93 12 51-13 98zM367 854q-3-72 19-97 21 56-8 104zM1192 865q3-65 26-91 16 54-3 96zM1226 854q-2-65 24-85 16 48-4 90z"/></g>
+<g fill="#e8d4ab" opacity=".78"><circle cx="277" cy="339" r="3"/><circle cx="1192" cy="378" r="3"/><circle cx="1080" cy="255" r="2"/><circle cx="411" cy="296" r="3"/></g>
+</svg>

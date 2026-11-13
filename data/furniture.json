@@ -1,0 +1,1248 @@
+{
+  "atlas": {
+    "path": "res://assets/raster/furniture/moonmart_furniture_atlas.png",
+    "columns": 4,
+    "rows": 2,
+    "layout": "row-major"
+  },
+  "furniture": [
+    {
+      "id": "crescent_sconce", "name": "Crescent Wall Sconce", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/crescent_wall_sconce.png", "scale": 0.08, "anchor": [0.5, 0.92], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["displayed"],
+      "lighting_attachment": null
+    },
+    {"id":"ivy_planter","name":"Trailing Ivy Planter","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[0,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_hydrangea","name":"Moon Hydrangea","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[1,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"star_sprout","name":"Star Pot Sprout","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[2,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"hanging_fern","name":"Hanging Fern","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[3,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_jasmine","name":"Moon Jasmine","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[0,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null,"gameplay_effects":[{"id":"moon_jasmine_message","kind":"one_time_message","message_id":"decoration.message.moon_jasmine","repeat_message_id":"decoration.message.moon_jasmine_repeat","save_flag":"decoration_message_moon_jasmine_read"}]},
+    {"id":"crescent_succulent","name":"Crescent Succulent","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[1,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"lavender_bowl","name":"Lavender Bowl","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[2,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"hanging_golden_pothos","name":"Golden Pothos Basket","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[3,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"fiddle_leaf","name":"Fiddle Leaf Plant","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[0,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"blush_roses","name":"Blush Rose Planter","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[1,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"silver_herbs","name":"Silver Leaf Herbs","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[2,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"star_blossoms","name":"Star Blossom Pot","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[3,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"violet_vine","name":"Violet Flowering Vine","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[0,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"golden_marigolds","name":"Golden Marigolds","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[1,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_fern","name":"Moon Fern","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[2,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"blush_cactus","name":"Blush Moon Cactus","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas.png","atlas_grid":[4,4],"atlas_cell":[3,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"silver_moon_fern","name":"Silver Moon Fern","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[0,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_lily","name":"White Moon Lilies","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[1,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"crescent_monstera","name":"Crescent Monstera","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[2,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"blue_bellflower","name":"Blue Bellflowers","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[3,0],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"night_marigolds","name":"Night Marigolds","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[0,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"indoor_palm","name":"Moonlit Indoor Palm","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[1,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"pink_orchid","name":"Pink Butterfly Orchid","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[2,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_moss_garden","name":"Moon Moss Garden","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[3,1],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"rosemary_bundle","name":"Starry Rosemary Pot","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[0,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"silver_moon_vine","name":"Silver Moon Vine","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[1,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"pink_tulips","name":"Pink Night Tulips","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[2,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"golden_daisies","name":"Golden Daisies","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[3,2],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"winter_poinsettia","name":"Winter Moon Poinsettia","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[0,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"violet_moon_tree","name":"Violet Moon Tree","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[1,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"jasmine_topiary","name":"Moon Jasmine Topiary","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[2,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"hanging_moon_bells","name":"Hanging Moon Bells","footprint":[1,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_plant_decor_atlas_2.png","atlas_grid":[4,4],"atlas_cell":[3,3],"scale":0.55,"anchor":[0.5,0.94],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[1,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"leaning_shelf","name":"Leaning Display Shelf","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[0,0],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"apothecary_case","name":"Apothecary Cabinet","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[1,0],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_background"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"round_pastry_table","name":"Round Pastry Table","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[2,0],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_counter_riser","name":"Moon Counter Riser","footprint":[2,1],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[3,0],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,1]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"basket_display","name":"Woven Basket Display","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[0,1],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"crescent_drawer_cabinet","name":"Crescent Drawer Cabinet","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[1,1],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"rolling_tea_cart","name":"Rolling Tea Cart","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[2,1],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"round_cafe_table","name":"Small Café Table","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[3,1],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"moon_bookcase","name":"Moon Bookcase","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[0,2],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_background"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"linen_crate_display","name":"Linen Crate Display","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[1,2],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"parcel_wrapping_table","name":"Parcel Wrapping Table","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[2,2],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_foreground"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {"id":"tea_service_cabinet","name":"Tea Service Cabinet","footprint":[2,2],"essential":false,"visual":{"path":"res://assets/raster/furniture/moonmart_furniture_extension.png","atlas_grid":[4,3],"atlas_cell":[3,2],"scale":0.68,"anchor":[0.5,0.95],"z_layer":"furniture_background"},"collision":{"shape":"rectangle","footprint":[2,2]},"interaction_positions":[[0.5,1.0]],"display_slots":0,"states":["displayed"],"lighting_attachment":null},
+    {
+      "id": "shelf_module", "name": "Stock Shelf", "footprint": [3, 2], "essential": true,
+      "visual": {"atlas_cell": [0, 0], "anchor": [0.5, 0.92], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [3, 2]},
+      "interaction_positions": [[0.0, 0.85], [0.5, 0.85], [1.0, 0.85]],
+      "display_slots": 12, "states": ["stocked", "depleted"], "lighting_attachment": null
+    },
+    {
+      "id": "refrigerator", "name": "Moonlight Fridge", "footprint": [2, 2], "essential": true,
+      "visual": {"atlas_cell": [1, 0], "anchor": [0.5, 0.94], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]},
+      "interaction_positions": [[0.5, 0.9]], "storage_capacity": 16,
+      "display_slots": 8, "states": ["closed", "open", "stocked", "depleted"], "lighting_attachment": {"point": [0.53, 0.43], "kind": "interior_overlay"}
+    },
+    {
+      "id": "checkout_counter", "name": "Checkout Counter", "footprint": [4, 2], "essential": true,
+      "visual": {"atlas_cell": [2, 0], "anchor": [0.5, 0.93], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [4, 2]},
+      "interaction_positions": [[0.5, 1.0]], "storage_capacity": 8,
+      "display_slots": 3, "states": ["idle", "occupied", "sale_complete"], "lighting_attachment": null
+    },
+    {
+      "id": "tea_kettle", "name": "Little Kettle", "footprint": [2, 2], "essential": true,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_kettle.png", "anchor": [0.5, 0.88], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 1,
+      "states": ["idle", "brewing", "ready"], "lighting_attachment": {"point": [0.52, 0.38], "kind": "steam_vfx"}
+    },
+    {
+      "id": "pastry_case", "name": "Pastry Case", "footprint": [3, 2], "essential": false,
+      "visual": {"atlas_cell": [3, 0], "anchor": [0.5, 0.93], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [3, 2]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 6,
+      "states": ["stocked", "depleted"], "lighting_attachment": {"point": [0.5, 0.3], "kind": "display_overlay"}
+    },
+    {
+      "id": "reading_chair", "name": "Reading Chair", "footprint": [2, 2], "essential": false,
+      "visual": {"atlas_cell": [2, 1], "anchor": [0.5, 0.95], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["empty", "occupied"], "lighting_attachment": null,
+      "gameplay_effects": [{"id": "reading_chair_linger", "kind": "optional_linger_bonus", "amount": 0.06}]
+    },
+    {
+      "id": "moon_lantern", "name": "Moon Lantern", "footprint": [1, 1], "essential": false,
+      "visual": {"atlas_cell": [1, 1], "anchor": [0.5, 0.95], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["unlit", "lit"], "lighting_attachment": {"point": [0.5, 0.42], "kind": "point_light"},
+      "gameplay_effects": [{"id": "nocturnal_visitor_attraction", "kind": "optional_arrival_bonus", "amount": 0.08, "target_tag": "supernatural", "weather": "clear"}]
+    },
+    {
+      "id": "flower_pot", "name": "Flower Pot", "footprint": [1, 1], "essential": false,
+      "visual": {"atlas_cell": [0, 1], "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["watered", "needs_water"], "lighting_attachment": null
+    },
+    {
+      "id": "potted_moonflower", "name": "Blush Moonflower", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/potted_moonflower.png", "scale": 0.08, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["blooming"], "lighting_attachment": null
+    },
+    {
+      "id": "waste_bin", "name": "Moon Bin", "footprint": [1, 1], "essential": false,
+      "visual": {"atlas_cell": [3, 1], "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]},
+      "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["empty", "full"], "lighting_attachment": null
+    },
+    {
+      "id": "moonstar_cafe_chair", "name": "Moonstar Café Chair", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.42, "anchor": [0.5, 0.94], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_floor_cushion", "name": "Crescent Floor Cushion", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.40, "anchor": [0.5, 0.95], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "nightwood_side_table", "name": "Nightwood Side Table", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.43, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lavender_drawer_cabinet", "name": "Lavender Drawer Cabinet", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.42, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "pink_hydrangea_planter", "name": "Pink Hydrangea Planter", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.46, "anchor": [0.5, 0.94], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["needs_water", "blooming"], "lighting_attachment": null
+    },
+    {
+      "id": "hanging_moonflower_basket", "name": "Hanging Moonflower Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.48, "anchor": [0.5, 0.9], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "brass_floor_lamp", "name": "Brass Floor Lamp", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["unlit", "lit"], "lighting_attachment": {"point": [0.5, 0.24], "kind": "point_light"}
+    },
+    {
+      "id": "moonphase_oval_rug", "name": "Moonphase Oval Rug", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.48, "anchor": [0.5, 0.85], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "brass_moon_wall_clock", "name": "Brass Moon Wall Clock", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.46, "anchor": [0.5, 0.72], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "whisperwood_framed_art", "name": "Whisperwood Framed Art", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.42, "anchor": [0.5, 0.6], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "little_moon_stepstool", "name": "Little Moon Stepstool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.4, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "woven_linen_basket", "name": "Woven Linen Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.42, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["empty", "full"], "lighting_attachment": null
+    },
+    {
+      "id": "apothecary_spice_rack", "name": "Apothecary Spice Rack", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.44, "anchor": [0.5, 0.96], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 6, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "pressed_flower_storybooks", "name": "Pressed Flower Storybooks", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.42, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonlit_pastry_showcase", "name": "Moonlit Pastry Showcase", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.46, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 4, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_umbrella_stand", "name": "Crescent Umbrella Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_decor_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.44, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moon_orbit_wall_shelf", "name": "Moon-Orbit Wall Shelf", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.47, "anchor": [0.5, 0.96], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 4, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "starfell_coatrack", "name": "Starfell Coat Rack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.47, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "oak_memory_trunk", "name": "Oak Memory Trunk", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed", "open"], "lighting_attachment": null
+    },
+    {
+      "id": "starfall_privacy_screen", "name": "Starfall Privacy Screen", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_standing_mirror", "name": "Crescent Standing Mirror", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.45, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harvest_basket_stand", "name": "Harvest Basket Stand", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 3, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "little_brass_counter_bell", "name": "Little Brass Counter Bell", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.38, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "after_hours_tea_tray", "name": "After-Hours Tea Tray", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.39, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lavender_guest_bench", "name": "Lavender Guest Bench", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.49, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "night_shift_tea_trolley", "name": "Night-Shift Tea Trolley", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.49, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 2, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "bellwether_key_board", "name": "Bellwether Key Board", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.43, "anchor": [0.5, 0.74], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 4, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "moonlit_book_lectern", "name": "Moonlit Book Lectern", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.45, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 1, "states": ["stocked", "empty"], "lighting_attachment": null
+    },
+    {
+      "id": "moonleaf_plant_stand", "name": "Moonleaf Plant Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "knitted_moon_footstool", "name": "Knitted Moon Footstool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.42, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "little_drawer_till", "name": "Little Drawer Till", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.42, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bellwether_flower_screen", "name": "Bellwether Flower Screen", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_fixture_atlas_extension_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.49, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonlit_pantry_cupboard", "name": "Moonlit Pantry Cupboard", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.49, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonmart_curved_counter", "name": "Curved Moonmart Counter", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.49, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harvest_produce_tier", "name": "Harvest Produce Stand", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["displayed", "placed"], "lighting_attachment": null
+    },
+    {
+      "id": "rolling_story_cart", "name": "Rolling Story Cart", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.46, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_cup_saucer_rack", "name": "Crescent Cup and Saucer Rack", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.47, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["displayed", "placed"], "lighting_attachment": null
+    },
+    {
+      "id": "plum_velvet_settee", "name": "Plum Velvet Settee", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "starwoven_pouf", "name": "Starwoven Floor Pouf", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.41, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "parcel_sorting_cubby", "name": "Parcel Sorting Cubby", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonstone_display_plinth", "name": "Moonstone Display Plinth", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["displayed", "placed"], "lighting_attachment": null
+    },
+    {
+      "id": "tea_tin_merchandise_shelf", "name": "Tea Tin Display Shelf", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.47, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["displayed", "placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lunar_fabric_divider", "name": "Lunar Fabric Room Divider", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.49, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bellwether_analog_scales", "name": "Bellwether Analog Scales", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.45, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harbor_coat_bench", "name": "Harbour Coat Bench", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "little_stockroom_ladder", "name": "Little Stockroom Ladder", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "pastry_cooling_rack", "name": "Pastry Cooling Rack", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.45, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["displayed", "placed"], "lighting_attachment": null
+    },
+    {
+      "id": "curtained_porthole_panel", "name": "Curtained Porthole Wall Panel", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_retail_fixtures_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.49, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "antique_telescope", "name": "Antique Brass Telescope", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "miniature_orrery", "name": "Tabletop Moon Orrery", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.42, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonflower_music_box", "name": "Moonflower Music Box", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.42, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bellwether_globe", "name": "Old Bellwether Globe", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.44, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "seamstress_keepsake_box", "name": "Seamstress's Keepsake Box", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.44, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonmart_typewriter", "name": "Moonmart Typewriter", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.43, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lavender_tea_service", "name": "Lavender Tea Service", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.44, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "nightgarden_quilt_stack", "name": "Night Garden Quilt Stack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.43, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "old_shop_photo_frame", "name": "Old Shop Photograph", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.44, "anchor": [0.5, 0.94], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "memory_display_pedestal", "name": "Memory Display Pedestal", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.44, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "ivy_etagere_bookshelf", "name": "Ivy Etagere Bookshelf", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "botanical_reading_stand", "name": "Botanical Reading Stand", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.44, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonlight_gramophone", "name": "Moonlight Gramophone", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "storybook_spinning_wheel", "name": "Storybook Spinning Wheel", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "seedling_glass_cloche", "name": "Seedling Glass Cloche", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.43, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_memory_chest", "name": "Crescent Memory Chest", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonflower_potting_bench", "name": "Moonflower Potting Bench", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.48, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "night_bloom_seed_cabinet", "name": "Night-Bloom Seed Cabinet", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.45, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "watering_can_stand", "name": "Watering Can Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "greenhouse_propagation_shelf", "name": "Greenhouse Propagation Shelf", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.47, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonflower_trellis", "name": "Moonflower Trellis", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "garden_soil_wheelbarrow", "name": "Garden Soil Wheelbarrow", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "padded_garden_kneeler", "name": "Padded Garden Kneeler", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.44, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "terracotta_planter_stack", "name": "Terracotta Planter Stack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.45, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "brass_mister_tray", "name": "Brass Plant Mister Tray", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.43, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moon_garden_tool_rack", "name": "Moon Garden Tool Rack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.45, "anchor": [0.5, 0.96], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "leafmark_compost_bin", "name": "Leafmark Compost Bin", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "greenhouse_seedling_shelf", "name": "Greenhouse Seedling Shelf", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.48, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "hanging_herb_basket", "name": "Hanging Herb Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.46, "anchor": [0.5, 0.93], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonstone_garden_stool", "name": "Moonstone Garden Stool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.42, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "copper_spout_watering_station", "name": "Copper-Spout Watering Station", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "trailing_vine_lattice_divider", "name": "Trailing-Vine Lattice Divider", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_garden_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "spring_blossom_arch", "name": "First Bloom Blossom Arch", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "first_bloom_seed_table", "name": "First Bloom Seed Table", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.46, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lantern_walk_bunting", "name": "Lantern Walk Bunting Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.46, "anchor": [0.5, 0.96], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonpetal_parasol", "name": "Moonpetal Spring Parasol", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "firefly_fruit_tray", "name": "Firefly Evening Fruit Tray", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "summer_picnic_basket", "name": "Long Tide Picnic Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.45, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "festival_fan_stand", "name": "Summer Festival Fan Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.44, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "long_tide_market_booth", "name": "Long Tide Market Booth", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "autumn_veil_wreath_stand", "name": "Autumn Veil Wreath Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harvest_gourd_plinth", "name": "Harvest Gourd Display", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.47, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harvest_bread_stand", "name": "Harvest Table Bread Basket", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.45, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "autumn_shawl_basket", "name": "Autumn Shawl Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.45, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "winter_pine_post", "name": "Winter Lantern Pine Post", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.47, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "snow_glass_lantern", "name": "Snow Glass Lantern", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.45, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "winter_gift_stack", "name": "Winter Lantern Gift Stack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.46, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "quiet_bell_cocoa_trolley", "name": "Quiet Bell Cocoa Trolley", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_festival_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.47, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harbour_shipwheel_plaque", "name": "Harbour Shipwheel Plaque", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.45, "anchor": [0.5, 0.72], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lighthouse_lens_display", "name": "Lighthouse Lens Display", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.46, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "anchor_keepsake_plinth", "name": "Anchor Keepsake Plinth", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.45, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harbour_chart_table", "name": "Harbour Chart Table", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.47, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "sailors_rope_basket", "name": "Sailor's Rope Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.44, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bronze_harbour_bell", "name": "Bronze Harbour Bell", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.42, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "boat_in_bottle_display", "name": "Boat-in-a-Bottle Display", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.44, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "lighthouse_logbook_lectern", "name": "Lighthouse Logbook Lectern", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.45, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "fishermans_net_basket", "name": "Fisherman's Net Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.44, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moon_tide_clock", "name": "Moon Tide Clock", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.45, "anchor": [0.5, 0.72], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harbour_life_ring_stand", "name": "Harbour Life Ring Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.43, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "quay_mooring_bollard", "name": "Quay Mooring Bollard", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.4, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "miniature_old_lighthouse", "name": "Miniature Old Lighthouse", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.43, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonwater_fish_tub", "name": "Moonwater Fish Tub", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.44, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "brass_harbour_rain_gauge", "name": "Brass Harbour Rain Gauge", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.4, "anchor": [0.5, 0.75], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "harbour_mail_sorter", "name": "Harbour Mail Sorter", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_harbour_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.45, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "receipt_spike", "name": "Brass Receipt Spike", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.34, "anchor": [0.5, 0.94], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "coin_tray", "name": "Wooden Coin Tray", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.38, "anchor": [0.5, 0.92], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "order_clipboard", "name": "Order Clipboard", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.39, "anchor": [0.5, 0.94], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "brass_balance_scale", "name": "Brass Balance Scale", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.39, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "preserve_tin_stand", "name": "Preserve Tin Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.42, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "condiment_caddy", "name": "Counter Condiment Caddy", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.39, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "paper_bag_holder", "name": "Paper Bag Holder", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.4, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_teacup_stack", "name": "Crescent Teacup Stack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.39, "anchor": [0.5, 0.95], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonlit_pastry_plate", "name": "Moonlit Pastry Plate", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.4, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "flower_bud_vase", "name": "Flower Bud Vase", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.39, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "blank_counter_chalkboard", "name": "Blank Counter Chalkboard", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.4, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "velvet_counter_bell", "name": "Velvet Counter Bell", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.39, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "loyalty_card_stamp", "name": "Loyalty Card Stamp", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.36, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "twine_cutter", "name": "Twine Cutter and Parcel Stack", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.4, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "covered_cake_stand", "name": "Covered Moonberry Cake Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.41, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "counter_ticket_dispenser", "name": "Counter Ticket Dispenser", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_counter_accessories_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.4, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "observatory_orrery", "name": "Brass Observatory Orrery", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.5, "anchor": [0.5, 0.95], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "observatory_telescope", "name": "Brass Starwatch Telescope", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.52, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "star_chart_desk", "name": "Star Chart Desk", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.61, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "celestial_globe", "name": "Celestial Globe", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.48, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonphase_plaque", "name": "Moonphase Wall Plaque", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.42, "anchor": [0.5, 0.92], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "starwatch_blanket_stool", "name": "Blanket-Covered Starwatch Stool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.52, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "telescope_cabinet", "name": "Telescope Storage Cabinet", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.5, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "constellation_atlas_books", "name": "Constellation Atlas Books", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.45, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "observatory_step_ladder", "name": "Star-Emblem Step Ladder", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.57, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "brass_sextant", "name": "Brass Sextant on Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.5, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "star_map_chest", "name": "Star Map Chest", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.53, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moon_gazing_cushion", "name": "Moon-Gazing Cushion", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.53, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "observatory_instrument_case", "name": "Starwatch Instrument Case", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "starwind_weather_vane", "name": "Starwind Weather Vane", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.52, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "observatory_hourglass", "name": "Brass Observatory Hourglass", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.49, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "starwatch_tea_tray", "name": "Starwatch Tea Tray", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_observatory_furnishings_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.49, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "town_square_bench", "name": "Town Square Bench", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.57, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moon_notice_board", "name": "Moon Notice Board", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.52, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "town_umbrella_stand", "name": "Town Square Umbrella Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.52, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "wrought_iron_lantern", "name": "Wrought Iron Street Lantern", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "striped_market_canopy", "name": "Striped Night Market Canopy", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.62, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonpost_box", "name": "Moonpost Parcel Box", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.53, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "town_flower_planter", "name": "Town Square Flower Planter", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.58, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "hanging_crescent_shop_sign", "name": "Hanging Crescent Shop Sign", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.55, "anchor": [0.5, 0.82], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonmarket_produce_crates", "name": "Moonmarket Produce Crates", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.62, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonchalk_a_frame", "name": "Moonchalk A-Frame Board", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.55, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonmarket_tea_table", "name": "Moonmarket Tea Table", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.55, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "town_square_clock", "name": "Town Square Clock", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.55, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "carved_stone_moon_stool", "name": "Carved Stone Moon Stool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.52, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonlit_book_exchange", "name": "Moonlit Book Exchange", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "seasonal_pennant_rail", "name": "Seasonal Pennant Rail", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.58, "anchor": [0.5, 0.8], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonphase_sundial", "name": "Moonphase Sundial", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_town_square_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.57, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "midnight_platform_bench", "name": "Midnight Platform Bench", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.56, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "midnight_timetable_board", "name": "Midnight Timetable Board", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.55, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonphase_ticket_kiosk", "name": "Moonphase Ticket Kiosk", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.58, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "station_luggage_trolley", "name": "Station Luggage Trolley", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.56, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "platform_parcel_cage", "name": "Platform Parcel Cage", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bellwether_station_clock", "name": "Bellwether Station Clock", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.53, "anchor": [0.5, 0.75], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "platform_glass_lantern", "name": "Platform Glass Lantern", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.5, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "midnight_waiting_chair", "name": "Midnight Waiting Chair", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.53, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "station_moonflower_planter", "name": "Station Moonflower Planter", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.57, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "platform_direction_signpost", "name": "Platform Direction Signpost", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.54, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "conductor_ticket_punch_stand", "name": "Conductor's Ticket Punch Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.51, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "platform_tea_cart", "name": "Platform Tea Cart", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonrail_platform_bollard", "name": "Moonrail Platform Bollard", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "platform_canopy_post", "name": "Platform Canopy Post", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.51, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "station_lost_property_cabinet", "name": "Station Lost Property Cabinet", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.55, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonphase_station_route_map", "name": "Moonphase Station Route Map", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_midnight_platform_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "backroom_stock_rack", "name": "Backroom Stock Rack", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.57, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bulk_grain_display_bin", "name": "Bulk Grain Display Bin", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.57, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "canister_dispenser_stand", "name": "Canister Dispenser Stand", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "stockroom_handcart", "name": "Stockroom Handcart", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonpost_wrapping_station", "name": "Moonpost Wrapping Station", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.59, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "packing_twine_spool", "name": "Packing Twine Spool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.48, "anchor": [0.5, 0.96], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "wax_seal_kit", "name": "Wax Seal Kit", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.46, "anchor": [0.5, 0.95], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "stock_ledger_cabinet", "name": "Stock Ledger Cabinet", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.55, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "inventory_label_drawer", "name": "Inventory Label Drawer", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "linen_hamper_cart", "name": "Linen Hamper Cart", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "shipping_crate_stack", "name": "Shipping Crate Stack", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.57, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonflower_flour_barrel", "name": "Moonflower Flour Barrel", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "produce_sorting_tray", "name": "Produce Sorting Tray", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.57, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "stockroom_step_ladder", "name": "Stockroom Step Ladder", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.56, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "reusable_jar_shelf", "name": "Reusable Jar Shelf", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "packing_paper_roll_stand", "name": "Packing Paper Roll Stand", "footprint": [1, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_backroom_packing_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "whisperwood_root_desk", "name": "Whisperwood Rootwood Desk", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.58, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bark_backed_armchair", "name": "Bark-Backed Armchair", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonwood_daybed", "name": "Moonwood Daybed", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.55, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "whisperwood_moonphase_rug", "name": "Whisperwood Moonphase Rug", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.54, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "hollow_log_tea_table", "name": "Hollow-Log Tea Table", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.55, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "acorn_keepsake_chest", "name": "Acorn Keepsake Chest", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "branch_privacy_screen", "name": "Branch Privacy Screen", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.58, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "carved_mushroom_stool", "name": "Carved Mushroom Stool", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.52, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "whisperwood_wall_chime", "name": "Whisperwood Wall Chime", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.5, "anchor": [0.5, 0.9], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "owl_post_book_shelf", "name": "Owl Post Book Shelf", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.57, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "whisperwood_herb_drying_rack", "name": "Whisperwood Herb Drying Rack", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.56, "anchor": [0.5, 0.98], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "twig_coat_stand", "name": "Twig Coat Stand", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.53, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "woodland_storybook_case", "name": "Woodland Storybook Case", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.56, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "folded_leaf_quilt", "name": "Folded Leaf Quilt", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.51, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "mushroom_floor_cushion", "name": "Mushroom Floor Cushion", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.53, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "little_firewood_basket", "name": "Little Firewood Basket", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_whisperwood_cottage_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.52, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "coffee_brewer_station", "name": "Moonmart Coffee Brewer", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 0], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "tea_steeping_counter", "name": "Moonflower Tea Counter", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 0], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "microwave_station", "name": "Countertop Microwave", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 0], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "sandwich_preparation_board", "name": "Sandwich Preparation Board", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 0], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bakery_warmer_station", "name": "Pastry Warmer Cabinet", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 1], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "magical_kettle_station", "name": "Moonflower Kettle Station", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 1], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "milk_frother", "name": "Ceramic Milk Frother", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 1], "scale": 0.47, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "hand_coffee_grinder", "name": "Hand-Crank Coffee Grinder", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 1], "scale": 0.48, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "crescent_cup_rack", "name": "Crescent Cup Rack", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 2], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "herbal_tea_tin_caddy", "name": "Herbal Tea Tin Caddy", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 2], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "pastry_tongs_stand", "name": "Brass Pastry Tongs", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 2], "scale": 0.48, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "bread_cutting_board", "name": "Moonwood Bread Board", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 2], "scale": 0.54, "anchor": [0.5, 0.98], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "ingredient_jar_shelf", "name": "Glass Ingredient Jar Shelf", "footprint": [2, 2], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [0, 3], "scale": 0.53, "anchor": [0.5, 0.97], "z_layer": "furniture_background"},
+      "collision": {"shape": "rectangle", "footprint": [2, 2]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "warming_temperature_dial", "name": "Warming Temperature Dial", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [1, 3], "scale": 0.48, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "illustrated_recipe_ledger", "name": "Illustrated Recipe Ledger", "footprint": [1, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [2, 3], "scale": 0.51, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [1, 1]}, "interaction_positions": [[0.5, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    },
+    {
+      "id": "moonflower_warming_tray", "name": "Moonflower Warming Tray", "footprint": [2, 1], "essential": false,
+      "visual": {"path": "res://assets/raster/furniture/moonmart_prep_station_atlas_1280.png", "atlas_grid": [4, 4], "atlas_cell": [3, 3], "scale": 0.54, "anchor": [0.5, 0.97], "z_layer": "furniture_foreground"},
+      "collision": {"shape": "rectangle", "footprint": [2, 1]}, "interaction_positions": [[0.25, 1.0], [0.75, 1.0]], "display_slots": 0, "states": ["placed"], "lighting_attachment": null
+    }
+  ]
+}

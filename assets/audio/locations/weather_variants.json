@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "sample_rate": 44100,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "loop_seconds": 32,
+  "variants": [
+    {
+      "location_track": "old_bellwether",
+      "weather": "rain",
+      "path": "old_bellwether_rain.wav",
+      "arrangement": "warm felt-piano-like chords, measured acoustic-like plucks, faint brushed texture; softened plucks and a closer brushed wash for rain",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "old_bellwether",
+      "weather": "fog",
+      "path": "old_bellwether_fog.wav",
+      "arrangement": "warm felt-piano-like chords, measured acoustic-like plucks, faint brushed texture; slower suspended voicing and reduced high notes for fog",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "old_bellwether",
+      "weather": "wind",
+      "path": "old_bellwether_wind.wav",
+      "arrangement": "warm felt-piano-like chords, measured acoustic-like plucks, faint brushed texture; more space between notes with a soft brushed pulse for wind",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "old_bellwether",
+      "weather": "snow",
+      "path": "old_bellwether_snow.wav",
+      "arrangement": "warm felt-piano-like chords, measured acoustic-like plucks, faint brushed texture; sparse glass-like upper notes and no brush for snow",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "whisperwood",
+      "weather": "rain",
+      "path": "whisperwood_rain.wav",
+      "arrangement": "open airy sustained chords, sparse high music-box-like droplets, slow root plucks; softened plucks and a closer brushed wash for rain",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "whisperwood",
+      "weather": "fog",
+      "path": "whisperwood_fog.wav",
+      "arrangement": "open airy sustained chords, sparse high music-box-like droplets, slow root plucks; slower suspended voicing and reduced high notes for fog",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "whisperwood",
+      "weather": "wind",
+      "path": "whisperwood_wind.wav",
+      "arrangement": "open airy sustained chords, sparse high music-box-like droplets, slow root plucks; more space between notes with a soft brushed pulse for wind",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "whisperwood",
+      "weather": "snow",
+      "path": "whisperwood_snow.wav",
+      "arrangement": "open airy sustained chords, sparse high music-box-like droplets, slow root plucks; sparse glass-like upper notes and no brush for snow",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "harbour_lighthouse",
+      "weather": "rain",
+      "path": "harbour_lighthouse_rain.wav",
+      "arrangement": "wide coastal sustained tones, rounded plucked-string notes, very soft brushed pulse; softened plucks and a closer brushed wash for rain",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "harbour_lighthouse",
+      "weather": "fog",
+      "path": "harbour_lighthouse_fog.wav",
+      "arrangement": "wide coastal sustained tones, rounded plucked-string notes, very soft brushed pulse; slower suspended voicing and reduced high notes for fog",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "harbour_lighthouse",
+      "weather": "wind",
+      "path": "harbour_lighthouse_wind.wav",
+      "arrangement": "wide coastal sustained tones, rounded plucked-string notes, very soft brushed pulse; more space between notes with a soft brushed pulse for wind",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "harbour_lighthouse",
+      "weather": "snow",
+      "path": "harbour_lighthouse_snow.wav",
+      "arrangement": "wide coastal sustained tones, rounded plucked-string notes, very soft brushed pulse; sparse glass-like upper notes and no brush for snow",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "midnight_between",
+      "weather": "rain",
+      "path": "midnight_between_rain.wav",
+      "arrangement": "slow suspended piano-like harmony, distant glassy music-box tones, no percussion; softened plucks and a closer brushed wash for rain",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "midnight_between",
+      "weather": "fog",
+      "path": "midnight_between_fog.wav",
+      "arrangement": "slow suspended piano-like harmony, distant glassy music-box tones, no percussion; slower suspended voicing and reduced high notes for fog",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "midnight_between",
+      "weather": "wind",
+      "path": "midnight_between_wind.wav",
+      "arrangement": "slow suspended piano-like harmony, distant glassy music-box tones, no percussion; more space between notes with a soft brushed pulse for wind",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "location_track": "midnight_between",
+      "weather": "snow",
+      "path": "midnight_between_snow.wav",
+      "arrangement": "slow suspended piano-like harmony, distant glassy music-box tones, no percussion; sparse glass-like upper notes and no brush for snow",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    }
+  ]
+}

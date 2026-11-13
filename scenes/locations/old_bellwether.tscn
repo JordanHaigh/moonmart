@@ -1,0 +1,78 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/raster/environment/old_bellwether.png" id="1_environment"]
+[ext_resource type="Texture2D" path="res://assets/raster/characters/agnes_atlas.png" id="2_agnes"]
+[ext_resource type="Texture2D" path="res://assets/raster/characters/lucien_atlas.png" id="3_lucien"]
+[ext_resource type="Texture2D" path="res://assets/raster/characters/mara_atlas.png" id="4_mara"]
+[ext_resource type="Texture2D" path="res://assets/raster/furniture/moonmart_town_square_atlas_1280.png" id="5_notice_board"]
+[ext_resource type="Texture2D" path="res://assets/raster/props/moonmart_story_props_atlas.png" id="6_story_props"]
+
+[node name="OldBellwether" type="Node2D"]
+
+[node name="Backdrop" type="Sprite2D" parent="."]
+texture = ExtResource("1_environment")
+centered = false
+scale = Vector2(0.95694, 0.95643)
+
+[node name="NPCs" type="Node2D" parent="." groups=["npc_cast"]]
+
+[node name="Agnes" type="Sprite2D" parent="NPCs" groups=["npc"]]
+texture = ExtResource("2_agnes")
+region_enabled = true
+region_rect = Rect2(0, 0, 543, 724)
+position = Vector2(280, 606)
+scale = Vector2(0.30, 0.30)
+z_index = 12
+
+[node name="Lucien" type="Sprite2D" parent="NPCs" groups=["npc"]]
+texture = ExtResource("3_lucien")
+region_enabled = true
+region_rect = Rect2(0, 0, 543, 724)
+position = Vector2(700, 610)
+scale = Vector2(0.30, 0.30)
+z_index = 12
+
+[node name="Mara" type="Sprite2D" parent="NPCs" groups=["npc"]]
+texture = ExtResource("4_mara")
+region_enabled = true
+region_rect = Rect2(0, 0, 543, 724)
+position = Vector2(1000, 610)
+scale = Vector2(0.30, 0.30)
+z_index = 12
+
+[node name="TownNoticeboardArt" type="Sprite2D" parent="."]
+texture = ExtResource("5_notice_board")
+region_enabled = true
+region_rect = Rect2(320, 0, 320, 320)
+position = Vector2(1250, 652)
+scale = Vector2(0.52, 0.52)
+z_index = 8
+
+[node name="OldPhotographArt" type="Sprite2D" parent="."]
+texture = ExtResource("6_story_props")
+region_enabled = true
+region_rect = Rect2(0, 0, 434.4, 724)
+position = Vector2(1287, 650)
+scale = Vector2(0.1, 0.1)
+z_index = 9
+
+[node name="InteractionPoints" type="Node2D" parent="."]
+
+[node name="BakeryFront" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(280, 650)
+
+[node name="BookshopFront" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(698, 650)
+
+[node name="PostOffice" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(998, 650)
+
+[node name="TownNoticeboard" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1250, 675)
+
+[node name="OldPhotograph" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1287, 675)
+
+[node name="ReturnToMoonmart" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1510, 820)
+

@@ -1,0 +1,41 @@
+{
+  "days_per_season": 14,
+  "days_per_year": 56,
+  "weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+  "seasons": [
+    {
+      "id": "spring",
+      "name": "Spring",
+      "description": "New beginnings, gentle rain, and returning spirits.",
+      "weather_weights": {"clear": 4, "rain": 4, "fog": 1, "wind": 1}
+    },
+    {
+      "id": "summer",
+      "name": "Summer",
+      "description": "Long evenings, fireflies, and visiting travellers.",
+      "weather_weights": {"clear": 6, "rain": 1, "fog": 1, "wind": 2}
+    },
+    {
+      "id": "autumn",
+      "name": "Autumn",
+      "description": "Falling leaves, harvest markets, and a thinning veil.",
+      "weather_weights": {"clear": 2, "rain": 3, "fog": 4, "wind": 3}
+    },
+    {
+      "id": "winter",
+      "name": "Winter",
+      "description": "Snowfall, warm drinks, and quiet reflections.",
+      "weather_weights": {"clear": 2, "rain": 1, "fog": 3, "wind": 2, "snow": 4}
+    }
+  ],
+  "festivals": [
+    {"id": "spring_bloom", "name": "First Bloom Gathering", "season": "spring", "season_day": 4, "description": "Neighbours bring the first flowers of the year to the old square."},
+    {"id": "spring_rain", "name": "Rain Lantern Walk", "season": "spring", "season_day": 11, "description": "Paper lanterns glow softly along the rain-washed streets."},
+    {"id": "summer_firefly", "name": "Firefly Evening", "season": "summer", "season_day": 4, "description": "The harbour and gardens fill with tiny floating lights."},
+    {"id": "summer_tide", "name": "Long Tide Market", "season": "summer", "season_day": 11, "description": "Late-night stalls gather beside the water."},
+    {"id": "autumn_harvest", "name": "Harvest Table", "season": "autumn", "season_day": 4, "description": "Bellwether shares bread, preserves, and stories from the season."},
+    {"id": "autumn_veil", "name": "Veilwatch Night", "season": "autumn", "season_day": 11, "description": "A gentle gathering for remembering those who are far away."},
+    {"id": "winter_lantern", "name": "Winter Lanterns", "season": "winter", "season_day": 4, "description": "Warm lights appear in every window across town."},
+    {"id": "winter_stillness", "name": "Quiet Bell Evening", "season": "winter", "season_day": 11, "description": "The town pauses together to listen to the snow."}
+  ]
+}

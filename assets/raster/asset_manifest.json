@@ -1,0 +1,2917 @@
+{
+  "style_references": [
+    "art_import/I LOVE THIS.png",
+    "art_import/BEST ART CANDIDATE.png",
+    "art_import/download.png"
+  ],
+  "licensed_assets": [
+    {
+      "path": "res://assets/fonts/Nunito[wght].ttf",
+      "license_path": "assets/fonts/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "copyright": "Copyright 2014 The Nunito Project Authors",
+      "source_url": "https://github.com/googlefonts/nunito",
+      "usage": "gameplay and settings UI typography"
+    },
+    {
+      "path": "res://assets/fonts/OpenDyslexic-Regular.otf",
+      "license_path": "assets/fonts/OpenDyslexic-OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "copyright": "Copyright (c) 2019 Abbie Gonzalez",
+      "source_url": "https://opendyslexic.org/",
+      "distribution_url": "https://antijingoist.itch.io/opendyslexic",
+      "font_file_source_url": "https://github.com/antijingoist/opendyslexic/blob/main/compiled/OpenDyslexic-Regular.otf",
+      "usage": "optional accessibility typeface"
+    }
+  ],
+  "environment_visual_review_ledger": "environment_visual_review.json",
+  "quality_review": {
+    "environment_plates": "reviewed_no_baked_rays_or_particles_and_no_changeable_glow_weather_or_story_vfx",
+    "cutout_atlases": "documented_integer_cells_reviewed_on_dark_and_light_backgrounds",
+    "assets_requiring_alpha_edge_cleanup": [],
+    "alpha_only_repairs": [
+      {
+        "path": "environment/moonmart_architecture_modules.png",
+        "pixels_cleared": 22844,
+        "source_alpha_max": 13,
+        "predicate": "a<=16 && r>180 && g<80 && b<160",
+        "method": "clear matching near-transparent pixels only; verified all diffs match predicate",
+        "preview": "dark plum and warm cream"
+      },
+      {
+        "path": "environment/moonmart_room_architecture.png",
+        "pixels_cleared": 14953,
+        "source_alpha_max": 7,
+        "predicate": "a<=16 && r>180 && g<80 && b<160",
+        "method": "clear matching near-transparent pixels only; verified all diffs match predicate",
+        "preview": "dark plum and warm cream"
+      },
+      {
+        "path": "environment/moonmart_architecture_modules.png",
+        "pixels_cleared": 452,
+        "source_alpha_max": 16,
+        "predicate": "a<=16 && r>180 && g<110 && 100<b<200",
+        "method": "clear low-alpha magenta fringe pixels only; pixel comparison verified every diff matched the predicate and preserved RGB",
+        "preview": "dark plum and warm cream"
+      },
+      {
+        "path": "environment/moonmart_room_architecture.png",
+        "pixels_cleared": 168,
+        "source_alpha_max": 16,
+        "predicate": "a<=16 && r>180 && g<110 && 100<b<200",
+        "method": "clear low-alpha magenta fringe pixels only; pixel comparison verified every diff matched the predicate and preserved RGB",
+        "preview": "dark plum and warm cream"
+      },
+      {
+        "path": "environment/bellwether_parallax.png",
+        "source_backup": "qa_asset_repairs/bellwether_parallax_before.png",
+        "source_sha256": "B2FEBD440145ACF90241D6519C9F4AEB6C59011D3B183EFD8380D1791C948D79",
+        "pixels_cleared": 6028,
+        "source_alpha_min": 1,
+        "source_alpha_max": 16,
+        "predicate": "a>=1 && a<=16 && b>=80 && b>1.15*r && b>1.05*g && any 8-neighbor has a=0",
+        "method": "set alpha to 0 only for matching boundary pixels; preserve RGB verbatim; compare decoded pixels and require zero RGB changes and zero out-of-predicate differences",
+        "verification": "2172x724; 6028 alpha-only changes; 0 RGB bytes changed; 0 unexpected differences",
+        "preview_dark": "qa_asset_repairs/bellwether_parallax_dark_plum.png",
+        "preview_light": "qa_asset_repairs/bellwether_parallax_warm_cream.png",
+        "repair_script": "qa_asset_repairs/repair_bellwether_parallax.ps1"
+      }
+    ],
+    "rejected_generated_candidates": [
+      "crescent_moon_cushion_visible_edge_fringe",
+      "player_atlas_repair_candidate_visible_color_fringe_and_embedded_sparkles",
+      "pip_atlas_legacy_baked_glow_and_fractional_frame_width",
+      "hanging_ivy_planter_candidate_retained_red_yellow_edge_fringe_after_cleanup",
+      "campaign_product_extension_candidate_visible_red_magenta_edge_fringe_and_detached_specks",
+      "backroom_storage_atlas_candidate_visible_diffuse_matte_on_dark_preview",
+      "sabine_kersey_first_candidate_visible_edge_fringe",
+      "maribel_frost_first_candidate_visible_edge_fringe",
+      "stellan_rusk_first_candidate_visible_edge_fringe",
+      "beckett_shore_candidate_visible_edge_fringe",
+      "elowen_charter_first_candidate_visible_edge_fringe",
+      "juniper_hale_first_candidate_visible_edge_fringe",
+      "rowan_pike_first_candidate_visible_edge_fringe",
+      "aster_rowe_first_candidate_visible_edge_fringe",
+      "nella_finch_initial_checkerboard_matte_and_edge_spill",
+      "old_bellwether_distant_ridge_candidate_overlaps_painted_rooftops",
+      "old_lighthouse_clouds_candidate_duplicates_existing_clouds_and_veils_plate",
+      "old_lighthouse_single_cloud_candidate_overlaps_roofline_and_misses_reference_cloud_shape",
+      "moonmart_milk_token_candidate_visible_yellow_edge_fringe_and_detached_bright_flecks",
+      "moonmart_milk_token_candidate_v2_visible_yellow_pink_fringe_and_detached_bright_pixels",
+      "moonmart_milk_token_edge_cleanup_candidate_still_has_yellow_pink_fringe_and_detached_pixels",
+      "fog_overlay_probe_01_edge_fringe_and_foreground_overlap",
+      "fog_overlay_probe_02_bright_edge_halo",
+      "fog_overlay_probe_03_generated_candidate_retained_cyan_fringe_and_detached_speck",
+      "fog_overlay_probe_04_refinement_candidate_retained_blue_magenta_edge_fringe",
+      "bellwether_parallax_probe_01_distant_ridge_not_aligned_to_intact_plate_and_duplicates_hill_town_motifs",
+      "old_bellwether_ridge_generated_v1_duplicates_town_motifs_and_native_overlay_covers_facades",
+      "old_bellwether_ridge_generated_v2_requires_architecture_cutout_and_location_alignment",
+      "old_bellwether_ridge_generated_v3_cleaned_edge_but_native_overlay_covers_facades_and_sidewalk"
+    ]
+  },
+  "layer_contract": {
+    "background_excludes": [
+      "light_rays",
+      "light_particles",
+      "animated_or_switchable_glow",
+      "changeable_weather_effects",
+      "story_vfx"
+    ],
+    "fixed_scenery_allowed": [
+      "moon_and_astronomical_stars",
+      "static_clouds_and_distant_haze",
+      "fixed_fixture_illumination",
+      "painted_reflections"
+    ],
+    "fixed_scenery_condition": "Allowed only when it remains unchanged by weather, story state, upgrades, and accessibility settings.",
+    "fixed_fixture_illumination": "may remain in a static location painting when it is part of the fixture or material",
+    "light_receiver_z_ranges": {
+      "moon_glow": [
+        -3,
+        -2
+      ],
+      "pip_glow": [
+        26,
+        26
+      ],
+      "placed_fixture_light": [
+        20,
+        50
+      ]
+    },
+    "draw_order": [
+      "night_sky",
+      "exterior_parallax",
+      "separate_lighting",
+      "window_effects",
+      "architecture",
+      "background_furniture",
+      "foreground_parallax",
+      "depth_sorted_characters",
+      "foreground_furniture",
+      "prop_effects",
+      "hud_dialogue"
+    ],
+    "runtime_layer_nodes": [
+      "NightSkyLayer",
+      "ExteriorParallaxLayer",
+      "SeparateLightingLayer",
+      "WindowEffectsLayer",
+      "ArchitectureLayer",
+      "BackgroundFurnitureLayer",
+      "ForegroundParallaxLayer",
+      "DepthSortedCharactersLayer",
+      "ForegroundFurnitureLayer",
+      "RoomDecorationLayer",
+      "PropEffectsLayer",
+      "HUDDialogueLayer"
+    ],
+    "backroom_layer_nodes": [
+      "RoomDecorationLayer",
+      "DepthSortedCharactersLayer",
+      "RoomDecorationCollisionLayer"
+    ],
+    "district_overlay_layer_nodes": [
+      "SeparateLightingLayer",
+      "WeatherEffectsLayer",
+      "StoryEffectsLayer",
+      "ForegroundEffectsLayer"
+    ],
+    "district_plate_policy": "Keep the imported-style raster plate intact and add only reference-matched transparent raster overlays or dedicated lights on independent layers."
+  },
+  "assets": [
+    {
+      "path": "furniture/crescent_wall_sconce.png",
+      "size": [
+        1199,
+        1312
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "cell_size": [
+        1199,
+        1312
+      ],
+      "layer": "placeable_foreground_furniture",
+      "contains_vfx": false,
+      "static_fixture_illumination": true,
+      "reference": "art_import/I LOVE THIS.png",
+      "qa": "previewed over dark plum and warm cream backgrounds; no visible fringe or stray specks",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/crescent_wall_sconce_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/crescent_wall_sconce_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "furniture/moonmart_plant_decor_atlas.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "layer": "placeable_foreground_decor",
+      "decor_ids": [
+        "ivy_planter",
+        "moon_hydrangea",
+        "star_sprout",
+        "hanging_fern",
+        "moon_jasmine",
+        "crescent_succulent",
+        "lavender_bowl",
+        "hanging_golden_pothos",
+        "fiddle_leaf",
+        "blush_roses",
+        "silver_herbs",
+        "star_blossoms",
+        "violet_vine",
+        "golden_marigolds",
+        "moon_fern",
+        "blush_cactus"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "repack": "high-quality bicubic to exact 4x4 cells",
+      "qa": "alpha-only cleanup cleared 22844 pixels with source alpha at most 13; all 12 cells previewed on dark plum and warm cream; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_plant_decor_atlas_2.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "layer": "placeable_foreground_decor",
+      "decor_ids": [
+        "silver_moon_fern",
+        "moon_lily",
+        "crescent_monstera",
+        "blue_bellflower",
+        "night_marigolds",
+        "indoor_palm",
+        "pink_orchid",
+        "moon_moss_garden",
+        "rosemary_bundle",
+        "silver_moon_vine",
+        "pink_tulips",
+        "golden_daisies",
+        "winter_poinsettia",
+        "violet_moon_tree",
+        "jasmine_topiary",
+        "hanging_moon_bells"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "repack": "high-quality bicubic to exact 4x4 cells",
+      "qa": "previewed over dark plum and warm cream; no visible fringe or detached specks; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_2_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_2_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_furniture_extension.png",
+      "size": [
+        1536,
+        1152
+      ],
+      "grid": [
+        4,
+        3
+      ],
+      "cell_size": [
+        384,
+        384
+      ],
+      "layout": "row-major",
+      "count": 12,
+      "layer": "modular_foreground_furniture",
+      "furniture_ids": [
+        "leaning_shelf",
+        "apothecary_case",
+        "round_pastry_table",
+        "moon_counter_riser",
+        "basket_display",
+        "crescent_drawer_cabinet",
+        "rolling_tea_cart",
+        "round_cafe_table",
+        "moon_bookcase",
+        "linen_crate_display",
+        "parcel_wrapping_table",
+        "tea_service_cabinet"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "repack": "uniform high-quality bicubic to exact 4x3 cells",
+      "qa": "previewed over dark plum and warm cream; no visible fringe or detached specks",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_extension_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_extension_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "ui/ui_icons_extension.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "layer": "screen_space_icon_extension",
+      "icon_ids": [
+        "inspect",
+        "shop_basket",
+        "friendship",
+        "miso_paw",
+        "pip_ghost",
+        "leaf",
+        "seedling",
+        "crescent_key",
+        "delivery_parcel",
+        "moonmart_home",
+        "arrow_left",
+        "arrow_right",
+        "confirm",
+        "close",
+        "cloudy_moon",
+        "journal_quill"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "qa": "previewed over dark plum and warm cream; no visible fringe or detached specks",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/ui/ui_icons_extension_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/ui/ui_icons_extension_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "environment/moonmart_architecture_modules.png",
+      "size": [
+        1536,
+        1152
+      ],
+      "grid": [
+        4,
+        3
+      ],
+      "cell_size": [
+        384,
+        384
+      ],
+      "layout": "row-major",
+      "count": 12,
+      "layer": "transparent_architecture_modules",
+      "contains_vfx": false,
+      "module_ids": [
+        "arched_doorway_surround",
+        "four_pane_window_frame",
+        "scalloped_awning",
+        "carved_wall_beam",
+        "wooden_baseboard",
+        "moon_wainscot_panel",
+        "moon_pennant",
+        "brass_floor_threshold",
+        "open_velvet_curtains",
+        "carved_cornice",
+        "stone_arch_trim",
+        "sign_hanger_bracket"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "repack": "uniform high-quality bicubic to exact 4x3 cells",
+      "qa": "previewed over dark plum and warm cream; no visible fringe or detached specks",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/environment/moonmart_architecture_modules_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/environment/moonmart_architecture_modules_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "products/moonmart_products_extension.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "layout": "row-major",
+      "cell_size": [
+        320,
+        320
+      ],
+      "layer": "product_icons_extension",
+      "count": 16,
+      "icon_ids": [
+        "peach_jam",
+        "blackberry_jam",
+        "lavender_tea_tin",
+        "croissant",
+        "star_shortbread",
+        "honey_cake",
+        "berry_tart",
+        "pink_lemonade",
+        "lavender_bundle",
+        "moonflower_seeds",
+        "moon_candle",
+        "catnip_sachet",
+        "sea_salt",
+        "moonstone",
+        "crescent_gift",
+        "lunar_latte"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "repack": "high-quality bicubic from 1262x1246 to exact 4x4 cells",
+      "qa": "previewed on dark plum and warm cream; item silhouettes remain clean",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "products/moonmart_products_extension_2.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "layout": "row-major",
+      "cell_size": [
+        320,
+        320
+      ],
+      "layer": "product_icons_campaign_extension",
+      "count": 16,
+      "icon_ids": [
+        "honey_oatcakes",
+        "cinnamon_moon_roll",
+        "blueberry_scone",
+        "plum_cordial",
+        "pear_conserve",
+        "spiced_apple_cider",
+        "violet_honey",
+        "ginger_star_biscuits",
+        "rosewater_soda",
+        "blackberry_chocolate",
+        "moon_hand_pies",
+        "cloudberry_syrup",
+        "star_crackers",
+        "lemon_teacake",
+        "chamomile_sachets",
+        "honeycomb_drops"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "repack": "high-quality bicubic resampling from 1262x1246 source to exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; item silhouettes remain clean",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_2_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_2_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "products/moonmart_products_extension_3.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "layout": "row-major",
+      "cell_size": [
+        320,
+        320
+      ],
+      "layer": "product_icons_campaign_extension",
+      "count": 16,
+      "icon_ids": [
+        "illustrated_postcards",
+        "pocket_compass",
+        "moon_handkerchief",
+        "midnight_storybook",
+        "moon_enamel_brooch",
+        "star_hairclip",
+        "lavender_ribbon",
+        "crescent_tea_strainer",
+        "botanical_incense",
+        "moonflower_sachet",
+        "star_keyring",
+        "seashell_charm",
+        "rain_vial",
+        "pressed_flower_bookmark",
+        "moon_phase_calendar",
+        "moon_teacup_gift"
+      ],
+      "reference": "art_import/BEST ART CANDIDATE.png",
+      "repack": "high-quality bicubic resampling from 1263x1246 source to exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; item silhouettes remain clean",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_3_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_3_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "products/moonmart_product_icons_extension_4_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "layout": "row-major",
+      "cell_size": [
+        320,
+        320
+      ],
+      "layer": "product_icons_campaign_extension",
+      "contains_vfx": false,
+      "count": 16,
+      "icon_ids": [
+        "blackberry_preserve_tin",
+        "wildflower_honey_jar",
+        "summer_peach_preserves",
+        "midnight_cocoa_tin",
+        "roasted_coffee_beans",
+        "bergamot_tea_tin",
+        "vanilla_pod_bottle",
+        "cinnamon_bundle",
+        "bread_flour_sack",
+        "caster_sugar_jar",
+        "cultured_butter_crock",
+        "fresh_cream_bottle",
+        "moonwater_plums",
+        "golden_pear",
+        "concord_grapes",
+        "rye_loaf"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_inputs/products/moonmart_product_icons_extension_4.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "generated to match the art_import painted storybook style; transparent product cutouts",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_4_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_4_1280_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "environment/moonmart_room_architecture.png",
+      "size": [
+        1671,
+        941
+      ],
+      "layer": "architecture",
+      "contains_vfx": false,
+      "transparent_window_panes": 16,
+      "reused_frame_slice": "scripts/main.gd::WindowCenterMuntin",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Reviewed against the Section 27 fixed-architecture contract. Warm fixture/material illumination is static; no light rays, particles, dynamic glow, weather, or story VFX are baked in. Alpha-only cleanup cleared 14953 low-alpha saturated red pixels in the intended transparent panes; no other source pixels changed."
+    },
+    {
+      "path": "environment/moonmart_tea_corner.png",
+      "size": [
+        1600,
+        900
+      ],
+      "layer": "optional_room_architecture",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "source": "qa_asset_repairs/source_reviews/environment/moonmart_tea_corner_candidate_review.png (1672x941)",
+      "repack": "high-quality resize to 1600x900, preserving the painted plate",
+      "runtime_used": false,
+      "derived_layers": [
+        "environment/moonmart_tea_corner_architecture.png",
+        "environment/moonmart_tea_corner_night_sky.png",
+        "environment/moonmart_tea_corner_exterior_parallax.png"
+      ],
+      "qa": "untouched source plate for exact reversible window-view split; no light rays, particles, animated or switchable glow, weather, or story VFX"
+    },
+    {
+      "path": "environment/moonmart_tea_corner_architecture.png",
+      "size": [
+        1600,
+        900
+      ],
+      "layer": "architecture",
+      "contains_vfx": false,
+      "source": "environment/moonmart_tea_corner.png",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "split_script": "tools/split_tea_corner_window.ps1",
+      "qa": "derived from the untouched plate; pane polygons define the split, with color limited to warm-wood retention (R<235, G<160, R-G>25, R-B>30, B<0.82R); original RGB and frame/muntin pixels remain on ArchitectureLayer; exact source-over recomposition verified with 0 changed RGBA pixels; representative samples confirm sky (930,210), moon (1020,220), and dark tree (1120,220) move to their effect layers while frame wood (850,180) and muntin (885,200) remain"
+    },
+    {
+      "path": "environment/moonmart_tea_corner_night_sky.png",
+      "size": [
+        1600,
+        900
+      ],
+      "layer": "night_sky",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "source": "environment/moonmart_tea_corner.png",
+      "split_script": "tools/split_tea_corner_window.ps1",
+      "qa": "transparent cutout of the original window sky and moon; source pixel colors preserved; sky sample (930,210) and moon sample (1020,220) are on NightSkyLayer; exact source-over recomposition verified with 0 changed RGBA pixels"
+    },
+    {
+      "path": "environment/moonmart_tea_corner_exterior_parallax.png",
+      "size": [
+        1600,
+        900
+      ],
+      "layer": "exterior_parallax",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "source": "environment/moonmart_tea_corner.png",
+      "split_script": "tools/split_tea_corner_window.ps1",
+      "qa": "transparent cutout of the original tree silhouettes and exterior view; source pixel colors preserved; dark tree sample (1120,220) is on ExteriorParallaxLayer; exact source-over recomposition verified with 0 changed RGBA pixels"
+    },
+    {
+      "path": "environment/moonmart_window_sky.png",
+      "size": [
+        2172,
+        724
+      ],
+      "layout": "single panorama",
+      "layer": "night_sky",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Separate window-view sky layer; no animated or switchable illumination is baked into the shop architecture plate."
+    },
+    {
+      "path": "environment/bellwether_parallax.png",
+      "size": [
+        2172,
+        724
+      ],
+      "layout": "single transparent panorama",
+      "layer": "exterior_parallax",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "source": "qa_asset_repairs/bellwether_parallax_before.png (byte-identical pre-repair source copy)",
+      "qa": "Alpha-only cyan fringe cleanup removed 6028 low-alpha boundary pixels; RGB and all unaffected pixels are preserved. Previewed over dark plum and warm cream; clean silhouette edges."
+    },
+    {
+      "path": "environment/old_bellwether.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "district_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact district plate. Static window warmth and fixture illumination remain part of the painting; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/whisperwood.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "district_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact district plate. Static window warmth and fixture illumination remain part of the painting; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/moonwater_harbour.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "district_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact district plate. Static window warmth and fixture illumination remain part of the painting; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/old_lighthouse.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "district_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact district plate. Static window warmth and fixture illumination remain part of the painting; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/midnight_platform.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "district_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact location plate. Its fixed moon and lamps are static painted elements; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/shop_backroom.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "interior_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact backroom plate; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/hidden_midnight_room.png",
+      "size": [
+        1672,
+        941
+      ],
+      "layer": "story_background",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Visually reviewed as an intact story-room plate. Static fixture warmth remains painted; no light rays, particles, switchable glow, weather, or story VFX are baked in."
+    },
+    {
+      "path": "environment/moonmart_reading_nook_architecture.png",
+      "size": [1672, 941],
+      "layer": "optional_room_architecture",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/reading_nook_architecture_candidate_01.png (generated from art_import/I LOVE THIS.png; architecture-only revision)",
+      "qa": "Native-size and 1600x900 scene-scale visual review against art_import/I LOVE THIS.png. Architecture-only plate keeps wall, beams, fixed moon/clouds/trees, door, trim, and floor; bookshelves and furnishings are separate scene sprites. Static fixture warmth and reflections only; no rays, particles, changing glow, weather, or story VFX."
+    },
+    {
+      "path": "environment/moonmart_enchanted_greenhouse_architecture.png",
+      "size": [1672, 941],
+      "layer": "optional_room_architecture",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/greenhouse_room_plate_candidate_01.png",
+      "qa": "Native-size and 1600x900 scene-scale visual review against art_import/I LOVE THIS.png. Fixed moon, cloud bank, treeline, fixture warmth, and reflections remain static; garden furniture and plants are separate scene sprites. No rays, particles, changing glow, weather, or story VFX. Composed panes are intentionally static and receive no weather overlays."
+    },
+    {
+      "path": "furniture/moonmart_furniture_atlas.png",
+      "size": [
+        1776,
+        888
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "layout": "row-major",
+      "layer": "modular_furniture",
+      "cell_size": [
+        444,
+        444
+      ],
+      "repack": "high_quality_bicubic_from_fractional_1774x887",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_atlas_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged."
+    },
+    {
+      "path": "furniture/moonmart_kettle.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "layer": "isolated_prop",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_kettle_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_kettle_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true,
+      "reference": "art_import/I LOVE THIS.png",
+      "qa": "Paired QA composites show the untouched transparent source over dark plum and warm cream."
+    },
+    {
+      "path": "furniture/potted_moonflower.png",
+      "size": [
+        1312,
+        1199
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "layer": "foreground_decoration",
+      "reference": "art_import/BEST ART CANDIDATE.png",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/potted_moonflower_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/potted_moonflower_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true,
+      "qa": "Paired QA composites show the untouched transparent source over dark plum and warm cream."
+    },
+    {
+      "path": "furniture/moonmart_sign.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "layer": "shop_sign",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_sign_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_sign_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA composites show the untouched transparent source over dark plum and warm cream."
+    },
+    {
+      "path": "furniture/door_states_atlas.png",
+      "size": [
+        1774,
+        887
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "states": [
+        "closed",
+        "open"
+      ],
+      "layer": "architecture_overlay",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/door_states_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/door_states_atlas_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged."
+    },
+    {
+      "path": "products/moonmart_products_atlas.png",
+      "size": [
+        1256,
+        1260
+      ],
+      "grid": [
+        4,
+        5
+      ],
+      "cell_size": [
+        314,
+        252
+      ],
+      "layout": "row-major",
+      "count": 20,
+      "frame_order": "unchanged; matches PRODUCT_ICON_INDEX in scripts/main.gd",
+      "layer": "product_icons",
+      "alpha_edge_review": "clean over dark plum and warm cream; no visible fringe or detached specks",
+      "repack": "high-quality bicubic resize from 1254x1254 to exact 4x5 integer cells",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/products/moonmart_products_atlas_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged."
+    },
+    {
+      "path": "characters/player_atlas.png",
+      "size": [
+        1256,
+        1256
+      ],
+      "grid": [
+        8,
+        4
+      ],
+      "cell_size": [
+        157,
+        314
+      ],
+      "layout": "row-major; rows are left, right, front_three_quarter, back_three_quarter",
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "carry",
+        "inspect",
+        "interact",
+        "checkout",
+        "craft"
+      ],
+      "repack": "cell-wise high-quality bicubic from fractional 1254x1254 source; source art preserved",
+      "facings": [
+        "left",
+        "right",
+        "front_three_quarter",
+        "back_three_quarter"
+      ],
+      "runtime_action_mapping": {
+        "carry": "while holding one backroom product during physical delivery or return",
+        "inspect": "inspect input",
+        "interact": "world interaction input",
+        "craft": "successful recipe preparation",
+        "facing_persists": "idle and action poses retain the last movement-facing row"
+      },
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/player_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/player_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/pip_atlas.png",
+      "size": [
+        1740,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        435,
+        724
+      ],
+      "poses": [
+        "float",
+        "blink",
+        "excited",
+        "sad"
+      ],
+      "layer": "character",
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "repack": "four original character poses cropped from the fractional 5-frame sheet and high-quality bicubic resized into exact 435x724 cells; final glow/VFX cell excluded",
+      "qa": "reviewed on dark plum and warm cream; the sad pose has clean alpha with no baked light or sparkles; story glow uses a separate PointLight2D under SeparateLightingLayer",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/pip_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/pip_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/miso_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        6,
+        1
+      ],
+      "poses": [
+        "sleep",
+        "sit",
+        "walk",
+        "stretch",
+        "play",
+        "purr"
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/miso_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/miso_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/agnes_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "poses": [
+        "idle",
+        "wave",
+        "walk",
+        "checkout_talk"
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/agnes_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/agnes_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/agnes_talk_pose.png",
+      "size": [
+        543,
+        724
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "talk"
+      ],
+      "runtime_scale": [
+        0.32,
+        0.32
+      ],
+      "pivot": "cell center; same crop and footline as the Agnes four-pose atlas",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "source": "qa_asset_repairs/source_inputs/characters/agnes_talk_pose_source.png",
+      "preparation_script": "tools/prepare_agnes_talk_pose.ps1",
+      "reference": "art_import/BEST ART CANDIDATE.png; art_import/I LOVE THIS.png; characters/agnes_atlas.png (identity and proportions)",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/agnes_talk_pose_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/agnes_talk_pose_preview_cream.png"
+      ],
+      "qa": "reviewed on dark plum and warm cream; 543x724 transparent standalone talk pose, no detached specks, fringe, light rays, particles, or environmental lighting"
+    },
+    {
+      "path": "characters/fern_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "idle",
+        "walk",
+        "inspect_plants",
+        "talk"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/fern_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/fern_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/lucien_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "idle",
+        "walk",
+        "read",
+        "talk"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/lucien_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/lucien_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/wren_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "browse_herbs",
+        "walk",
+        "inspect_herb",
+        "talk"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/wren_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/wren_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/conductor_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "ticket_hold",
+        "walk",
+        "offer_ticket",
+        "read_manifest"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/conductor_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/conductor_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/elias_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "idle",
+        "walk",
+        "inspect_lens",
+        "talk"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/elias_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/elias_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/mara_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "sort_letters",
+        "walk",
+        "offer_letter",
+        "talk_with_book"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/mara_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/mara_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/osric_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "frame_order": [
+        "remember_ticket",
+        "walk",
+        "read_ticket",
+        "talk"
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/osric_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/osric_atlas_preview_cream.png"
+      ],
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds; no source art is changed.",
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "characters/generic_customer_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "layer": "character",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/generic_customer_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/generic_customer_atlas_preview_cream.png"
+      ],
+      "frame_order": [
+        "idle",
+        "walk",
+        "browse",
+        "parcel_hold"
+      ],
+      "layout": "horizontal row; four equal integer cells; 543 × 724 pixels per cell",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA previews composite the untouched source atlas over dark-plum and warm-cream backgrounds. Runtime uses idle at cell 0, alternates walk cells 1 and 2 for travel, and uses browse cell 2 while shopping; the parcel-hold cell 3 is currently unused. Generic checkout uses generic_customer_purchase_atlas.png instead."
+    },
+    {
+      "path": "characters/generic_customer_purchase_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "basket_wait",
+        "reach_for_bag",
+        "receive_bag",
+        "holds_bag"
+      ],
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "pivot": "cell center; shared 543x724 shopper baseline",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/BEST ART CANDIDATE.png; art_import/I LOVE THIS.png; characters/generic_customer_atlas.png (shopper identity and proportions)",
+      "qa": "four checkout handoff frames; inspected on dark plum and warm cream, consistent footline, transparent background, no light rays, particles, or environmental lighting",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/generic_customer_purchase_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/generic_customer_purchase_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/player_talk_pose.png",
+      "size": [
+        543,
+        724
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "talk"
+      ],
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "pivot": "cell center; centered over the player body with feet aligned to the base atlas",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/player_atlas.png (identity and proportions)",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/player_talk_pose_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/player_talk_pose_preview_cream.png"
+      ],
+      "qa": "reviewed on dark plum and warm cream; 543x724 RGBA with transparent corners, no checkerboard, matte fringe, clipped details, particles, or light rays"
+    },
+    {
+      "path": "characters/lucien_drink_pose.png",
+      "size": [
+        543,
+        724
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "drink"
+      ],
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "pivot": "cell center; same crop and baseline as Lucien's four-pose atlas",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/lucien_atlas.png (identity and proportions)",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/lucien_drink_pose_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/lucien_drink_pose_preview_cream.png"
+      ],
+      "qa": "reviewed on dark plum and warm cream; transparent standalone pose aligns to the base sheet and contains only Lucien and his cup, with no environmental lighting or VFX"
+    },
+    {
+      "path": "characters/wren_cast_magic_pose.png",
+      "size": [
+        543,
+        724
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "cast_gesture"
+      ],
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "pivot": "cell center; centered to Wren's four-pose atlas crop",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/wren_atlas.png (identity and proportions)",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/wren_cast_magic_pose_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/wren_cast_magic_pose_preview_cream.png"
+      ],
+      "qa": "reviewed on dark plum and warm cream; transparent spellcasting gesture has no baked glow, light ray, particle, or other VFX"
+    },
+    {
+      "path": "characters/generic_customer_queue_pose.png",
+      "size": [
+        543,
+        724
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "queue"
+      ],
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "pivot": "cell center; matches generic customer atlas crop and shared baseline",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/generic_customer_atlas.png (identity, proportions, and scale)",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/generic_customer_queue_pose_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/generic_customer_queue_pose_preview_cream.png"
+      ],
+      "qa": "reviewed on dark plum and warm cream plus enlarged hair edge; clean alpha with no fringe or detached specks, no background, lighting, or VFX"
+    },
+    {
+      "path": "characters/hollis_quince_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.3,
+        0.3
+      ],
+      "pivot": "cell center; feet align at y=676-684 of 724px cell (93.4-94.5%)",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "reviewed over dark plum and warm cream; pixel-only alpha cleanup removed low-alpha red/yellow fringe without altering painted character colors",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/hollis_quince_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/hollis_quince_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/anouk_harrow_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=706-711 of 724px cell (97.5-98.2%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 4225,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/hollis_quince_atlas.png (layout and scale)",
+      "qa": "reviewed on dark plum and warm cream plus enlarged edge closeup; exactly one connected alpha silhouette per pose at alpha>16, no detached components; cleanup changed alpha only",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/anouk_harrow_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/anouk_harrow_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/oda_lovell_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=710-712 of 724px cell (98.1-98.3%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 1491,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/hollis_quince_atlas.png (layout and scale)",
+      "qa": "reviewed on dark plum and warm cream plus enlarged edge closeup; exactly one connected alpha silhouette per pose at alpha>16, no detached components; cleanup changed alpha only",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/oda_lovell_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/oda_lovell_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/miriam_underwood_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=711-715 of 724px cell (98.2-98.8%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 779,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/hollis_quince_atlas.png (layout and scale)",
+      "qa": "reviewed on dark plum and warm cream plus enlarged edge closeup; exactly one connected alpha silhouette per pose at alpha>16, no detached components; cleanup changed alpha only",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/miriam_underwood_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/miriam_underwood_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/iona_pebble_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=715-718 of 724px cell (98.8-99.2%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 1127,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/hollis_quince_atlas.png (layout and scale)",
+      "qa": "reviewed on dark plum and warm cream plus enlarged edge closeup; exactly one connected alpha silhouette per pose at alpha>16, no detached components; cleanup changed alpha only",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/iona_pebble_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/iona_pebble_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/tomas_wicks_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=712-719 of 724px cell (98.3-99.3%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 0,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/anouk_harrow_atlas.png (finish and scale)",
+      "qa": "reviewed on dark plum and warm cream plus enlarged edge closeup; exactly one connected alpha silhouette per pose at alpha>16, no detached components; source alpha and painted pixels preserved",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/tomas_wicks_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/tomas_wicks_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/liora_fenwick_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=713-716 of 724px cell (98.5-98.9%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 0,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/anouk_harrow_atlas.png (finish and scale)",
+      "qa": "reviewed on dark plum and warm cream plus enlarged edge closeup; exactly one connected alpha silhouette per pose at alpha>16, no detached components; no light or VFX in lantern; source alpha and painted pixels preserved",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/liora_fenwick_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/liora_fenwick_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/nella_finch_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=702-707 of 724px cell (96.9-97.7%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "alpha_edge_cleanup_pixels": 0,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "reviewed over dark plum and warm cream plus enlarged hair/face closeup; transparent alpha and four equal cells confirmed; no visible fringe, detached specks, or background; character art contains no lighting or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/nella_finch_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/nella_finch_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/maribel_frost_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=707-708 of 724px cell (97.7-98.1%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged face closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; no steam, light, or other environmental VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/maribel_frost_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/maribel_frost_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/aster_rowe_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=709-710 of 724px cell (97.9-98.1%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged face/hair closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; star map is a static character prop, with no lighting or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/aster_rowe_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/aster_rowe_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/rowan_pike_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=707 of 724px cell (97.7%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged face/hair closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; supply ledger and pencils are integrated props with no lighting or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/rowan_pike_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/rowan_pike_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/stellan_rusk_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=709-711 of 724px cell (97.9-98.2%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged face closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; closed timetable folio is an integrated prop with no lighting or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/stellan_rusk_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/stellan_rusk_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/elowen_charter_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=717-718 of 724px cell (99.0-99.2%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged hair/face closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; folded linen is an integrated prop with no lighting or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/elowen_charter_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/elowen_charter_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/sabine_kersey_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=705-706 of 724px cell (97.4-97.8%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged face/hair closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; net-mending kit is integrated, with no light or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/sabine_kersey_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/sabine_kersey_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/juniper_hale_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=708-709 of 724px cell (97.8-97.9%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged hair/face closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; closed ledger is an integrated prop with no readable text, light, or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/juniper_hale_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/juniper_hale_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "characters/beckett_shore_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "cell_size": [
+        543,
+        724
+      ],
+      "frame_order": [
+        "idle",
+        "walk_a",
+        "walk_b",
+        "talk"
+      ],
+      "layout": "horizontal row; four equal integer cells",
+      "runtime_scale": [
+        0.28,
+        0.28
+      ],
+      "pivot": "cell center; visible feet at y=715 of 724px cell (98.8%), scaled to align with other visitors",
+      "layer": "character",
+      "transparent_background": true,
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png; characters/nella_finch_atlas.png (layout and scale)",
+      "qa": "reviewed over dark plum and warm cream plus enlarged face/basket closeup; transparent alpha and four equal cells confirmed; no visible fringe or detached specks; woven basket is integrated, with no light or VFX",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/characters/beckett_shore_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/characters/beckett_shore_atlas_preview_cream.png"
+      ]
+    },
+    {
+      "path": "effects/rain_streaks_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "layer": "window_weather_vfx",
+      "alpha": true,
+      "contains_vfx": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa_previews": [
+        "qa_asset_repairs/effects_rain_streaks_atlas_dark_plum.png",
+        "qa_asset_repairs/effects_rain_streaks_atlas_warm_cream.png"
+      ],
+      "qa": "Reviewed over dark plum and warm cream. Rain lines and droplets retain soft alpha-varying edges; no uniform red or white matte was visible. Source pixels were left unchanged."
+    },
+    {
+      "path": "effects/memory_echo_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "layer": "window_story_vfx",
+      "alpha": true,
+      "contains_vfx": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa_previews": [
+        "qa_asset_repairs/effects_memory_echo_atlas_dark_plum.png",
+        "qa_asset_repairs/effects_memory_echo_atlas_warm_cream.png"
+      ],
+      "qa": "Reviewed over dark plum and warm cream. Crescent bloom and star glows fade naturally with alpha; pale edges are part of the authored effect, with no uniform matte identified. Source pixels were left unchanged."
+    },
+    {
+      "path": "effects/seasonal_atmosphere_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "wind_subregions": {
+        "spring_petals": [[70, 70, 150, 125], [318, 205, 110, 82], [92, 325, 98, 68], [292, 440, 150, 98], [128, 568, 96, 75]],
+        "summer_motes": [[926, 124, 26, 28], [674, 231, 25, 28], [832, 328, 28, 29], [930, 490, 31, 32], [665, 590, 30, 30]],
+        "autumn_leaves": [[1130, 330, 185, 100], [1203, 555, 125, 115]],
+        "winter_flakes": [[1945, 95, 135, 140], [1702, 250, 135, 135], [1944, 450, 135, 145]]
+      },
+      "layer": "window_seasonal_vfx",
+      "alpha": true,
+      "contains_vfx": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa_previews": [
+        "qa_asset_repairs/effects_seasonal_atmosphere_atlas_dark_plum.png",
+        "qa_asset_repairs/effects_seasonal_atmosphere_atlas_warm_cream.png"
+      ],
+      "qa": "Reviewed over dark plum and warm cream. Isolated pink petals, warm motes, autumn leaves, and winter flakes retain their soft alpha edges with no uniform matte. Runtime wind subregions use the documented rectangles; source atlas pixels remain unchanged."
+    },
+    {
+      "path": "effects/kettle_steam_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        4,
+        1
+      ],
+      "layer": "kettle_steam_vfx",
+      "alpha": true,
+      "contains_vfx": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa_previews": [
+        "qa_asset_repairs/effects_kettle_steam_atlas_dark_plum.png",
+        "qa_asset_repairs/effects_kettle_steam_atlas_warm_cream.png"
+      ],
+      "qa": "Reviewed over dark plum and warm cream. The steam uses a gradual translucent outer fade with soft brush texture; the pale edge is intentional smoke rather than a flat matte. Source pixels were left unchanged."
+    },
+    {
+      "path": "props/moonmart_story_props_atlas.png",
+      "size": [
+        2172,
+        724
+      ],
+      "grid": [
+        5,
+        1
+      ],
+      "cell_size": [
+        434.4,
+        724
+      ],
+      "props": [
+        "old_shop_photograph",
+        "tide_parcel",
+        "moonflower_bloom",
+        "lighthouse_lens",
+        "conductor_ticket"
+      ],
+      "layer": "isolated_story_props",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/props/moonmart_story_props_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/props/moonmart_story_props_atlas_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged."
+    },
+    {
+      "path": "ui/journal_panel.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "layer": "screen_space_panel",
+      "nine_patch_margins": [
+        80,
+        80,
+        80,
+        80
+      ],
+      "previews": [
+        "qa_asset_repairs/atlas_previews/ui/journal_panel_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/ui/journal_panel_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA composites show the untouched transparent UI asset over dark plum and warm cream."
+    },
+    {
+      "path": "ui/prompt_bubble.png",
+      "size": [
+        2172,
+        724
+      ],
+      "layer": "screen_space_prompt",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/ui/prompt_bubble_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/ui/prompt_bubble_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png",
+      "qa": "Paired QA composites show the untouched transparent UI asset over dark plum and warm cream."
+    },
+    {
+      "path": "ui/ui_icons_atlas.png",
+      "size": [
+        1776,
+        888
+      ],
+      "grid": [
+        4,
+        2
+      ],
+      "cell_size": [
+        444,
+        444
+      ],
+      "layout": "row-major",
+      "repack_method": "high-quality bicubic resampling",
+      "qa": "dark-plum and warm-cream previews showed no visible fringe or stray specks; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "layer": "screen_space_icons",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/ui/ui_icons_atlas_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/ui/ui_icons_atlas_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true,
+      "reference": "art_import/I LOVE THIS.png; art_import/BEST ART CANDIDATE.png"
+    },
+    {
+      "path": "products/moonmart_product_icons_extension_5_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "layout": "row-major",
+      "cell_size": [
+        320,
+        320
+      ],
+      "layer": "product_icons_campaign_extension",
+      "contains_vfx": false,
+      "count": 16,
+      "icon_ids": [
+        "tomato_soup_tin",
+        "wild_rice_bag",
+        "oat_flakes_tin",
+        "olive_oil_bottle",
+        "maple_syrup_bottle",
+        "peppercorn_jar",
+        "apple_basket",
+        "orange_basket",
+        "carrot_bunch",
+        "woodland_mushrooms",
+        "cheddar_wheel",
+        "eggs_basket",
+        "fresh_ginger_root",
+        "sliced_peaches_tin",
+        "dried_figs_jar",
+        "popcorn_kernels_bag"
+      ],
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_inputs/products/moonmart_product_icons_extension_5.png (1247x1261)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; painted pantry and produce icons remain clean and isolated",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_5_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_5_1280_preview_cream.png"
+      ],
+      "alpha": true,
+      "transparent_background": true
+    },
+    {
+      "path": "furniture/moonmart_decor_atlas_extension_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "moonstar_cafe_chair",
+        "crescent_floor_cushion",
+        "nightwood_side_table",
+        "lavender_drawer_cabinet",
+        "pink_hydrangea_planter",
+        "hanging_moonflower_basket",
+        "brass_floor_lamp",
+        "moonphase_oval_rug",
+        "brass_moon_wall_clock",
+        "whisperwood_framed_art",
+        "little_moon_stepstool",
+        "woven_linen_basket",
+        "apothecary_spice_rack",
+        "pressed_flower_storybooks",
+        "moonlit_pastry_showcase",
+        "crescent_umbrella_stand"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_decor_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen furniture cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_decor_atlas_extension_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_decor_atlas_extension_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_fixture_atlas_extension_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "moon_orbit_wall_shelf",
+        "starfell_coatrack",
+        "oak_memory_trunk",
+        "starfall_privacy_screen",
+        "crescent_standing_mirror",
+        "harvest_basket_stand",
+        "little_brass_counter_bell",
+        "after_hours_tea_tray",
+        "lavender_guest_bench",
+        "night_shift_tea_trolley",
+        "bellwether_key_board",
+        "moonlit_book_lectern",
+        "moonleaf_plant_stand",
+        "knitted_moon_footstool",
+        "little_drawer_till",
+        "bellwether_flower_screen"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_fixture_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen fixture cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_fixture_atlas_extension_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_fixture_atlas_extension_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_retail_fixtures_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "moonlit_pantry_cupboard",
+        "moonmart_curved_counter",
+        "harvest_produce_tier",
+        "rolling_story_cart",
+        "crescent_cup_saucer_rack",
+        "plum_velvet_settee",
+        "starwoven_pouf",
+        "parcel_sorting_cubby",
+        "moonstone_display_plinth",
+        "tea_tin_merchandise_shelf",
+        "lunar_fabric_divider",
+        "bellwether_analog_scales",
+        "harbor_coat_bench",
+        "little_stockroom_ladder",
+        "pastry_cooling_rack",
+        "curtained_porthole_panel"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_shopfixtures_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen retail fixture cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_retail_fixtures_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_retail_fixtures_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_storyroom_decor_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_storyroom_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_storyroom_decor_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_storyroom_decor_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_garden_furnishings_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "moonflower_potting_bench",
+        "night_bloom_seed_cabinet",
+        "watering_can_stand",
+        "greenhouse_propagation_shelf",
+        "moonflower_trellis",
+        "garden_soil_wheelbarrow",
+        "padded_garden_kneeler",
+        "terracotta_planter_stack",
+        "brass_mister_tray",
+        "moon_garden_tool_rack",
+        "leafmark_compost_bin",
+        "greenhouse_seedling_shelf",
+        "hanging_herb_basket",
+        "moonstone_garden_stool",
+        "copper_spout_watering_station",
+        "trailing_vine_lattice_divider"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_garden_fixtures_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen garden cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_garden_furnishings_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_garden_furnishings_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_festival_furnishings_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_festival_decor_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen seasonal cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_festival_furnishings_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_festival_furnishings_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_harbour_furnishings_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_harbour_furnishings_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; lens and lantern remain isolated fixture props with no rays; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_harbour_furnishings_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_harbour_furnishings_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_counter_accessories_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "receipt_spike",
+        "coin_tray",
+        "order_clipboard",
+        "brass_balance_scale",
+        "preserve_tin_stand",
+        "condiment_caddy",
+        "paper_bag_holder",
+        "crescent_teacup_stack",
+        "moonlit_pastry_plate",
+        "flower_bud_vase",
+        "blank_counter_chalkboard",
+        "velvet_counter_bell",
+        "loyalty_card_stamp",
+        "twine_cutter",
+        "covered_cake_stand",
+        "counter_ticket_dispenser"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_counter_accessories_candidate_review.png (1261x1247)",
+      "repack": "center-pad transparently to square without distorting props, then high-quality resize into exact 4x4 integer cells",
+      "qa": "reviewed over dark plum and warm cream backgrounds; sixteen painted accessory cutouts are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_counter_accessories_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_counter_accessories_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_observatory_furnishings_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "observatory_orrery",
+        "observatory_telescope",
+        "star_chart_desk",
+        "celestial_globe",
+        "moonphase_plaque",
+        "starwatch_blanket_stool",
+        "telescope_cabinet",
+        "constellation_atlas_books",
+        "observatory_step_ladder",
+        "brass_sextant",
+        "star_map_chest",
+        "moon_gazing_cushion",
+        "observatory_instrument_case",
+        "starwind_weather_vane",
+        "observatory_hourglass",
+        "starwatch_tea_tray"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_observatory_furnishings_candidate_review_v2.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen observatory objects are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_observatory_furnishings_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_observatory_furnishings_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_town_square_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "town_square_bench",
+        "moon_notice_board",
+        "town_umbrella_stand",
+        "wrought_iron_lantern",
+        "striped_market_canopy",
+        "moonpost_box",
+        "town_flower_planter",
+        "hanging_crescent_shop_sign",
+        "moonmarket_produce_crates",
+        "moonchalk_a_frame",
+        "moonmarket_tea_table",
+        "town_square_clock",
+        "carved_stone_moon_stool",
+        "moonlit_book_exchange",
+        "seasonal_pennant_rail",
+        "moonphase_sundial"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_town_square_candidate_review.png (1230x1278)",
+      "repack": "center-pad horizontally to square without distorting props, then high-quality resize into exact 4x4 integer cells",
+      "qa": "previewed over dark plum and warm cream backgrounds; all sixteen night-market furnishings are cleanly isolated; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_town_square_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_town_square_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_midnight_platform_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "midnight_platform_bench",
+        "midnight_timetable_board",
+        "moonphase_ticket_kiosk",
+        "station_luggage_trolley",
+        "platform_parcel_cage",
+        "bellwether_station_clock",
+        "platform_glass_lantern",
+        "midnight_waiting_chair",
+        "station_moonflower_planter",
+        "platform_direction_signpost",
+        "conductor_ticket_punch_stand",
+        "platform_tea_cart",
+        "moonrail_platform_bollard",
+        "platform_canopy_post",
+        "station_lost_property_cabinet",
+        "moonphase_station_route_map"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_midnight_platform_candidate_review.png (1261x1247)",
+      "repack": "center-pad vertically to square without distorting props, then high-quality resize into exact 4x4 integer cells",
+      "qa": "reviewed over dark plum and warm cream backgrounds; lantern illumination stays inside its glass, with no rays or particles; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_midnight_platform_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_midnight_platform_atlas_1280_preview_cream.png"
+      ],
+      "runtime_use": "Midnight Platform foreground-prop parallax proof: platform_direction_signpost at row-major cell (1,2), rendered from the approved atlas region without extracting or altering pixels.",
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_backroom_packing_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "backroom_stock_rack",
+        "bulk_grain_display_bin",
+        "canister_dispenser_stand",
+        "stockroom_handcart",
+        "moonpost_wrapping_station",
+        "packing_twine_spool",
+        "wax_seal_kit",
+        "stock_ledger_cabinet",
+        "inventory_label_drawer",
+        "linen_hamper_cart",
+        "shipping_crate_stack",
+        "moonflower_flour_barrel",
+        "produce_sorting_tray",
+        "stockroom_step_ladder",
+        "reusable_jar_shelf",
+        "packing_paper_roll_stand"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_backroom_packing_candidate_review.png (1254x1254)",
+      "repack": "high-quality resize into exact 4x4 integer cells",
+      "qa": "reviewed over dark plum and warm cream backgrounds; all packing fixtures are isolated with no external lighting effects; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_backroom_packing_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_backroom_packing_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_whisperwood_cottage_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "whisperwood_root_desk",
+        "bark_backed_armchair",
+        "moonwood_daybed",
+        "whisperwood_moonphase_rug",
+        "hollow_log_tea_table",
+        "acorn_keepsake_chest",
+        "branch_privacy_screen",
+        "carved_mushroom_stool",
+        "whisperwood_wall_chime",
+        "owl_post_book_shelf",
+        "whisperwood_herb_drying_rack",
+        "twig_coat_stand",
+        "woodland_storybook_case",
+        "folded_leaf_quilt",
+        "mushroom_floor_cushion",
+        "little_firewood_basket"
+      ],
+      "layer": "placeable_furniture_and_decor",
+      "contains_vfx": false,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_whisperwood_cottage_candidate_review.png (1262x1246)",
+      "repack": "center-pad vertically to square without distorting props, then high-quality resize into exact 4x4 integer cells",
+      "qa": "reviewed over dark plum and warm cream backgrounds; all sixteen cottage props are cleanly isolated without detached effects; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_whisperwood_cottage_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_whisperwood_cottage_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    },
+    {
+      "path": "furniture/moonmart_prep_station_atlas_1280.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "cell_size": [
+        320,
+        320
+      ],
+      "layout": "row-major",
+      "count": 16,
+      "asset_ids": [
+        "coffee_brewer_station",
+        "tea_steeping_counter",
+        "microwave_station",
+        "sandwich_preparation_board",
+        "bakery_warmer_station",
+        "magical_kettle_station",
+        "milk_frother",
+        "hand_coffee_grinder",
+        "crescent_cup_rack",
+        "herbal_tea_tin_caddy",
+        "pastry_tongs_stand",
+        "bread_cutting_board",
+        "ingredient_jar_shelf",
+        "warming_temperature_dial",
+        "illustrated_recipe_ledger",
+        "moonflower_warming_tray"
+      ],
+      "layer": "placeable_furniture_and_prep_stations",
+      "contains_vfx": false,
+      "static_fixture_illumination": true,
+      "reference": "art_import/I LOVE THIS.png",
+      "source": "qa_asset_repairs/source_reviews/furniture/moonmart_prep_stations_candidate_review.png (1536x1024; 4x4 cells at 384x256)",
+      "repack": "each 384x256 cell resized aspect-preservingly to 320x213 and centered in a transparent 320x320 cell",
+      "qa": "reviewed on dark plum and warm cream; transparent raster props are cleanly isolated and illumination remains inside fixture artwork, with no rays or particles; Paired QA previews composite the untouched transparent atlas over dark plum and warm cream; source artwork is unchanged.",
+      "previews": [
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_prep_station_atlas_1280_preview_dark.png",
+        "qa_asset_repairs/atlas_previews/furniture/moonmart_prep_station_atlas_1280_preview_cream.png"
+      ],
+      "transparent_background": true,
+      "alpha": true
+    }
+  ]
+}

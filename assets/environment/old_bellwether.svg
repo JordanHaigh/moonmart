@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#24243e"/><stop offset=".58" stop-color="#514667"/><stop offset="1" stop-color="#be8c81"/></linearGradient>
+ <linearGradient id="street" x2="0" y2="1"><stop stop-color="#82707b"/><stop offset="1" stop-color="#493d56"/></linearGradient>
+ <linearGradient id="bakery" x2="0" y2="1"><stop stop-color="#c77f74"/><stop offset="1" stop-color="#6c4c60"/></linearGradient>
+ <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#55547b"/><stop offset="1" stop-color="#e6a77e"/></linearGradient>
+ <pattern id="cobbles" width="142" height="68" patternUnits="userSpaceOnUse"><path d="M5 5h60q14 0 14 12v22H0V17Q0 5 5 5zm80 0h52q10 0 10 11v23H79V17Q79 5 85 5zM0 43h58v20H0zm66 0h70v20H66z" fill="none" stroke="#e8b99b" stroke-opacity=".16" stroke-width="3"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<circle cx="1288" cy="132" r="66" fill="#f0d4b5" opacity=".9"/><circle cx="1314" cy="112" r="58" fill="#514667"/>
+<g fill="#fff0d8" opacity=".65"><circle cx="126" cy="106" r="3"/><circle cx="360" cy="158" r="2"/><circle cx="760" cy="80" r="3"/><circle cx="1014" cy="187" r="2"/><circle cx="1470" cy="224" r="2"/></g>
+<path d="M0 378q320-53 625-2t524-3q218-45 451 3v228H0z" fill="#313047"/>
+<!-- row of old town rooflines -->
+<path d="M0 425l105-88 108 88v254H0zm194 0 118-112 118 112v254H194zm253 4 143-125 141 125v250H447zm820-2 136-116 137 116v252h-273z" fill="#49425d" stroke="#c18b86" stroke-width="8"/>
+<path d="M0 632h1600v268H0z" fill="url(#street)"/><path d="M0 632h1600v268H0z" fill="url(#cobbles)"/>
+<!-- bakery -->
+<path d="M86 418h381v271H86z" fill="url(#bakery)" stroke="#edbd97" stroke-width="9"/>
+<path d="M65 407h423l-42-71H109z" fill="#c18b86" stroke="#f1b47d" stroke-width="8"/>
+<path d="M119 468h145v143H119zM300 468h125v143H300z" fill="url(#glass)" stroke="#f4d0ab" stroke-width="8"/>
+<path d="M93 633h362v56H93z" fill="#66445a"/><text x="274" y="672" text-anchor="middle" fill="#fff0d8" font-family="sans-serif" font-size="24" letter-spacing="4">AGNES' BAKERY</text>
+<path d="M117 603h150m31 0h132" stroke="#f1b47d" stroke-width="8" opacity=".65"/>
+<!-- bookshop and post -->
+<path d="M565 472h270v217H565z" fill="#53445f" stroke="#c18b86" stroke-width="8"/>
+<path d="M597 500h206v119H597z" fill="#39384f" stroke="#e3b28f" stroke-width="7"/>
+<path d="M621 522v76m34-76v76m34-76v76m34-76v76m34-76v76" stroke="#d3977e" stroke-width="16"/>
+<path d="M888 462h219v227H888z" fill="#6a4c62" stroke="#d19a87" stroke-width="8"/>
+<path d="M921 488h153v129H921z" fill="#777195" stroke="#f1b47d" stroke-width="6"/>
+<path d="M958 546h80v51h-80z" fill="#c18b86"/><path d="M958 546l40 29 40-29" fill="none" stroke="#fff0d8" stroke-width="5"/>
+<!-- shopfront lanterns -->
+<g stroke="#d49a7d" stroke-width="5"><path d="M277 274v73m245-26v82m696-104v118m220-29v108"/></g>
+<g fill="#f1b47d"><path d="M251 342h52l-7 17h-38zM497 397h52l-7 17h-38zM1193 456h52l-7 17h-38zM1412 516h52l-7 17h-38z"/><circle cx="277" cy="358" r="59" opacity=".10"/><circle cx="523" cy="415" r="57" opacity=".11"/></g>
+<!-- street furniture, planters, wet reflections -->
+<path d="M44 755q170-21 337 4t355-1 328 5 340-4 196 5" fill="none" stroke="#f1b47d" stroke-opacity=".16" stroke-width="18"/>
+<g><path d="M1292 612h63v35h-63z" fill="#6b4a60"/><path d="M1278 602h92l-12 83h-67z" fill="#b77871"/><path d="M1324 610q-10-91 33-102m-41 94q-48-89-76-55m81 54q31-80 73-79" fill="none" stroke="#89a77e" stroke-width="13" stroke-linecap="round"/><circle cx="1240" cy="546" r="20" fill="#bb8dab"/><circle cx="1418" cy="520" r="19" fill="#d4a1b3"/></g>
+<path d="M0 892h1600" stroke="#f1b47d" stroke-opacity=".33" stroke-width="8"/>
+</svg>

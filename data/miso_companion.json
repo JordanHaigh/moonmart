@@ -1,0 +1,83 @@
+{
+  "favorite_toy": "felt_moon",
+  "preferred_sleep_spot": "cat_bed",
+  "moods": [
+    {"id": "sleepy", "minimum_happiness": 0},
+    {"id": "content", "minimum_happiness": 35},
+    {"id": "playful", "minimum_happiness": 65},
+    {"id": "bright_eyed", "minimum_happiness": 88}
+  ],
+  "actions": {
+    "feed": {"happiness": 7, "response": "Miso accepts a little snack, then gives your hand a grateful head-bump."},
+    "pet": {"happiness": 4, "response": "Miso leans into your hand and purrs."},
+    "brush": {"happiness": 5, "response": "Miso tolerates the brush, then sits very proudly."},
+    "play": {"happiness": 6, "favorite_toy_bonus": 5, "response": "Miso bats the toy across the floor, then pretends it was all part of a plan.", "favorite_response": "Miso chases the felt moon in a delighted little circle."}
+  },
+  "toys": {
+    "felt_moon": {"name": "Felt moon", "response": "Miso watches the felt moon skitter beneath the counter."},
+    "paper_ribbon": {"name": "Paper ribbon", "response": "Miso catches the paper ribbon with both paws."},
+    "bell_ball": {"name": "Quiet bell ball", "response": "Miso nudges the little bell ball along the rug."}
+  },
+  "sleep_spots": {
+    "cat_bed": {"name": "Cat bed", "response": "Miso curls up in the warm cat bed."},
+    "window_sill": {"name": "Window sill", "response": "Miso watches the rain from the window sill."},
+    "ledger_shelf": {"name": "Ledger shelf", "response": "Miso settles beside the old shop ledger."}
+  },
+  "ambient_anchors": {
+    "cat_bed": [1278, 655],
+    "window_sill": [818, 606],
+    "ledger_shelf": [1360, 621],
+    "receipt_register": [1068, 616],
+    "customer_watch": [960, 594]
+  },
+  "ambient_behavior_timing": {
+    "seed": 74219,
+    "initial_wait_min": 8,
+    "initial_wait_max": 14,
+    "interval_min": 10,
+    "interval_max": 18,
+    "walk_speed": 48
+  },
+  "ambient_behaviors": [
+    {"id":"rest_cat_bed","anchor":"cat_bed","requires_sleep_spot":"cat_bed","weight":1.0,"duration_seconds":6,"cooldown_seconds":34},
+    {"id":"rest_window_sill","anchor":"window_sill","requires_sleep_spot":"window_sill","weight":1.0,"duration_seconds":6,"cooldown_seconds":34},
+    {"id":"rest_ledger_shelf","anchor":"ledger_shelf","requires_sleep_spot":"ledger_shelf","weight":1.0,"duration_seconds":6,"cooldown_seconds":34},
+    {"id":"perch_receipt_register","anchor":"receipt_register","weight":0.8,"duration_seconds":4,"cooldown_seconds":54},
+    {"id":"watch_customers","anchor":"customer_watch","requires_customer":true,"weight":1.0,"duration_seconds":5,"cooldown_seconds":42},
+    {"id":"knock_flower_vase","anchor":"receipt_register","requires_prop":"flower_bud_vase","weight":0.35,"duration_seconds":2.2,"cooldown_seconds":120}
+  ],
+  "abilities": [
+    {"id": "spirit_sense", "name": "Spirit Sense", "requires_flags": ["pip_reflection"], "response": "Miso's ears turn toward a visitor whose reflection does not quite match."},
+    {"id": "hidden_paw", "name": "Hidden Paw", "requires_flags": ["pip_first_memory"], "response": "Miso pads toward a detail you might have missed.", "waiting_response": "Miso checks the familiar corners. There is nothing new to show you just yet."},
+    {"id": "dreamwalking", "name": "Dreamwalking", "requires_flags": ["miso_guardian_truth"], "response": "Miso's slow purr opens a brief, gentle dream of Moonmart long ago."},
+    {"id": "memory_echo", "name": "Memory Echo", "requires_flags": ["passenger_manifest_read"], "response": "Miso touches the old page. A remembered passenger's voice returns for a moment."},
+    {"id": "guardian_purr", "name": "Guardian's Purr", "requires_flags": ["miso_guardian_truth"], "response": "Miso purrs beside the doorway. Its restless light settles into a steady glow.", "stability": 1.0},
+    {"id": "moonlight_perception", "name": "Moonlight Perception", "requires_flags": ["lighthouse_restored"], "response": "The moonlight makes a quiet layer of old writing visible."}
+  ],
+  "memory_echoes": [
+    {"id":"platform_lamp","requires_flags":["passenger_manifest_read"],"title_id":"companion.memory_echo.platform_lamp.title","text_id":"companion.memory_echo.platform_lamp.text"},
+    {"id":"the_last_train","requires_flags":["passenger_manifest_read"],"title_id":"companion.memory_echo.the_last_train.title","text_id":"companion.memory_echo.the_last_train.text"},
+    {"id":"names_in_rain","requires_flags":["passenger_manifest_read"],"title_id":"companion.memory_echo.names_in_rain.title","text_id":"companion.memory_echo.names_in_rain.text"}
+  ],
+  "dream_sequence": {
+    "start_beat": "lamp_room",
+    "beats": [
+      {"id":"lamp_room","title_id":"companion.dream.beat.lamp_room.title","text_id":"companion.dream.beat.lamp_room.text","choices":[
+        {"id":"follow_miso","label_id":"companion.dream.choice.follow_miso","response_id":"companion.dream.response.follow_miso","next_beat":"threshold"},
+        {"id":"listen_to_kettle","label_id":"companion.dream.choice.listen_to_kettle","response_id":"companion.dream.response.listen_to_kettle","next_beat":"ledger"}
+      ]},
+      {"id":"threshold","title_id":"companion.dream.beat.threshold.title","text_id":"companion.dream.beat.threshold.text","choices":[
+        {"id":"touch_bell","label_id":"companion.dream.choice.touch_bell","response_id":"companion.dream.response.touch_bell","next_beat":"dawn"},
+        {"id":"watch_rain","label_id":"companion.dream.choice.watch_rain","response_id":"companion.dream.response.watch_rain","next_beat":"dawn"}
+      ]},
+      {"id":"ledger","title_id":"companion.dream.beat.ledger.title","text_id":"companion.dream.beat.ledger.text","choices":[
+        {"id":"read_margin","label_id":"companion.dream.choice.read_margin","response_id":"companion.dream.response.read_margin","next_beat":"dawn"},
+        {"id":"leave_page","label_id":"companion.dream.choice.leave_page","response_id":"companion.dream.response.leave_page","next_beat":"dawn"}
+      ]},
+      {"id":"dawn","title_id":"companion.dream.beat.dawn.title","text_id":"companion.dream.beat.dawn.text","choices":[
+        {"id":"keep_warmth","label_id":"companion.dream.choice.keep_warmth","response_id":"companion.dream.response.keep_warmth","ready_to_wake":true,"memory_id":"miso_dream_warmth"},
+        {"id":"keep_quiet","label_id":"companion.dream.choice.keep_quiet","response_id":"companion.dream.response.keep_quiet","ready_to_wake":true,"memory_id":"miso_dream_quiet"}
+      ]}
+    ]
+  }
+}

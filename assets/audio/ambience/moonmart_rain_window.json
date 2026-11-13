@@ -1,0 +1,23 @@
+﻿{
+    "encoding":  "PCM",
+    "bit_depth":  16,
+    "sample_rate_hz":  44100,
+    "file":  "moonmart_rain_window.wav",
+    "first_frame_stereo_pcm":  [
+                                   0,
+                                   0
+                               ],
+    "title":  "Moonmart Rain on Window",
+    "channels":  2,
+    "frames":  1411200,
+    "peak_dbfs":  -19.999,
+    "synthesis":  "Deterministic original filtered-noise rain bed with sparse synthesized droplets; no third-party recordings.",
+    "seam":  "First and final stereo frames are exact digital silence; 120 ms cosine edge fades.",
+    "duration_seconds":  32,
+    "generator":  "tools/build_moonmart_rain_ambience.ps1",
+    "last_frame_stereo_pcm":  [
+                                  0,
+                                  0
+                              ],
+    "sha256":  "bb016da24ece8f02082b7f452ed0e64b7004c46ef27e39ffd2552fdfda27fc16"
+}

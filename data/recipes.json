@@ -1,36 +1,54 @@
 {
   "recipes": [
-    {
-      "id": "warm_milk",
-      "station": "drink_station",
-      "inputs": [
-        {
-          "product_id": "milk",
-          "quantity": 1
-        }
-      ],
-      "output": {
-        "product_id": "warm_milk",
-        "quantity": 1
-      },
-      "unlock_flags": []
-    },
-    {
-      "id": "moonflower_tea",
-      "station": "magical_kettle",
-      "inputs": [
-        {
-          "product_id": "moonflower_leaves",
-          "quantity": 1
-        }
-      ],
-      "output": {
-        "product_id": "moonflower_tea",
-        "quantity": 1
-      },
-      "unlock_flags": [
-        "chapter_2_started"
-      ]
-    }
+    {"id":"plain_tea","name":"A Little Cup of Tea","station":"tea","ingredients":{"tea":1},"output_product_id":"brewed_plain_tea","output_quantity":1,"discovery":"known"},
+    {"id":"moonflower_tea","name":"Moonflower Tea","station":"tea","ingredients":{"moonflower_tea":1},"output_product_id":"brewed_moonflower_tea","output_quantity":1,"discovery":"known"},
+    {"id":"sweet_coffee","name":"Sweet Coffee","station":"coffee","ingredients":{"coffee":1,"milk":1},"output_product_id":"prepared_sweet_coffee","output_quantity":1,"discovery":"shift_2"},
+    {"id":"warm_milk","name":"Warm Milk","station":"microwave","ingredients":{"milk":1},"output_product_id":"warm_milk_mug","output_quantity":1,"discovery":"known"},
+    {"id":"midnight_mocha","name":"Midnight Mocha","station":"coffee","ingredients":{"coffee":1,"milk":1,"sweets":1},"output_product_id":"midnight_mocha_drink","output_quantity":1,"discovery":"pip_memory"},
+    {"id":"chamomile_cup","name":"Chamomile Night Cup","station":"tea","ingredients":{"chamomile_sachets":1,"honeycomb_drops":1},"output_product_id":"chamomile_honey_tea","output_quantity":1,"discovery":"known"},
+    {"id":"spiced_cider_mug","name":"Spiced Cider Mug","station":"microwave","ingredients":{"spiced_apple_cider":1,"ginger_star_biscuits":1},"output_product_id":"warmed_spiced_cider","output_quantity":1,"discovery":"shift_2"},
+    {"id":"rosewater_tea","name":"Rosewater Tea","station":"tea","ingredients":{"tea":1,"rosewater_soda":1},"output_product_id":"rosewater_tea_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"violet_honey_toast","name":"Violet Honey Toast","station":"sandwich","ingredients":{"bread":1,"violet_honey":1},"output_product_id":"violet_honey_toast","output_quantity":1,"discovery":"known"},
+    {"id":"berry_scone_special","name":"Bellberry Scone","station":"bakery_warmer","ingredients":{"blueberry_scone":1,"blackberry_jam":1},"output_product_id":"bellberry_scone","output_quantity":1,"discovery":"shift_2"},
+    {"id":"moonflower_cocoa","name":"Moonflower Cocoa","station":"microwave","ingredients":{"milk":1,"moonflower_tea":1},"output_product_id":"moonflower_cocoa_mug","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"ginger_honey_brew","name":"Ginger Honey Brew","station":"tea","ingredients":{"tea":1,"ginger_star_biscuits":1},"output_product_id":"ginger_honey_brew","output_quantity":1,"discovery":"shift_2"},
+    {"id":"blackberry_cordial","name":"Blackberry Cordial Cup","station":"magical_kettle","ingredients":{"plum_cordial":1,"blackberry_chocolate":1},"output_product_id":"blackberry_cordial_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"cloudberry_milk","name":"Cloudberry Milk","station":"microwave","ingredients":{"milk":1,"cloudberry_syrup":1},"output_product_id":"cloudberry_milk","output_quantity":1,"discovery":"known"},
+    {"id":"salted_lavender_tea","name":"Salted Lavender Tea","station":"tea","ingredients":{"tea":1,"sea_salt":1,"lavender_bundle":1},"output_product_id":"salted_lavender_tea","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"violet_honey_cup","name":"Violet Honey Cup","station":"tea","ingredients":{"tea":1,"violet_honey":1},"output_product_id":"violet_honey_tea_cup","output_quantity":1,"discovery":"shift_2","category":"magical"},
+    {"id":"pear_spice_cordial","name":"Pear-Spice Cordial","station":"magical_kettle","ingredients":{"spiced_apple_cider":1,"pear_conserve":1},"output_product_id":"pear_spice_cordial_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"lavender_chamomile_brew","name":"Lavender Chamomile Brew","station":"tea","ingredients":{"chamomile_sachets":1,"lavender_bundle":1},"output_product_id":"lavender_chamomile_brew_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"rose_violet_fizz","name":"Rose and Violet Fizz","station":"magical_kettle","ingredients":{"rosewater_soda":1,"violet_honey":1},"output_product_id":"rose_violet_fizz","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"cloudberry_tea","name":"Cloudberry Tea","station":"tea","ingredients":{"tea":1,"cloudberry_syrup":1},"output_product_id":"cloudberry_tea_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"blackberry_cocoa","name":"Blackberry Cocoa","station":"coffee","ingredients":{"milk":1,"blackberry_chocolate":1},"output_product_id":"blackberry_cocoa_mug","output_quantity":1,"discovery":"pip_memory"},
+    {"id":"lemon_sunrise_tea","name":"Lemon Sunrise Tea","station":"tea","ingredients":{"tea":1,"soft_drink":1},"output_product_id":"lemon_sunrise_tea_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"night_rose_latte","name":"Night Rose Latte","station":"coffee","ingredients":{"coffee":1,"pink_lemonade":1},"output_product_id":"night_rose_latte","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"starlight_cordial","name":"Starlight Cordial","station":"magical_kettle","ingredients":{"starlight":1,"plum_cordial":1},"output_product_id":"starlight_cordial_cup","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"moonflower_rose_brew","name":"Moonflower Rose Brew","station":"magical_kettle","ingredients":{"moonflower_tea":1,"rosewater_soda":1},"output_product_id":"moonflower_rose_brew_cup","output_quantity":1,"discovery":"shift_2","category":"magical"},
+    {"id":"rose_lavender_night_tea","name":"Rose Lavender Night Tea","station":"tea","ingredients":{"tea":1,"lavender_bundle":1},"output_product_id":"rose_lavender_tea_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"peach_jam_toast","name":"Peach Jam Toast","station":"sandwich","ingredients":{"bread":1,"peach_jam":1},"output_product_id":"peach_jam_toast","output_quantity":1,"discovery":"known"},
+    {"id":"star_shortbread_cocoa","name":"Star Shortbread Cocoa","station":"coffee","ingredients":{"milk":1,"star_shortbread":1},"output_product_id":"star_shortbread_cocoa","output_quantity":1,"discovery":"shift_2"},
+    {"id":"cloudberry_sparkler","name":"Cloudberry Sparkler","station":"magical_kettle","ingredients":{"cloudberry_syrup":1,"soft_drink":1},"output_product_id":"cloudberry_sparkler","output_quantity":1,"discovery":"shift_2"},
+    {"id":"salted_pear_cider","name":"Salted Pear Cider","station":"magical_kettle","ingredients":{"spiced_apple_cider":1,"pear_conserve":1,"sea_salt":1},"output_product_id":"salted_pear_cider","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"berry_tart_warmup","name":"Warm Berry Tart","station":"bakery_warmer","ingredients":{"berry_tart":1,"honeycomb_drops":1},"output_product_id":"warm_berry_tart","output_quantity":1,"discovery":"known"},
+    {"id":"chamomile_milk_mug","name":"Chamomile Milk","station":"microwave","ingredients":{"milk":1,"chamomile_sachets":1},"output_product_id":"chamomile_milk_mug","output_quantity":1,"discovery":"known"},
+    {"id":"rosewater_plum_cordial","name":"Rosewater Plum Cordial","station":"magical_kettle","ingredients":{"plum_cordial":1,"rosewater_soda":1},"output_product_id":"rosewater_plum_cordial","output_quantity":1,"discovery":"shift_2"},
+    {"id":"ginger_moon_milk","name":"Ginger Moon Milk","station":"microwave","ingredients":{"milk":1,"ginger_star_biscuits":1},"output_product_id":"ginger_moon_milk","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"starlight_tea_cup","name":"Starlight Tea","station":"tea","ingredients":{"tea":1,"starlight":1},"output_product_id":"starlight_tea_cup","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"rose_honey_tisane","name":"Rose-Honey Tisane","station":"tea","ingredients":{"tea":1,"wildflower_honey_jar":1},"output_product_id":"rose_honey_tisane_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"pear_ginger_cup","name":"Pear and Ginger Cup","station":"tea","ingredients":{"golden_pear":1,"tea":1,"cinnamon_bundle":1},"output_product_id":"pear_ginger_cup","output_quantity":1,"discovery":"shift_2"},
+    {"id":"vanilla_cream_tea","name":"Vanilla Cream Tea","station":"tea","ingredients":{"tea":1,"vanilla_pod_bottle":1,"fresh_cream_bottle":1},"output_product_id":"vanilla_cream_tea_cup","output_quantity":1,"discovery":"known"},
+    {"id":"cocoa_honey_mug","name":"Cocoa with Wildflower Honey","station":"coffee","ingredients":{"midnight_cocoa_tin":1,"milk":1,"wildflower_honey_jar":1},"output_product_id":"cocoa_honey_mug","output_quantity":1,"discovery":"shift_2"},
+    {"id":"plum_cordial_tea","name":"Moonwater Plum Tea","station":"tea","ingredients":{"moonwater_plums":1,"tea":1},"output_product_id":"plum_cordial_tea_cup","output_quantity":1,"discovery":"pip_memory"},
+    {"id":"grape_sparkler","name":"Concord Grape Sparkler","station":"magical_kettle","ingredients":{"concord_grapes":1,"soft_drink":1},"output_product_id":"concord_grape_sparkler","output_quantity":1,"discovery":"shift_2"},
+    {"id":"cinnamon_cream_cocoa","name":"Cinnamon Cream Cocoa","station":"magical_kettle","ingredients":{"midnight_cocoa_tin":1,"fresh_cream_bottle":1,"cinnamon_bundle":1},"output_product_id":"cinnamon_cream_cocoa","output_quantity":1,"discovery":"pip_memory","category":"magical"},
+    {"id":"lavender_pear_tisane","name":"Lavender Pear Tisane","station":"magical_kettle","ingredients":{"pear_conserve":1,"lavender_tea_tin":1},"output_product_id":"lavender_pear_tisane","output_quantity":1,"discovery":"shift_2"},
+    {"id":"honeyed_rye_toast","name":"Honeyed Rye Toast","station":"sandwich","ingredients":{"rye_loaf":1,"wildflower_honey_jar":1},"output_product_id":"honeyed_rye_toast","output_quantity":1,"discovery":"known"},
+    {"id":"berry_preserve_pot","name":"Bellberry Preserve Pot","station":"magical_kettle","ingredients":{"berry_tart":1,"caster_sugar_jar":1},"output_product_id":"berry_preserve_pot","output_quantity":1,"discovery":"shift_2"},
+    {"id":"vanilla_warm_milk","name":"Vanilla Warm Milk","station":"microwave","ingredients":{"milk":1,"vanilla_pod_bottle":1},"output_product_id":"vanilla_warm_milk","output_quantity":1,"discovery":"known"},
+    {"id":"coffee_cream_mug","name":"Coffee with Fresh Cream","station":"coffee","ingredients":{"coffee":1,"fresh_cream_bottle":1},"output_product_id":"coffee_cream_mug","output_quantity":1,"discovery":"shift_2"},
+    {"id":"moonwater_plum_jam","name":"Moonwater Plum Jam","station":"magical_kettle","ingredients":{"moonwater_plums":1,"caster_sugar_jar":1},"output_product_id":"moonwater_plum_jam","output_quantity":1,"discovery":"pip_memory"},
+    {"id":"cinnamon_pear_cider","name":"Cinnamon Pear Cider","station":"magical_kettle","ingredients":{"spiced_apple_cider":1,"golden_pear":1,"cinnamon_bundle":1},"output_product_id":"cinnamon_pear_cider","output_quantity":1,"discovery":"shift_2"},
+    {"id":"grape_honey_tea","name":"Concord Grape and Honey Tea","station":"tea","ingredients":{"concord_grapes":1,"tea":1,"wildflower_honey_jar":1},"output_product_id":"grape_honey_tea","output_quantity":1,"discovery":"pip_memory"}
   ]
 }

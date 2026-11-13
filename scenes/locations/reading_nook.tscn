@@ -1,0 +1,103 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/raster/environment/moonmart_reading_nook_architecture.png" id="1_architecture"]
+[ext_resource type="Texture2D" path="res://assets/raster/furniture/moonmart_storyroom_decor_atlas_1280.png" id="2_storyroom"]
+[ext_resource type="Texture2D" path="res://assets/raster/furniture/moonmart_furniture_atlas.png" id="3_furniture"]
+
+[node name="ReadingNook" type="Node2D"]
+
+[node name="NightSkyLayer" type="Node2D" parent="."]
+z_index = -40
+
+[node name="ExteriorParallaxLayer" type="Node2D" parent="."]
+z_index = -30
+
+[node name="SeparateLightingLayer" type="Node2D" parent="."]
+z_index = -20
+
+[node name="WindowEffectsLayer" type="Node2D" parent="."]
+z_index = -10
+
+[node name="ArchitectureLayer" type="Node2D" parent="."]
+
+[node name="Backdrop" type="Sprite2D" parent="ArchitectureLayer"]
+texture = ExtResource("1_architecture")
+centered = false
+scale = Vector2(0.95694, 0.95643)
+
+[node name="BackgroundFurnitureLayer" type="Node2D" parent="."]
+z_index = 5
+
+[node name="LeftBookcase" type="Sprite2D" parent="BackgroundFurnitureLayer"]
+texture = ExtResource("2_storyroom")
+region_enabled = true
+region_rect = Rect2(640, 640, 320, 320)
+position = Vector2(350, 625)
+scale = Vector2(0.7, 0.7)
+
+[node name="RightBookcase" type="Sprite2D" parent="BackgroundFurnitureLayer"]
+texture = ExtResource("2_storyroom")
+region_enabled = true
+region_rect = Rect2(640, 640, 320, 320)
+position = Vector2(1330, 625)
+scale = Vector2(0.7, 0.7)
+
+[node name="DepthSortedCharactersLayer" type="Node2D" parent="."]
+z_index = 10
+
+[node name="ForegroundFurnitureLayer" type="Node2D" parent="."]
+z_index = 50
+
+[node name="ReadingChair" type="Sprite2D" parent="ForegroundFurnitureLayer"]
+texture = ExtResource("3_furniture")
+region_enabled = true
+region_rect = Rect2(888, 444, 444, 444)
+position = Vector2(760, 755)
+scale = Vector2(0.46, 0.46)
+
+[node name="BotanicalReadingStand" type="Sprite2D" parent="ForegroundFurnitureLayer"]
+texture = ExtResource("2_storyroom")
+region_enabled = true
+region_rect = Rect2(960, 640, 320, 320)
+position = Vector2(1010, 746)
+scale = Vector2(0.47, 0.47)
+
+[node name="RoomDecorationLayer" type="Node2D" parent="."]
+z_index = 55
+
+[node name="RoomDecorationCollisionLayer" type="Node2D" parent="."]
+
+[node name="ForegroundParallaxLayer" type="Node2D" parent="."]
+z_index = 60
+
+[node name="WeatherEffectsLayer" type="Node2D" parent="."]
+z_index = 65
+
+[node name="StoryEffectsLayer" type="Node2D" parent="."]
+z_index = 66
+
+[node name="ForegroundEffectsLayer" type="Node2D" parent="."]
+z_index = 67
+
+[node name="PropEffectsLayer" type="Node2D" parent="."]
+z_index = 68
+
+[node name="HUDDialogueLayer" type="Node2D" parent="."]
+z_index = 70
+
+[node name="InteractionPoints" type="Node2D" parent="."]
+
+[node name="ReadingShelves" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(350, 720)
+
+[node name="ReadingShelvesRight" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1330, 720)
+
+[node name="ReadingChair" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(760, 790)
+
+[node name="BotanicalStand" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1010, 790)
+
+[node name="ShopDoor" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(115, 735)

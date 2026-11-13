@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "sample_rate": 44100,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "loop_seconds": 32,
+  "tracks": [
+    {
+      "id": "window_seat",
+      "title": "Window Seat",
+      "path": "window_seat.wav",
+      "instruments": "felt-piano-like synthesis; soft music-box-like synthesis; warm string-like pad",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.5,
+      "bytes": 5644844
+    },
+    {
+      "id": "bellwether_after_hours",
+      "title": "Bellwether After Hours",
+      "path": "bellwether_after_hours.wav",
+      "instruments": "felt-piano-like synthesis; soft plucked-string synthesis; warm string-like pad; faint synthetic brush texture",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.5,
+      "bytes": 5644844
+    },
+    {
+      "id": "harbour_hush",
+      "title": "Harbour Hush",
+      "path": "harbour_hush.wav",
+      "instruments": "felt-piano-like synthesis; soft plucked-string synthesis; airy string-like pad; faint synthetic brush texture",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.5,
+      "bytes": 5644844
+    }
+  ]
+}

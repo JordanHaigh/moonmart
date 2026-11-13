@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "sample_rate": 44100,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "duration_seconds": 32,
+  "tracks": [
+    {
+      "id": "bellwether_night",
+      "title": "Bellwether Night Street",
+      "path": "bellwether_night.wav",
+      "description": "soft distant town bed with low filtered air, slow far-off tonal swells and occasional muted high harmonics",
+      "peak_dbfs": -27.49,
+      "bytes": 5644844,
+      "sha256": "4B71E1978AA0C06A778554A8AE31EDEBDA00ABFDE0390151A807DD6ECBBC7903"
+    },
+    {
+      "id": "whisperwood_night",
+      "title": "Whisperwood Night",
+      "path": "whisperwood_night.wav",
+      "description": "soft leaf-like filtered rustle with rare delicate two-note night-bird calls",
+      "peak_dbfs": -26.33,
+      "bytes": 5644844,
+      "sha256": "E6A1C950A0FDBF3092938A84E22F0E62D32F35569489270413B9566519427408"
+    },
+    {
+      "id": "moonwater_harbour",
+      "title": "Moonwater Harbour",
+      "path": "moonwater_harbour.wav",
+      "description": "gentle water-like rolling filtered noise with occasional soft rope creak and distant buoy resonance",
+      "peak_dbfs": -27.74,
+      "bytes": 5644844,
+      "sha256": "905BFE6139698780B23DF111911C5044413DF02B88DC7FE7D866E3379F4A822D"
+    },
+    {
+      "id": "midnight_air",
+      "title": "Midnight Between Air",
+      "path": "midnight_air.wav",
+      "description": "very soft airy evolving noise and warm high haze, without a pulse, impacts or ominous tones",
+      "peak_dbfs": -27.00,
+      "bytes": 5644844,
+      "sha256": "C249BFD24BA5E9B915772AAE06FB415A0F38EE6EDCAAEA744DC4C2A101ADE9E5"
+    }
+  ]
+}

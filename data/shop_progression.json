@@ -1,0 +1,73 @@
+{
+  "cleanliness": {
+    "initial": 82.0,
+    "minimum": 0.0,
+    "maximum": 100.0,
+    "loss_per_completed_shift": 1.0,
+    "actions": {
+      "wipe_counter": 12.0,
+      "sweep_floor": 10.0,
+      "water_plants": 6.0,
+      "clear_cups": 5.0,
+      "refill_dispenser": 4.0,
+      "take_out_rubbish": 8.0
+    }
+  },
+  "reputation_tiers": [
+    {"id": "little_corner_shop", "name": "Little Corner Shop", "threshold": 0, "optional_unlocks": ["basic_checkout", "shelves", "coffee"]},
+    {"id": "familiar_faces", "name": "Familiar Faces", "threshold": 100, "optional_unlocks": ["tea_station", "seating", "special_orders"]},
+    {"id": "neighbourhood_favourite", "name": "Neighbourhood Favourite", "threshold": 300, "optional_unlocks": ["expanded_inventory", "bakery_station"]},
+    {"id": "moonlit_haven", "name": "Moonlit Haven", "threshold": 600, "optional_unlocks": ["advanced_magical_stock", "enchanted_decorations"]},
+    {"id": "between_worlds", "name": "Between Worlds", "threshold": 1000, "optional_unlocks": ["optional_supernatural_visitors", "optional_services"]},
+    {"id": "midnight_sanctuary", "name": "Midnight Sanctuary", "threshold": 1500, "optional_unlocks": ["full_customization", "advanced_facilities"]}
+  ],
+  "harmony": {
+    "initial": 0,
+    "minimum": 0,
+    "maximum": 100,
+    "optional_thresholds": [25, 50, 75, 100]
+  },
+  "proficiencies": [
+    {"id": "hospitality", "name": "Hospitality", "rank_thresholds": [0, 10, 25, 45, 70], "rank_names": ["Learner", "Welcoming", "Considerate", "Attentive", "Heart of the Shop"]},
+    {"id": "crafting", "name": "Crafting", "rank_thresholds": [0, 10, 25, 45, 70], "rank_names": ["Learner", "Steady Hand", "Recipe Keeper", "Night Brewer", "Moonlit Artisan"]},
+    {"id": "observation", "name": "Observation", "rank_thresholds": [0, 10, 25, 45, 70], "rank_names": ["Learner", "Noticeful", "Curious", "Keen-Eyed", "Between-Sighted"]},
+    {"id": "stewardship", "name": "Stewardship", "rank_thresholds": [0, 10, 25, 45, 70], "rank_names": ["Learner", "Careful", "Dependable", "Good Keeper", "Sanctuary Keeper"]},
+    {"id": "attunement", "name": "Attunement", "rank_thresholds": [0, 10, 25, 45, 70], "rank_names": ["Learner", "Listening", "In Tune", "Moon-Aware", "Between-Bound"]}
+  ],
+  "upgrades": [
+    {"id": "tea_corner", "name": "Open the Tea Corner", "description": "Make the adjoining moonlit room available for quiet tea service.", "currency": "coins", "cost": 420, "minimum_reputation_tier": "neighbourhood_favourite", "optional_perks": ["tea_corner_room"]},
+    {"id": "scanner_assist", "name": "Assisted Scanner", "description": "Offers optional checkout scanning assistance.", "currency": "coins", "cost": 180, "minimum_reputation_tier": "familiar_faces", "optional_perks": ["assisted_checkout"]},
+    {"id": "expanded_shelf_capacity", "name": "Expanded Shelf Capacity", "description": "Adds room for a broader everyday stock selection.", "currency": "coins", "cost": 320, "minimum_reputation_tier": "neighbourhood_favourite", "optional_perks": ["expanded_shelf_capacity"]},
+    {"id": "reading_nook", "name": "Reading Nook", "description": "Open a book-lined room for longer conversations and character events.", "currency": "coins", "cost": 800, "minimum_reputation_tier": "neighbourhood_favourite", "optional_perks": ["linger_conversations", "reading_nook_room"]},
+    {"id": "enchanted_greenhouse", "name": "Enchanted Greenhouse", "description": "Open a glasshouse for tending and studying magical plants and ingredients.", "currency": "coins", "cost": 1200, "minimum_reputation_tier": "moonlit_haven", "optional_perks": ["enchanted_greenhouse_room"]},
+    {"id": "enchanted_lighting", "name": "Moonlit Window Lights", "description": "Soft enchanted light draws optional nocturnal visitors on clear nights.", "currency": "moon_tokens", "cost": 12, "minimum_reputation_tier": "moonlit_haven", "minimum_harmony": 25, "optional_perks": ["clear_night_visitors"]},
+    {"id": "shop_radio", "name": "Moonmart Tuner", "description": "A small radio tunes in three original nighttime stations beneath the shop's quiet ambience.", "currency": "coins", "cost": 240, "minimum_reputation_tier": "familiar_faces", "optional_perks": ["radio_station_selection"]}
+  ],
+  "milestones": [
+    {"id": "first_friendly_checkout", "proficiency": "hospitality", "proficiency_points": 1, "reputation": 8},
+    {"id": "remembered_regular_order", "proficiency": "hospitality", "proficiency_points": 2, "reputation": 5, "harmony": 1},
+    {"id": "meaningful_conversation", "proficiency": "hospitality", "proficiency_points": 2, "reputation": 4},
+    {"id": "honoured_packing_preference", "proficiency": "hospitality", "proficiency_points": 2, "reputation": 4},
+    {"id": "completed_favourite_recommendation", "proficiency": "hospitality", "proficiency_points": 2, "reputation": 4},
+    {"id": "first_recipe_prepared", "proficiency": "crafting", "proficiency_points": 2, "reputation": 3},
+    {"id": "experimented_with_recipe", "proficiency": "crafting", "proficiency_points": 2, "harmony": 1},
+    {"id": "served_midnight_drink", "proficiency": "crafting", "proficiency_points": 3, "reputation": 4, "harmony": 2},
+    {"id": "successful_recipe_experiment", "proficiency": "crafting", "proficiency_points": 2, "reputation": 2, "harmony": 1},
+    {"id": "crafted_at_three_stations", "proficiency": "crafting", "proficiency_points": 3, "reputation": 5},
+    {"id": "noticed_first_clue", "proficiency": "observation", "proficiency_points": 2, "reputation": 2, "harmony": 1},
+    {"id": "connected_two_clues", "proficiency": "observation", "proficiency_points": 3, "harmony": 2},
+    {"id": "found_hidden_detail", "proficiency": "observation", "proficiency_points": 2, "harmony": 1},
+    {"id": "solved_environmental_puzzle", "proficiency": "observation", "proficiency_points": 3, "reputation": 3, "harmony": 2},
+    {"id": "found_first_keepsake", "proficiency": "observation", "proficiency_points": 2, "harmony": 1},
+    {"id": "completed_cleaning_action", "proficiency": "stewardship", "proficiency_points": 1, "reputation": 2},
+    {"id": "completed_well_kept_shift", "proficiency": "stewardship", "proficiency_points": 3, "reputation": 6},
+    {"id": "restocked_a_shelf", "proficiency": "stewardship", "proficiency_points": 1, "reputation": 2},
+    {"id": "donated_surplus_stock", "proficiency": "stewardship", "proficiency_points": 2, "reputation": 2},
+    {"id": "saved_marked_down_perishables", "proficiency": "stewardship", "proficiency_points": 3, "reputation": 3},
+    {"id": "helped_a_spirit", "proficiency": "attunement", "proficiency_points": 3, "harmony": 3},
+    {"id": "welcomed_between_visitor", "proficiency": "attunement", "proficiency_points": 2, "harmony": 2},
+    {"id": "kept_a_kind_promise", "proficiency": "attunement", "proficiency_points": 2, "reputation": 2, "harmony": 2},
+    {"id": "attended_bellwether_festival", "proficiency": "attunement", "proficiency_points": 2, "harmony": 2},
+    {"id": "resolved_optional_anomaly", "proficiency": "attunement", "proficiency_points": 3, "harmony": 3}
+  ]
+}

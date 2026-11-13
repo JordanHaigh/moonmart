@@ -1,0 +1,47 @@
+{
+	"schema_version": 1,
+	"events": {
+		"door_bell": {
+			"path": "res://assets/audio/sfx/moonmart_door_bell.wav",
+			"bus": "SFX",
+			"volume_db": -5.0,
+			"voices": 2
+		},
+		"threshold_door_bell": {
+			"path": "res://assets/audio/sfx/moonmart_threshold_door_bell.wav",
+			"bus": "SFX",
+			"volume_db": -13.0,
+			"voices": 2
+		},
+		"register_chime": {
+			"path": "res://assets/audio/sfx/moonmart_register_chime.wav",
+			"bus": "SFX",
+			"volume_db": -5.5,
+			"voices": 2
+		},
+		"threshold_register_chime": {
+			"path": "res://assets/audio/sfx/moonmart_threshold_register_chime.wav",
+			"bus": "SFX",
+			"volume_db": -12.0,
+			"voices": 2
+		},
+		"story_reveal": {
+			"path": "res://assets/audio/sfx/moonmart_story_reveal.wav",
+			"bus": "SFX",
+			"volume_db": -8.0,
+			"voices": 1
+		},
+		"footstep": {
+			"path": "res://assets/audio/sfx/moonmart_footstep.wav",
+			"bus": "SFX",
+			"volume_db": -13.0,
+			"voices": 2
+		},
+		"ceramic_cup": {
+			"path": "res://assets/audio/sfx/moonmart_ceramic_cup.wav",
+			"bus": "SFX",
+			"volume_db": -16.0,
+			"voices": 2
+		}
+	}
+}

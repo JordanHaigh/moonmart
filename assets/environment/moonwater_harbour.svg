@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="harbourSky" x2="0" y2="1"><stop stop-color="#25243e"/><stop offset=".48" stop-color="#4e4d70"/><stop offset="1" stop-color="#ba8a86"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#53627c"/><stop offset="1" stop-color="#29364d"/></linearGradient>
+ <linearGradient id="pier" x2="0" y2="1"><stop stop-color="#9b7072"/><stop offset="1" stop-color="#4e4057"/></linearGradient>
+ <radialGradient id="moonPath"><stop stop-color="#f3d4ac" stop-opacity=".45"/><stop offset="1" stop-color="#f3d4ac" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#harbourSky)"/>
+<circle cx="1179" cy="163" r="73" fill="#f6dfc0" opacity=".92"/><circle cx="1210" cy="139" r="66" fill="#4e4d70"/>
+<g fill="#fff0d8" opacity=".58"><circle cx="148" cy="110" r="2"/><circle cx="456" cy="183" r="3"/><circle cx="772" cy="107" r="2"/><circle cx="1385" cy="255" r="3"/></g>
+<path d="M0 393q162-64 322 1t349-6q196-75 382 8t336-9q109-45 211 2v99H0z" fill="#2d344b"/>
+<path d="M0 451h1600v449H0z" fill="url(#sea)"/>
+<ellipse cx="1140" cy="504" rx="314" ry="168" fill="url(#moonPath)"/>
+<!-- far shoreline cottages -->
+<g stroke="#d09883" stroke-width="7"><path d="M51 451h155v132H51z" fill="#564b64"/><path d="M32 455l97-78 100 78z" fill="#6e5368"/><path d="M270 456h169v137H270z" fill="#59485e"/><path d="M248 461l109-88 114 88z" fill="#705461"/><path d="M1320 456h201v130h-201z" fill="#51495f"/><path d="M1292 461l128-102 128 102z" fill="#6f5268"/></g>
+<g fill="#f2bd87"><rect x="79" y="489" width="38" height="50" rx="4"/><rect x="145" y="489" width="35" height="50" rx="4"/><rect x="313" y="490" width="41" height="58" rx="4"/><rect x="375" y="490" width="39" height="58" rx="4"/><rect x="1360" y="492" width="43" height="52" rx="4"/><rect x="1431" y="492" width="42" height="52" rx="4"/></g>
+<!-- rocky breakwater -->
+<path d="M0 549q61-43 108-3t86 4q53-41 98 1t89 1q51-36 90 7v70H0z" fill="#414256"/>
+<path d="M1600 548q-56-39-111 0t-91 4q-52-40-100 4t-85 2q-53-36-92 6v72h479z" fill="#414256"/>
+<!-- pier in perspective -->
+<path d="M480 511h574l-86 389H590z" fill="url(#pier)" stroke="#e0aa8a" stroke-width="8"/>
+<path d="M493 544h546M505 585h526M519 631h500M535 681h466M550 739h442M568 808h409" stroke="#efc198" stroke-opacity=".36" stroke-width="5"/>
+<path d="M549 517v160m444-160v160M585 527v110m370-110v110" stroke="#574253" stroke-width="17"/>
+<path d="M538 524l25 380m445-379-53 375" stroke="#6e4d5c" stroke-width="14"/>
+<!-- tied fishing boat -->
+<path d="M1042 587h337q-41 105-169 110-125-8-168-110z" fill="#5a4057" stroke="#d89d7c" stroke-width="8"/>
+<path d="M1211 585V375" stroke="#e3b28f" stroke-width="9"/><path d="M1223 391q147 41 177 151h-177z" fill="#d5bbc0" stroke="#f2d5c0" stroke-width="7"/><path d="M1188 405q-92 42-128 130h128z" fill="#a88caa" stroke="#f2d5c0" stroke-width="6"/>
+<path d="M1084 601l23 3m38-7 24 4m42-5 23 5m38-3 22 6m43-6 20 4" stroke="#f1b47d" stroke-width="7" stroke-linecap="round"/>
+<!-- lanterns and tide-glints -->
+<g><path d="M457 445v117m637-57v79m421-95v102" stroke="#c88e79" stroke-width="6"/><path d="M436 543h43l-7 16h-29zM1073 573h43l-7 16h-29zM1493 581h43l-7 16h-29z" fill="#ffd193"/><circle cx="458" cy="570" r="71" fill="#ffd193" opacity=".08"/></g>
+<g fill="#c8d3d3" opacity=".34"><path d="M71 659q70-13 139 0-69 12-139 0zm1203 84q63-11 127 0-64 10-127 0zm-1078 99q54-10 111 0-56 11-111 0zm1192-216q54-10 112 0-55 12-112 0z"/></g>
+</svg>
