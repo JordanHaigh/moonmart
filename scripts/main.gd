@@ -144,6 +144,9 @@ var active_season_visual := ""
 var location_weather_sprites: Array[Sprite2D] = []
 var location_snow_sprites: Array[Sprite2D] = []
 var location_wind_sprites: Array[Sprite2D] = []
+var location_fog_sprites: Array[Sprite2D] = []
+var lighthouse_beam_nodes: Array[Node2D] = []
+var lighthouse_beam_scene_id := 0
 var location_weather_scene_id := 0
 var environment_effect_overrides: Dictionary = {}
 var environment_layer_overrides: Dictionary = {}
@@ -1537,6 +1540,114 @@ func _ensure_location_effect_layers(location_scene: Node2D) -> void:
 			else:
 				background_furniture.add_child(child)
 
+# Procedural fog: soft elliptical banks on each outdoor scene's own WeatherEffectsLayer.
+# They are generated gradients, not painted art, so they never touch the environment plate.
+func _make_fog_bank_texture() -> Texture2D:
+	var gradient := Gradient.new()
+	gradient.offsets = PackedFloat32Array([0.0, 0.55, 1.0])
+	gradient.colors = PackedColorArray([Color(1, 1, 1, 0.62), Color(1, 1, 1, 0.34), Color(1, 1, 1, 0.0)])
+	var texture := GradientTexture2D.new()
+	texture.gradient = gradient
+	texture.fill = GradientTexture2D.FILL_RADIAL
+	texture.fill_from = Vector2(0.5, 0.5)
+	texture.fill_to = Vector2(1.0, 0.5)
+	texture.width = 256
+	texture.height = 256
+	return texture
+
+func _build_location_fog(weather_layer: Node2D) -> void:
+	var texture := _make_fog_bank_texture()
+	# Low, wide banks keep the sky, moon, windows and storefronts readable.
+	var bank_specs: Array[Dictionary] = [
+		{"position":Vector2(420, 700), "scale":Vector2(4.4, 0.95), "alpha":0.78},
+		{"position":Vector2(1050, 640), "scale":Vector2(5.0, 0.85), "alpha":0.68},
+		{"position":Vector2(1450, 760), "scale":Vector2(3.8, 0.8), "alpha":0.78},
+		{"position":Vector2(760, 820), "scale":Vector2(5.2, 0.7), "alpha":0.62}
+	]
+	for index in range(bank_specs.size()):
+		var spec: Dictionary = bank_specs[index]
+		var sprite := Sprite2D.new()
+		sprite.name = "FogBank_%02d" % index
+		sprite.texture = texture
+		sprite.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+		sprite.position = spec["position"]
+		sprite.scale = spec["scale"]
+		sprite.modulate = Color(0.90, 0.86, 1.0, float(spec["alpha"]))
+		sprite.set_meta("base_position", spec["position"])
+		sprite.set_meta("base_alpha", float(spec["alpha"]))
+		sprite.visible = false
+		weather_layer.add_child(sprite)
+		location_fog_sprites.append(sprite)
+
+func _animate_location_fog(foggy: bool, elapsed_seconds: float) -> void:
+	for index in range(location_fog_sprites.size()):
+		var sprite := location_fog_sprites[index]
+		if not is_instance_valid(sprite):
+			continue
+		sprite.visible = foggy
+		var base_position: Vector2 = sprite.get_meta("base_position", sprite.position)
+		var base_alpha: float = sprite.get_meta("base_alpha", 0.14)
+		if foggy and not reduced_animation_enabled:
+			var phase := float(index) * 1.7
+			sprite.position = Vector2(base_position.x + sin(elapsed_seconds * 0.09 + phase) * 110.0, base_position.y + cos(elapsed_seconds * 0.13 + phase) * 8.0)
+			var breathe := 1.0 if reduced_flashing_enabled else 0.82 + 0.18 * sin(elapsed_seconds * 0.21 + phase)
+			sprite.modulate.a = base_alpha * breathe
+		else:
+			sprite.position = base_position
+			sprite.modulate.a = base_alpha
+
+# The restored lighthouse sweeps a slow beam across the sky. It is built from vertex-coloured
+# polygons on the scene's StoryEffectsLayer, never baked into the plate or drawn from art_import.
+func _sync_lighthouse_beam(elapsed_seconds: float) -> void:
+	var active := current_location_scene != null and current_location_id == "old_lighthouse" and game != null and bool(game.story.flags.get("lighthouse_restored", false))
+	if not active:
+		for beam_node in lighthouse_beam_nodes:
+			if is_instance_valid(beam_node):
+				beam_node.visible = false
+		return
+	var scene_id := current_location_scene.get_instance_id()
+	if scene_id != lighthouse_beam_scene_id:
+		lighthouse_beam_nodes.clear()
+		lighthouse_beam_scene_id = scene_id
+		var story_layer := current_location_scene.get_node_or_null("StoryEffectsLayer") as Node2D
+		if story_layer == null:
+			return
+		var lamp_position := Vector2(1306, 118)
+		var pivot := Node2D.new()
+		pivot.name = "LighthouseBeam"
+		pivot.position = lamp_position
+		var additive := CanvasItemMaterial.new()
+		additive.blend_mode = CanvasItemMaterial.BLEND_MODE_ADD
+		pivot.material = additive
+		story_layer.add_child(pivot)
+		for spec in [{"name":"BeamHalo", "length":1150.0, "spread":170.0, "alpha":0.10}, {"name":"BeamCore", "length":1000.0, "spread":55.0, "alpha":0.22}]:
+			var wedge := Polygon2D.new()
+			wedge.name = String(spec["name"])
+			var length: float = spec["length"]
+			var spread: float = spec["spread"]
+			wedge.polygon = PackedVector2Array([Vector2.ZERO, Vector2(-length, -spread), Vector2(-length, spread)])
+			var warm := Color(1.0, 0.93, 0.74, float(spec["alpha"]))
+			wedge.vertex_colors = PackedColorArray([warm, Color(warm.r, warm.g, warm.b, 0.0), Color(warm.r, warm.g, warm.b, 0.0)])
+			wedge.color = Color(1, 1, 1, 1)
+			pivot.add_child(wedge)
+		var glow := Sprite2D.new()
+		glow.name = "LampGlow"
+		glow.texture = _make_fog_bank_texture()
+		glow.scale = Vector2(0.9, 0.9)
+		glow.modulate = Color(1.0, 0.9, 0.62, 0.8)
+		pivot.add_child(glow)
+		lighthouse_beam_nodes.append(pivot)
+	for beam_node in lighthouse_beam_nodes:
+		if not is_instance_valid(beam_node):
+			continue
+		beam_node.visible = true
+		if reduced_animation_enabled:
+			beam_node.rotation = -0.10
+			beam_node.modulate.a = 0.85
+		else:
+			beam_node.rotation = -0.12 + sin(elapsed_seconds * 0.5) * 0.15
+			beam_node.modulate.a = 0.85 if reduced_flashing_enabled else 0.75 + 0.25 * sin(elapsed_seconds * 1.3)
+
 func _outdoor_weather_positions(location_id: String) -> Array[Vector2]:
 	# These coordinates stay in the visually open upper sky of each opaque plate.
 	# Keep the effects compact; they cannot be occluded by painted foreground art.
@@ -1558,18 +1669,23 @@ func _sync_location_weather_effects(weather_shift: int) -> void:
 		location_weather_sprites.clear()
 		location_snow_sprites.clear()
 		location_wind_sprites.clear()
+		location_fog_sprites.clear()
 		location_weather_scene_id = 0
+		_sync_lighthouse_beam(0.0)
 		return
 	var scene_id := current_location_scene.get_instance_id()
 	if scene_id != location_weather_scene_id:
 		location_weather_sprites.clear()
 		location_snow_sprites.clear()
 		location_wind_sprites.clear()
+		location_fog_sprites.clear()
 		location_weather_scene_id = scene_id
 		var is_tea_corner := current_location_id == "tea_corner"
 		var weather_layer_name := "WindowEffectsLayer" if is_tea_corner else "WeatherEffectsLayer"
 		var weather_layer := current_location_scene.get_node_or_null(weather_layer_name) as Node2D
 		if weather_layer != null:
+			if not is_tea_corner:
+				_build_location_fog(weather_layer)
 			var outdoor_weather_positions := _outdoor_weather_positions(current_location_id)
 			var texture := load(RAIN_ATLAS_PATH) as Texture2D
 			if texture != null:
@@ -1744,6 +1860,8 @@ func _sync_location_weather_effects(weather_shift: int) -> void:
 		else:
 			sprite.position = sprite.get_meta("base_position", sprite.position)
 			sprite.rotation = float(sprite.get_meta("base_rotation", 0.0))
+	_animate_location_fog(weather == "fog", elapsed_seconds)
+	_sync_lighthouse_beam(elapsed_seconds)
 
 func set_window_effect_enabled(effect_name: String, enabled: bool) -> void:
 	environment_effect_overrides[effect_name] = enabled
