@@ -513,7 +513,7 @@ func interact(target_id: String, secondary: bool = false) -> void:
 			_set_message(localize_ui("companion.response.pet", String(care_result.get("message", "Miso blinks sleepily."))) if care_result.get("ok", false) else localize_ui("companion.result.already_done", "Miso has already had a little attention of that kind tonight."))
 		"journal":
 			_emit_journal()
-		"old_grove", "tide_pool", "platform", "shop_ledger", "keeper_log", "town_map", "town_archive", "town_ledger", "passenger_manifest", "lucien_book", "post_box", "post_office", "photograph", "ticket_window", "platform_clock", "coast_view", "fresnel_lens", "lamp_room", "washed_glass", "net_mender", "empty_boat":
+		"old_grove", "tide_pool", "platform", "shop_ledger", "keeper_log", "town_map", "town_archive", "town_ledger", "passenger_manifest", "lucien_book", "post_box", "post_office", "photograph", "ticket_window", "platform_clock", "coast_view", "fresnel_lens", "lamp_room", "washed_glass", "net_mender", "empty_boat", "moonflower_patch", "bird_nests":
 			_set_message(inspect_object(target_id))
 		"backroom", "back_door":
 			if story.flags.get("pip_first_memory", false):

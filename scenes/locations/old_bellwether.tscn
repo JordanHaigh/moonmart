@@ -73,6 +73,9 @@ position = Vector2(1250, 675)
 [node name="OldPhotograph" type="Marker2D" parent="InteractionPoints"]
 position = Vector2(1287, 675)
 
+[node name="TownArchive" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1130, 650)
+
 [node name="ReturnToMoonmart" type="Marker2D" parent="InteractionPoints"]
 position = Vector2(1510, 820)
 

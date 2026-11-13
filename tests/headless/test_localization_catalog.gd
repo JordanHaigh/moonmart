@@ -23,7 +23,7 @@ func _run() -> void:
 	_expect(source_ui is Dictionary and translated_ui is Dictionary, "both UI catalogs contain strings dictionaries")
 	if source_ui is Dictionary and translated_ui is Dictionary:
 		_assert_same_keys(source_ui, translated_ui, "UI")
-		_expect(source_ui.size() == 1469, "English UI catalog contains the audited 1,469 keys")
+		_expect(source_ui.size() == 1499, "English UI catalog contains the audited 1,499 keys")
 		_assert_collectibles(source_ui, translated_ui)
 		for key_value in source_ui.keys():
 			var key := String(key_value)

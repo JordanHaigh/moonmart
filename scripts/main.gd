@@ -2768,8 +2768,8 @@ func _location_target_id(marker_id: String) -> String:
 	var targets := {
 		"BakeryFront": "agnes", "BookshopFront": "lucien_book", "PostOffice": "post_office",
 		"TownNoticeboard": "town_map", "WashedGlass": "washed_glass", "NetMender": "net_mender", "EmptyBoat": "empty_boat",
-		"OldShrine": "old_grove", "FernSpot": "fern", "MoonflowerPatch": "old_grove",
-		"WhisperingTree": "old_grove", "ImpossibleParcel": "tide_pool", "HarbourOffice": "wren",
+		"OldShrine": "old_grove", "FernSpot": "fern", "MoonflowerPatch": "moonflower_patch",
+		"WhisperingTree": "bird_nests", "ImpossibleParcel": "tide_pool", "HarbourOffice": "wren",
 		"NightBoat": "ticket_window", "KeeperDoor": "keeper_log", "LensRoom": "fresnel_lens", "LampRoom": "lamp_room",
 		"SeawardCliff": "coast_view", "PlatformClock": "platform_clock", "LostAndFound": "passenger_manifest",
 		"WaitingBench": "waiting_bench", "TicketWindow": "ticket_window", "TrainDoor": "platform", "ConductorSpot": "conductor", "MemoryWall": "photograph",

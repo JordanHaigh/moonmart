@@ -167,6 +167,16 @@ func _assert_required_story_evidence() -> void:
 	for clue_id in ["blue_glass_safe_return_token", "net_mender_recognizes_harbour_knot", "empty_boat_carries_a_wish"]:
 		_expect(_game.story.clues.has(clue_id), "optional harbour case clue %s is inspected" % clue_id)
 	_assert_harbour_is_optional()
+	var expanded_cases := {
+		"harbour_night_boats": ["net_mender_hears_oars_after_midnight", "empty_boat_hull_is_dry_at_dawn", "washed_beads_line_up_toward_open_water"],
+		"whisperwood_shifting_paths": ["moonflowers_lean_toward_the_lost", "cloth_ribbons_beside_the_nests", "grove_roots_settle_into_an_arrow"],
+		"unclaimed_drawer": ["unclaimed_drawer_holds_nameless_cards", "returned_envelope_names_an_unclaimed_card", "unclaimed_cards_fill_in_when_remembered"]
+	}
+	_expect(_game.story.investigation_definitions.size() == 15, "investigation catalog holds all 15 cases")
+	for case_id in expanded_cases:
+		_expect(bool(_game.story.investigation_state.get(String(case_id), {}).get("completed", false)), "expanded optional investigation %s is deduced during the campaign" % String(case_id))
+		for clue_id in expanded_cases[case_id]:
+			_expect(_game.story.clues.has(String(clue_id)), "expanded case clue %s is inspected" % String(clue_id))
 	for location_id in ["whisperwood", "moonwater_harbour", "midnight_platform", "old_lighthouse"]:
 		_expect(_game.story.is_location_unlocked(String(location_id)), "story location %s unlocks during the playthrough" % String(location_id))
 
@@ -179,14 +189,15 @@ func _assert_harbour_is_optional() -> void:
 	var story_events: Array = quest_data.get("story_events", [])
 	var ending_definitions: Array = quest_data.get("endings", [])
 	var harbour_flag_is_required := false
+	var optional_result_flags := ["harbour_wish_remembered", "harbour_night_boats_understood", "harbour_lantern_watch_understood", "whisperwood_paths_understood", "whisperwood_ribbon_route_understood", "unclaimed_drawer_understood", "unclaimed_names_travel_home"]
 	for event_value in story_events:
 		if not event_value is Dictionary:
 			continue
 		var event: Dictionary = event_value
-		if event.get("requires_flags", []).has("harbour_wish_remembered"):
+		if event.get("requires_flags", []).any(func(flag_id): return String(flag_id) in optional_result_flags):
 			harbour_flag_is_required = true
 	for ending_value in ending_definitions:
-		if ending_value is Dictionary and String((ending_value as Dictionary).get("requires_flag", "")) == "harbour_wish_remembered":
+		if ending_value is Dictionary and String((ending_value as Dictionary).get("requires_flag", "")) in optional_result_flags:
 			harbour_flag_is_required = true
 	_expect(not harbour_flag_is_required, "harbour wishes result is not a main-story or ending prerequisite")
 

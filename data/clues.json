@@ -43,6 +43,15 @@
     {"id":"miso_memory_echo","text":"The photograph holds a moonlit memory of Miso waiting beside the doorway by choice.","target":"photograph","chapter":5,"requires_flags":["miso_guardian_truth"],"hidden_perception":true},
     {"id":"blue_glass_safe_return_token","text":"A blue sea-glass bead on the washed shore has a small hole worn smooth by string.","target":"washed_glass","chapter":2},
     {"id":"net_mender_recognizes_harbour_knot","text":"The net-mender recognizes the bead's old sailor's knot: a local wish for every boat to return safely.","target":"net_mender","chapter":2},
-    {"id":"empty_boat_carries_a_wish","text":"A matching blue bead is tied beneath the empty boat's seat beside a tag with no name, only a little drawing of a returning moon.","target":"empty_boat","chapter":2}
+    {"id":"empty_boat_carries_a_wish","text":"A matching blue bead is tied beneath the empty boat's seat beside a tag with no name, only a little drawing of a returning moon.","target":"empty_boat","chapter":2},
+    {"id":"net_mender_hears_oars_after_midnight","text":"The net-mender says she hears slow, gentle oars after midnight, yet no one has ever seen a boat leave the quay.","target":"net_mender","chapter":3,"requires_flags":["long_midnight_explained"]},
+    {"id":"empty_boat_hull_is_dry_at_dawn","text":"Even after a high tide, the empty boat's hull is dry at dawn and its lantern hook is still faintly warm.","target":"empty_boat","chapter":3,"requires_flags":["long_midnight_explained"]},
+    {"id":"washed_beads_line_up_toward_open_water","text":"Fresh blue beads lie in a tidy line on the wet sand each dawn, pointing toward the dark water past the breakwater.","target":"washed_glass","chapter":3,"requires_flags":["long_midnight_explained"]},
+    {"id":"moonflowers_lean_toward_the_lost","text":"The moonflowers lean toward whoever is lost, and each night they point along a different trail.","target":"moonflower_patch","chapter":3,"requires_flags":["silence_source_understood"]},
+    {"id":"cloth_ribbons_beside_the_nests","text":"Tiny strips of cloth are tied beside the nests, each knotted in the colour of a different trail.","target":"bird_nests","chapter":3,"requires_flags":["silence_source_understood"]},
+    {"id":"grove_roots_settle_into_an_arrow","text":"Whenever someone walks in uncertain, the roots of the old grove settle into a soft arrow toward the way out.","target":"old_grove","chapter":3,"requires_flags":["silence_source_understood"]},
+    {"id":"unclaimed_drawer_holds_nameless_cards","text":"In the town archive, a drawer marked Unclaimed holds index cards with a name at the top and nothing written beneath.","target":"town_archive","chapter":4,"requires_flags":["conductor_first_appears"]},
+    {"id":"returned_envelope_names_an_unclaimed_card","text":"A returned envelope in Mara's tray bears a name from the Unclaimed drawer, with no sender but a careful, familiar hand.","target":"post_office","chapter":4,"requires_flags":["conductor_first_appears"]},
+    {"id":"unclaimed_cards_fill_in_when_remembered","text":"Osric's card now carries a line beneath his name, and two others mention a quiet room and a worn doorstep: places that remember guests.","target":"town_archive","chapter":4,"requires_flags":["forgotten_resident_returned"]}
   ]
 }
