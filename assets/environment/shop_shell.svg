@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#403752"/><stop offset="1" stop-color="#70556c"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#a16f79"/><stop offset="1" stop-color="#61475f"/></linearGradient>
+    <linearGradient id="night" x2="0" y2="1"><stop stop-color="#24263f"/><stop offset="1" stop-color="#555173"/></linearGradient>
+    <linearGradient id="windowGlow" x2="0" y2="1"><stop stop-color="#77749f" stop-opacity=".20"/><stop offset="1" stop-color="#f1b47d" stop-opacity=".18"/></linearGradient>
+    <linearGradient id="lamp" x2="0" y2="1"><stop stop-color="#ffd997" stop-opacity=".40"/><stop offset="1" stop-color="#ffd997" stop-opacity="0"/></linearGradient>
+    <pattern id="tiles" width="160" height="90" patternUnits="userSpaceOnUse"><path d="M0 0H160M0 0V90" fill="none" stroke="#f1c39a" stroke-opacity=".13" stroke-width="2"/><path d="M0 89H160" stroke="#382f4c" stroke-opacity=".18" stroke-width="3"/></pattern>
+  </defs>
+  <!-- quiet midnight beyond the shop -->
+  <rect width="1600" height="900" fill="#28253e"/>
+  <rect x="110" y="92" width="1380" height="402" rx="24" fill="#bd8f80"/>
+  <rect x="126" y="108" width="1348" height="370" rx="14" fill="url(#night)"/>
+  <g fill="#fff0d8" opacity=".64"><circle cx="234" cy="164" r="2"/><circle cx="332" cy="208" r="2"/><circle cx="483" cy="148" r="3"/><circle cx="1021" cy="159" r="2"/><circle cx="1310" cy="214" r="2"/><circle cx="1392" cy="156" r="3"/></g>
+  <circle cx="812" cy="201" r="66" fill="#f0d4b5" opacity=".95"/><circle cx="837" cy="180" r="59" fill="#4a476e"/>
+  <path d="M127 392 Q287 318 442 387T760 378T1075 389T1474 358V478H127Z" fill="#31384b"/>
+  <path d="M127 420Q260 380 388 416t245-4 244 9 275-7 322 8v56H127Z" fill="#252a40"/>
+  <g fill="#22283c"><path d="M176 404l29-88 28 88zM199 377l4-89 9 89zM1395 401l38-119 40 119zM1425 390l7-102 11 102zM337 407l20-69 24 69zM1221 406l32-92 31 92z"/></g>
+  <rect x="126" y="108" width="1348" height="370" rx="14" fill="url(#windowGlow)"/>
+  <g stroke="#d9a792" stroke-width="15" fill="none" opacity=".9"><path d="M465 113V477M800 113V477M1135 113V477M130 294H1470"/></g>
+  <path d="M104 96H1496V119H104Z" fill="#d09a84"/><path d="M104 470H1496V501H104Z" fill="#c4887d"/>
+  <!-- warmly painted shop wall -->
+  <path d="M0 500H1600V701H0Z" fill="url(#wall)"/>
+  <path d="M0 500H1600V514H0Z" fill="#e2ad8b" opacity=".7"/>
+  <path d="M0 655H1600V704H0Z" fill="#55445f"/>
+  <!-- floor and perspective tiles -->
+  <path d="M0 700H1600V900H0Z" fill="url(#floor)"/>
+  <path d="M0 700H1600V900H0Z" fill="url(#tiles)"/>
+  <g opacity=".22" stroke="#f5c49a" stroke-width="2"><path d="M160 700L30 900M480 700L400 900M800 700V900M1120 700L1200 900M1440 700L1570 900"/></g>
+  <!-- lamp pools are separate, soft-edged silhouettes -->
+  <path d="M400 80h136v16H400z" fill="#d7967c"/><path d="M452 96v55" stroke="#d89d7d" stroke-width="5"/><path d="M423 152h58l-9 19h-40z" fill="#f5bd7d"/><path d="M380 170H524L600 470H302Z" fill="url(#lamp)"/>
+  <path d="M1070 80h136v16h-136z" fill="#d7967c"/><path d="M1122 96v55" stroke="#d89d7d" stroke-width="5"/><path d="M1093 152h58l-9 19h-40z" fill="#f5bd7d"/><path d="M1050 170h144l76 300H972z" fill="url(#lamp)"/>
+  <!-- painted trim -->
+  <path d="M0 692H1600V706H0Z" fill="#f1b47d" opacity=".75"/>
+</svg>

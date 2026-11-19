@@ -1,48 +1,54 @@
 {
-  "quests": [
-    {
-      "id": "first_shift",
-      "chapter": 1,
-      "objectives": [
-        "open_shop",
-        "stock_shelf",
-        "complete_sale",
-        "close_shop"
-      ]
-    },
-    {
-      "id": "pips_first_visit",
-      "chapter": 1,
-      "requires": [
-        "first_shift_complete"
-      ],
-      "objectives": [
-        "serve_strawberry_milk",
-        "notice_missing_reflection"
-      ]
-    },
-    {
-      "id": "receipt_1974",
-      "chapter": 1,
-      "requires": [
-        "pip_introduced"
-      ],
-      "objectives": [
-        "inspect_receipt",
-        "ask_agnes"
-      ]
-    },
-    {
-      "id": "first_memory",
-      "chapter": 1,
-      "requires": [
-        "receipt_1974_found"
-      ],
-      "objectives": [
-        "find_old_photograph",
-        "connect_clues",
-        "talk_to_pip"
-      ]
-    }
+  "chapters": [
+    {"id":1,"title":"The First Night","completion_flags":["pip_first_memory"],"summary":"A sleepy shop, a watchful cat, and the little ghost who comes back for strawberry milk."},
+    {"id":2,"title":"Things That Don't Belong","completion_flags":["grove_restored","lucien_reunion","wren_search_started"],"summary":"The forest loses its birdsong, an old friendship waits in a library book, and Wren searches for a passenger."},
+    {"id":3,"title":"The Forgotten Town","completion_flags":["long_midnight_named","forgotten_resident_returned","conductor_promise"],"summary":"Photographs change, Bellwether forgets its own streets, and the Conductor remembers the missing."},
+    {"id":4,"title":"The Midnight Train","completion_flags":["platform_opened","miso_guardian_truth","passenger_manifest_read"],"summary":"The hidden platform opens, and Miso's long watch begins to make sense."},
+    {"id":5,"title":"The Last Light","completion_flags":["lighthouse_restored","old_agreement_understood"],"summary":"Elias, Agnes, and the old lighthouse reveal what Moonmart was built to protect."},
+    {"id":6,"title":"Until Morning Comes","completion_flags":["boundary_stabilized","final_covenant_made"],"summary":"Bellwether chooses how to remember its visitors, and the player decides what the doorway will become."}
+  ],
+  "story_events": [
+    {"id":"meet_agnes","chapter":1,"visitor":"agnes","requires_flags":[],"clues":["agnes_knows_the_shop"],"memory":{"character":"agnes","id":"warm_welcome","text":"Agnes welcomed you with a warm pastry.","trait":"kindness"}},
+    {"id":"pip_reflection","chapter":1,"visitor":"pip","requires_flags":["meet_agnes"],"clues":["pip_has_no_reflection"],"memory":{"character":"pip","id":"strawberry_milk","text":"You remembered Pip's strawberry milk and did not ask them to explain the impossible.","trait":"kindness"}},
+    {"id":"receipt_1974","chapter":1,"visitor":"agnes","requires_flags":["pip_reflection"],"clues":["receipt_dated_1974"],"memory":{"character":"agnes","id":"old_receipt","text":"Agnes trusted you with a receipt she had kept for decades.","trait":"honesty"}},
+    {"id":"hidden_photograph","chapter":1,"visitor":"agnes","requires_flags":["receipt_1974"],"clues":["photograph_matches_pip"],"memory":{"character":"agnes","id":"photograph","text":"You studied the old photograph together, without forcing an answer.","trait":"patience"}},
+    {"id":"pip_first_memory","chapter":1,"visitor":"pip","requires_flags":["hidden_photograph"],"clues":["pip_remembers_the_shop"],"memory":{"character":"pip","id":"first_memory","text":"You helped Pip remember the feeling of being safe.","trait":"kindness"}},
+    {"id":"fern_arrives","chapter":2,"visitor":"fern","requires_flags":["pip_first_memory"],"clues":["fern_hears_the_silence"],"memory":{"character":"fern","id":"first_visit","text":"Fern trusted you enough to describe the silence in Whisperwood.","trait":"listening"}},
+    {"id":"lucien_arrives","chapter":2,"visitor":"lucien","requires_flags":["fern_arrives"],"clues":["lucien_keeps_an_old_book"],"memory":{"character":"lucien","id":"old_book","text":"Lucien let you borrow the detective novel he has reread for years.","trait":"trust"}},
+    {"id":"wren_arrives","chapter":2,"visitor":"wren","requires_flags":["lucien_arrives"],"clues":["wren_searches_for_a_passenger"],"memory":{"character":"wren","id":"wren_map","text":"Wren shared the map she has carried from town to town.","trait":"trust"}},
+    {"id":"grove_silence","chapter":2,"visitor":"fern","requires_flags":["wren_arrives"],"clues":["silence_reaches_the_grove"],"memory":{"character":"fern","id":"quiet_grove","text":"You promised to help Fern listen for the birds again.","trait":"promise"},"creates_promises":[{"character":"fern","id":"fern_birdsong","text":"Help Fern hear the birds sing through the grove again."}]},
+    {"id":"grove_restored","chapter":2,"visitor":"fern","requires_flags":["grove_silence"],"clues":["birds_return_to_whisperwood"],"memory":{"character":"fern","id":"birds_return","text":"You stood with Fern when the first birds returned to the grove.","trait":"kindness"},"resolves_promises":[{"character":"fern","id":"fern_birdsong","kept":true,"memory_id":"fern_birdsong_kept","memory":"Fern hears the birdsong return, and remembers that you stayed to listen with her."}]},
+    {"id":"lucien_old_friend","chapter":2,"visitor":"lucien","requires_flags":["grove_restored"],"clues":["book_dedication_names_ada"],"memory":{"character":"lucien","id":"ada_dedication","text":"You noticed the name Ada inside Lucien's old book.","trait":"curiosity"}},
+    {"id":"lucien_reunion","chapter":2,"visitor":"lucien","requires_flags":["lucien_old_friend"],"clues":["lucien_writes_to_ada"],"memory":{"character":"lucien","id":"letter_to_ada","text":"You helped Lucien write a letter that asks for nothing in return.","trait":"honesty"}},
+    {"id":"wren_missing_person","chapter":2,"visitor":"wren","requires_flags":["lucien_reunion"],"clues":["wren_lost_sister_boarded_train"],"memory":{"character":"wren","id":"missing_sister","text":"Wren told you her sister boarded a train that never reached its stop.","trait":"trust"}},
+    {"id":"wren_search_started","chapter":2,"visitor":"wren","requires_flags":["wren_missing_person"],"clues":["midnight_ticket_bears_wren_family_mark"],"memory":{"character":"wren","id":"search_together","text":"You promised Wren you would keep looking for her sister.","trait":"promise"},"creates_promises":[{"character":"wren","id":"wren_sister_manifest","text":"Keep searching with Wren until her sister's name can be found in the passenger records."}]},
+    {"id":"photo_changes","chapter":3,"visitor":"agnes","requires_flags":["grove_restored","lucien_reunion","wren_search_started"],"clues":["shop_photograph_changes_at_midnight"],"memory":{"character":"agnes","id":"changing_photo","text":"You and Agnes saw the same face disappear from the shop photograph.","trait":"honesty"}},
+    {"id":"mara_unaddressed_letter","chapter":3,"visitor":"mara","requires_flags":["photo_changes"],"clues":["letter_has_no_address"],"memory":{"character":"mara","id":"unaddressed_letter","text":"Mara trusted you with a letter that arrived without an address.","trait":"trust"}},
+    {"id":"osric_arrives","chapter":3,"visitor":"osric","requires_flags":["mara_unaddressed_letter"],"clues":["osric_cannot_remember_his_name"],"memory":{"character":"osric","id":"name_given","text":"You gave the lost passenger time to find his name.","trait":"patience"}},
+    {"id":"conductor_first_appears","chapter":3,"visitor":"conductor","requires_flags":["osric_arrives"],"clues":["conductor_remembers_every_passenger"],"memory":{"character":"conductor","id":"first_meeting","text":"The Conductor recognized that you had listened to a forgotten passenger.","trait":"curiosity"}},
+    {"id":"long_midnight_named","chapter":3,"visitor":"agnes","requires_flags":["conductor_first_appears"],"clues":["long_midnight_erased_from_town_records"],"memory":{"character":"agnes","id":"long_midnight","text":"Agnes told you what she remembers of the Long Midnight.","trait":"honesty"}},
+    {"id":"map_gaps","chapter":3,"visitor":"mara","requires_flags":["long_midnight_named"],"clues":["town_map_has_a_missing_street"],"memory":{"character":"mara","id":"missing_street","text":"You compared the old town map with the post office records.","trait":"curiosity"}},
+    {"id":"forgotten_resident_returned","chapter":3,"visitor":"osric","requires_flags":["map_gaps"],"clues":["osric_name_restored_to_the_ledger"],"memory":{"character":"osric","id":"name_restored","text":"You wrote Osric's name back into the town ledger.","trait":"kindness"}},
+    {"id":"conductor_promise","chapter":3,"visitor":"conductor","requires_flags":["forgotten_resident_returned"],"clues":["conductor_keeps_the_original_promise"],"memory":{"character":"conductor","id":"promise_kept","text":"The Conductor promised to show you the platform when it was safe.","trait":"promise"},"creates_promises":[{"character":"conductor","id":"show_safe_platform","text":"Wait until the Midnight Platform is safe, then visit it with the Conductor."}]},
+    {"id":"platform_ticket","chapter":4,"visitor":"wren","requires_flags":["conductor_promise"],"clues":["ticket_names_midnight_platform"],"memory":{"character":"wren","id":"ticket_found","text":"Wren found her family mark on a ticket that should not exist.","trait":"hope"}},
+    {"id":"platform_opened","chapter":4,"visitor":"conductor","requires_flags":["platform_ticket"],"clues":["midnight_platform_exists_between_stations"],"memory":{"character":"conductor","id":"platform_opened","text":"You stepped onto the Midnight Platform together.","trait":"trust"},"resolves_promises":[{"character":"conductor","id":"show_safe_platform","kept":true,"memory_id":"safe_platform_visit","memory":"The Conductor kept their word and walked beside you onto the safe platform."}]},
+    {"id":"passenger_manifest_read","chapter":4,"visitor":"conductor","requires_flags":["platform_opened"],"clues":["manifest_lists_people_forgotten_by_bellwether"],"memory":{"character":"conductor","id":"manifest","text":"You read the passenger names aloud so they would not vanish again.","trait":"kindness"},"resolves_promises":[{"character":"wren","id":"wren_sister_manifest","kept":true,"memory_id":"wren_family_mark_found","memory":"You and Wren found her family's mark in the passenger records, preserving a lead while leaving her sister's next step to her."}]},
+    {"id":"miso_guardian_truth","chapter":4,"visitor":"agnes","requires_flags":["passenger_manifest_read"],"clues":["miso_has_guarded_moonmart_for_generations"],"memory":{"character":"agnes","id":"miso_truth","text":"Agnes finally explained why Miso has never left the shop.","trait":"honesty"}},
+    {"id":"miso_promise","chapter":4,"visitor":"conductor","requires_flags":["miso_guardian_truth"],"clues":["miso_can_choose_to_rest"],"memory":{"character":"conductor","id":"miso_choice","text":"You promised that Miso would not have to guard the doorway alone.","trait":"promise"},"creates_promises":[{"character":"miso","id":"miso_not_alone","text":"Make sure Miso can choose whether to stay by the doorway or rest."}]},
+    {"id":"lighthouse_sight","chapter":5,"visitor":"elias","requires_flags":["miso_promise"],"clues":["lighthouse_beam_points_toward_the_between"],"memory":{"character":"elias","id":"light_seen","text":"Elias described the light he keeps seeing across the water.","trait":"listening"}},
+    {"id":"elias_confesses","chapter":5,"visitor":"elias","requires_flags":["lighthouse_sight"],"clues":["lighthouse_logs_record_the_long_midnight"],"memory":{"character":"elias","id":"lighthouse_log","text":"Elias let you read the lighthouse log he hid after the Long Midnight.","trait":"trust"}},
+    {"id":"lighthouse_mechanism","chapter":5,"visitor":"wren","requires_flags":["elias_confesses"],"clues":["lighthouse_lens_needs_a_memory_shard"],"memory":{"character":"wren","id":"lens_repaired","text":"Wren helped you restore the lighthouse lens without spending a single memory.","trait":"kindness"}},
+    {"id":"agnes_old_oath","chapter":5,"visitor":"agnes","requires_flags":["lighthouse_mechanism"],"clues":["original_owner_opened_moonmart_as_a_sanctuary"],"memory":{"character":"agnes","id":"old_oath","text":"Agnes admitted that her family once kept the doorway's agreement.","trait":"honesty"}},
+    {"id":"lighthouse_restored","chapter":5,"visitor":"elias","requires_flags":["agnes_old_oath"],"clues":["lighthouse_light_guides_lost_travellers_home"],"memory":{"character":"elias","id":"beacon_restored","text":"You and Elias lit the beacon for every lost traveller, not just the train.","trait":"kindness"}},
+    {"id":"agreement_read","chapter":6,"visitor":"conductor","requires_flags":["lighthouse_restored","old_agreement_understood"],"clues":["original_agreement_is_a_promise_of_shelter"],"memory":{"character":"conductor","id":"agreement_read","text":"You read the original agreement and found that it asked for shelter, not sacrifice.","trait":"curiosity"}},
+    {"id":"travellers_gather","chapter":6,"visitor":"pip","requires_flags":["agreement_read"],"clues":["travellers_choose_to_stay_or_go"],"memory":{"character":"pip","id":"travellers_gather","text":"Pip helped welcome the travellers who came to Moonmart before dawn.","trait":"kindness"}},
+    {"id":"miso_decides","chapter":6,"visitor":"pip","requires_flags":["travellers_gather"],"clues":["miso_is_free_to_remain_or_rest"],"memory":{"character":"miso","id":"miso_decides","text":"You asked Miso what the cat wanted instead of deciding on Miso's behalf.","trait":"respect"}},
+    {"id":"boundary_stabilized","chapter":6,"visitor":"agnes","requires_flags":["miso_decides"],"clues":["boundary_can_be_kept_open_gently_or_closed"],"memory":{"character":"agnes","id":"boundary_stabilized","text":"The boundary steadied when everyone who remembered it chose what came next.","trait":"hope"},"resolves_promises":[{"character":"miso","id":"miso_not_alone","kept":true,"memory_id":"miso_not_alone_kept","memory":"Miso's choice is honored, and no one is left to guard the doorway alone."}]},
+    {"id":"final_covenant_made","chapter":6,"visitor":"conductor","requires_flags":["boundary_stabilized"],"clues":["new_covenant_respects_each_ending"],"memory":{"character":"conductor","id":"covenant","text":"You made a new covenant that honors the path Bellwether chose.","trait":"promise"}}
+  ],
+  "endings": [
+    {"id":"keeper","title":"The Keeper","requires_flag":"final_covenant_made","world_state":"sanctuary_between_worlds","doorway":"open","epilogue":"Moonmart keeps its light burning for anyone who needs a safe place between journeys."},
+    {"id":"open_door","title":"The Open Door","requires_flag":"final_covenant_made","world_state":"mixed_community","doorway":"open_and_shared","epilogue":"Bellwether's human and supernatural neighbours begin to share the town openly."},
+    {"id":"gentle_goodbye","title":"The Gentle Goodbye","requires_flag":"final_covenant_made","world_state":"ordinary_shop_with_memories","doorway":"permanently_closed","epilogue":"The doorway closes gently. Moonmart remains an ordinary shop, and nobody's kindness is forgotten."}
   ]
 }

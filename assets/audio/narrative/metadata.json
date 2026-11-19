@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "remembered_threshold",
+  "title": "Remembered Threshold",
+  "path": "remembered_threshold.wav",
+  "purpose": "quiet, no-vocal narrative music overlay for location scores",
+  "arrangement": "open C-major extensions, slow warm resonance, sparse rounded glass notes; recalls a doorway becoming safe",
+  "sample_rate": 44100,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "duration_seconds": 32,
+  "peak_dbfs": -19.22,
+  "bytes": 5644844,
+  "synthesis": "PowerShell/.NET deterministic additive synthesis; no samples"
+}

@@ -1,0 +1,18 @@
+{
+  "ending_memories": [
+    {
+      "id": "hidden_midnight_room",
+      "activity_id": "hidden_midnight_room",
+      "title": "The Hidden Midnight Room",
+      "requires_flags": ["hidden_midnight_room_found"],
+      "text": "You remember the little door in Moonmart's wall, right where Miso kept looking. Finding it changed the shape of the shop: there had always been room for someone who needed shelter. The doorway is closed now, but the welcome it promised remains part of Moonmart."
+    },
+    {
+      "id": "midnight_platform",
+      "activity_id": "midnight_platform",
+      "title": "The Midnight Platform",
+      "requires_flags": ["platform_opened", "passenger_manifest_read", "midnight_platform_visited", "midnight_manifest_read"],
+      "text": "You remember standing with the Conductor on the platform between stations. The names in its manifest were given time to be heard, and every traveller was free to choose where to go. The train has passed beyond the closed doorway, but those names remain in your keeping."
+    }
+  ]
+}

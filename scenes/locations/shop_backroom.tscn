@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/raster/environment/shop_backroom.png" id="1_environment"]
+
+[node name="ShopBackroom" type="Node2D"]
+
+[node name="ArchitectureLayer" type="Node2D" parent="."]
+
+[node name="Backdrop" type="Sprite2D" parent="ArchitectureLayer"]
+texture = ExtResource("1_environment")
+centered = false
+scale = Vector2(0.95694, 0.95643)
+
+[node name="RoomDecorationLayer" type="Node2D" parent="."]
+
+[node name="DepthSortedCharactersLayer" type="Node2D" parent="."]
+
+[node name="RoomDecorationCollisionLayer" type="Node2D" parent="."]
+
+[node name="InteractionPoints" type="Node2D" parent="."]
+
+[node name="SupplyShelves" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(390, 420)
+
+[node name="DeliveryCrates" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(860, 700)
+
+[node name="HandTrolley" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(1220, 730)
+
+[node name="ShopDoor" type="Marker2D" parent="InteractionPoints"]
+position = Vector2(800, 700)
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+ <defs><radialGradient id="glass"><stop stop-color="#fff6d9"/><stop offset=".24" stop-color="#f4d6a9"/><stop offset=".48" stop-color="#b0bdd1"/><stop offset=".7" stop-color="#6e6581"/><stop offset="1" stop-color="#d9a486"/></radialGradient><radialGradient id="aura"><stop stop-color="#fff0d8" stop-opacity=".42"/><stop offset="1" stop-color="#fff0d8" stop-opacity="0"/></radialGradient></defs>
+ <circle cx="120" cy="117" r="116" fill="url(#aura)"/>
+ <circle cx="120" cy="117" r="86" fill="#53445f" stroke="#e0af91" stroke-width="11"/>
+ <circle cx="120" cy="117" r="66" fill="url(#glass)" stroke="#f6dcbb" stroke-width="7"/>
+ <path d="M120 35v164M38 117h164M62 59l116 116M177 58L62 176" stroke="#f7e4c6" stroke-width="6" opacity=".7"/>
+ <circle cx="120" cy="117" r="20" fill="#fff8df" stroke="#dfb18f" stroke-width="5"/>
+ <path d="M95 215h50m-38 0 13-18 13 18" fill="#9d7378" stroke="#edc29d" stroke-width="5"/>
+</svg>

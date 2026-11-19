@@ -1,0 +1,123 @@
+{
+  "puzzles": [
+    {
+      "id": "ledger_margin_note",
+      "title": "The Ledger's Missing Line",
+      "target": "shop_ledger",
+      "requires_flags": ["agnes_old_oath"],
+      "essential": false,
+      "prompt": "The old ledger's final line is smudged. Agnes's account says the shop was opened for people who had nowhere else to go. What was Moonmart meant to offer?",
+      "accepted_answers": ["shelter", "a place to rest", "a safe place to rest", "shelter for travellers"],
+      "hints": [
+        "The answer is the simple thing offered before a traveller chooses what comes next.",
+        "It is a place to stop safely, not a demand to stay."
+      ],
+      "solved_message": "The line resolves in Agnes's handwriting: a promise of shelter, with no promise required in return.",
+      "grants_flags": ["puzzle_ledger_margin_decoded"],
+      "reveals_clues": [],
+      "reward_text": "The ledger puzzle is recorded as an optional journal note."
+    },
+    {
+      "id": "platform_clock_alignment",
+      "title": "The Platform Clock",
+      "target": "platform_clock",
+      "requires_flags": ["platform_opened"],
+      "essential": false,
+      "prompt": "The clock has stopped at 2:13. A brass ring lets you set the minute hand. What time does the Conductor's ticket say the train should pass?",
+      "accepted_answers": ["2:13", "02:13", "two thirteen", "two thirteen am", "2 13 am"],
+      "hints": [
+        "The clock's hands are already close; the ticket marks the minute clearly.",
+        "It is just after two, at thirteen minutes past."
+      ],
+      "solved_message": "The hand settles at 2:13. Somewhere beyond the platform, a distant bell answers.",
+      "grants_flags": ["puzzle_platform_clock_aligned"],
+      "reveals_clues": [],
+      "reward_text": "The platform clock alignment is added to the journal."
+    },
+    {
+      "id": "lighthouse_lens_direction",
+      "title": "A Light That Guides",
+      "target": "fresnel_lens",
+      "requires_flags": ["lighthouse_mechanism"],
+      "essential": false,
+      "prompt": "The restored lens catches three marks on its housing: town, sea, and sky. The light is meant to help lost travellers find their own way. Which direction should it face?",
+      "accepted_answers": ["toward the shore", "the shore", "toward the sea", "the sea", "out to sea"],
+      "hints": [
+        "The beacon should meet people where they are arriving from.",
+        "Think of Elias looking out from the tower toward the water."
+      ],
+      "solved_message": "The beam reaches over the water without pulling anyone toward it. The light offers a direction and leaves the choice to each traveller.",
+      "grants_flags": ["puzzle_lighthouse_lens_aligned"],
+      "reveals_clues": [],
+      "reward_text": "The lighthouse lens alignment is added to the journal."
+    },
+    {
+      "id": "town_map_mended_route",
+      "title": "A Street That Wasn't There",
+      "target": "town_map",
+      "requires_flags": ["photo_changes"],
+      "essential": false,
+      "prompt": "A blank lane runs between the old bakery and the post office on one map, but disappears on the next. What should the town map leave room for?",
+      "accepted_answers": ["a missing street", "the missing street", "the forgotten street", "a forgotten street", "a place for the forgotten"],
+      "hints": [
+        "The old maps disagree because someone was left out of them.",
+        "Name the street that the later maps forgot."
+      ],
+      "solved_message": "You trace the missing street in pencil. It stays on the page, not as a demand to go there, but as a place Bellwether can remember.",
+      "grants_flags": ["puzzle_town_map_mended"],
+      "reveals_clues": [],
+      "reward_text": "The optional route is marked in the town map."
+    },
+    {
+      "id": "grove_birdsong_rhythm",
+      "title": "A Rhythm for the Grove",
+      "target": "old_grove",
+      "requires_flags": ["grove_silence"],
+      "essential": false,
+      "prompt": "Three shallow hollows in the shrine stone hold rainwater. Fern says the grove once answered the birds with a simple pattern. Which sound should come first?",
+      "accepted_answers": ["listen", "a pause", "silence", "wait", "the quiet", "a listening pause"],
+      "hints": [
+        "The grove does not need a command. Give it room to answer.",
+        "Begin by listening before making any sound."
+      ],
+      "solved_message": "You wait. A bird answers from beyond the roots, and the next note belongs to the grove rather than to you.",
+      "grants_flags": ["puzzle_grove_birdsong_rhythm"],
+      "reveals_clues": [],
+      "reward_text": "The quiet rhythm is kept as an optional Whisperwood journal note."
+    },
+    {
+      "id": "harbour_bead_tide_pool",
+      "title": "The Bead in the Tide Pool",
+      "target": "tide_pool",
+      "requires_flags": ["wren_arrives"],
+      "essential": false,
+      "prompt": "A blue glass bead sits beside three smooth stones. The tide has carried it home twice. What does the old harbour knot wish for?",
+      "accepted_answers": ["a safe return", "safe return", "that every boat returns safely", "every boat returns safely", "safe journeys home", "a safe journey home"],
+      "hints": [
+        "The wish is for the people who are still out on the water.",
+        "It is the hope that each boat and its crew come back safely."
+      ],
+      "solved_message": "The bead turns in the shallow water. Its worn hole once held a sailor's cord, tied around a wish for everyone aboard to return.",
+      "grants_flags": ["puzzle_harbour_safe_return_wish"],
+      "reveals_clues": ["blue_glass_safe_return_token"],
+      "reward_text": "The bead's harbour wish is added to the optional journal notes."
+    },
+    {
+      "id": "photograph_memory_choice",
+      "title": "The Photograph's Empty Place",
+      "target": "photograph",
+      "requires_flags": ["miso_guardian_truth"],
+      "essential": false,
+      "prompt": "The photograph shows Miso beside the doorway in different years. A pale space remains in the center. What belongs there: a portrait, or a choice?",
+      "accepted_answers": ["a choice", "choice", "miso's choice", "miso's own choice", "the choice to rest", "miso's choice to rest"],
+      "hints": [
+        "The blank space is not waiting for someone to decide Miso's future.",
+        "Leave room for Miso to choose whether to keep watch or rest."
+      ],
+      "solved_message": "The pale space settles into a small moonlit memory: Miso keeping watch by choice, with room to leave the post whenever rest is wanted.",
+      "grants_flags": ["puzzle_miso_choice_remembered"],
+      "reveals_clues": ["miso_memory_echo"],
+      "reward_text": "The photograph's optional memory is saved in the journal."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "collectibles": [
+    {
+      "id": "moonmart_milk_token",
+      "location_id": "moonmart",
+      "target_id": "window",
+      "name": "A wax milk token",
+      "description": "A tiny wax seal stamped with a crescent and the words 'one warm glass, whenever you need it.'",
+      "category": "keepsake"
+    },
+    {
+      "id": "bellwether_blue_button",
+      "location_id": "old_bellwether",
+      "target_id": "town_map",
+      "name": "A blue coat button",
+      "description": "A smooth blue button caught beneath a curled corner of the town map. Someone in the faded street sketch is missing one from their coat.",
+      "category": "keepsake"
+    },
+    {
+      "id": "whisperwood_birds_feather",
+      "location_id": "whisperwood",
+      "target_id": "old_grove",
+      "name": "A silver-tipped feather",
+      "description": "A feather caught between the shrine roots, so light it barely rests in your palm. Its pale tip catches the moon without shining by itself.",
+      "category": "keepsake"
+    },
+    {
+      "id": "moonwater_sea_glass",
+      "location_id": "moonwater_harbour",
+      "target_id": "washed_glass",
+      "name": "A piece of sea glass",
+      "description": "A small green shard, softened smooth by years of tide and carried here on a night with no wind.",
+      "category": "keepsake"
+    },
+    {
+      "id": "lighthouse_brass_screw",
+      "location_id": "old_lighthouse",
+      "target_id": "fresnel_lens",
+      "name": "A brass lens screw",
+      "description": "A carefully polished screw from the old lens housing. The worn slot still fits a keeper's screwdriver.",
+      "category": "keepsake"
+    },
+    {
+      "id": "platform_unclaimed_ticket",
+      "location_id": "midnight_platform",
+      "target_id": "waiting_bench",
+      "name": "An unclaimed paper ticket",
+      "description": "A ticket with no destination and no date. The name line has been left blank on purpose.",
+      "category": "keepsake"
+    },
+    {
+      "id": "backroom_chewed_tag",
+      "location_id": "shop_backroom",
+      "target_id": "delivery_crates",
+      "name": "A chewed delivery tag",
+      "description": "A cardboard tag softened by small teeth. Under the tooth marks, someone has written 'rear door, knock twice, and mind the cat.'",
+      "category": "keepsake"
+    },
+    {
+      "id": "midnight_room_memory_bead",
+      "location_id": "hidden_midnight_room",
+      "target_id": "memory_wall",
+      "name": "A glass memory bead",
+      "description": "A bead of clouded glass that hums faintly when held. Inside, a small birthday candle burns without ever getting shorter.",
+      "category": "keepsake"
+    },
+    {
+      "id": "tea_corner_pressed_petal",
+      "location_id": "tea_corner",
+      "target_id": "moonflower_seat",
+      "name": "A pressed moonflower petal",
+      "description": "A petal flattened between two cards and forgotten under the seat cushion. It still smells faintly of rain and warm honey.",
+      "category": "keepsake"
+    },
+    {
+      "id": "reading_nook_pencil_bookmark",
+      "location_id": "reading_nook",
+      "target_id": "reading_chair",
+      "name": "A pencilled bookmark",
+      "description": "A strip of card with a single question written in pencil: 'Who finishes the story when the reader falls asleep?'",
+      "category": "keepsake"
+    },
+    {
+      "id": "greenhouse_warm_seed",
+      "location_id": "enchanted_greenhouse",
+      "target_id": "moonflower_trellis",
+      "name": "A seed warm to the touch",
+      "description": "A small dark seed that stays warm in a cold hand. It twitches, very slightly, whenever someone says its name wrong.",
+      "category": "keepsake"
+    }
+  ]
+}

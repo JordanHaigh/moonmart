@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#51465f"/><stop offset="1" stop-color="#79606d"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#97717a"/><stop offset="1" stop-color="#514153"/></linearGradient>
+ <linearGradient id="door" x2="0" y2="1"><stop stop-color="#d59c7d"/><stop offset="1" stop-color="#62495d"/></linearGradient>
+ <linearGradient id="lamp" x2="0" y2="1"><stop stop-color="#ffda9b" stop-opacity=".48"/><stop offset="1" stop-color="#ffda9b" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1600" height="900" fill="#29263f"/>
+<path d="M0 0h1600v700H0z" fill="url(#wall)"/>
+<path d="M0 700h1600v200H0z" fill="url(#floor)"/>
+<path d="M0 687h1600v19H0z" fill="#e1ad8c" opacity=".8"/>
+<path d="M130 78h1340v457H130z" fill="#413b53" stroke="#c18b86" stroke-width="13"/>
+<path d="M150 100h1300v412H150z" fill="#5b4b61"/>
+<!-- shelves with stock boxes -->
+<g stroke="#d3987d" stroke-width="10" fill="#60485e"><path d="M190 133h378v375H190z"/><path d="M608 133h378v375H608z"/><path d="M1026 133h378v375h-378z"/></g>
+<g stroke="#bb8579" stroke-width="7"><path d="M194 248h370m-370 126h370m-370 126h370M612 248h370m-370 126h370m-370 126h370M1030 248h370m-370 126h370m-370 126h370"/></g>
+<g fill="#d0a179" stroke="#f1c496" stroke-width="4"><rect x="224" y="164" width="82" height="63" rx="6"/><rect x="339" y="169" width="74" height="58" rx="6"/><rect x="449" y="157" width="88" height="70" rx="6"/><rect x="231" y="274" width="89" height="80" rx="7"/><rect x="353" y="291" width="84" height="63" rx="7"/><rect x="460" y="268" width="77" height="86" rx="7"/><rect x="223" y="394" width="94" height="93" rx="6"/><rect x="348" y="404" width="73" height="83" rx="6"/><rect x="450" y="393" width="87" height="94" rx="6"/><rect x="638" y="166" width="101" height="62" rx="6"/><rect x="771" y="158" width="92" height="70" rx="6"/><rect x="890" y="174" width="71" height="54" rx="6"/><rect x="631" y="273" width="84" height="81" rx="6"/><rect x="755" y="284" width="96" height="70" rx="6"/><rect x="881" y="267" width="82" height="87" rx="6"/><rect x="631" y="395" width="90" height="91" rx="6"/><rect x="757" y="402" width="92" height="84" rx="6"/><rect x="885" y="392" width="82" height="94" rx="6"/><rect x="1057" y="163" width="81" height="65" rx="6"/><rect x="1171" y="170" width="98" height="58" rx="6"/><rect x="1302" y="159" width="72" height="69" rx="6"/><rect x="1052" y="272" width="92" height="82" rx="6"/><rect x="1177" y="277" width="79" height="77" rx="6"/><rect x="1286" y="268" width="91" height="86" rx="6"/><rect x="1052" y="395" width="93" height="91" rx="6"/><rect x="1179" y="405" width="75" height="81" rx="6"/><rect x="1284" y="391" width="91" height="95" rx="6"/></g>
+<!-- loading desk, crates, hand trolley -->
+<path d="M179 584h533v41H179z" fill="#d3987d" stroke="#f1c496" stroke-width="6"/><path d="M215 625v122m453-122v122" stroke="#65465c" stroke-width="25"/>
+<path d="M769 589h190v164H769z" fill="#8c6370" stroke="#d9a382" stroke-width="7"/><path d="M781 647h165M864 600v141" stroke="#d9a382" stroke-width="5"/>
+<path d="M1045 630h382v154h-382z" fill="#68485e" stroke="#d09a80" stroke-width="8"/><path d="M1065 665h342v15h-342zm0 47h342v15h-342z" fill="#b98276"/><circle cx="1111" cy="797" r="26" fill="#373447" stroke="#d2a183" stroke-width="7"/><circle cx="1360" cy="797" r="26" fill="#373447" stroke="#d2a183" stroke-width="7"/>
+<!-- door home to the shop and a tiny window -->
+<path d="M685 438h226v360H685z" fill="url(#door)" stroke="#efc29d" stroke-width="11"/><path d="M714 469h168v200H714z" fill="#3b3d55" stroke="#e5b18e" stroke-width="8"/><path d="M739 492h118v153H739z" fill="#8b7990" opacity=".73"/><circle cx="867" cy="700" r="11" fill="#ffdb9b"/>
+<path d="M106 181h33v199h-33z" fill="#806587" stroke="#d09a80" stroke-width="7"/><path d="M113 190h19v177h-19z" fill="#f4d2a3" opacity=".38"/>
+<!-- pull chain and solitary warm bulb -->
+<path d="M804 0v98" stroke="#d39a7b" stroke-width="5"/><path d="M770 95h68l-10 25h-48z" fill="#ffd392"/><path d="M745 118h120l173 504H569z" fill="url(#lamp)"/>
+<path d="M63 855h1474" stroke="#d7a080" stroke-opacity=".3" stroke-width="5"/>
+</svg>

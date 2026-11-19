@@ -1,0 +1,8 @@
+{
+  "standard_shift_minutes": 360,
+  "preparation_minutes": 30,
+  "standard_minutes_per_real_second": 0.24,
+  "vertical_slice_shifts": 5,
+  "vertical_slice_minutes_per_real_second": 0.5,
+  "initial_service_minutes": 60
+}

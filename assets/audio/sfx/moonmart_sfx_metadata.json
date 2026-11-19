@@ -1,0 +1,57 @@
+[
+  {
+    "file": "moonmart_door_bell.wav",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "bit_depth": 16,
+    "duration_seconds": 1.7,
+    "peak_dbfs": -3.35,
+    "peak_normalization": "-3.35 dBFS target; no clipping",
+    "source_model": "inharmonic struck resonators with short stereo early reflections",
+    "bytes": 299928
+  },
+  {
+    "file": "moonmart_threshold_door_bell.wav",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "bit_depth": 16,
+    "duration_seconds": 2.02,
+    "peak_dbfs": -3.35,
+    "peak_normalization": "-3.35 dBFS target; no clipping",
+    "source_model": "inharmonic struck resonators with short stereo early reflections",
+    "bytes": 356376
+  },
+  {
+    "file": "moonmart_register_chime.wav",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "bit_depth": 16,
+    "duration_seconds": 1.46,
+    "peak_dbfs": -3.35,
+    "peak_normalization": "-3.35 dBFS target; no clipping",
+    "source_model": "inharmonic struck resonators with short stereo early reflections",
+    "bytes": 257592
+  },
+  {
+    "file": "moonmart_threshold_register_chime.wav",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "bit_depth": 16,
+    "duration_seconds": 1.8,
+    "peak_dbfs": -3.35,
+    "peak_normalization": "-3.35 dBFS target; no clipping",
+    "source_model": "inharmonic struck resonators with short stereo early reflections",
+    "bytes": 317568
+  },
+  {
+    "file": "moonmart_story_reveal.wav",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "bit_depth": 16,
+    "duration_seconds": 2.76,
+    "peak_dbfs": -3.35,
+    "peak_normalization": "-3.35 dBFS target; no clipping",
+    "source_model": "inharmonic struck resonators with short stereo early reflections",
+    "bytes": 486912
+  }
+]

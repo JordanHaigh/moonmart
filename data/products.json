@@ -2,21 +2,2068 @@
   "products": [
     {
       "id": "strawberry_milk",
-      "name": "Strawberry Milk",
-      "base_price": 8,
-      "category": "cold_drink"
+      "name": "Strawberry milk",
+      "price": 3,
+      "purchase_cost": 2,
+      "starting_stock": 10,
+      "category": "cold",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 4,
+      "tags": [
+        "pip_favourite"
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "Fresh milk",
+      "price": 2,
+      "purchase_cost": 1,
+      "starting_stock": 8,
+      "category": "cold",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 4
+    },
+    {
+      "id": "soft_drink",
+      "name": "Lemon soda",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 8,
+      "category": "cold",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "refrigerated"
+    },
+    {
+      "id": "orange_juice",
+      "name": "Orange juice",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 6,
+      "category": "cold",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "refrigerated",
+      "seasonal_seasons": ["summer"],
+      "shelf_life_shifts": 5
+    },
+    {
+      "id": "bread",
+      "name": "Sourdough bread",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 10,
+      "category": "bakery",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 4
+    },
+    {
+      "id": "pastry",
+      "name": "Honey pastry",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 6,
+      "category": "bakery",
+      "display_capacity": 10,
+      "stock_capacity": 20,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 3
+    },
+    {
+      "id": "biscuits",
+      "name": "Butter biscuits",
+      "price": 2,
+      "purchase_cost": 1,
+      "starting_stock": 8,
+      "category": "everyday",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 12
+    },
+    {
+      "id": "noodles",
+      "name": "Instant noodles",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 8,
+      "category": "everyday",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "coffee",
+      "name": "Decaf coffee",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 8,
+      "category": "everyday",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "tea",
+      "name": "Breakfast tea",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 10,
+      "category": "everyday",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
     },
     {
       "id": "moonflower_tea",
-      "name": "Moonflower Tea",
-      "base_price": 15,
-      "category": "magical_drink"
+      "name": "Moonflower tea",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 4,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 20,
+      "storage_type": "enchanted_case",
+      "shelf_life_shifts": 8,
+      "tags": [
+        "supernatural"
+      ]
     },
     {
       "id": "dream_biscuits",
-      "name": "Dream Biscuits",
-      "base_price": 12,
-      "category": "magical_snack"
+      "name": "Dream biscuits",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 4,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 20,
+      "storage_type": "enchanted_case",
+      "shelf_life_shifts": 8,
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "spirit_candle",
+      "name": "Spirit candle",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 3,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 20,
+      "storage_type": "enchanted_case",
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "starlight",
+      "name": "Bottled starlight",
+      "price": 8,
+      "purchase_cost": 4,
+      "starting_stock": 2,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 20,
+      "storage_type": "enchanted_case",
+      "shelf_life_shifts": 10,
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "Pear drops",
+      "price": 2,
+      "purchase_cost": 1,
+      "starting_stock": 10,
+      "category": "everyday",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "soap",
+      "name": "Lavender soap",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 5,
+      "category": "toiletries",
+      "display_capacity": 10,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "seeds",
+      "name": "Wildflower seeds",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 5,
+      "category": "garden",
+      "seasonal_seasons": ["spring"],
+      "display_capacity": 10,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "notebook",
+      "name": "Pocket notebook",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 5,
+      "category": "stationery",
+      "display_capacity": 10,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "sandwich",
+      "name": "Cheese sandwich",
+      "price": 5,
+      "purchase_cost": 3,
+      "starting_stock": 5,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 20,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2
+    },
+    {
+      "id": "water",
+      "name": "Spring water",
+      "price": 2,
+      "purchase_cost": 1,
+      "starting_stock": 10,
+      "category": "cold",
+      "display_capacity": 12,
+      "stock_capacity": 20,
+      "storage_type": "refrigerated"
+    },
+    {
+      "id": "peach_jam",
+      "name": "Moonlit peach jam",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 12
+    },
+    {
+      "id": "blackberry_jam",
+      "name": "Bellberry preserve",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 12
+    },
+    {
+      "id": "lavender_tea_tin",
+      "name": "Lavender tea tin",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 14
+    },
+    {
+      "id": "croissant",
+      "name": "Butter croissant",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 2,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 2
+    },
+    {
+      "id": "star_shortbread",
+      "name": "Star shortbread",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 2,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 8
+    },
+    {
+      "id": "honey_cake",
+      "name": "Cloud honey cake",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "bakery",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 3
+    },
+    {
+      "id": "berry_tart",
+      "name": "Moonwater berry tart",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "bakery",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2
+    },
+    {
+      "id": "pink_lemonade",
+      "name": "Rose lemonade",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 5
+    },
+    {
+      "id": "lavender_bundle",
+      "name": "Dried lavender bundle",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "garden",
+      "seasonal_seasons": ["spring"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moonflower_seeds",
+      "name": "Moonflower seed packet",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "garden",
+      "seasonal_seasons": ["spring"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moon_candle",
+      "name": "Crescent wax candle",
+      "price": 8,
+      "purchase_cost": 4,
+      "starting_stock": 2,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "enchanted_case",
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "catnip_sachet",
+      "name": "Miso's catnip sachet",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "tags": [
+        "miso_favourite"
+      ]
+    },
+    {
+      "id": "sea_salt",
+      "name": "Moon tide sea salt",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moonstone",
+      "name": "Polished moonstone",
+      "price": 12,
+      "purchase_cost": 5,
+      "starting_stock": 1,
+      "category": "midnight",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "enchanted_case",
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "crescent_gift",
+      "name": "Crescent gift box",
+      "price": 11,
+      "purchase_cost": 5,
+      "starting_stock": 1,
+      "category": "seasonal",
+      "seasonal_seasons": ["autumn", "winter"],
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "lunar_latte",
+      "name": "Lunar cream latte",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 2,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1
+    },
+    {
+      "id": "honey_oatcakes",
+      "name": "Honey oatcakes",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 8
+    },
+    {
+      "id": "cinnamon_moon_roll",
+      "name": "Cinnamon moon roll",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 3
+    },
+    {
+      "id": "blueberry_scone",
+      "name": "Blueberry scone",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 2
+    },
+    {
+      "id": "plum_cordial",
+      "name": "Plum cordial",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "cold",
+      "seasonal_seasons": ["autumn"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 8
+    },
+    {
+      "id": "pear_conserve",
+      "name": "Pear conserve",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 18
+    },
+    {
+      "id": "spiced_apple_cider",
+      "name": "Spiced apple cider",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "cold",
+      "seasonal_seasons": ["autumn"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 6
+    },
+    {
+      "id": "violet_honey",
+      "name": "Violet honey",
+      "price": 8,
+      "purchase_cost": 4,
+      "starting_stock": 0,
+      "category": "midnight",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "enchanted_case",
+      "shelf_life_shifts": 20,
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "ginger_star_biscuits",
+      "name": "Ginger star biscuits",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 12
+    },
+    {
+      "id": "rosewater_soda",
+      "name": "Rosewater soda",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "cold",
+      "seasonal_seasons": ["summer"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 6
+    },
+    {
+      "id": "blackberry_chocolate",
+      "name": "Blackberry chocolate",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 16
+    },
+    {
+      "id": "moon_hand_pies",
+      "name": "Moon hand pies",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 3
+    },
+    {
+      "id": "cloudberry_syrup",
+      "name": "Cloudberry syrup",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 18
+    },
+    {
+      "id": "star_crackers",
+      "name": "Star crackers",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 20
+    },
+    {
+      "id": "lemon_teacake",
+      "name": "Lemon teacake",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 3
+    },
+    {
+      "id": "chamomile_sachets",
+      "name": "Chamomile sachets",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "honeycomb_drops",
+      "name": "Honeycomb drops",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 24
+    },
+    {
+      "id": "illustrated_postcards",
+      "name": "Bellwether postcards",
+      "price": 4,
+      "purchase_cost": 1,
+      "starting_stock": 0,
+      "category": "stationery",
+      "display_capacity": 10,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "pocket_compass",
+      "name": "Pocket compass",
+      "price": 12,
+      "purchase_cost": 6,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moon_handkerchief",
+      "name": "Moon-embroidered handkerchief",
+      "price": 8,
+      "purchase_cost": 4,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "midnight_storybook",
+      "name": "Midnight storybook",
+      "price": 10,
+      "purchase_cost": 5,
+      "starting_stock": 0,
+      "category": "stationery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moon_enamel_brooch",
+      "name": "Moon enamel brooch",
+      "price": 9,
+      "purchase_cost": 4,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "star_hairclip",
+      "name": "Star hair clip",
+      "price": 6,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "lavender_ribbon",
+      "name": "Lavender ribbon",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "crescent_tea_strainer",
+      "name": "Crescent tea strainer",
+      "price": 8,
+      "purchase_cost": 4,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "botanical_incense",
+      "name": "Botanical incense",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "enchanted_case",
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "moonflower_sachet",
+      "name": "Moonflower sachet",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "midnight",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "enchanted_case",
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "star_keyring",
+      "name": "Star keyring",
+      "price": 6,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "seashell_charm",
+      "name": "Seashell charm",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "specialty",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "rain_vial",
+      "name": "Rain vial",
+      "price": 9,
+      "purchase_cost": 4,
+      "starting_stock": 0,
+      "category": "midnight",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "enchanted_case",
+      "tags": [
+        "supernatural"
+      ]
+    },
+    {
+      "id": "pressed_flower_bookmark",
+      "name": "Pressed-flower bookmark",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 0,
+      "category": "stationery",
+      "display_capacity": 10,
+      "stock_capacity": 20,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moon_phase_calendar",
+      "name": "Moon-phase calendar",
+      "price": 8,
+      "purchase_cost": 3,
+      "starting_stock": 0,
+      "category": "stationery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "moon_teacup_gift",
+      "name": "Moon teacup gift set",
+      "price": 14,
+      "purchase_cost": 7,
+      "starting_stock": 0,
+      "category": "seasonal",
+      "seasonal_seasons": ["spring", "summer"],
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "dry_shelf"
+    },
+    {
+      "id": "brewed_plain_tea",
+      "name": "A Little Cup of Tea",
+      "price": 5,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "tea"
+    },
+    {
+      "id": "brewed_moonflower_tea",
+      "name": "Moonflower Tea · brewed",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "moonflower_tea",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "prepared_sweet_coffee",
+      "name": "Sweet Coffee",
+      "price": 7,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lunar_latte"
+    },
+    {
+      "id": "warm_milk_mug",
+      "name": "Warm Milk",
+      "price": 4,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "milk"
+    },
+    {
+      "id": "midnight_mocha_drink",
+      "name": "Midnight Mocha",
+      "price": 11,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "chamomile_honey_tea",
+      "name": "Chamomile Honey Tea",
+      "price": 7,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "moonflower_tea"
+    },
+    {
+      "id": "warmed_spiced_cider",
+      "name": "Warmed Spiced Cider",
+      "price": 8,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "spiced_apple_cider"
+    },
+    {
+      "id": "rosewater_tea_cup",
+      "name": "Rosewater Tea",
+      "price": 7,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "rosewater_soda"
+    },
+    {
+      "id": "violet_honey_toast",
+      "name": "Violet Honey Toast",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "honey_oatcakes"
+    },
+    {
+      "id": "bellberry_scone",
+      "name": "Bellberry Scone",
+      "price": 7,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "blueberry_scone"
+    },
+    {
+      "id": "moonflower_cocoa_mug",
+      "name": "Moonflower Cocoa",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "ginger_honey_brew",
+      "name": "Ginger Honey Brew",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "ginger_star_biscuits"
+    },
+    {
+      "id": "blackberry_cordial_cup",
+      "name": "Blackberry Cordial",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "plum_cordial",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "cloudberry_milk",
+      "name": "Cloudberry Milk",
+      "price": 8,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "cloudberry_syrup"
+    },
+    {
+      "id": "salted_lavender_tea",
+      "name": "Salted Lavender Tea",
+      "price": 8,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lavender_tea_tin",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "violet_honey_tea_cup",
+      "name": "Violet Honey Cup",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "pear_spice_cordial_cup",
+      "name": "Pear-Spice Cordial",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "spiced_apple_cider"
+    },
+    {
+      "id": "lavender_chamomile_brew_cup",
+      "name": "Lavender Chamomile Brew",
+      "price": 8,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lavender_tea_tin"
+    },
+    {
+      "id": "rose_violet_fizz",
+      "name": "Rose and Violet Fizz",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "rosewater_soda",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "cloudberry_tea_cup",
+      "name": "Cloudberry Tea",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lunar_latte"
+    },
+    {
+      "id": "blackberry_cocoa_mug",
+      "name": "Blackberry Cocoa",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "lunar_latte"
+    },
+    {
+      "id": "lemon_sunrise_tea_cup",
+      "name": "Lemon Sunrise Tea",
+      "price": 8,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "pink_lemonade"
+    },
+    {
+      "id": "night_rose_latte",
+      "name": "Night Rose Latte",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "starlight_cordial_cup",
+      "name": "Starlight Cordial",
+      "price": 14,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "starlight",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "moonflower_rose_brew_cup",
+      "name": "Moonflower Rose Brew",
+      "price": 11,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "moonflower_tea",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "rose_lavender_tea_cup",
+      "name": "Rose Lavender Night Tea",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 5,
+      "stock_capacity": 10,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lavender_tea_tin",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "peach_jam_toast",
+      "name": "Peach Jam Toast",
+      "price": 7,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "honey_oatcakes"
+    },
+    {
+      "id": "star_shortbread_cocoa",
+      "name": "Star Shortbread Cocoa",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 5,
+      "stock_capacity": 10,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "cloudberry_sparkler",
+      "name": "Cloudberry Sparkler",
+      "price": 9,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 5,
+      "stock_capacity": 10,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "cloudberry_syrup"
+    },
+    {
+      "id": "salted_pear_cider",
+      "name": "Salted Pear Cider",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "spiced_apple_cider",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "warm_berry_tart",
+      "name": "Warm Berry Tart",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "berry_tart"
+    },
+    {
+      "id": "chamomile_milk_mug",
+      "name": "Chamomile Milk",
+      "price": 8,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 5,
+      "stock_capacity": 10,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "moonflower_tea",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "rosewater_plum_cordial",
+      "name": "Rosewater Plum Cordial",
+      "price": 11,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "plum_cordial",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "ginger_moon_milk",
+      "name": "Ginger Moon Milk",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 1,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "starlight_tea_cup",
+      "name": "Starlight Tea",
+      "price": 13,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 4,
+      "stock_capacity": 8,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "starlight",
+      "tags": [
+        "supernatural",
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "blackberry_preserve_tin",
+      "name": "Blackberry Preserve Tin",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "everyday",
+      "seasonal_seasons": ["autumn"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 12
+    },
+    {
+      "id": "wildflower_honey_jar",
+      "name": "Wildflower Honey",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "everyday",
+      "seasonal_seasons": ["spring"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 16
+    },
+    {
+      "id": "summer_peach_preserves",
+      "name": "Summer Peach Preserves",
+      "price": 6,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "everyday",
+      "seasonal_seasons": ["summer"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 12
+    },
+    {
+      "id": "midnight_cocoa_tin",
+      "name": "Midnight Cocoa Tin",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "everyday",
+      "seasonal_seasons": ["winter"],
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 16
+    },
+    {
+      "id": "roasted_coffee_beans",
+      "name": "Roasted Coffee Beans",
+      "price": 8,
+      "purchase_cost": 4,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 16
+    },
+    {
+      "id": "bergamot_tea_tin",
+      "name": "Bergamot Tea Tin",
+      "price": 7,
+      "purchase_cost": 3,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 16
+    },
+    {
+      "id": "vanilla_pod_bottle",
+      "name": "Vanilla Pod Bottle",
+      "price": 9,
+      "purchase_cost": 4,
+      "starting_stock": 2,
+      "category": "everyday",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 20
+    },
+    {
+      "id": "cinnamon_bundle",
+      "name": "Cinnamon Sticks",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "everyday",
+      "seasonal_seasons": ["winter"],
+      "display_capacity": 10,
+      "stock_capacity": 18,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 20
+    },
+    {
+      "id": "bread_flour_sack",
+      "name": "Bread Flour Sack",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "everyday",
+      "display_capacity": 10,
+      "stock_capacity": 18,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 16
+    },
+    {
+      "id": "caster_sugar_jar",
+      "name": "Caster Sugar Jar",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "everyday",
+      "display_capacity": 10,
+      "stock_capacity": 18,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 20
+    },
+    {
+      "id": "cultured_butter_crock",
+      "name": "Cultured Butter Crock",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 5
+    },
+    {
+      "id": "fresh_cream_bottle",
+      "name": "Fresh Cream Bottle",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 4
+    },
+    {
+      "id": "moonwater_plums",
+      "name": "Moonwater Plums",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 4
+    },
+    {
+      "id": "golden_pear",
+      "name": "Golden Pear",
+      "price": 3,
+      "purchase_cost": 1,
+      "starting_stock": 4,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 4
+    },
+    {
+      "id": "concord_grapes",
+      "name": "Concord Grapes",
+      "price": 5,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "cold",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 3
+    },
+    {
+      "id": "rye_loaf",
+      "name": "Seeded Rye Loaf",
+      "price": 4,
+      "purchase_cost": 2,
+      "starting_stock": 3,
+      "category": "bakery",
+      "display_capacity": 8,
+      "stock_capacity": 16,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 4
+    },
+    {
+      "id": "rose_honey_tisane_cup",
+      "name": "Rose-Honey Tisane",
+      "price": 11,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "moonflower_tea",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "pear_ginger_cup",
+      "name": "Pear and Ginger Cup",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "spiced_apple_cider",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "vanilla_cream_tea_cup",
+      "name": "Vanilla Cream Tea",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "cocoa_honey_mug",
+      "name": "Cocoa with Wildflower Honey",
+      "price": 13,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "honey_cake",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "plum_cordial_tea_cup",
+      "name": "Moonwater Plum Tea",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "plum_cordial",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "concord_grape_sparkler",
+      "name": "Concord Grape Sparkler",
+      "price": 11,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "rosewater_soda",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "cinnamon_cream_cocoa",
+      "name": "Cinnamon Cream Cocoa",
+      "price": 13,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lunar_latte",
+      "tags": [
+        "midnight_drink",
+        "supernatural"
+      ]
+    },
+    {
+      "id": "lavender_pear_tisane",
+      "name": "Lavender Pear Tisane",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "lavender_tea_tin",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "honeyed_rye_toast",
+      "name": "Honeyed Rye Toast",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "bakery",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "bakery_rack",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "bread"
+    },
+    {
+      "id": "berry_preserve_pot",
+      "name": "Bellberry Preserve Pot",
+      "price": 12,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 8,
+      "craft_only": true,
+      "icon_alias": "berry_tart"
+    },
+    {
+      "id": "vanilla_warm_milk",
+      "name": "Vanilla Warm Milk",
+      "price": 10,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "milk",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "coffee_cream_mug",
+      "name": "Coffee with Fresh Cream",
+      "price": 11,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "coffee",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "moonwater_plum_jam",
+      "name": "Moonwater Plum Jam",
+      "price": 13,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "everyday",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "dry_shelf",
+      "shelf_life_shifts": 10,
+      "craft_only": true,
+      "icon_alias": "blackberry_jam"
+    },
+    {
+      "id": "cinnamon_pear_cider",
+      "name": "Cinnamon Pear Cider",
+      "price": 13,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "spiced_apple_cider",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "id": "grape_honey_tea",
+      "name": "Concord Grape and Honey Tea",
+      "price": 13,
+      "purchase_cost": 0,
+      "starting_stock": 0,
+      "category": "cold",
+      "display_capacity": 6,
+      "stock_capacity": 12,
+      "storage_type": "refrigerated",
+      "shelf_life_shifts": 2,
+      "craft_only": true,
+      "icon_alias": "starlight",
+      "tags": [
+        "midnight_drink"
+      ]
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "tomato_soup_tin",
+      "stock_capacity": 16,
+      "price": 7,
+      "shelf_life_shifts": 16,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 4,
+      "name": "Tomato Soup Tin",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "wild_rice_bag",
+      "stock_capacity": 16,
+      "price": 8,
+      "shelf_life_shifts": 20,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 5,
+      "name": "Wild Rice",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "oat_flakes_tin",
+      "stock_capacity": 16,
+      "price": 6,
+      "shelf_life_shifts": 20,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 3,
+      "name": "Oat Flakes",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 6,
+      "starting_stock": 6,
+      "category": "everyday",
+      "id": "olive_oil_bottle",
+      "stock_capacity": 12,
+      "price": 10,
+      "shelf_life_shifts": 24,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 6,
+      "name": "Olive Oil",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 6,
+      "starting_stock": 6,
+      "category": "everyday",
+      "id": "maple_syrup_bottle",
+      "stock_capacity": 12,
+      "price": 11,
+      "shelf_life_shifts": 18,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 6,
+      "name": "Maple Syrup",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "peppercorn_jar",
+      "stock_capacity": 16,
+      "price": 5,
+      "shelf_life_shifts": 30,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 2,
+      "name": "Peppercorns",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "cold",
+      "id": "apple_basket",
+      "seasonal_seasons": ["autumn"],
+      "stock_capacity": 16,
+      "price": 6,
+      "shelf_life_shifts": 5,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 3,
+      "name": "Basket of Apples",
+      "storage_type": "refrigerated"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "cold",
+      "id": "orange_basket",
+      "stock_capacity": 16,
+      "price": 6,
+      "shelf_life_shifts": 6,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 3,
+      "name": "Basket of Oranges",
+      "storage_type": "refrigerated"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "cold",
+      "id": "carrot_bunch",
+      "stock_capacity": 16,
+      "price": 5,
+      "shelf_life_shifts": 5,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 2,
+      "name": "Bunch of Carrots",
+      "storage_type": "refrigerated"
+    },
+    {
+      "display_capacity": 6,
+      "starting_stock": 6,
+      "category": "cold",
+      "id": "woodland_mushrooms",
+      "stock_capacity": 12,
+      "price": 8,
+      "shelf_life_shifts": 2,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 4,
+      "name": "Woodland Mushrooms",
+      "storage_type": "refrigerated"
+    },
+    {
+      "display_capacity": 6,
+      "starting_stock": 6,
+      "category": "cold",
+      "id": "cheddar_wheel",
+      "stock_capacity": 12,
+      "price": 12,
+      "shelf_life_shifts": 8,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 7,
+      "name": "Small Cheddar Wheel",
+      "storage_type": "refrigerated"
+    },
+    {
+      "display_capacity": 6,
+      "starting_stock": 6,
+      "category": "cold",
+      "id": "eggs_basket",
+      "stock_capacity": 12,
+      "price": 7,
+      "shelf_life_shifts": 7,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 4,
+      "name": "Basket of Eggs",
+      "storage_type": "refrigerated"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "fresh_ginger_root",
+      "stock_capacity": 16,
+      "price": 5,
+      "shelf_life_shifts": 12,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 2,
+      "name": "Fresh Ginger Root",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "sliced_peaches_tin",
+      "stock_capacity": 16,
+      "price": 7,
+      "shelf_life_shifts": 16,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 4,
+      "name": "Sliced Peaches",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 6,
+      "starting_stock": 6,
+      "category": "everyday",
+      "id": "dried_figs_jar",
+      "stock_capacity": 12,
+      "price": 9,
+      "shelf_life_shifts": 20,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 5,
+      "name": "Dried Figs",
+      "storage_type": "dry_shelf"
+    },
+    {
+      "display_capacity": 8,
+      "starting_stock": 8,
+      "category": "everyday",
+      "id": "popcorn_kernels_bag",
+      "stock_capacity": 16,
+      "price": 5,
+      "shelf_life_shifts": 24,
+      "tags": [
+        "pantry"
+      ],
+      "purchase_cost": 2,
+      "name": "Popcorn Kernels",
+      "storage_type": "dry_shelf"
     }
   ]
 }

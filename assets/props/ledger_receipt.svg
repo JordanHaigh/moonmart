@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="220" viewBox="0 0 160 220">
+ <path d="M23 15h114v183l-12-9-13 10-13-10-13 10-14-10-12 10-13-10-13 10z" fill="#f1dfbc" stroke="#c9937e" stroke-width="6"/>
+ <path d="M42 42h75M42 59h60M42 84h70M42 100h55M42 132h72M42 148h58" stroke="#8f6a70" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+ <path d="M42 172h72" stroke="#b77973" stroke-width="3" stroke-dasharray="5 6"/>
+ <text x="80" y="35" text-anchor="middle" font-family="serif" font-size="13" fill="#785560" letter-spacing="2">MOONMART</text>
+ <text x="80" y="123" text-anchor="middle" font-family="serif" font-size="14" fill="#806587">STRAWBERRY MILK</text>
+ <text x="80" y="190" text-anchor="middle" font-family="serif" font-size="12" fill="#9a6b72">1974</text>
+</svg>

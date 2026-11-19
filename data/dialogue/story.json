@@ -1,0 +1,1757 @@
+{
+  "story_lines": {
+    "meet_agnes": "Agnes leaves a warm pastry and welcomes you to the neighbourhood.",
+    "pip_reflection": "Pip asks for strawberry milk. In the window, the little ghost has no reflection.",
+    "receipt_1974": "Agnes notices an old receipt in the till. It is dated 1974, with Pip's order.",
+    "hidden_photograph": "Behind the old receipt is a photograph: Pip, standing in this very shop.",
+    "pip_first_memory": "Pip remembers Moonmart as a safe place, long before tonight.",
+    "fern_arrives": "Fern visits from Whisperwood. The woods have gone so quiet that even the rain sounds far away.",
+    "lucien_arrives": "Lucien asks for decaf and a detective novel. He has read every ending except the one in his own life.",
+    "wren_arrives": "Wren Hollow brings a map with one station marked in disappearing ink.",
+    "grove_silence": "Fern shows you a grove where the birds have stopped singing. A hush curls around the roots.",
+    "grove_restored": "A robin calls from the old grove. Fern smiles as if she has been holding her breath for weeks.",
+    "lucien_old_friend": "A name is written in the margin of Lucien's detective novel: Ada, in familiar handwriting.",
+    "lucien_reunion": "Lucien sends a letter to Ada with no demand in it, only a small invitation to talk.",
+    "wren_missing_person": "Wren tells you her sister boarded a train between stations and never came home.",
+    "wren_search_started": "Wren finds her family's mark on a ticket. She decides to keep looking, with your help.",
+    "photo_changes": "The face in Agnes's old shop photograph has changed again. This time, everyone saw it.",
+    "mara_unaddressed_letter": "Mara brings a letter with no address. The postmark says Bellwether, on a day nobody remembers.",
+    "osric_arrives": "A tired passenger steps in from the rain and asks whether the morning train has arrived.",
+    "conductor_first_appears": "The Conductor appears by the window and quietly says Osric's name. The passenger remembers it too.",
+    "long_midnight_named": "Agnes tells you about the Long Midnight, the night the sun did not rise and the town chose to forget.",
+    "map_gaps": "Mara lays an old town map beside today's. A street has vanished from both, though the postmarks remember it.",
+    "forgotten_resident_returned": "Osric's name returns to the ledger. He remembers his sister and the little blue house near the quay.",
+    "conductor_promise": "The Conductor promises to show you the platform when its train is ready to stop.",
+    "platform_ticket": "Wren finds her sister's mark on a ticket to a station that does not appear on any town map.",
+    "platform_opened": "A door at the edge of the platform opens. Beyond it waits a train full of quiet, patient lights.",
+    "passenger_manifest_read": "You read every passenger's name aloud. The station seems to settle around each one.",
+    "miso_guardian_truth": "Agnes finally explains: Miso has watched this doorway for longer than the shop has had a sign.",
+    "miso_promise": "Miso presses a paw against yours. The Conductor says the old guardian may choose to stay, or choose to rest.",
+    "lighthouse_sight": "Elias has seen the lighthouse beam crossing the water again, though its lamp was removed years ago.",
+    "elias_confesses": "The lighthouse log records the Long Midnight in Elias's own handwriting. He had forgotten writing it.",
+    "lighthouse_mechanism": "Wren repairs the old lens with a shard of remembered moonlight, freely given and returned by morning.",
+    "agnes_old_oath": "Agnes admits her family kept the first agreement. It asked them to leave a light on, never to give anything up.",
+    "lighthouse_restored": "The restored beacon sweeps across the sea. Lost travellers can see the way home without being pulled toward it.",
+    "agreement_read": "The original covenant is simple: keep a safe place for anyone who needs one. The doorway was never meant to own anyone.",
+    "travellers_gather": "Pip helps welcome the travellers. Some want to stay for tea; some are ready to go home.",
+    "miso_decides": "Miso chooses what comes next. Whatever the cat decides, Moonmart will still feel like home.",
+    "boundary_stabilized": "Bellwether remembers its missing neighbours. The boundary steadies around the choices each traveller made.",
+    "final_covenant_made": "Together, the town writes a new promise for the doorway. At dawn, the shop is still warm and full of people."
+  },
+  "ordinary_lines": {
+    "agnes": "Agnes says the pastries are yesterday's, but they still smell wonderful.",
+    "pip": "Pip waves, strawberry milk held carefully in both hands.",
+    "fern": "Fern asks if the little tea plant by the window is doing well.",
+    "lucien": "Lucien recommends a mystery novel. He promises the ending is only a little implausible.",
+    "wren": "Wren trades a pressed flower for a story about the town.",
+    "conductor": "The Conductor tips their hat. No train is due just yet.",
+    "elias": "Elias says the sea has been quieter since the beacon came back on.",
+    "mara": "Mara has another letter to sort, this one with a proper address.",
+    "osric": "Osric remembers the way back to the harbour and stops to say hello.",
+    "miriam_underwood": "Miriam warms her hands around a coffee and tells you the bus ride home was peaceful.",
+    "hollis_quince": "Hollis listens to the little clock above the door and smiles when it keeps good time.",
+    "sabine_kersey": "Sabine says the harbour ropes are mended for the night and asks how the shop is keeping.",
+    "anouk_harrow": "Anouk wonders which seeds would be happiest in the greenhouse window next spring.",
+    "oda_lovell": "Oda taps a gentle rhythm against her notebook and says the rain has found its chorus.",
+    "elowen_charter": "Elowen says every sheet came clean today, even the one with blackberry jam on it.",
+    "stellan_rusk": "Stellan checks his pocket watch, then decides he has time to finish his warm milk.",
+    "iona_pebble": "Iona tucks a postcard safely into her bag and asks if the sea has brought any letters back.",
+    "liora_fenwick": "Liora turns a paper lantern in her hands and says this one might be ready for the next gathering.",
+    "rowan_pike": "Rowan says the lighthouse inventory is finally balanced, except for one pencil that keeps moving.",
+    "maribel_frost": "Maribel asks whether the inn's quiet room might suit a traveller who needs a softer night.",
+    "tomas_wicks": "Tomas says the thyme beside the square wall has started to smell like summer again.",
+    "juniper_hale": "Juniper found a kind little note in the archive margin and promises to copy it into the public book.",
+    "beckett_shore": "Beckett says the tide brought in a bright shell and carried off one of his mittens.",
+    "nella_finch": "Nella checks the seam on her handkerchief and smiles at the tiny crescent in its corner.",
+    "aster_rowe": "Aster says the clouds parted long enough to make the whole night's waiting worthwhile.",
+    "ordinary_tide_table_clerk": "The tide-table clerk checks a freshly printed page against the harbour bell and sighs at the difference.",
+    "ordinary_lamplighter_apprentice": "The lamplighter's apprentice warms their hands on the paper cup and says one lamp on Clover Lane hums when it is happy.",
+    "ordinary_sleepwalking_teacher": "The schoolteacher notices chalk on their sleeve and cannot remember writing anything at all.",
+    "ordinary_lost_property_clerk": "The lost-property clerk labels everything twice, once for its owner and once for whoever it used to be.",
+    "ordinary_umbrella_mender": "The umbrella mender hangs a repaired umbrella by the door and says it prefers the rain to the sunshine.",
+    "ordinary_orchard_nightwatch": "The orchard watchman says the trees were whispering again, and are probably sorry about the gate."
+  },
+  "default_ordinary_line": "%s thanks you and lingers beneath the warm shop lights.",
+  "conversation_routes": {
+    "agnes": {
+      "variants": [
+        {
+          "conversation_id": "agnes_covenant",
+          "requires_flags": [
+            "agreement_read"
+          ]
+        },
+        {
+          "conversation_id": "agnes_photograph",
+          "requires_flags": [
+            "hidden_photograph"
+          ]
+        },
+        {
+          "conversation_id": "side_agnes_oven_dawn",
+          "requires_flags": [
+            "meet_agnes"
+          ]
+        },
+        {
+          "conversation_id": "side_agnes_ledger_flour",
+          "requires_flags": [
+            "agnes_old_oath"
+          ]
+        },
+        {
+          "conversation_id": "side_agnes_sunrise_loaf",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_agnes_night_baker_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_agnes_night_baker_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_agnes_night_baker_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "pip": {
+      "variants": [
+        {
+          "conversation_id": "pip_travellers",
+          "requires_flags": [
+            "travellers_gather"
+          ]
+        },
+        {
+          "conversation_id": "pip_memory",
+          "requires_flags": [
+            "pip_first_memory"
+          ]
+        },
+        {
+          "conversation_id": "side_pip_window_stars",
+          "requires_flags": [
+            "pip_first_memory"
+          ]
+        },
+        {
+          "conversation_id": "side_pip_names_in_jars",
+          "requires_flags": [
+            "travellers_gather"
+          ]
+        },
+        {
+          "conversation_id": "side_pip_new_night",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "fern": {
+      "variants": [
+        {
+          "conversation_id": "fern_birds",
+          "requires_flags": [
+            "grove_restored"
+          ]
+        },
+        {
+          "conversation_id": "fern_silence",
+          "requires_flags": [
+            "grove_silence"
+          ]
+        },
+        {
+          "conversation_id": "side_fern_seed_envelope",
+          "requires_flags": [
+            "grove_silence"
+          ]
+        },
+        {
+          "conversation_id": "side_fern_bird_counts",
+          "requires_flags": [
+            "grove_restored"
+          ]
+        },
+        {
+          "conversation_id": "side_fern_moss_path",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "lucien": {
+      "variants": [
+        {
+          "conversation_id": "lucien_letter",
+          "requires_flags": [
+            "lucien_reunion"
+          ]
+        },
+        {
+          "conversation_id": "lucien_ada",
+          "requires_flags": [
+            "lucien_old_friend"
+          ]
+        },
+        {
+          "conversation_id": "side_lucien_margin_note",
+          "requires_flags": [
+            "lucien_reunion"
+          ]
+        },
+        {
+          "conversation_id": "side_lucien_library_card",
+          "requires_flags": [
+            "agreement_read"
+          ]
+        },
+        {
+          "conversation_id": "side_lucien_open_shelf",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "lucien_midnight_storybook_stocked",
+          "requires_stocked_products": [
+            "midnight_storybook"
+          ]
+        }
+      ]
+    },
+    "wren": {
+      "variants": [
+        {
+          "conversation_id": "wren_platform",
+          "requires_flags": [
+            "platform_opened"
+          ]
+        },
+        {
+          "conversation_id": "wren_search",
+          "requires_flags": [
+            "wren_search_started"
+          ]
+        },
+        {
+          "conversation_id": "side_wren_route_sketch",
+          "requires_flags": [
+            "wren_search_started"
+          ]
+        },
+        {
+          "conversation_id": "side_wren_platform_bench",
+          "requires_flags": [
+            "platform_opened"
+          ]
+        },
+        {
+          "conversation_id": "side_wren_folded_map",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "conductor": {
+      "variants": [
+        {
+          "conversation_id": "conductor_covenant",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "conductor_promise",
+          "requires_flags": [
+            "conductor_promise"
+          ]
+        },
+        {
+          "conversation_id": "side_conductor_timetable_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_conductor_timetable_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_conductor_timetable_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_conductor_platform_lamps_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_conductor_platform_lamps_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_conductor_platform_lamps_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "elias": {
+      "variants": [
+        {
+          "conversation_id": "elias_beacon",
+          "requires_flags": [
+            "lighthouse_restored"
+          ]
+        },
+        {
+          "conversation_id": "elias_log",
+          "requires_flags": [
+            "elias_confesses"
+          ]
+        },
+        {
+          "conversation_id": "side_elias_lens_cloth_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elias_lens_cloth_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elias_lens_cloth_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elias_weather_log_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elias_weather_log_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elias_weather_log_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "mara": {
+      "variants": [
+        {
+          "conversation_id": "mara_return",
+          "requires_flags": [
+            "forgotten_resident_returned"
+          ]
+        },
+        {
+          "conversation_id": "mara_map",
+          "requires_flags": [
+            "map_gaps"
+          ]
+        },
+        {
+          "conversation_id": "side_mara_unsent_copy",
+          "requires_flags": [
+            "mara_unaddressed_letter"
+          ]
+        },
+        {
+          "conversation_id": "side_mara_blue_postmark",
+          "requires_flags": [
+            "map_gaps"
+          ]
+        },
+        {
+          "conversation_id": "side_mara_open_mailbox",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_mara_harbour_post_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_mara_harbour_post_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_mara_harbour_post_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "osric": {
+      "variants": [
+        {
+          "conversation_id": "osric_covenant",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "osric_home",
+          "requires_flags": [
+            "forgotten_resident_returned"
+          ]
+        },
+        {
+          "conversation_id": "side_osric_quay_garden_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_osric_quay_garden_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_osric_quay_garden_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_osric_bread_route_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_osric_bread_route_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_osric_bread_route_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "miriam_underwood": {
+      "variants": [
+        {
+          "conversation_id": "side_miriam_night_route_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_miriam_night_route_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_miriam_night_route_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "hollis_quince": {
+      "variants": [
+        {
+          "conversation_id": "side_hollis_clockwork_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_hollis_clockwork_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_hollis_clockwork_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "sabine_kersey": {
+      "variants": [
+        {
+          "conversation_id": "side_sabine_mended_net_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_sabine_mended_net_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_sabine_mended_net_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "anouk_harrow": {
+      "variants": [
+        {
+          "conversation_id": "side_anouk_seed_exchange_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_anouk_seed_exchange_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_anouk_seed_exchange_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "oda_lovell": {
+      "variants": [
+        {
+          "conversation_id": "side_oda_rain_song_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_oda_rain_song_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_oda_rain_song_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "elowen_charter": {
+      "variants": [
+        {
+          "conversation_id": "side_elowen_mending_circle_1",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elowen_mending_circle_2",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        },
+        {
+          "conversation_id": "side_elowen_mending_circle_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "stellan_rusk": {
+      "variants": [
+        {
+          "conversation_id": "side_stellan_lost_property_1",
+          "requires_flags": [
+            "conductor_first_appears"
+          ]
+        },
+        {
+          "conversation_id": "side_stellan_lost_property_2",
+          "requires_flags": [
+            "forgotten_resident_returned"
+          ]
+        },
+        {
+          "conversation_id": "side_stellan_lost_property_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "iona_pebble": {
+      "variants": [
+        {
+          "conversation_id": "side_iona_undeliverable_post_1",
+          "requires_flags": [
+            "wren_arrives"
+          ]
+        },
+        {
+          "conversation_id": "side_iona_undeliverable_post_2",
+          "requires_flags": [
+            "map_gaps"
+          ]
+        },
+        {
+          "conversation_id": "side_iona_undeliverable_post_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "liora_fenwick": {
+      "variants": [
+        {
+          "conversation_id": "side_liora_lantern_folds_1",
+          "requires_flags": [
+            "pip_first_memory"
+          ]
+        },
+        {
+          "conversation_id": "side_liora_lantern_folds_2",
+          "requires_flags": [
+            "lighthouse_sight"
+          ]
+        },
+        {
+          "conversation_id": "side_liora_lantern_folds_3",
+          "requires_flags": [
+            "lighthouse_restored"
+          ]
+        }
+      ]
+    },
+    "rowan_pike": {
+      "variants": [
+        {
+          "conversation_id": "side_rowan_storeroom_ledger_1",
+          "requires_flags": [
+            "lighthouse_sight"
+          ]
+        },
+        {
+          "conversation_id": "side_rowan_storeroom_ledger_2",
+          "requires_flags": [
+            "elias_confesses"
+          ]
+        },
+        {
+          "conversation_id": "side_rowan_storeroom_ledger_3",
+          "requires_flags": [
+            "final_covenant_made"
+          ]
+        }
+      ]
+    },
+    "maribel_frost": {
+      "variants": [
+        {
+          "conversation_id": "side_maribel_room_seven_1",
+          "requires_flags": [
+            "meet_agnes"
+          ]
+        },
+        {
+          "conversation_id": "side_maribel_room_seven_2",
+          "requires_flags": [
+            "grove_restored"
+          ]
+        },
+        {
+          "conversation_id": "side_maribel_room_seven_3",
+          "requires_flags": [
+            "map_gaps"
+          ]
+        }
+      ]
+    },
+    "tomas_wicks": {
+      "variants": [
+        {
+          "conversation_id": "side_tomas_threshold_stone_1",
+          "requires_flags": [
+            "receipt_1974"
+          ]
+        },
+        {
+          "conversation_id": "side_tomas_threshold_stone_2",
+          "requires_flags": [
+            "lucien_reunion"
+          ]
+        },
+        {
+          "conversation_id": "side_tomas_threshold_stone_3",
+          "requires_flags": [
+            "forgotten_resident_returned"
+          ]
+        }
+      ]
+    },
+    "juniper_hale": {
+      "variants": [
+        {
+          "conversation_id": "side_juniper_margin_index_1",
+          "requires_flags": [
+            "pip_reflection"
+          ]
+        },
+        {
+          "conversation_id": "side_juniper_margin_index_2",
+          "requires_flags": [
+            "conductor_first_appears"
+          ]
+        },
+        {
+          "conversation_id": "side_juniper_margin_index_3",
+          "requires_flags": [
+            "forgotten_resident_returned"
+          ]
+        }
+      ]
+    },
+    "beckett_shore": {
+      "variants": [
+        {
+          "conversation_id": "side_beckett_morning_thanks_1",
+          "requires_flags": [
+            "pip_reflection"
+          ]
+        },
+        {
+          "conversation_id": "side_beckett_morning_thanks_2",
+          "requires_flags": [
+            "grove_restored"
+          ]
+        },
+        {
+          "conversation_id": "side_beckett_morning_thanks_3",
+          "requires_flags": [
+            "lighthouse_restored"
+          ]
+        }
+      ]
+    },
+    "nella_finch": {
+      "variants": [
+        {
+          "conversation_id": "side_nella_seam_names_1",
+          "requires_flags": [
+            "wren_arrives"
+          ]
+        },
+        {
+          "conversation_id": "side_nella_seam_names_2",
+          "requires_flags": [
+            "platform_opened"
+          ]
+        },
+        {
+          "conversation_id": "side_nella_seam_names_3",
+          "requires_flags": [
+            "agreement_read"
+          ]
+        }
+      ]
+    },
+    "aster_rowe": {
+      "variants": [
+        {
+          "conversation_id": "side_aster_starlight_notes_1",
+          "requires_flags": [
+            "lighthouse_sight"
+          ]
+        },
+        {
+          "conversation_id": "side_aster_starlight_notes_2",
+          "requires_flags": [
+            "lighthouse_restored"
+          ]
+        },
+        {
+          "conversation_id": "side_aster_starlight_notes_3",
+          "requires_flags": [
+            "boundary_stabilized"
+          ]
+        }
+      ]
+    }
+  },
+  "conversations": {
+    "agnes_first": {
+      "speaker": "Agnes",
+      "lines": [
+        "First night on your own, is it? The shop has a way of looking after people.",
+        "Your predecessor used to say the same thing. I suppose the shelves remember."
+      ]
+    },
+    "pip_tuesday": {
+      "speaker": "Pip",
+      "lines": [
+        "I come here every Tuesday. I think.",
+        "The strawberry milk is pink like a sunset I nearly remember."
+      ]
+    },
+    "fern_grove": {
+      "speaker": "Fern",
+      "lines": [
+        "There used to be birds in every branch.",
+        "I can wait. The roots are old, and quiet does not always mean gone."
+      ]
+    },
+    "wren_sister": {
+      "speaker": "Wren",
+      "lines": [
+        "She boarded at a platform I could not find again.",
+        "I kept one ticket. I did not keep her name safe enough."
+      ]
+    },
+    "conductor_names": {
+      "speaker": "The Conductor",
+      "lines": [
+        "A name spoken kindly can be a lamp.",
+        "I have carried many. I am glad you are helping me set them down."
+      ]
+    },
+    "elias_light": {
+      "speaker": "Elias",
+      "lines": [
+        "They told me to stop tending a light that could not be there.",
+        "I stopped telling anyone. I never stopped looking at the shore."
+      ]
+    },
+    "mara_letters": {
+      "speaker": "Mara",
+      "lines": [
+        "Some letters arrive without an address, but the paper still remembers where it began.",
+        "I keep a drawer for the ones that need a little more time."
+      ]
+    },
+    "osric_name": {
+      "speaker": "Osric",
+      "lines": [
+        "I remember warm bread and rain on the quay.",
+        "The Conductor said my name. I think I can carry it now."
+      ]
+    },
+    "agnes_photograph": {
+      "speaker": "Agnes",
+      "lines": [
+        "When Pip appeared in that photograph, I wanted to find an explanation before I found a way to listen.",
+        "You let the picture be strange without making Pip prove anything. I remember that kindness."
+      ]
+    },
+    "agnes_covenant": {
+      "speaker": "Agnes",
+      "lines": [
+        "My family kept the old agreement as if a safe light were a debt someone had to pay.",
+        "The new words feel right: leave the door open, and let each visitor choose when to go."
+      ]
+    },
+    "pip_memory": {
+      "speaker": "Pip",
+      "lines": [
+        "I can remember the shop now. The bell, the warm bread, and someone saving me a seat.",
+        "I still lose the details sometimes, but the safe feeling comes back when I need it."
+      ]
+    },
+    "pip_travellers": {
+      "speaker": "Pip",
+      "lines": [
+        "Some travellers asked for tea, and some asked which way home was. We helped with both.",
+        "Miso gets to choose too. I like a promise that leaves room for everybody to say what they want."
+      ]
+    },
+    "fern_silence": {
+      "speaker": "Fern",
+      "lines": [
+        "The hush has a shape, like snow over a path. I am glad you heard it with me.",
+        "We do not have to hurry the grove. We can keep showing up and let it answer in its own time."
+      ]
+    },
+    "fern_birds": {
+      "speaker": "Fern",
+      "lines": [
+        "The first robin sang from the old roots. I nearly answered before I remembered to breathe.",
+        "The grove was never asking us to force it awake. It needed patience, company, and room."
+      ]
+    },
+    "lucien_ada": {
+      "speaker": "Lucien",
+      "lines": [
+        "Finding Ada's name brought back the years I spent rehearsing what I should have said.",
+        "I am trying to remember her as a person, not as an ending I can rewrite."
+      ]
+    },
+    "lucien_letter": {
+      "speaker": "Lucien",
+      "lines": [
+        "Ada replied. We have not solved the past; we have simply agreed to have tea.",
+        "For once, the next chapter can be small and still be worth writing."
+      ]
+    },
+    "lucien_midnight_storybook_stocked": {
+      "speaker": "Lucien",
+      "lines": [
+        "You put the Midnight Storybook on the shelf. Its final chapter seems to have been rewritten in the margins.",
+        "I will not spoil the ending. Some mysteries are nicer when the book gets to finish them in its own time."
+      ]
+    },
+    "wren_search": {
+      "speaker": "Wren",
+      "lines": [
+        "The family mark on that ticket is hers. I have stared at it for years and never let myself hope.",
+        "I want to keep looking, but I am learning that searching together does not mean carrying it alone."
+      ]
+    },
+    "wren_platform": {
+      "speaker": "Wren",
+      "lines": [
+        "The train is real, and so is the choice to wait until I am ready to board.",
+        "My sister is more than the moment she vanished. I will meet her as she is, if she wants that too."
+      ]
+    },
+    "conductor_promise": {
+      "speaker": "The Conductor",
+      "lines": [
+        "I used to think keeping every name meant keeping every passenger with me.",
+        "A name is safer when it can travel freely, spoken by someone who cares."
+      ]
+    },
+    "conductor_covenant": {
+      "speaker": "The Conductor",
+      "lines": [
+        "The town has written a promise that shelters without binding. I can finally set down the old wording.",
+        "At dawn, every route remains a choice. That is a better duty than deciding for anyone."
+      ]
+    },
+    "elias_log": {
+      "speaker": "Elias",
+      "lines": [
+        "Seeing my own handwriting in the lighthouse log was like meeting the part of me that kept watch.",
+        "I had forgotten the night, but the record did not ask me to carry it alone anymore."
+      ]
+    },
+    "elias_beacon": {
+      "speaker": "Elias",
+      "lines": [
+        "The restored beam reaches the harbour and the far coast. Nobody has to follow it; it only shows the way.",
+        "I can stop mistaking a light for a command. It is enough to make a safe path visible."
+      ]
+    },
+    "mara_map": {
+      "speaker": "Mara",
+      "lines": [
+        "The missing street was still there in the postmarks. Paper can keep a place for someone while a town forgets.",
+        "We will put the names back carefully, and ask the people who return what they want remembered."
+      ]
+    },
+    "mara_return": {
+      "speaker": "Mara",
+      "lines": [
+        "Osric's name is back in the ledger, in ink that belongs to this morning.",
+        "I used to think an archive had to be complete to be honest. Now I leave space for people to amend their own stories."
+      ]
+    },
+    "osric_home": {
+      "speaker": "Osric",
+      "lines": [
+        "I found the blue house by the quay. My sister's garden is wild, but I know the gate.",
+        "I do not need every lost day returned before I can take the next step home."
+      ]
+    },
+    "osric_covenant": {
+      "speaker": "Osric",
+      "lines": [
+        "I read the town's new promise twice. It leaves the door open and leaves the choice with the person standing there.",
+        "I am staying in Bellwether for now. That is my answer today, and tomorrow I get to answer again."
+      ]
+    },
+    "side_agnes_oven_dawn": {
+      "speaker": "Agnes",
+      "lines": [
+        "My mother always put a little orange peel in the first loaf of the morning. It made the whole kitchen smell like a new day.",
+        "I thought I had forgotten the recipe. The smell brought it back, gentle as anything."
+      ]
+    },
+    "side_agnes_ledger_flour": {
+      "speaker": "Agnes",
+      "lines": [
+        "I found my old flour notes beside the family agreement. The margins are full of small corrections from three generations.",
+        "We were better at leaving each other useful notes than saying what we meant."
+      ]
+    },
+    "side_agnes_sunrise_loaf": {
+      "speaker": "Agnes",
+      "lines": [
+        "That first sunrise loaf is ready. I saved you the end piece, where the crust goes crisp.",
+        "A shop can keep a promise with very ordinary things: warm bread, a light in the window, a chair left open."
+      ]
+    },
+    "side_pip_window_stars": {
+      "speaker": "Pip",
+      "lines": [
+        "I used to count the stars in the shop window. I always lost my place when someone came in.",
+        "Maybe that was the point. The stars stayed there, and so did the people."
+      ]
+    },
+    "side_pip_names_in_jars": {
+      "speaker": "Pip",
+      "lines": [
+        "I made labels for everyone who passed through. Some names got smudged, but I kept the jars anyway.",
+        "Would you help me write the names again? We can leave room for people who have not arrived yet."
+      ]
+    },
+    "side_pip_new_night": {
+      "speaker": "Pip",
+      "lines": [
+        "The shop sounds different now. I can hear the kettle without worrying that it means someone is lost.",
+        "I think I would like to stay for one more cup. Then we will see."
+      ]
+    },
+    "side_fern_seed_envelope": {
+      "speaker": "Fern",
+      "lines": [
+        "I pressed a few grove seeds into paper so they would not blow away on the walk home.",
+        "Some seeds need darkness before they wake. I try not to mistake waiting for failure."
+      ]
+    },
+    "side_fern_bird_counts": {
+      "speaker": "Fern",
+      "lines": [
+        "I have started counting the birds again. Not to prove they are safe, just to notice who comes by.",
+        "A count can be a kind of welcome if you leave space for the unexpected."
+      ]
+    },
+    "side_fern_moss_path": {
+      "speaker": "Fern",
+      "lines": [
+        "There is a little moss path growing over the old mark in the grove. It does not hide it; it makes room around it.",
+        "That feels right. Healing can leave the history visible and still make a soft place to stand."
+      ]
+    },
+    "side_lucien_margin_note": {
+      "speaker": "Lucien",
+      "lines": [
+        "I found a note in the margin of a book I used to lend out. It only says, “You can bring it back whenever.”",
+        "Such a small sentence. I have carried it farther than the book."
+      ]
+    },
+    "side_lucien_library_card": {
+      "speaker": "Lucien",
+      "lines": [
+        "The library card is still tucked inside. There is no date beside the last return.",
+        "I used to think an unfinished record meant someone had failed. Now I think it can mean there is still time."
+      ]
+    },
+    "side_lucien_open_shelf": {
+      "speaker": "Lucien",
+      "lines": [
+        "I put the book on the open shelf. Anyone can read it, and no one has to explain why they picked it up.",
+        "That is a good way for a story to live: offered, never owed."
+      ]
+    },
+    "side_wren_route_sketch": {
+      "speaker": "Wren",
+      "lines": [
+        "I sketched a route that ends at a blank page. My sister used to say every map needs a place for what you have not found.",
+        "I used to hate that answer. I can keep it for now."
+      ]
+    },
+    "side_wren_platform_bench": {
+      "speaker": "Wren",
+      "lines": [
+        "There is a bench on the platform with room for two. I left the space beside me empty, but not guarded.",
+        "Waiting feels different when you are allowed to rest while you do it."
+      ]
+    },
+    "side_wren_folded_map": {
+      "speaker": "Wren",
+      "lines": [
+        "I folded the map so the blank part sits on the outside. It is not a promise that I will find her.",
+        "It is a promise that I will keep looking without letting the search take every other road from me."
+      ]
+    },
+    "side_mara_unsent_copy": {
+      "speaker": "Mara",
+      "lines": [
+        "I keep a copy of every letter that arrives without an address. I thought it was for the records.",
+        "Perhaps it is also a way to tell the sender their words reached someone."
+      ]
+    },
+    "side_mara_blue_postmark": {
+      "speaker": "Mara",
+      "lines": [
+        "A blue postmark turned up on the missing-street map. It does not tell us where the street went.",
+        "It tells us somebody once took the trouble to send a letter from there."
+      ]
+    },
+    "side_mara_open_mailbox": {
+      "speaker": "Mara",
+      "lines": [
+        "I left the little mailbox by the harbour open today. People can leave a note or take one; there is no ledger for it.",
+        "Not every message needs to be traced. Some only need a safe place to land."
+      ]
+    },
+    "side_conductor_timetable_1": {
+      "speaker": "The Conductor",
+      "lines": [
+        "I have begun writing down the ordinary times as well as the impossible ones. The kettle boils at two; the first gull calls at four.",
+        "A timetable can be a record of being here, not an order to keep moving."
+      ]
+    },
+    "side_conductor_timetable_2": {
+      "speaker": "The Conductor",
+      "lines": [
+        "I added a stop called Rest. It has no platform number and no onward connection.",
+        "Passengers may stay as long as they need. I am learning that a good timetable can leave a little blank space."
+      ]
+    },
+    "side_conductor_timetable_3": {
+      "speaker": "The Conductor",
+      "lines": [
+        "The page is full of small times now: tea shared, names returned, someone choosing to sleep until morning.",
+        "I will keep the timetable, but I will not ask anyone to follow it."
+      ]
+    },
+    "side_conductor_platform_lamps_1": {
+      "speaker": "The Conductor",
+      "lines": [
+        "The platform lamps used to be lit only when a train was expected. I have left one burning for the people who are not sure.",
+        "It is a small light. It does not need to decide anyone's direction."
+      ]
+    },
+    "side_conductor_platform_lamps_2": {
+      "speaker": "The Conductor",
+      "lines": [
+        "A traveller left a paper star beneath the lamp. Another left a seed packet, and neither asked for a receipt.",
+        "The platform is beginning to look like somewhere people can rest between journeys."
+      ]
+    },
+    "side_conductor_platform_lamps_3": {
+      "speaker": "The Conductor",
+      "lines": [
+        "I added a bench beside the lamp. It is wide enough for a friend, or for a person who would rather sit alone.",
+        "No tickets are needed to rest here."
+      ]
+    },
+    "side_elias_lens_cloth_1": {
+      "speaker": "Elias",
+      "lines": [
+        "The lens cloth has a little tear near one corner. I kept using it for years because it was the one I had that night.",
+        "Wren found me a new one. I think I can let the old cloth become just a cloth now."
+      ]
+    },
+    "side_elias_lens_cloth_2": {
+      "speaker": "Elias",
+      "lines": [
+        "The new cloth leaves no streaks. I cleaned the lens slowly and watched the harbour come into focus.",
+        "For once, I looked at the boats without counting who might be missing."
+      ]
+    },
+    "side_elias_lens_cloth_3": {
+      "speaker": "Elias",
+      "lines": [
+        "I have put the old cloth in the drawer with the logbook. It can stay there without being a warning.",
+        "Tomorrow I will polish the lantern because it needs polishing. That is reason enough."
+      ]
+    },
+    "side_elias_weather_log_1": {
+      "speaker": "Elias",
+      "lines": [
+        "I started a weather log with no column for the Long Midnight. Just cloud, wind, and whether the sea was kind to the boats.",
+        "It feels good to write down a night without asking it to explain itself."
+      ]
+    },
+    "side_elias_weather_log_2": {
+      "speaker": "Elias",
+      "lines": [
+        "The rain came in softly, and the beacon made a pale path across it. A fisherman waved from the far pier.",
+        "I wrote 'steady rain, safe return' and left the page at that."
+      ]
+    },
+    "side_elias_weather_log_3": {
+      "speaker": "Elias",
+      "lines": [
+        "The log has a dozen ordinary entries now. I thought I would miss the old mystery more than I do.",
+        "Some nights are allowed to be only themselves."
+      ]
+    },
+    "side_osric_quay_garden_1": {
+      "speaker": "Osric",
+      "lines": [
+        "My sister's garden is still waiting behind the blue gate. The thyme has grown over the stepping stones.",
+        "I thought I needed to remember every afternoon before I could go back. I can begin with this morning."
+      ]
+    },
+    "side_osric_quay_garden_2": {
+      "speaker": "Osric",
+      "lines": [
+        "We cleared a small patch beside the gate. My sister planted mint there, though neither of us remembers why.",
+        "We decided the reason can stay lost. The mint smells lovely either way."
+      ]
+    },
+    "side_osric_quay_garden_3": {
+      "speaker": "Osric",
+      "lines": [
+        "There is a chair in the garden now. I can sit there without trying to reconstruct every missing day.",
+        "My sister brought tea. We talked about the weather, and it was enough."
+      ]
+    },
+    "side_osric_bread_route_1": {
+      "speaker": "Osric",
+      "lines": [
+        "I walked from the quay to Moonmart by the bakery this morning. Fresh bread has a very persuasive smell.",
+        "I used to follow that smell without knowing where I was going. I am glad my feet still remember the way."
+      ]
+    },
+    "side_osric_bread_route_2": {
+      "speaker": "Osric",
+      "lines": [
+        "Agnes gave me a paper bag for the walk home. The crust warmed my hands through it.",
+        "I used to think a homecoming had to restore everything. This one only asked me to carry bread carefully."
+      ]
+    },
+    "side_osric_bread_route_3": {
+      "speaker": "Osric",
+      "lines": [
+        "My sister says I can come by whenever I like. I do not have to wait for a special reason or the right memory.",
+        "I think I will take the bakery route again tomorrow."
+      ]
+    },
+    "side_agnes_night_baker_1": {
+      "speaker": "Agnes",
+      "lines": [
+        "I have started baking a smaller batch at night. The customers who come in before dawn deserve something fresh, too.",
+        "It is easier on my hands, and there is less left over. I should have tried it years ago."
+      ]
+    },
+    "side_agnes_night_baker_2": {
+      "speaker": "Agnes",
+      "lines": [
+        "I pinned the new schedule by the oven. Fern added a note reminding me to rest between batches.",
+        "The note is annoyingly sensible. I have decided to follow it."
+      ]
+    },
+    "side_agnes_night_baker_3": {
+      "speaker": "Agnes",
+      "lines": [
+        "My niece came by at sunrise to learn the honey loaf. She had flour on her nose before we finished the first bowl.",
+        "The recipe is older than the shop, but it can belong to whoever wants to bake it."
+      ]
+    },
+    "side_mara_harbour_post_1": {
+      "speaker": "Mara",
+      "lines": [
+        "I found a little postbox near the harbour steps. It has no lock, and the salt air has worn away the paint.",
+        "Someone left a folded note inside. It was only a drawing of a boat coming home."
+      ]
+    },
+    "side_mara_harbour_post_2": {
+      "speaker": "Mara",
+      "lines": [
+        "I brought a tin of pencils to the postbox. People have left sketches, recipes, and one very detailed list of clouds.",
+        "No names are needed. The notes can be read, answered, or left in peace."
+      ]
+    },
+    "side_mara_harbour_post_3": {
+      "speaker": "Mara",
+      "lines": [
+        "The postbox has a fresh coat of blue paint now. The net-mender says it matches the harbour on a clear night.",
+        "It is a place for messages without an address. I think that is a kind of belonging."
+      ]
+    },
+    "side_miriam_night_route_1": {
+      "speaker": "Miriam",
+      "lines": [
+        "I keep a thermos for the last stretch, when the buses are mostly empty and the rain sounds louder than the engine.",
+        "A warm cup makes the quiet feel like company. I have started leaving an extra one for anyone who needs it."
+      ]
+    },
+    "side_miriam_night_route_2": {
+      "speaker": "Miriam",
+      "lines": [
+        "There is a stop by the old orchard where nobody gets on anymore. I still pause there; the trees deserve a little patience.",
+        "Last night, a tired walker waved from the shelter. The route was useful in a new way."
+      ]
+    },
+    "side_miriam_night_route_3": {
+      "speaker": "Miriam",
+      "lines": [
+        "I used to call the depot the end of the line. Now I think of it as the place where the next driver gets a fresh cup of tea.",
+        "A route can finish for one person and begin for another. That is a good thing to remember."
+      ]
+    },
+    "side_hollis_clockwork_1": {
+      "speaker": "Hollis",
+      "lines": [
+        "The clock above my bench runs two minutes slow. I could fix it, but I have been listening to its softer beat first.",
+        "Some rooms need a rhythm that leaves a little space around the hour."
+      ]
+    },
+    "side_hollis_clockwork_2": {
+      "speaker": "Hollis",
+      "lines": [
+        "I repaired the chime without making it louder. The neighbours can hear it, but it no longer startles the baby upstairs.",
+        "Good work should fit the lives around it, not ask everyone to fit the work."
+      ]
+    },
+    "side_hollis_clockwork_3": {
+      "speaker": "Hollis",
+      "lines": [
+        "A child brought me a clock made from a tin lid and a paper sun. It cannot tell time, but it keeps excellent company.",
+        "I hung it beside the careful one. They both have something to teach me."
+      ]
+    },
+    "side_sabine_mended_net_1": {
+      "speaker": "Sabine",
+      "lines": [
+        "I found a tear in the smallest net and repaired it with the old blue cord. The knots came back to my hands before the memory did.",
+        "Mending is mostly a way of saying the thing is worth keeping close."
+      ]
+    },
+    "side_sabine_mended_net_2": {
+      "speaker": "Sabine",
+      "lines": [
+        "We made a spare net for the harbour steps. It is light enough for children to help with and strong enough for a basket of apples.",
+        "Everyone added a knot. Nobody had to sign their name."
+      ]
+    },
+    "side_sabine_mended_net_3": {
+      "speaker": "Sabine",
+      "lines": [
+        "The spare net caught a drifting parcel before the tide carried it away. It was only a loaf and a note, but somebody was glad to get both back.",
+        "I like when useful things get to be ordinary again."
+      ]
+    },
+    "side_anouk_seed_exchange_1": {
+      "speaker": "Anouk",
+      "lines": [
+        "The greenhouse seedlings leaned toward the door this morning. I moved the pots so they could have the pale window light instead.",
+        "Care sometimes means changing the room before asking anything of the growing thing."
+      ]
+    },
+    "side_anouk_seed_exchange_2": {
+      "speaker": "Anouk",
+      "lines": [
+        "I set out a seed tin with blank labels. People can take a packet, leave one, or simply read the names.",
+        "A garden is easier to join when nobody has to know everything first."
+      ]
+    },
+    "side_anouk_seed_exchange_3": {
+      "speaker": "Anouk",
+      "lines": [
+        "The empty tins are filling with notes about where each plant likes to grow. Someone wrote, 'near a friend,' beside the nasturtiums.",
+        "I think that is good advice for seedlings and people."
+      ]
+    },
+    "side_oda_rain_song_1": {
+      "speaker": "Oda",
+      "lines": [
+        "I wrote down the rain's rhythm, then noticed I had left no rests between the notes.",
+        "The quiet between sounds is part of the song. I am trying to let it stay."
+      ]
+    },
+    "side_oda_rain_song_2": {
+      "speaker": "Oda",
+      "lines": [
+        "We tried the new tune at the chapel with only three voices. Nobody had to sing the high part; the melody held together anyway.",
+        "It sounded more like us than a perfect performance ever could."
+      ]
+    },
+    "side_oda_rain_song_3": {
+      "speaker": "Oda",
+      "lines": [
+        "The choir wants to keep the tune for ordinary evenings, not just the festival. We will sing it softly enough for people to join or listen.",
+        "A song can offer a seat without calling anyone onto the stage."
+      ]
+    },
+    "side_elowen_mending_circle_1": {
+      "speaker": "Elowen",
+      "lines": [
+        "I set a basket of mismatched socks by the inn's warm stove. There is always one more pair than anyone remembers.",
+        "The small repairs are easier when we do them together and talk about something else."
+      ]
+    },
+    "side_elowen_mending_circle_2": {
+      "speaker": "Elowen",
+      "lines": [
+        "We have started a mending circle after the laundry is folded. Juniper reads aloud while everyone works at their own pace.",
+        "Nobody checks how much anyone finishes. The company is the point."
+      ]
+    },
+    "side_elowen_mending_circle_3": {
+      "speaker": "Elowen",
+      "lines": [
+        "A traveller left a patch shaped like a little boat on the shared blanket. We kept it there, beside the square one and the wobbly moon.",
+        "The blanket is warm now, and it remembers many hands."
+      ]
+    },
+    "side_stellan_lost_property_1": {
+      "speaker": "Stellan",
+      "lines": [
+        "The lost-property cupboard at the station has one drawer that never fills up, however many umbrellas I hand out. I have stopped asking why.",
+        "Today it held a ticket stub with no destination, only a name in pencil. I keep it on the shelf where the light is kindest."
+      ]
+    },
+    "side_stellan_lost_property_2": {
+      "speaker": "Stellan",
+      "lines": [
+        "The name on the stub was Osric's, and the morning he asked after, I had a drawer full of mornings nobody collected. The Conductor only touched his cap and nodded at me, as one porter to another.",
+        "I think the drawer is a door that goes one way: things the world forgets drift through it. So I label each one carefully. A label is a small promise to come back."
+      ]
+    },
+    "side_stellan_lost_property_3": {
+      "speaker": "Stellan",
+      "lines": [
+        "I pinned a new line to the station timetable in my best handwriting: 'Between: all welcome, no ticket required.' Nobody has complained. A child asked to ring the departure bell for it.",
+        "The drawer is nearly empty now. Things are being collected, one name at a time, and I will miss the weight of it, but only a little."
+      ]
+    },
+    "side_iona_undeliverable_post_1": {
+      "speaker": "Iona",
+      "lines": [
+        "My route has a few addresses that make me double-check my bag: the sea, the third star from the lamp post, a Mr. Nobody on Quiet Street. I deliver them all anyway.",
+        "A letter that is trying so hard to arrive makes it feel rude to stop. Besides, the sea always accepts its post politely."
+      ]
+    },
+    "side_iona_undeliverable_post_2": {
+      "speaker": "Iona",
+      "lines": [
+        "Mara showed me the old map, and the vanished street on it. I realised my Quiet Street postcards were meant for a house that lives in the gap. I took one there at dusk and the door was waiting, painted blue, just as the postmark remembered.",
+        "A name on an envelope is a kind of knock. If enough people knock, a door may remember it is allowed to open."
+      ]
+    },
+    "side_iona_undeliverable_post_3": {
+      "speaker": "Iona",
+      "lines": [
+        "The postcard came back stamped in ink the colour of the harbour at night: 'Received, with thanks. Please keep sending.' Mara has pinned it in the post office window.",
+        "So now I carry two bags: one for the places on the map, and a smaller one for the places that are not. I have never loved a route more."
+      ]
+    },
+    "side_liora_lantern_folds_1": {
+      "speaker": "Liora",
+      "lines": [
+        "After each festival, I unfold the old paper lanterns and press them flat under books. Every crease is where somebody's thumb pressed while they made a wish.",
+        "Pip stood very still by the window while I worked, as if he knew the folds. I did not ask. Some memories prefer to be handled gently and not questioned."
+      ]
+    },
+    "side_liora_lantern_folds_2": {
+      "speaker": "Liora",
+      "lines": [
+        "When Elias said the lighthouse beam had returned, I found one lantern that had gone warm all by itself in the drawer. Its folds make a harbour, a boat, a keeper's hand holding a lamp.",
+        "Memories turn into objects here when nobody is left to carry them. I am only a restorer. My work is to see that they are not carried alone."
+      ]
+    },
+    "side_liora_lantern_folds_3": {
+      "speaker": "Liora",
+      "lines": [
+        "For the beacon's return we made a hundred new lanterns, each with one forgotten name folded into its base. People wrote names they thought were lost, and the paper held them.",
+        "We set them afloat on the harbour. They did not drift out to sea. They drifted home, and the lamp was lit by morning."
+      ]
+    },
+    "side_rowan_storeroom_ledger_1": {
+      "speaker": "Rowan",
+      "lines": [
+        "The lighthouse storeroom is tidy, but things leave it quietly. Pencils, mostly. Last week it was a whole box, and I counted twice.",
+        "I tell myself the keepers lose them. The tally in my ledger says otherwise: they are going somewhere on purpose."
+      ]
+    },
+    "side_rowan_storeroom_ledger_2": {
+      "speaker": "Rowan",
+      "lines": [
+        "I found a log in the bottom crate, in Elias's handwriting, describing the Long Midnight. He had forgotten writing it, and I almost kept quiet. Then I wondered who the log was waiting for.",
+        "I brought it to him with a pot of coffee and sat while he read. Nobody should read their own forgotten words alone."
+      ]
+    },
+    "side_rowan_storeroom_ledger_3": {
+      "speaker": "Rowan",
+      "lines": [
+        "I added a new line to the requisition list: 'Lamp oil, one tin. Pencils, plenty. Welcome, unlimited.' The Conductor sent word that the missing pencils are being used to write names in the ledger on the platform.",
+        "So the stores are not lost, only borrowed for kind work. I have decided to stock a few extra, in case the Between runs short."
+      ]
+    },
+    "side_maribel_room_seven_1": {
+      "speaker": "Maribel",
+      "lines": [
+        "The inn has a Room Seven that no traveller has ever booked. I make the bed every morning anyway, and every morning the pillow is faintly warm.",
+        "My grandmother said a key left on its hook is a promise to somebody. She never said who."
+      ]
+    },
+    "side_maribel_room_seven_2": {
+      "speaker": "Maribel",
+      "lines": [
+        "A guest signed the register last night in ink that faded before the page dried. I copied the name underneath in pencil, so the book would not forget him.",
+        "Names stay put when someone writes them twice. I have started doing that for every sleepy stranger, even the ones who arrive by roads I cannot find on any map."
+      ]
+    },
+    "side_maribel_room_seven_3": {
+      "speaker": "Maribel",
+      "lines": [
+        "Mara thinks the warm pillow was never a ghost. It is the inn remembering a guest who has not found the door yet. Room Seven is simply waiting.",
+        "So I left a lamp on the sill and a note on the hook: whoever you are, the kettle is on. Tell Moonmart that if someone wanders in looking for a bed, I will have honey cake ready."
+      ]
+    },
+    "side_tomas_threshold_stone_1": {
+      "speaker": "Tomas",
+      "lines": [
+        "Every stone I set gets a tiny mark on its hidden face and a quiet word before the mortar goes on. Hold well. It is not magic. It is manners.",
+        "Still, the old square's wall has never once cracked where I said the word."
+      ]
+    },
+    "side_tomas_threshold_stone_2": {
+      "speaker": "Tomas",
+      "lines": [
+        "Digging the thyme bed, I hit a doorstep. Worn in the middle by years of feet, with no house, no wall, no gate to belong to. Nobody I ask remembers it.",
+        "It is warm in the mornings, like a stone someone just stood on. I could not bring myself to break it up for rubble."
+      ]
+    },
+    "side_tomas_threshold_stone_3": {
+      "speaker": "Tomas",
+      "lines": [
+        "I set the doorstep at the end of the square's wall, with a gap left open beside it. A wall that remembers a street should leave room for one.",
+        "Lucien says doors remember who they were for. Juniper wrote the stone into her catalogue. I planted thyme beside it, and the first person to pause there stayed a good while."
+      ]
+    },
+    "side_juniper_margin_index_1": {
+      "speaker": "Juniper",
+      "lines": [
+        "I keep an index of the margins. Not the printed stories, the pencilled notes: small kindnesses, jokes, someone's shopping list used as a bookmark.",
+        "Pip's cold-milk habit is in there too, now. Memories pile up and become objects if you let them. I just give them a drawer."
+      ]
+    },
+    "side_juniper_margin_index_2": {
+      "speaker": "Juniper",
+      "lines": [
+        "Since the Conductor's visit, I have been finding index cards I do not remember writing. A name at the top, nothing underneath. Every one is in my handwriting.",
+        "I keep them in a drawer marked Unclaimed. If a name has weight, it should have somewhere to rest while the world catches up."
+      ]
+    },
+    "side_juniper_margin_index_3": {
+      "speaker": "Juniper",
+      "lines": [
+        "Osric's card is no longer blank. It says: Kept bees. Hums while he works. Back where he belongs. I wrote it and cried a little on the ink.",
+        "The forgotten do not vanish, you know. They drift, like lanterns on slow water. The Unclaimed drawer is open for anyone who wants to find a name, or lend one."
+      ]
+    },
+    "side_beckett_morning_thanks_1": {
+      "speaker": "Beckett",
+      "lines": [
+        "My father taught me to thank the water before the first net goes in. I always felt silly saying it aloud, so I whispered.",
+        "Sabine heard me from the harbour steps and said thanks carry further than you would think. The nets have come up heavier since, and I try not to ask why."
+      ]
+    },
+    "side_beckett_morning_thanks_2": {
+      "speaker": "Beckett",
+      "lines": [
+        "A glass float came up in my net, warm as a fresh roll. When I held it I smelled my father's pipe and heard him counting gulls.",
+        "Fern says seeds can keep a morning inside them too. I set the float by the scales, where the ice cannot reach it."
+      ]
+    },
+    "side_beckett_morning_thanks_3": {
+      "speaker": "Beckett",
+      "lines": [
+        "Elias's beacon brought a little grey boat to the far pier last night. Nobody aboard, and nobody on the harbour remembered her name.",
+        "I did. She is my father's Marigold, the boat everyone stopped mentioning after he retired. The glass float fits her lantern hook exactly.",
+        "I repainted her name this morning, slowly. Some things come home as soon as someone says them again."
+      ]
+    },
+    "side_nella_seam_names_1": {
+      "speaker": "Nella",
+      "lines": [
+        "Wren asked me to mend her travelling cloak, and my usual thread would not take. It wanted to be told whose cloak it was.",
+        "I said her name aloud while I sewed. The stitch held as though it had been waiting."
+      ]
+    },
+    "side_nella_seam_names_2": {
+      "speaker": "Nella",
+      "lines": [
+        "The Conductor's coat has a pocket that opens somewhere else. I sewed a button on it so it only opens when asked politely.",
+        "Last night I found a stitch of mine in a seam I never worked. It was older than my hands, and it was mending my mending."
+      ]
+    },
+    "side_nella_seam_names_3": {
+      "speaker": "Nella",
+      "lines": [
+        "It was my grandmother's stitch. She went through a door in the old workroom long ago, and I thought the family had simply forgotten her.",
+        "I slipped a crescent handkerchief through the pocket. An hour later a thread came back, knotted around a little bell button.",
+        "I wear it on my cuff now. It means someone is pleased with my work, from very far away."
+      ]
+    },
+    "side_aster_starlight_notes_1": {
+      "speaker": "Aster",
+      "lines": [
+        "My notebook lists a star I have not seen yet. The date is next Friday, and the handwriting is mine.",
+        "Elias says it is a coincidence. He says it very politely, and looks at the beam while he says it."
+      ]
+    },
+    "side_aster_starlight_notes_2": {
+      "speaker": "Aster",
+      "lines": [
+        "I watched from the lantern gallery while the beacon swept past. For one breath I saw tomorrow's sunrise, thin and gold over the harbour.",
+        "Time in the Between does not always move forward, so some light arrives before it leaves. Elias and I agreed not to tell the weather."
+      ]
+    },
+    "side_aster_starlight_notes_3": {
+      "speaker": "Aster",
+      "lines": [
+        "Names have power, so I took care choosing one. The new star is called Marmalade, because it is orange and refuses to be catalogued.",
+        "Miso approved by sitting on the chart. I took that as a signature.",
+        "I will keep watching so nothing up there is ever forgotten. A star is only lost when everyone stops looking."
+      ]
+    }
+  },
+  "paired_conversations": {
+    "agnes_lucien": {
+      "participants": [
+        "agnes",
+        "lucien"
+      ],
+      "cooldown_hint_shifts": 3,
+      "lines": [
+        {
+          "speaker": "Agnes",
+          "text": "Lucien, I saved you the little end piece. It has just the right amount of frosting."
+        },
+        {
+          "speaker": "Lucien",
+          "text": "You remembered my preferred frosting ratio. This is practically a love letter."
+        },
+        {
+          "speaker": "Agnes",
+          "text": "It's a pastry, dear. Though you may inspect the crumbs for clues."
+        },
+        {
+          "speaker": "Lucien",
+          "text": "A mystery with crumbs. At last, a genre I understand."
+        }
+      ]
+    },
+    "agnes_fern": {
+      "participants": [
+        "agnes",
+        "fern"
+      ],
+      "cooldown_hint_shifts": 3,
+      "lines": [
+        {
+          "speaker": "Agnes",
+          "text": "You always bring a little green on your sleeves."
+        },
+        {
+          "speaker": "Fern",
+          "text": "The grove lends its smallest leaves a ride into town."
+        },
+        {
+          "speaker": "Agnes",
+          "text": "I hope they like the warmth in here."
+        },
+        {
+          "speaker": "Fern",
+          "text": "They do. The kettle makes a very patient rain."
+        }
+      ]
+    },
+    "fern_wren": {
+      "participants": [
+        "fern",
+        "wren"
+      ],
+      "cooldown_hint_shifts": 3,
+      "lines": [
+        {
+          "speaker": "Wren",
+          "text": "Your moonflowers are leaning toward the window."
+        },
+        {
+          "speaker": "Fern",
+          "text": "They like seeing where their tea goes."
+        },
+        {
+          "speaker": "Wren",
+          "text": "I thought they drank moonlight."
+        },
+        {
+          "speaker": "Fern",
+          "text": "That too. Plants can be fond of more than one thing."
+        }
+      ]
+    },
+    "lucien_mara": {
+      "participants": [
+        "lucien",
+        "mara"
+      ],
+      "cooldown_hint_shifts": 3,
+      "lines": [
+        {
+          "speaker": "Lucien",
+          "text": "Do people ever return a book with a note tucked inside?"
+        },
+        {
+          "speaker": "Mara",
+          "text": "Often. The note is usually the part I read twice."
+        },
+        {
+          "speaker": "Lucien",
+          "text": "Then I shall look more carefully at the return slot."
+        },
+        {
+          "speaker": "Mara",
+          "text": "Just leave the stamps to me."
+        }
+      ]
+    }
+  }
+}

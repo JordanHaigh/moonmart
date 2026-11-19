@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "sample_rate": 44100,
+  "channels": 2,
+  "bits_per_sample": 16,
+  "loop_seconds": 32,
+  "tracks": [
+    {
+      "id": "old_bellwether",
+      "title": "Old Bellwether",
+      "path": "old_bellwether.wav",
+      "arrangement": "warm felt-piano-like chords, measured acoustic-like plucks, faint brushed texture",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "id": "whisperwood",
+      "title": "Whisperwood",
+      "path": "whisperwood.wav",
+      "arrangement": "open airy sustained chords, sparse high music-box-like droplets, slow root plucks",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "id": "harbour_lighthouse",
+      "title": "Harbour and Lighthouse",
+      "path": "harbour_lighthouse.wav",
+      "arrangement": "wide coastal sustained tones, rounded plucked-string notes, very soft brushed pulse",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    },
+    {
+      "id": "midnight_between",
+      "title": "The Midnight Between",
+      "path": "midnight_between.wav",
+      "arrangement": "slow suspended piano-like harmony, distant glassy music-box tones, no percussion",
+      "duration_seconds": 32,
+      "peak_dbfs": -9.9,
+      "bytes": 5644844
+    }
+  ]
+}

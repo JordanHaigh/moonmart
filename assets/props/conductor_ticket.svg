@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="130" viewBox="0 0 250 130">
+ <path d="M14 20q16 0 16-10h191q0 10 16 10v23q-18 0-18 18t18 18v25q-16 0-16 10H30q0-10-16-10V88q18 0 18-27T14 37z" fill="#ecd6b6" stroke="#bd8b82" stroke-width="6"/>
+ <path d="M45 31v69" stroke="#bd8b82" stroke-width="4" stroke-dasharray="6 7"/>
+ <circle cx="80" cy="64" r="18" fill="#806587"/><path d="M80 52v24m-10-12h20" stroke="#fff0d8" stroke-width="4" stroke-linecap="round"/>
+ <text x="159" y="56" text-anchor="middle" font-family="serif" font-size="15" fill="#59445e" letter-spacing="2">ONE JOURNEY</text>
+ <text x="159" y="81" text-anchor="middle" font-family="serif" font-size="16" fill="#806587">NO DATE</text>
+</svg>

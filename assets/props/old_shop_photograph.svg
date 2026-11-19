@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="190" viewBox="0 0 240 190">
+ <path d="M12 12h216v166H12z" fill="#e2cba8" stroke="#9e7774" stroke-width="8"/>
+ <path d="M26 27h188v123H26z" fill="#4b4b65"/>
+ <circle cx="184" cy="50" r="20" fill="#eccfac" opacity=".65"/>
+ <path d="M26 104q39-27 75 0t72-1q23-18 41-9v56H26z" fill="#697078"/>
+ <path d="M49 134h139v16H49z" fill="#ad7b76"/>
+ <!-- a small child-shaped figure appears twice in the glass -->
+ <g fill="#e1c7b4"><circle cx="87" cy="83" r="12"/><path d="M72 101q15-17 31 0l8 31H66z"/></g>
+ <g fill="#f4e2cb" opacity=".26"><circle cx="149" cy="83" r="12"/><path d="M134 101q15-17 31 0l8 31h-45z"/></g>
+ <path d="M35 163h106" stroke="#ab7d78" stroke-width="3"/><circle cx="196" cy="163" r="4" fill="#b58478"/>
+</svg>

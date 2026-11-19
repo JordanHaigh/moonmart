@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#d09a7f"/><stop offset="1" stop-color="#744d62"/></linearGradient>
+    <linearGradient id="copper" x2="0" y2="1"><stop stop-color="#ffe1a5"/><stop offset="1" stop-color="#d88b6a"/></linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="85" ry="13" fill="#302b43" opacity=".25"/>
+  <path d="M34 177h188v25H34z" fill="url(#wood)" stroke="#f0c29b" stroke-width="5"/>
+  <path d="M64 199v31m128-31v31" stroke="#67485f" stroke-width="13"/>
+  <path d="M75 164q8-67 54-67t53 67q-4 20-54 20t-53-20z" fill="url(#copper)" stroke="#fff0d8" stroke-width="6"/>
+  <path d="M105 98q2-23 24-23 23 0 25 23" fill="none" stroke="#f5d09d" stroke-width="8"/>
+  <path d="M65 115L39 98q-8-6-15 1t2 15l41 31" fill="#d79678" stroke="#f0c29b" stroke-width="5"/>
+  <path d="M178 120q36-22 40 5 2 16-32 22" fill="none" stroke="#f0c29b" stroke-width="9"/>
+  <path d="M102 52q-13-16 2-30m29 29q-14-17 2-34m25 37q-13-16 1-29" fill="none" stroke="#fff0d8" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+  <path d="M88 184h80" stroke="#805a68" stroke-width="5" opacity=".55"/>
+  <circle cx="128" cy="141" r="19" fill="#f5d99e" opacity=".65"/>
+  <path d="M119 143q9 12 18 0m-14-7h1m10 0h1" fill="none" stroke="#8d6577" stroke-width="3" stroke-linecap="round"/>
+</svg>

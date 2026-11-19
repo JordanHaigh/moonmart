@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="240" viewBox="0 0 200 240">
+ <defs><radialGradient id="petal"><stop stop-color="#fff1dc"/><stop offset=".6" stop-color="#d9b2d0"/><stop offset="1" stop-color="#8975a0" stop-opacity=".22"/></radialGradient><radialGradient id="halo"><stop stop-color="#d8e5bb" stop-opacity=".4"/><stop offset="1" stop-color="#d8e5bb" stop-opacity="0"/></radialGradient></defs>
+ <ellipse cx="100" cy="112" rx="95" ry="103" fill="url(#halo)"/>
+ <path d="M99 213q-2-66 4-117" fill="none" stroke="#88a27e" stroke-width="8" stroke-linecap="round"/>
+ <path d="M101 176q-49-50-72-22 28 39 72 37m0-22q40-48 71-17-18 37-71 36" fill="#95af8b" stroke="#d3d8ad" stroke-width="4"/>
+ <g fill="url(#petal)" stroke="#f3e5cf" stroke-width="3"><ellipse cx="102" cy="67" rx="20" ry="46"/><ellipse cx="102" cy="67" rx="20" ry="46" transform="rotate(60 102 67)"/><ellipse cx="102" cy="67" rx="20" ry="46" transform="rotate(120 102 67)"/></g>
+ <circle cx="102" cy="67" r="19" fill="#f5d59f" stroke="#fff0d8" stroke-width="4"/>
+ <g fill="#fff0d8"><circle cx="55" cy="110" r="3"/><circle cx="147" cy="138" r="3"/><circle cx="64" cy="191" r="2"/></g>
+</svg>

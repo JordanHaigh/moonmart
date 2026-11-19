@@ -4,3 +4,8 @@
 *.bak
 .DS_Store
 Thumbs.db
+
+# Test, profiling and tool artifacts
+godot_task_state/
+*.log
+.codex/

@@ -1,0 +1,1892 @@
+{
+  "review_contract": {
+    "style_reference": "art_import/",
+    "integrity_recorded_by": "Codex visual audit",
+    "recorded_on": "2026-11-13",
+    "visual_qa_basis": "Per-asset visual QA notes in asset_manifest.json; environment plates also use environment_visual_review.json. This ledger binds those records to the current files and does not replace pixel-level inspection.",
+    "checklist": [
+      "Capture the current SHA-256 for each manifest raster and each cited art_import/ source.",
+      "Capture the current SHA-256 for each paired dark-plum and warm-cream QA preview.",
+      "Keep per-asset visual QA notes and the Section 27 environment signoff as the pixel-review record.",
+      "Require fresh pixel-level inspection against art_import/ before accepting any changed raster or preview."
+    ]
+  },
+  "approved_rasters": [
+    {
+      "path": "furniture/crescent_wall_sconce.png",
+      "sha256": "9606ABD964816FB2BC3B0901822A2C5474A6DF9204E642BA0379E3CD1470BFE6",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/crescent_wall_sconce_preview_dark.png",
+          "sha256": "6861941774E065A51F7F352C55BBD4C541E1AB7DA3D7507530EE88BFC560F0DA"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/crescent_wall_sconce_preview_cream.png",
+          "sha256": "D9E34C9CFA2B9B12F3AC4FC639EC2FDADC383DDB711790421A1826AA4AABF263"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_plant_decor_atlas.png",
+      "sha256": "6B2BC753978403D09EEB7D1BAFA60493EF56602C794403F4B4B09FF8964598E3",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_preview_dark.png",
+          "sha256": "186481849B4046B01539CEFECCA7C1F30BF538C2DF93D26D2DAE65092D6D42EF"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_preview_cream.png",
+          "sha256": "830AA779243C9E7642C7D174A470964E640C5CA75802DB9CC85914A0C647C07D"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_plant_decor_atlas_2.png",
+      "sha256": "E63E5346717CEEA2F9E4E0C53CF79167E02514D6BCE156D50A2FF687F5D3AE33",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_2_preview_dark.png",
+          "sha256": "E42BB0B9780A56CD0ADB5717F36C22BEBE74E16DAFED106F4EA295A6B17C170D"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_plant_decor_atlas_2_preview_cream.png",
+          "sha256": "070F75706C2C4AE06B6B790BCDE0FB3A192147D3C6812C90F9B9231C7181D619"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_furniture_extension.png",
+      "sha256": "315BCF336671611975127A25D8424D1EBB232513A1696AA5F78D7E252FF84B89",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_extension_preview_dark.png",
+          "sha256": "B16E71ABA940922AA818681B3CD7560FA51CF0567097A19239682757F6FCE4B9"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_extension_preview_cream.png",
+          "sha256": "6F80FDC0B5AD59E9DE7BDB337B45E998A5F8F9EA837D0F872ECAA7CF7AE58A5D"
+        }
+      ]
+    },
+    {
+      "path": "ui/ui_icons_extension.png",
+      "sha256": "D88E59E6983403B429249DCF52722C33AAA844F2BC60ED3249DA033E8BFA32BF",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/ui_icons_extension_preview_dark.png",
+          "sha256": "523B5DA35DE2BE47D12449D966B7931B75A201D495F5A543499473D76961DD12"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/ui_icons_extension_preview_cream.png",
+          "sha256": "998282B9D5ADFF63141A405020881BAB4F2C955B5264949215AE924F6E0DDE47"
+        }
+      ]
+    },
+    {
+      "path": "environment/moonmart_architecture_modules.png",
+      "sha256": "A4B623463DA8BB72C1C7CF3227BF3943CBB8D818A762EB00AEB2CB256F1AEB08",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/environment/moonmart_architecture_modules_preview_dark.png",
+          "sha256": "FDADA11E60F3718A596AB74E08F786F50399595B1E9010A769F72F183E48002D"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/environment/moonmart_architecture_modules_preview_cream.png",
+          "sha256": "FA196EE1414D2273FE011629719246991241D4BC74B2DC893F0C79213B043A4F"
+        }
+      ]
+    },
+    {
+      "path": "products/moonmart_products_extension.png",
+      "sha256": "3021AE570560C411671DB41DD5F567711B1624FD70286FA495D138A608A340C9",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_preview_dark.png",
+          "sha256": "B67B08C21273905EA3FA69D26565D0483E447864933A32EF7F9E46A0D628B6CD"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_preview_cream.png",
+          "sha256": "4DEE701343BE2F47FF5F38FDE50602D4AD95DD277CE0D7FD42EE1CE048830FAC"
+        }
+      ]
+    },
+    {
+      "path": "products/moonmart_products_extension_2.png",
+      "sha256": "8DA047D4AB3BFEC1B3420B2263B05A75B50E0C0491E77551D510AEC74E9418EF",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_2_preview_dark.png",
+          "sha256": "C8DB1C1529A439660F9189914573D891974D237B4A008DB65AFF0232B3D692F3"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_2_preview_cream.png",
+          "sha256": "13DF9095FCDB8109F7F2338AB5D6C7D0B2A8B75AFF2DC21E2F5B67DBCF5585C9"
+        }
+      ]
+    },
+    {
+      "path": "products/moonmart_products_extension_3.png",
+      "sha256": "F21089D917705D00E5ED913118A69B62C957568D6535C863B4A496921647FB16",
+      "sources": [
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_3_preview_dark.png",
+          "sha256": "19F96D641589710F87469ABE944FED3AC2EAF4AE4B303B68B28B0DA28B432833"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_extension_3_preview_cream.png",
+          "sha256": "01A973F4D5B3F6AE1E4AAE88671EBE298A95AF2B5657A0286B4B84E2812C7484"
+        }
+      ]
+    },
+    {
+      "path": "products/moonmart_product_icons_extension_4_1280.png",
+      "sha256": "61758771EAF3259D7A1EA1A2F88F12093841FE87AF0F8875A5BEDD071BDF13CD",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_4_1280_preview_dark.png",
+          "sha256": "1D631C3EE8F390D7FD0957B342AD31C08FAE87511A0E9F93A37145354491E63C"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_4_1280_preview_cream.png",
+          "sha256": "FDEDC063E0B76EBDD9F1B850E91A910A963A10D7E853347FD812CF3CCB30195F"
+        }
+      ]
+    },
+    {
+      "path": "environment/moonmart_room_architecture.png",
+      "sha256": "254811E8D13FC78287CD5F0CD03714F80FD50ABE3AA5C411B81718027991AC42",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_tea_corner.png",
+      "sha256": "564B4CF5456BC60F4F28BA7579A3BD22ABDD524B59255589BBEBB9FC6C146E50",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_tea_corner_architecture.png",
+      "sha256": "D65E164C318AEA8A38F60B159ED5BC2145C56FAFE910BA660A1E289DE7F4862C",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_tea_corner_night_sky.png",
+      "sha256": "640DC00EA2FA925DBC58291558247EEAE2657FA797DC7B7190430A20691ED462",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_tea_corner_exterior_parallax.png",
+      "sha256": "F014FA5DB3FAF0A0B694C38F9B038FEFCBAC2F913E12859DD23140864C5D5262",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_window_sky.png",
+      "sha256": "F964E9375A3CD52E28C1C77031DF8635B6DAD51A86D1410C6E156D1A89C9A0AA",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/bellwether_parallax.png",
+      "sha256": "6CE4D1314CC1FB54D3741E6EC6A0E2ACA830D77A3042C5688E244AB21BF4DF61",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/old_bellwether.png",
+      "sha256": "41B8D4B24F5C007F8759C3BED72A61360B9DB679088D80FB3438EA9ED601FCEC",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/whisperwood.png",
+      "sha256": "650289329EF0C022485D249FD82BA9E865A1EE3F2ECE0DEECF8ADF3AED0FA0FC",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonwater_harbour.png",
+      "sha256": "7E698AFCAC863447B6C76FFD869C2288701C4CBE06BD1DC205B6171942F441C3",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/old_lighthouse.png",
+      "sha256": "1B8815A6A3A65A93AD755B2D81CC8EA446A2560DBAD92B4C9CAB525E4D33592D",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/midnight_platform.png",
+      "sha256": "BD4447BBEDDD0DB1A4116441AE576B9CA25B42493B338AB2B3C4BE4504C1EA79",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/shop_backroom.png",
+      "sha256": "7B7255D062BB7A50ACB51A612E30AC4AE2DD10F05850E664CF15AEE5712DD7C1",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/hidden_midnight_room.png",
+      "sha256": "537C6F6E78D6DE302C9E372FBF05D553D55B5CA4534EEBC161DC5E81CA4AD7C9",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_reading_nook_architecture.png",
+      "sha256": "0FBFA277F4A57C6CE2C794DD6F0B5C72097FC0BD9207ECF0231570276B58B97B",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "environment/moonmart_enchanted_greenhouse_architecture.png",
+      "sha256": "6DBC3B5A66DDC1C7CF90034BFD2E64F137FC58DB809D0E806A46974677AFA19A",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": []
+    },
+    {
+      "path": "furniture/moonmart_furniture_atlas.png",
+      "sha256": "F44D27D24423E563DAA89F34D9F5CBE79EC0C4B346F7CD158214F4F459FB041C",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_atlas_preview_dark.png",
+          "sha256": "39036DD82D72C5ECE39C71BD71F03801EA296AA147FBF4531CA4270776770C4E"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_furniture_atlas_preview_cream.png",
+          "sha256": "EC6B0D76C271E3BF9AA8870D09FE112728D45CBC2ED3A8A453D6EAB762A5586D"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_kettle.png",
+      "sha256": "7F58765C0120E4D41EF49CEE0CBDCC326E7CF07790E5F865B46DC855227D1BC8",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_kettle_preview_dark.png",
+          "sha256": "11D4A1030337B1A64BD53B0EB1BE85B86A9AB3E39B7FDCC9FDAA0B6DA04C0FC6"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_kettle_preview_cream.png",
+          "sha256": "DDAA05A933606E8488198790006F365B835D5BFBBB600E8BDAC25BA5C2F1B2DB"
+        }
+      ]
+    },
+    {
+      "path": "furniture/potted_moonflower.png",
+      "sha256": "A4A42ED43FEBB6538EF0C790C5DAF5384FB7930FB05BEF846FC1EC2077AB9318",
+      "sources": [
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/potted_moonflower_preview_dark.png",
+          "sha256": "8239FC3F595D81A024F7603358ED209BC57D7776D71EA7E85248266CEE6CD620"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/potted_moonflower_preview_cream.png",
+          "sha256": "15CBF3758297B34EF71DA680331D4AAAFE4C8B302FE019CF75901407C830EF42"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_sign.png",
+      "sha256": "4F73377514942B7724B7C66E292E21DA5FA819F6ADDD18D3B73F830A88396899",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_sign_preview_dark.png",
+          "sha256": "0661060F59B0A6F3858C1599FB4FCEF2BCAE5EB4DEF8F32D708158058DC3D79A"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_sign_preview_cream.png",
+          "sha256": "5418F7B9990D45E0AE95768BE43A65BA5F8EFA0943F68B59139BD888A8ABB906"
+        }
+      ]
+    },
+    {
+      "path": "furniture/door_states_atlas.png",
+      "sha256": "37077086E832E1DB8F501DE95B28DBC5BC9DC05BBC0EBF8EFBA734A37A521934",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/door_states_atlas_preview_dark.png",
+          "sha256": "090672A41CD94D1E7BAF31B184B941660FE3D0438B7DC375EC3F0EFDA9F26927"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/door_states_atlas_preview_cream.png",
+          "sha256": "7D539F0517F7D4FB41FDFFAE39311D1F906873DEB07590467848E9C3FABE9691"
+        }
+      ]
+    },
+    {
+      "path": "products/moonmart_products_atlas.png",
+      "sha256": "EE9ECC43AE2086666003E32C621D03C7189765AF0ACCEDC6BD961A6936280C09",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_atlas_preview_dark.png",
+          "sha256": "C172979384CB84E4EACE5A209521DB18B807C84A5D625B362DDC17176F1FEE0A"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_products_atlas_preview_cream.png",
+          "sha256": "16A0CF476863B8712700C43B77299DA31CC8BE221B01A28A4CA5BA8216716A84"
+        }
+      ]
+    },
+    {
+      "path": "characters/player_atlas.png",
+      "sha256": "BD4AFCA28A146F8398089ACAFB5D5ACE37DB5ACC22BB8EAE17538A99691B5057",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/player_atlas_preview_dark.png",
+          "sha256": "1304DD6A3E9E16CC80EECB4C12F23563391377AEDF36C419E7CFF56B9B4622B3"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/player_atlas_preview_cream.png",
+          "sha256": "60A7D3AB2B7B75E2EED42C9E13ACBE4D05B5F78AF7327A88BC05E368BACCD0EA"
+        }
+      ]
+    },
+    {
+      "path": "characters/pip_atlas.png",
+      "sha256": "9898299A57A34E8C5B10658ED06071DE63F1297D1956C34EB151755A2F05C7E6",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/pip_atlas_preview_dark.png",
+          "sha256": "7F7086A0A9A92BB411705D411AE07C611798C3DE40E1A17E5F51DAD445F641AC"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/pip_atlas_preview_cream.png",
+          "sha256": "B0831A45AEE8953B915A534E4D591E9E7EEAC89B0E2D9DD91BA892E57CA7E26E"
+        }
+      ]
+    },
+    {
+      "path": "characters/miso_atlas.png",
+      "sha256": "6496717D8B173C9AA3A799B0CBBF5DEBBE67617C2B9E0F2196FDECBAADA690B4",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/miso_atlas_preview_dark.png",
+          "sha256": "BF676508558D458AAA7A2AB7218C9C4784F0E8D08B5D0966F5021788F8B76C66"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/miso_atlas_preview_cream.png",
+          "sha256": "A951F09785CD3C5C8A723C0202E90ED61D10CA983DE69A11B43890CCB1E01F9E"
+        }
+      ]
+    },
+    {
+      "path": "characters/agnes_atlas.png",
+      "sha256": "ACE460FA2F48533A58F023C7AE4BC4EA9EC0E2AFEEE9F51904B27E9F2B63102B",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/agnes_atlas_preview_dark.png",
+          "sha256": "4153CF5AD7D02AE44DC79C30A68313A47E25A965A2157D0298086DD359D8512D"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/agnes_atlas_preview_cream.png",
+          "sha256": "E13334F5B3151400BCD66A65AC03F50306B78260B93F3D72C61E9764E8C555AA"
+        }
+      ]
+    },
+    {
+      "path": "characters/agnes_talk_pose.png",
+      "sha256": "D19FA255CF53E87378CD339785E4D4FB82A92DF3D74B499D155F089E496318F6",
+      "sources": [
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        },
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/agnes_talk_pose_preview_dark.png",
+          "sha256": "50BCF5655DFF116852CC7060A39D66EEFF3ECA7EBB9DA77068B198F400ACF369"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/agnes_talk_pose_preview_cream.png",
+          "sha256": "12024CEDD1D33D96A573AF3FF273B92FA574DF5C6870590F2C3883EF50D86D45"
+        }
+      ]
+    },
+    {
+      "path": "characters/fern_atlas.png",
+      "sha256": "065E885212DCDB8F6E60EBE9BC3018DA58144EE9AEDCADEC5DCB389076C6948C",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/fern_atlas_preview_dark.png",
+          "sha256": "20631F3AB2090E6F10E6160DB7A9D096B75C834B8BB4AA5E5B848CFB6AEA0911"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/fern_atlas_preview_cream.png",
+          "sha256": "F3B7919FC785A6E2F1179EFE265B58CD960ACA0A93002BD3479CB247CDF5FC40"
+        }
+      ]
+    },
+    {
+      "path": "characters/lucien_atlas.png",
+      "sha256": "540072625B9B72194B10E1570BA7CB39B8B03C2A63294C22DE779A6F04A08D36",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/lucien_atlas_preview_dark.png",
+          "sha256": "CE7A54F3DBF30F1293044FB5A9C832FA7BCC1509885CE851E1D5210D922B75EE"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/lucien_atlas_preview_cream.png",
+          "sha256": "6F656E6881F963F9D5E7AE29123C0119BB16C73246862A25926EE6DF88461115"
+        }
+      ]
+    },
+    {
+      "path": "characters/wren_atlas.png",
+      "sha256": "612A6C26A1589E03F9CFE98F98F3104E7442E175A7ECA502465DBE38F017AF7E",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/wren_atlas_preview_dark.png",
+          "sha256": "6DAD89435A2539AC54C3A8A83076AF9DEEE0BA2727C33B0C61C8BBF6AEECF545"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/wren_atlas_preview_cream.png",
+          "sha256": "AA473DDC0B54250A12E8E0467B6AE5A4AFA7B0DE656EE91F1C20DF7E8365C5B4"
+        }
+      ]
+    },
+    {
+      "path": "characters/conductor_atlas.png",
+      "sha256": "E16448047B0E3E414B574D5692AA68C16266B16AF758AF3329932543C5634DDB",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/conductor_atlas_preview_dark.png",
+          "sha256": "F190A4BF3101CEC9A015D1FF80D890570635D114D0A19315C8612CE59D4D4F49"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/conductor_atlas_preview_cream.png",
+          "sha256": "C1EA74FCEC795829E69C718533EE1CC859A4E126275E5CF8483CC2B1005CF2F3"
+        }
+      ]
+    },
+    {
+      "path": "characters/elias_atlas.png",
+      "sha256": "D491432EA0852B16920E0C2C4E373D88D9FFE4878390278B5DE9C67028E8DE79",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/elias_atlas_preview_dark.png",
+          "sha256": "F6EE818A0B11FE353B6FF2A02CEA75C046235CB6FFC56D706CA404EBBD5879A1"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/elias_atlas_preview_cream.png",
+          "sha256": "0976FA63F9DB7A6EEF600E7CC860EFCAD681B03FCD5ACFFC070442C2C001EAAF"
+        }
+      ]
+    },
+    {
+      "path": "characters/mara_atlas.png",
+      "sha256": "107C4C958E2F6F1C1D1418A9DFF63E7B15A006C56FF4E8B37AA74F1DC166CE60",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/mara_atlas_preview_dark.png",
+          "sha256": "5AF74DDD0E26C9EF48E669F0F4F07048805ACDDAD98F40FEF91F8AA6FE7B5740"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/mara_atlas_preview_cream.png",
+          "sha256": "A913FDEFA772FB837B2094DAA83A7638D628C2049582EE7BBFF2C39936B91D8D"
+        }
+      ]
+    },
+    {
+      "path": "characters/osric_atlas.png",
+      "sha256": "C748131E0A9B8635EAAF5DAFE0744745AE69F287C6CE23F1DC8E5FBEF6CDD2D7",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/osric_atlas_preview_dark.png",
+          "sha256": "4F185FC1CD91A774BBEDD630A3D2AE5D7468D63EC464B057685A9AB9650C37E0"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/osric_atlas_preview_cream.png",
+          "sha256": "19C001C7BB98EEA15545BFFCA454509BC630CAC48CC5A736FE15C8FA8F4DC037"
+        }
+      ]
+    },
+    {
+      "path": "characters/generic_customer_atlas.png",
+      "sha256": "4F1756B8ABAC6FDA46925D82820CB5CA2E1AC5F06FEF20513B2D6AE1592EAFA0",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/generic_customer_atlas_preview_dark.png",
+          "sha256": "0C4B48F641791D58BE607AE5C34A0A2704787463C684774C7A09836A400EAD6D"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/generic_customer_atlas_preview_cream.png",
+          "sha256": "7556F3578FB2A84AD6AE4221019214BB5E7D7391FFA34BAA0B4D8AF527F0EDDA"
+        }
+      ]
+    },
+    {
+      "path": "characters/generic_customer_purchase_atlas.png",
+      "sha256": "1CA242DA9353BBE547359428D2C900E4F30B20B9871D0FE0443FEEF48BF85C62",
+      "sources": [
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        },
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/generic_customer_purchase_atlas_preview_dark.png",
+          "sha256": "E7072B2EF1BA3E65AB164122EFCB20B15107D65C98FFB8BCE3FC828E10995A16"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/generic_customer_purchase_atlas_preview_cream.png",
+          "sha256": "E985B912BBFA72DB2C97498D5B1BA419F80B347B3CDD25249308A377F2E71D02"
+        }
+      ]
+    },
+    {
+      "path": "characters/player_talk_pose.png",
+      "sha256": "AE33FF242E2A7BF135C3FA19091ED27F0A017DD6C3760EBC23CEB97E1872DA83",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/player_talk_pose_preview_dark.png",
+          "sha256": "29BA150EB1F81B4E910501FA3FB762E19A42D26ED6AB94C60A269045ACEDD637"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/player_talk_pose_preview_cream.png",
+          "sha256": "22B41DA1F21900C1ABDF245A2ACAA67BA93089FC71DC13334E6332C8E41F7B91"
+        }
+      ]
+    },
+    {
+      "path": "characters/lucien_drink_pose.png",
+      "sha256": "90D1E21E06621E81C14AE5A56F96C0CCFD018D6F8F38B70D4F8F58A86F71CB9C",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/lucien_drink_pose_preview_dark.png",
+          "sha256": "A1C09E432E531CD10044A087DD32A74260D22A38562117B6FF98CCAF635C0BF9"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/lucien_drink_pose_preview_cream.png",
+          "sha256": "6D7A2D391F949C732B8C7EA84B1FF682A79ABCD38982D4A921C26541E8F08DF0"
+        }
+      ]
+    },
+    {
+      "path": "characters/wren_cast_magic_pose.png",
+      "sha256": "E4C37B6BB965FA22D71940A6BA76D87D103E238C049A2FCD60E7294F75A60582",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/wren_cast_magic_pose_preview_dark.png",
+          "sha256": "B905A3FFFDD74EEDC63B1E1D645800EDAF5AD33578287F78DC933492E6B6DE94"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/wren_cast_magic_pose_preview_cream.png",
+          "sha256": "C2F7782AA4D23902E405456DD02B6599A0516FED21B597877A449DC7A0E36FB4"
+        }
+      ]
+    },
+    {
+      "path": "characters/generic_customer_queue_pose.png",
+      "sha256": "2C28F3031D5C1440AEB27041D0AE4DE69134D8FFDF14E39FBA45BAC47050AC22",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/generic_customer_queue_pose_preview_dark.png",
+          "sha256": "6DCE3A1EE57382207BD55A8F5CC5D7331CE5410658E19A54486470C868D67F77"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/generic_customer_queue_pose_preview_cream.png",
+          "sha256": "DAD215EFB9594D848598F9494290B7685EA1AE20A67ACAF7DBFF4B88FC1F254A"
+        }
+      ]
+    },
+    {
+      "path": "characters/hollis_quince_atlas.png",
+      "sha256": "F47260E77D53EEDCDFB61B04E2DE76F4D3010382E3DE82D64C124476DD9042B2",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/hollis_quince_atlas_preview_dark.png",
+          "sha256": "E92D1CEF725EE28ECB82F76C38A011C934C694CC5BABC66991AB61486A9502D8"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/hollis_quince_atlas_preview_cream.png",
+          "sha256": "F51DB0BA567DE60D4D237487159B01B1D7C2AB7FCC2C3D8808AE1A49184B2790"
+        }
+      ]
+    },
+    {
+      "path": "characters/anouk_harrow_atlas.png",
+      "sha256": "483F6A2C279E64755B4796634344B1B13313D9159EF220915D6E6896BB429740",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/anouk_harrow_atlas_preview_dark.png",
+          "sha256": "1F8DB2288B09B9F9E073F6ACE75A4E56DA9AABB70C339ECEB88A6ECCA83E2998"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/anouk_harrow_atlas_preview_cream.png",
+          "sha256": "C399556275F100F1F49B2D12B3C93F2FE7CF2042E089D6AA6FD9208AD19E1340"
+        }
+      ]
+    },
+    {
+      "path": "characters/oda_lovell_atlas.png",
+      "sha256": "051E066A4640C22DA70171F9217799EA8F53985B9304E7D376791DEC7452A75E",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/oda_lovell_atlas_preview_dark.png",
+          "sha256": "E7C4F3FD96CDA59B0CE62F530A08804644CAED89F13C79A44D09C7F09A0C291C"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/oda_lovell_atlas_preview_cream.png",
+          "sha256": "7F5702324CA70F699B6B1205AEB9906D0949DBF2127AC135D48555ABAF2A7C27"
+        }
+      ]
+    },
+    {
+      "path": "characters/miriam_underwood_atlas.png",
+      "sha256": "2C5C75A932AD9E4913E857F554BB0E7470B0A8FE56998A0D17BA5D48D2EEAE19",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/miriam_underwood_atlas_preview_dark.png",
+          "sha256": "ADF93D2BB93C1E56D602C08ED0441A942A071F6BEA3996D498ACE466ADABE6FD"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/miriam_underwood_atlas_preview_cream.png",
+          "sha256": "A91E2983CF4DFC5E9D4297EBA4F382DE9DB788E0D01FF43A9F2910C84059C03C"
+        }
+      ]
+    },
+    {
+      "path": "characters/iona_pebble_atlas.png",
+      "sha256": "AA5913CAB5FB78B2D54CB7BA9FF16292140DDDD72A21E8C39C3013167003D4E7",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/iona_pebble_atlas_preview_dark.png",
+          "sha256": "90DA263011D39F5FF2635AD9F0304ACF41ADAEF7000DECDBBC039C0184C9A139"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/iona_pebble_atlas_preview_cream.png",
+          "sha256": "FEC34E8A09B3FC7F5A883EDCDF3450E3FC1D04A8C7817C3576FE4B0C8C000211"
+        }
+      ]
+    },
+    {
+      "path": "characters/tomas_wicks_atlas.png",
+      "sha256": "4801C9E026DAA5D912DFD9A032799E6330C9FC67BEC46E4FE89E4A825FE4CDD4",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/tomas_wicks_atlas_preview_dark.png",
+          "sha256": "5DECA4A7DB6CE45E173C22E40051CD5AF755314BB994F1DC0A9080F4264AA447"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/tomas_wicks_atlas_preview_cream.png",
+          "sha256": "62CF440299DA06EDB6A5040E0405941D1628E53A6CA173D6F687A6238F3492E4"
+        }
+      ]
+    },
+    {
+      "path": "characters/liora_fenwick_atlas.png",
+      "sha256": "0F780EC0ED0B4C69B63540A3805B6B98EE6EA20AA0D882E7CC268A401B32BC49",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/liora_fenwick_atlas_preview_dark.png",
+          "sha256": "079153B403A16B176D77A3533B1C3DBE53FE92E9B3B8EB6D50F6E36429FE48EA"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/liora_fenwick_atlas_preview_cream.png",
+          "sha256": "2F51A4F8DAD5EA6D3F8E25B511851C5E186F3BD0CB49C9C4D692DCE806367425"
+        }
+      ]
+    },
+    {
+      "path": "characters/nella_finch_atlas.png",
+      "sha256": "81BA0159D52D8D60B0B556C4C6BC4BC65B1B70C87409E6C5D8A3503ADDF925AA",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/nella_finch_atlas_preview_dark.png",
+          "sha256": "27D8E89AA0868EA0AEE136AA87CA5D707619A4B3CE8799FD497E69B9A05A165C"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/nella_finch_atlas_preview_cream.png",
+          "sha256": "142FC7406385F63066CE32483BEE2FF39F25DBFCB989C30F8110CFDEBE936076"
+        }
+      ]
+    },
+    {
+      "path": "characters/maribel_frost_atlas.png",
+      "sha256": "C6EB38B44196943422EE74F26BF80D003EB15377ED962F96CCB4B3E7C777EF21",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/maribel_frost_atlas_preview_dark.png",
+          "sha256": "60AFF369475F59D8AEBAE21DA84E95CAD233EE265020E1A8A8FF8BC2AC38F28E"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/maribel_frost_atlas_preview_cream.png",
+          "sha256": "F83FC2CEF48F9143CECBB9CBE7E7C3E807998BA84F6A27FA7D06665BEF7438E5"
+        }
+      ]
+    },
+    {
+      "path": "characters/aster_rowe_atlas.png",
+      "sha256": "1A127D7D3D0DF0D3C6F15659DD3DEEB95A98D7B7AC359CD86843F6BA35EAA02B",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/aster_rowe_atlas_preview_dark.png",
+          "sha256": "52B4C53B77D8C4EE879C8D7436FEE4FB5D2D584D83DE1C9F84EA7790F705117D"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/aster_rowe_atlas_preview_cream.png",
+          "sha256": "9448E6C320E3E90B2DCE71E43779B98653AB0380AEBC56061781FE35245C603E"
+        }
+      ]
+    },
+    {
+      "path": "characters/rowan_pike_atlas.png",
+      "sha256": "ACDB5755090035E4EF684642BC3EDC89428D144202CA04FD83958953BCFAE44A",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/rowan_pike_atlas_preview_dark.png",
+          "sha256": "6524FABF8C6591C11A7E54845FAA7C20EA4D96C3A490DB45560F6AADA4DA2227"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/rowan_pike_atlas_preview_cream.png",
+          "sha256": "624448E305FC2F37B8177591CA13CE851218B5810255AE1CEDBB5ED96AEE4F8E"
+        }
+      ]
+    },
+    {
+      "path": "characters/stellan_rusk_atlas.png",
+      "sha256": "F6565893F0B27D9ED8958B562E41877DCA35DD73307AE66730AD1D55C3B82B61",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/stellan_rusk_atlas_preview_dark.png",
+          "sha256": "7B7AF1A8B7CDF3017F21B615C55F129AE9D9178332769A89FBCEEE99EECF6B09"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/stellan_rusk_atlas_preview_cream.png",
+          "sha256": "355862E1657C8C5ED1FAB4DEA8F52237A252CB79AD5079EEDC29D055124F9AE7"
+        }
+      ]
+    },
+    {
+      "path": "characters/elowen_charter_atlas.png",
+      "sha256": "1FD4B0052B67FAD6A3EB3BCD42EA7FEA30D1E9B1BB208CE7E949933FFD243217",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/elowen_charter_atlas_preview_dark.png",
+          "sha256": "8DA5FECF06C8A5B6FE86528E99589719B8EE31BC305E852DF5BF35FE8F83D41D"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/elowen_charter_atlas_preview_cream.png",
+          "sha256": "AD8874728FF2338128A41A697D70A7A4DCF1A046B725324E8F2A1ADDF4831108"
+        }
+      ]
+    },
+    {
+      "path": "characters/sabine_kersey_atlas.png",
+      "sha256": "6F97BB7CDBA158D5F03BD48706D359C05027EDB951A068138C507E51DC6B6E28",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/sabine_kersey_atlas_preview_dark.png",
+          "sha256": "46FAE5C70903D834DAB5164ED432B63168CFF64477D0C1CCE91CF394BC696D29"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/sabine_kersey_atlas_preview_cream.png",
+          "sha256": "ECABC67E1626DB517EA6071E90CC9E3000BB54E783075B97F16AEC1D96169D8E"
+        }
+      ]
+    },
+    {
+      "path": "characters/juniper_hale_atlas.png",
+      "sha256": "533CA9B98A0EB7CBB9A9D4F39C3921B69B5BA7910EA26BCA4741375C7B40C18E",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/juniper_hale_atlas_preview_dark.png",
+          "sha256": "4E3776C71762B38108ED21D262580106E29D3BA8321908561FEE47C81EA48881"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/juniper_hale_atlas_preview_cream.png",
+          "sha256": "B75FD2A52592186E041C922D832DD0E5274334985E5516CCEDD01F868099216A"
+        }
+      ]
+    },
+    {
+      "path": "characters/beckett_shore_atlas.png",
+      "sha256": "3F3144F728A89482D5B36F85DD7886C6E14C79A848D849C08A104DBBF3DF4567",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/beckett_shore_atlas_preview_dark.png",
+          "sha256": "5B8F979A7BA73FDB8C4FA3B75644D22CD69EA47B326B36C5A722E9FCC45D0B86"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/characters/beckett_shore_atlas_preview_cream.png",
+          "sha256": "5155CDFFC570DFA438D6E22E03F233FF37B9587DBE3F5576F0E7362AE1A38E86"
+        }
+      ]
+    },
+    {
+      "path": "effects/rain_streaks_atlas.png",
+      "sha256": "DDD23A44FB2F563EC302C8E52F62ADC5483ADE81067A422C0FC2053A141DCD6A",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/effects_rain_streaks_atlas_dark_plum.png",
+          "sha256": "4DF834F601CAE4E3B4BF5AF0BA33871C84F8C81D10DA72C4B81F4461E52F64DF"
+        },
+        {
+          "path": "qa_asset_repairs/effects_rain_streaks_atlas_warm_cream.png",
+          "sha256": "85CE5DA0B3BA273FA2C9D0ED5302045DD92B92A33F4383EFEE8823D7363E808C"
+        }
+      ]
+    },
+    {
+      "path": "effects/memory_echo_atlas.png",
+      "sha256": "88C10A416AE31A9DF69E9C90BB5832C965427FE5021D87D1A5BC6E210CF16B54",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/effects_memory_echo_atlas_dark_plum.png",
+          "sha256": "39F5739068993E56E9E3335AA27ED7F85DE2A86F807E79D571404F0375D02D8C"
+        },
+        {
+          "path": "qa_asset_repairs/effects_memory_echo_atlas_warm_cream.png",
+          "sha256": "E1D4C9026E1C5511AB28B84868879CAC0253AA4D4248413EE69E6872C8A6D9CD"
+        }
+      ]
+    },
+    {
+      "path": "effects/seasonal_atmosphere_atlas.png",
+      "sha256": "2B6D5FFD4C093C66AE48D20EF3CED465A88C9A77A772DDA9B1AA9C0B448E2BA6",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/effects_seasonal_atmosphere_atlas_dark_plum.png",
+          "sha256": "3BCE75BAA9725BCB68EB85980B7AAE80E0976EDB07F6561E9097712F90AFC001"
+        },
+        {
+          "path": "qa_asset_repairs/effects_seasonal_atmosphere_atlas_warm_cream.png",
+          "sha256": "70A15149ABE5782A6AAC06A705F43E35EE996A7C0C5E69524C80E477231BA549"
+        }
+      ]
+    },
+    {
+      "path": "effects/kettle_steam_atlas.png",
+      "sha256": "8822840D8FE8807C047805A9D59E1DA2F314B015F232FCDF8471C5340920BE80",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/effects_kettle_steam_atlas_dark_plum.png",
+          "sha256": "B7C8B5E338EC1EF0422B350B272F625E3CCA50FCE7F2A944B1C7A9CA1451C47F"
+        },
+        {
+          "path": "qa_asset_repairs/effects_kettle_steam_atlas_warm_cream.png",
+          "sha256": "F4B173135725485547F642803A3FED7464E9CEB32FA55B3FFD2E9A1EE8E74FE3"
+        }
+      ]
+    },
+    {
+      "path": "props/moonmart_story_props_atlas.png",
+      "sha256": "CD0B24457BFD89E345F348D8D2000B8D8AE59A15A224EF1A86D5F28F37D00155",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/props/moonmart_story_props_atlas_preview_dark.png",
+          "sha256": "DDCCDE8DC90D5E2AB666A9BE51EDCE98563FB5947A260610E81A4EF1EFD540C2"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/props/moonmart_story_props_atlas_preview_cream.png",
+          "sha256": "6BDFFFD13B3FA22663B001C8E7F93DC9FC9B9437056AA406725E4B37D2A134BF"
+        }
+      ]
+    },
+    {
+      "path": "ui/journal_panel.png",
+      "sha256": "B7C1D83B20B1BA91A1935209D8AC0836FF075588F343E5B5E7A17C128E4056DD",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/journal_panel_preview_dark.png",
+          "sha256": "EB92046FB58E9C6609A6639BBFAF305C43196FDFD25360BF2B370E1A0B866E30"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/journal_panel_preview_cream.png",
+          "sha256": "41CF3541BD017C1BA532721B2B1B867FF958D661D65A79A74F8E4E5A869EDE00"
+        }
+      ]
+    },
+    {
+      "path": "ui/prompt_bubble.png",
+      "sha256": "B8F75AD14E1C271F6BA37879D8CD4A17DC985851DC9003B70DCB34E84F133168",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/prompt_bubble_preview_dark.png",
+          "sha256": "C72FDEA010A11A36158325AE1078942F272584C5546B610BD8B8906C67F360D5"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/prompt_bubble_preview_cream.png",
+          "sha256": "972DAEC151713BD0D989EF01E9A4511DC410505BDFCF59C0C747B76306E0BD97"
+        }
+      ]
+    },
+    {
+      "path": "ui/ui_icons_atlas.png",
+      "sha256": "AAE2FD2AF9C4FE4902509CC06AF311456A64D808DF6536CE1F4DEBFB7D752912",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        },
+        {
+          "path": "art_import/BEST ART CANDIDATE.png",
+          "sha256": "A4C1E40BD1B5C738B9C4512902C685B00D036A58D10F90B26A9C71302CAD0B45"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/ui_icons_atlas_preview_dark.png",
+          "sha256": "C843F63BCE8DA045060522A8C9704A1BD6B83C523DB4D7B8FE4EA1D600224AA4"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/ui/ui_icons_atlas_preview_cream.png",
+          "sha256": "7C656350FE7319676CF039EC60EDF0C473A950291D401A0CA27F52FA39CA24F4"
+        }
+      ]
+    },
+    {
+      "path": "products/moonmart_product_icons_extension_5_1280.png",
+      "sha256": "36D593D25F58CEB6E4CBAB76258571DF77E6137672C42D807B204BB6D2ECB6B9",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_5_1280_preview_dark.png",
+          "sha256": "524C39A6137AB26B1BDDB5B55EE1E3D1DB72205CFEF960B60C807E1E2AA603CA"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/products/moonmart_product_icons_extension_5_1280_preview_cream.png",
+          "sha256": "B5F19D4F2119157DE97B26ED0E4484D08EAEFD0A68180AE2A0F222B302493973"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_decor_atlas_extension_1280.png",
+      "sha256": "94B8C8A03C966CF0847655CC630DB62EB61D91708B5B1FC095409FDBC6CA107D",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_decor_atlas_extension_1280_preview_dark.png",
+          "sha256": "4F297262EE140941AD3FA556B73175A719A12666A750D1892E133C2F8F8E6E45"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_decor_atlas_extension_1280_preview_cream.png",
+          "sha256": "840B98E7F59293C4FAF4222CD8563069C3C1FA2EF9AFAB230038C954D1B02267"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_fixture_atlas_extension_1280.png",
+      "sha256": "8EFA0ED2C77E4F61275EB7B57EDC052E4F66A3364C3B44A87FBA463113C8EBA9",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_fixture_atlas_extension_1280_preview_dark.png",
+          "sha256": "E2888187762DF7CC7BA484C1CDC2B3BB6A3E29BCA9E6540BE83612D758C375A2"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_fixture_atlas_extension_1280_preview_cream.png",
+          "sha256": "3165AF38DC518E1600CB30AB8537F683523488451981092FC241929FF56B50D9"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_retail_fixtures_atlas_1280.png",
+      "sha256": "184B848FAFA9CFA4A5E8773C82924A8F34AF7B5609A5D5E396CB650FB3EBB68A",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_retail_fixtures_atlas_1280_preview_dark.png",
+          "sha256": "ADAEE822AF696842F5E10B12988AD01E43199EE3904212A3043F97A22E41612E"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_retail_fixtures_atlas_1280_preview_cream.png",
+          "sha256": "7D3C476B39259D22978364F0C637DF4818DC3785004130F85E8C719D01EB97ED"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_storyroom_decor_atlas_1280.png",
+      "sha256": "21EB59FD21EC5D9A071E999B47DD269205216FC1BB3E655287C2C59E9DBA4DFB",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_storyroom_decor_atlas_1280_preview_dark.png",
+          "sha256": "4C752A84931325AD060AA88B8F969BC35326DAFECA687AA772AB71BBA6209ABE"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_storyroom_decor_atlas_1280_preview_cream.png",
+          "sha256": "60A859F9A1D047AFB6C0C6D1C25CEC1683D4AD137225189758608FF8B5D45DED"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_garden_furnishings_atlas_1280.png",
+      "sha256": "7169E51AA1AA399026CD3B88CBD4E4D5591CEABBF2A02D2BB208C5C725EC394A",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_garden_furnishings_atlas_1280_preview_dark.png",
+          "sha256": "72B251E8E0C1D359C20E2F00C2AA9D18FE64DCEAE555E46A83C6A3E41214D6FD"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_garden_furnishings_atlas_1280_preview_cream.png",
+          "sha256": "3276B414B98B310D8F4C94EE54E45E8C9BC294A70FF682B2D4733F4476CA6E5B"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_festival_furnishings_atlas_1280.png",
+      "sha256": "FDBFAB254BB1787F8707252684A4F42B9C8663106AD4247CC42593A76C28D714",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_festival_furnishings_atlas_1280_preview_dark.png",
+          "sha256": "37A9BE5D9F1E5C2D9C41E1FA8CFE4F07562258CA9ABF4639C690FB55EEDABFDE"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_festival_furnishings_atlas_1280_preview_cream.png",
+          "sha256": "E43A31CFBB186623CF6C3D4A05FFEFEC8CEFDA7C2D237B9DD6F3884A04C865E4"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_harbour_furnishings_atlas_1280.png",
+      "sha256": "748BE94E88E97B0109B0BDF0CD51758C7B8EFFFD7C6CA2EECD1AEECB9342E490",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_harbour_furnishings_atlas_1280_preview_dark.png",
+          "sha256": "2A94CCBFCDD633A1EEECE2A76A89BE87095AA090686B07F9866996871822E61E"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_harbour_furnishings_atlas_1280_preview_cream.png",
+          "sha256": "D4D5F16C6D81C74846CD2E7E279E054FF63AEFF8E384C23661D869E94F71AF96"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_counter_accessories_atlas_1280.png",
+      "sha256": "69C3506D669948E292E4B93753914B5BE0386F0A661022D44F0D7582B7F7F23A",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_counter_accessories_atlas_1280_preview_dark.png",
+          "sha256": "31972C3E834402E7AFF3C14AE5894C320D30CD6E0184964B89EC7DCECD16EA8E"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_counter_accessories_atlas_1280_preview_cream.png",
+          "sha256": "7A396786678AC5886B3DD817A33D41506289F926807773ECBEFDBA5B21D032F5"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_observatory_furnishings_atlas_1280.png",
+      "sha256": "C17845CB2D5015C25EFDFF440C3599F9DF8FCEE5A6A33BBEC6B0E211A6B5A29B",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_observatory_furnishings_atlas_1280_preview_dark.png",
+          "sha256": "12770FE06703E61B47E7C9202D15493BF464A7F6DF43306DC99375AFEE5E863C"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_observatory_furnishings_atlas_1280_preview_cream.png",
+          "sha256": "02878565337182469E01A62CCBB53A7C92DCA5A60841B15407DD417DD1B560B7"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_town_square_atlas_1280.png",
+      "sha256": "AAF5458A16CDE2968E26F6EC8B292F5C0E3EC6648BC1C0A8C6AD2D795FC87E0D",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_town_square_atlas_1280_preview_dark.png",
+          "sha256": "937B21F31A1EE794212F5F275F98CFF04D865F60052173C6EB189197BAA428A9"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_town_square_atlas_1280_preview_cream.png",
+          "sha256": "EC2E12AFF0F365DBF5CF202B432E54C4BDBC734EA2301D374773445145EEFABA"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_midnight_platform_atlas_1280.png",
+      "sha256": "72085D0322E656CCFFD1EB24F4B87F0305DAD5141225B1800241DA536E079D08",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_midnight_platform_atlas_1280_preview_dark.png",
+          "sha256": "CEC66EEAE7E94CBEE668FFA34CB9D611D2B526896698F248EFE147D3620CEB60"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_midnight_platform_atlas_1280_preview_cream.png",
+          "sha256": "E9CCAF980159DB131F42CB0C4AB51957C3C4F1C009321E65E2809C47B87E7D0C"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_backroom_packing_atlas_1280.png",
+      "sha256": "D1D0D83FC0E4E3EB1AF7F552A76EC53E1DED0BCB2290CB11ADEB9C4BC2BAE630",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_backroom_packing_atlas_1280_preview_dark.png",
+          "sha256": "B67D94BEE99872E5B15781E3461A732C58D3F26887DC96E064F045D95E5DC47E"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_backroom_packing_atlas_1280_preview_cream.png",
+          "sha256": "357E1835B685924FBD0FB3ED4F7BD780F662A1521E7F8F2180651FA83893A1DF"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_whisperwood_cottage_atlas_1280.png",
+      "sha256": "7CD03E5C1B5120CE743F82F15E34D7F5D47A8E6C6752EFBC990542CAECB02219",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_whisperwood_cottage_atlas_1280_preview_dark.png",
+          "sha256": "FB91F519EB7F41EC0078E2E6F0E210674C675E9F1362E1FFBC80789CAF4419F0"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_whisperwood_cottage_atlas_1280_preview_cream.png",
+          "sha256": "AF2A63E8B2F91F1687021979F1CEE2D72A462AEA3E8D7A92D04707683AE80711"
+        }
+      ]
+    },
+    {
+      "path": "furniture/moonmart_prep_station_atlas_1280.png",
+      "sha256": "17D30834D2FCBBDD022260FFEDED99BE5C6B2D9BAF5C82D3DA93103A89856502",
+      "sources": [
+        {
+          "path": "art_import/I LOVE THIS.png",
+          "sha256": "1CE564E1C9841EA5D0341088F593BBC086C284F2C3015DC3C810355ADB961581"
+        }
+      ],
+      "previews": [
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_prep_station_atlas_1280_preview_dark.png",
+          "sha256": "279467F91FA4007577B39313C7FE2C84E2640D6BB42E2E9107A12D0E3549DC98"
+        },
+        {
+          "path": "qa_asset_repairs/atlas_previews/furniture/moonmart_prep_station_atlas_1280_preview_cream.png",
+          "sha256": "45AD4C91939334F0093414D9B4B571529DD3ACF0BC0612D51DFC7D21000241D1"
+        }
+      ]
+    }
+  ]
+}
