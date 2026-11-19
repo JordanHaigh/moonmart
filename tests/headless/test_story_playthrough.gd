@@ -2,6 +2,7 @@ extends Node
 
 const MoonmartGameScript = preload("res://scripts/core/moonmart_game.gd")
 const SaveScript = preload("res://scripts/core/save_manager.gd")
+const CHECKOUT_WAIT_SECONDS := 120
 const ENDING_WORLD_STATES := {
 	"keeper": "sanctuary_between_worlds",
 	"open_door": "mixed_community",
@@ -30,35 +31,47 @@ func _run() -> void:
 	_expect(_game.shift_number == 0, "fresh game starts at shift zero")
 	_expect(_game.story.completed_events.is_empty(), "fresh game has no completed story events")
 	var completed_count := 0
-	var safety_limit := _events.size() + 5
-	while not _game.story.flags.get("final_covenant_made", false) and completed_count < safety_limit:
+	for next_event in _events:
+		if _game.story.flags.get("final_covenant_made", false):
+			break
 		if _game.shift_status != "between_shifts":
 			_game.clock.tick(_game.clock.shift_minutes / _game.clock.minutes_per_real_second + 1.0)
-		_expect(_game.shift_status == "between_shifts", "previous playthrough night closes through the configured clock")
+		var shift_closed := _game.shift_status == "between_shifts"
+		_expect(shift_closed, "Shift %d, before encounter %s: the configured clock closes the previous night (status: %s)" % [_game.shift_number, next_event.get("id", ""), _game.shift_status])
+		if not shift_closed:
+			break
 		_game.begin_shift()
 		var queue: Array[Dictionary] = _game.quests.queued_encounters()
 		if queue.is_empty():
-			_expect(false, "story queue schedules the next eligible authored encounter")
+			var missing_flags: Array = next_event.get("requires_flags", []).filter(func(flag): return not _game.story.flags.get(String(flag), false))
+			_expect(false, "Shift %d, encounter %s: story queue is empty (chapter %d, required chapter %d, missing flags: %s)" % [_game.shift_number, next_event.get("id", ""), _game.story.chapter, int(next_event.get("chapter", 1)), str(missing_flags)])
 			break
 		var encounter: Dictionary = queue[0]
 		var event_id := String(encounter.get("quest_id", ""))
 		var visitor_id := String(encounter.get("visitor", ""))
-		_game.customers.tick(15.0, true)
+		var context := "Shift %d, encounter %s (%s)" % [_game.shift_number, event_id, visitor_id]
+		var checkout_ready := _wait_for_checkout(visitor_id)
 		var customer: Dictionary = _game.customers.get_customer(visitor_id)
-		_expect(not customer.is_empty(), "%s spawns its authored essential visitor" % event_id)
-		if customer.is_empty():
+		_expect(checkout_ready, "%s: essential visitor reaches checkout within %d simulated seconds (customer state: %s)" % [context, CHECKOUT_WAIT_SECONDS, customer.get("state", "not present")])
+		if not checkout_ready:
 			break
 		var completed_before: int = _game.story.completed_events.size()
-		_game.checkout(visitor_id)
-		_expect(_game.story.completed_events.has(event_id), "%s resolves through MoonmartGame checkout" % event_id)
-		_expect(_game.story.completed_events.size() > completed_before, "%s advances the story event log" % event_id)
-		if _game.story.completed_events.has(event_id):
-			completed_count += 1
+		var sale_completed := _game.checkout(visitor_id)
+		var encounter_completed: bool = _game.story.completed_events.has(event_id)
+		var added_events: int = _game.story.completed_events.size() - completed_before
+		_expect(encounter_completed, "%s: checkout resolves the encounter (sale: %s, customer state: %s, message: %s)" % [context, str(sale_completed), customer.get("state", ""), _game.last_message])
+		_expect(added_events == 1, "%s: checkout adds one story log entry (added: %d)" % [context, added_events])
+		if not encounter_completed or added_events != 1:
+			break
+		completed_count += 1
 		_collect_available_clues()
 		_solve_available_investigations()
 		_game.clock.tick(_game.clock.shift_minutes / _game.clock.minutes_per_real_second + 1.0)
 	_expect(_game.story.flags.get("final_covenant_made", false), "essential story chain reaches the final covenant")
 	_expect(completed_count == _events.size(), "full authored essential encounter chain resolves (%d/%d)" % [completed_count, _events.size()])
+	if not _failures.is_empty():
+		_finish(completed_count)
+		return
 	var expected_promises := 0
 	for event_value in _events:
 		if event_value is Dictionary:
@@ -102,6 +115,9 @@ func _run() -> void:
 		_expect(restored_game.world_map.continue_sandbox() and restored_game.shift_status == "open", "%s resumes the sandbox shift after save/load" % ending_id)
 		restored_game.queue_free()
 		await get_tree().process_frame
+	_finish(completed_count)
+
+func _finish(completed_count: int) -> void:
 	_write_report(completed_count)
 	if _failures.is_empty():
 		print("Full story playthrough passed: %d checks, %d essential events." % [_checks, completed_count])
@@ -110,6 +126,15 @@ func _run() -> void:
 			push_error(failure)
 		printerr("Full story playthrough failed: %d of %d checks; %d essential events." % [_failures.size(), _checks, completed_count])
 	get_tree().quit(0 if _failures.is_empty() else 1)
+
+func _wait_for_checkout(visitor_id: String) -> bool:
+	# The first tick can spawn a visitor without advancing them past ARRIVING.
+	# Enter checkout through the same customer API used by the counter UI.
+	for _second in range(CHECKOUT_WAIT_SECONDS):
+		_game.customers.tick(1.0, _game.shift_status == "open")
+		if _game.customers.begin_checkout(visitor_id):
+			return true
+	return false
 
 func _collect_available_clues() -> void:
 	var loops := 0
